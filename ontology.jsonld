@@ -3,9 +3,9 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2002/07/owl#unionOf" : [ {
     "@list" : [ {
-      "@id" : "https://purl.org/ontodesign#RobotBehavior"
+      "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#RobotBehavior"
     }, {
-      "@id" : "https://purl.org/ontodesign#RobotSystem"
+      "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#RobotSystem"
     } ]
   } ]
 }, {
@@ -13,46 +13,46 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2002/07/owl#unionOf" : [ {
     "@list" : [ {
-      "@id" : "https://purl.org/ontodesign#BuildingExterior"
+      "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#BuildingExterior"
     }, {
-      "@id" : "https://purl.org/ontodesign#BuildingInterior"
+      "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#BuildingInterior"
     } ]
   } ]
 }, {
   "@id" : "_:genid14",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "https://purl.org/ontodesign#isLocatedAtBuildingElement"
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#isLocatedAtBuildingElement"
   } ],
   "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "https://purl.org/ontodesign#BuildingElement"
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#BuildingElement"
   } ]
 }, {
   "@id" : "_:genid15",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "https://purl.org/ontodesign#hasBuildingExterior"
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#hasBuildingExterior"
   } ],
   "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "https://purl.org/ontodesign#BuildingExterior"
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#BuildingExterior"
   } ]
 }, {
   "@id" : "_:genid16",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "https://purl.org/ontodesign#hasBuildingInterior"
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#hasBuildingInterior"
   } ],
   "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "https://purl.org/ontodesign#BuildingInterior"
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#BuildingInterior"
   } ]
 }, {
   "@id" : "_:genid17",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onClass" : [ {
-    "@id" : "https://purl.org/ontodesign#Site"
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#Site"
   } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "https://purl.org/ontodesign#isLocatedAtSite"
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#isLocatedAtSite"
   } ],
   "http://www.w3.org/2002/07/owl#qualifiedCardinality" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
@@ -62,37 +62,37 @@
   "@id" : "_:genid18",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "https://purl.org/ontodesign#causesAbnormalArea"
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#causesAbnormalArea"
   } ],
   "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "https://purl.org/ontodesign#AbnormalArea"
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#AbnormalArea"
   } ]
 }, {
   "@id" : "_:genid19",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "https://purl.org/ontodesign#isLocatedAt"
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#isLocatedAt"
   } ],
   "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "https://purl.org/ontodesign#BuildingElement"
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#BuildingElement"
   } ]
 }, {
   "@id" : "_:genid20",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "https://purl.org/ontodesign#hasBuildingElement"
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#hasBuildingElement"
   } ],
   "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "https://purl.org/ontodesign#BuildingElement"
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#BuildingElement"
   } ]
 }, {
   "@id" : "_:genid21",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onClass" : [ {
-    "@id" : "https://purl.org/ontodesign#Site"
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#Site"
   } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "https://purl.org/ontodesign#hasSite"
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#hasSite"
   } ],
   "http://www.w3.org/2002/07/owl#qualifiedCardinality" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
@@ -102,25 +102,25 @@
   "@id" : "_:genid22",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "https://purl.org/ontodesign#hasBuildingElement"
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#hasBuildingElement"
   } ],
   "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "https://purl.org/ontodesign#BuildingElement"
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#BuildingElement"
   } ]
 }, {
   "@id" : "_:genid23",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "https://purl.org/ontodesign#hasIndoorSpace"
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#hasIndoorSpace"
   } ],
   "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "https://purl.org/ontodesign#IndoorSpace"
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#IndoorSpace"
   } ]
 }, {
   "@id" : "_:genid24",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "https://purl.org/ontodesign#hasUnit"
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#hasUnit"
   } ],
   "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
@@ -129,7 +129,7 @@
   "@id" : "_:genid25",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "https://purl.org/ontodesign#hasValue"
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#hasValue"
   } ],
   "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#double"
@@ -138,7 +138,7 @@
   "@id" : "_:genid26",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "https://purl.org/ontodesign#hasUnit"
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#hasUnit"
   } ],
   "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
@@ -147,7 +147,7 @@
   "@id" : "_:genid27",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "https://purl.org/ontodesign#hasValue"
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#hasValue"
   } ],
   "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#double"
@@ -156,79 +156,79 @@
   "@id" : "_:genid28",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "https://purl.org/ontodesign#determines"
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#determines"
   } ],
   "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "https://purl.org/ontodesign#SizeRequirement"
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#SizeRequirement"
   } ]
 }, {
   "@id" : "_:genid29",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "https://purl.org/ontodesign#hasRobotComponent"
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#hasRobotComponent"
   } ],
   "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "https://purl.org/ontodesign#RobotComponent"
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#RobotComponent"
   } ]
 }, {
   "@id" : "_:genid30",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "https://purl.org/ontodesign#movesAtMovementMedium"
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#movesAtMovementMedium"
   } ],
   "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "https://purl.org/ontodesign#RobotMovementMedium"
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#RobotMovementMedium"
   } ]
 }, {
   "@id" : "_:genid31",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "https://purl.org/ontodesign#worksIn"
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#worksIn"
   } ],
   "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "https://purl.org/ontodesign#WorkEnvironment"
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#WorkEnvironment"
   } ]
 }, {
   "@id" : "_:genid32",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "https://purl.org/ontodesign#occursAt"
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#occursAt"
   } ],
   "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "https://purl.org/ontodesign#WorkEnvironment"
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#WorkEnvironment"
   } ]
 }, {
   "@id" : "_:genid33",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "https://purl.org/ontodesign#requiresRobotComponent"
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#requiresRobotComponent"
   } ],
   "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "https://purl.org/ontodesign#RobotComponent"
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#RobotComponent"
   } ]
 }, {
   "@id" : "_:genid34",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "https://purl.org/ontodesign#hasCapability"
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#hasCapability"
   } ],
   "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "https://purl.org/ontodesign#Capability"
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#Capability"
   } ]
 }, {
   "@id" : "_:genid35",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "https://purl.org/ontodesign#hasEnvironmentData"
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#hasEnvironmentData"
   } ],
   "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "https://purl.org/ontodesign#EnvironmentData"
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#EnvironmentalCondition"
   } ]
 }, {
   "@id" : "_:genid36",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "https://purl.org/ontodesign#hasUnit"
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#hasUnit"
   } ],
   "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
@@ -237,7 +237,7 @@
   "@id" : "_:genid37",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "https://purl.org/ontodesign#hasValue"
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#hasValue"
   } ],
   "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#double"
@@ -246,21 +246,21 @@
   "@id" : "_:genid38",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "https://purl.org/ontodesign#hasRobotMovementMedium"
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#hasRobotMovementMedium"
   } ],
   "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "https://purl.org/ontodesign#RobotMovementMedium"
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#RobotMovementMedium"
   } ]
 }, {
   "@id" : "_:genid39",
   "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
   "http://www.w3.org/2002/07/owl#members" : [ {
     "@list" : [ {
-      "@id" : "https://purl.org/ontodesign#AirBasedRobot"
+      "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#AirBasedRobot"
     }, {
-      "@id" : "https://purl.org/ontodesign#GroundBasedRobot"
+      "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#GroundBasedRobot"
     }, {
-      "@id" : "https://purl.org/ontodesign#WallClimbingRobot"
+      "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#WallClimbingRobot"
     } ]
   } ]
 }, {
@@ -268,11 +268,11 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2002/07/owl#unionOf" : [ {
     "@list" : [ {
-      "@id" : "https://purl.org/ontodesign#Building"
+      "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#Building"
     }, {
-      "@id" : "https://purl.org/ontodesign#BuildingExterior"
+      "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#BuildingExterior"
     }, {
-      "@id" : "https://purl.org/ontodesign#BuildingInterior"
+      "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#BuildingInterior"
     } ]
   } ]
 }, {
@@ -280,15 +280,15 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
   "http://www.w3.org/2002/07/owl#members" : [ {
     "@list" : [ {
-      "@id" : "https://purl.org/ontodesign#AirHumidity"
+      "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#AirPressure"
     }, {
-      "@id" : "https://purl.org/ontodesign#AirPressure"
+      "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#AverageAnnualAirHumidity"
     }, {
-      "@id" : "https://purl.org/ontodesign#AirTemperature"
+      "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#AverageAnnualAirTemperature"
     }, {
-      "@id" : "https://purl.org/ontodesign#Visibility"
+      "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#AverageAnnualWindSpeed"
     }, {
-      "@id" : "https://purl.org/ontodesign#WindSpeed"
+      "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#Visibility"
     } ]
   } ]
 }, {
@@ -296,17 +296,17 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
   "http://www.w3.org/2002/07/owl#members" : [ {
     "@list" : [ {
-      "@id" : "https://purl.org/ontodesign#Communication"
+      "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#Communication"
     }, {
-      "@id" : "https://purl.org/ontodesign#DegreeOfAutonomy"
+      "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#DegreeOfAutonomy"
     }, {
-      "@id" : "https://purl.org/ontodesign#LocomotionCapability"
+      "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#LocomotionCapability"
     }, {
-      "@id" : "https://purl.org/ontodesign#OperationalCapability"
+      "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#OperationalCapability"
     }, {
-      "@id" : "https://purl.org/ontodesign#SensoryCapability"
+      "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#SensoryCapability"
     }, {
-      "@id" : "https://purl.org/ontodesign#WeatherResistance"
+      "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#WeatherResistance"
     } ]
   } ]
 }, {
@@ -314,37 +314,11 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
   "http://www.w3.org/2002/07/owl#members" : [ {
     "@list" : [ {
-      "@id" : "https://purl.org/ontodesign#DetectableAttribute"
+      "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#DetectableAttribute"
     }, {
-      "@id" : "https://purl.org/ontodesign#Height"
+      "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#Height"
     }, {
-      "@id" : "https://purl.org/ontodesign#Speed"
-    } ]
-  } ]
-}, {
-  "@id" : "_:genid60",
-  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
-  "http://www.w3.org/2002/07/owl#members" : [ {
-    "@list" : [ {
-      "@id" : "https://purl.org/ontodesign#LocomotionMechanismCharacteristic"
-    }, {
-      "@id" : "https://purl.org/ontodesign#Size"
-    }, {
-      "@id" : "https://purl.org/ontodesign#Weight"
-    } ]
-  } ]
-}, {
-  "@id" : "_:genid64",
-  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
-  "http://www.w3.org/2002/07/owl#members" : [ {
-    "@list" : [ {
-      "@id" : "https://purl.org/ontodesign#ObstacleOvercomingAbilityRequirement"
-    }, {
-      "@id" : "https://purl.org/ontodesign#SteeringAbilityRequirement"
-    }, {
-      "@id" : "https://purl.org/ontodesign#TransitionDexterityRequirement"
-    }, {
-      "@id" : "https://purl.org/ontodesign#VelocityRequirement"
+      "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#Speed"
     } ]
   } ]
 }, {
@@ -352,320 +326,198 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2002/07/owl#unionOf" : [ {
     "@list" : [ {
-      "@id" : "https://purl.org/ontodesign#Site"
+      "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#Site"
     }, {
-      "@id" : "https://purl.org/ontodesign#WorkEnvironment"
+      "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#WorkEnvironment"
     } ]
   } ]
 }, {
-  "@id" : "https://purl.org/ontodesign",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ],
-  "http://www.w3.org/2002/07/owl#versionIRI" : [ {
-    "@id" : "https://purl.org/ontodesign/1.0.0"
-  } ]
+  "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ]
 }, {
-  "@id" : "https://purl.org/ontodesign#AbnormalArea",
+  "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#AbnormalArea",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "AbnormalArea is an area that has some anomalies compared to other areas of the same building element. This area is caused by the BuildingDefect, and it usually has some variations in the values of some attributes."
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "_:genid14"
   } ],
   "http://www.w3.org/2002/07/owl#disjointWith" : [ {
-    "@id" : "https://purl.org/ontodesign#IndoorSpace"
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#IndoorSpace"
   } ]
 }, {
-  "@id" : "https://purl.org/ontodesign#AbnormalArea1",
+  "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#AbnormalArea1",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://purl.org/ontodesign#AbnormalArea"
+  "http://www.semanticweb.org/ontologies/Onto-Design.owl#hasDetectableAttribute" : [ {
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#TemperatureChange1"
   } ],
-  "https://purl.org/ontodesign#hasDetectableAttribute" : [ {
-    "@id" : "https://purl.org/ontodesign#TemperatureChange1"
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#AbnormalArea"
   } ]
 }, {
-  "@id" : "https://purl.org/ontodesign#AbnormalArea2",
+  "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#AbnormalArea2",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://purl.org/ontodesign#AbnormalArea"
+  "http://www.semanticweb.org/ontologies/Onto-Design.owl#hasDetectableAttribute" : [ {
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#TemperatureChange2"
   } ],
-  "https://purl.org/ontodesign#hasDetectableAttribute" : [ {
-    "@id" : "https://purl.org/ontodesign#TemperatureChange2"
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#AbnormalArea"
   } ]
 }, {
-  "@id" : "https://purl.org/ontodesign#AbnormalArea3",
+  "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#AbnormalArea3",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://purl.org/ontodesign#AbnormalArea"
+  "http://www.semanticweb.org/ontologies/Onto-Design.owl#hasDetectableAttribute" : [ {
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#TemperatureChange3"
   } ],
-  "https://purl.org/ontodesign#hasDetectableAttribute" : [ {
-    "@id" : "https://purl.org/ontodesign#TemperatureChange3"
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#AbnormalArea"
   } ]
 }, {
-  "@id" : "https://purl.org/ontodesign#AbnormalArea4",
+  "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#AbnormalArea4",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://purl.org/ontodesign#AbnormalArea"
+  "http://www.semanticweb.org/ontologies/Onto-Design.owl#hasDetectableAttribute" : [ {
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#TemperatureChange4"
   } ],
-  "https://purl.org/ontodesign#hasDetectableAttribute" : [ {
-    "@id" : "https://purl.org/ontodesign#TemperatureChange4"
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#AbnormalArea"
   } ]
 }, {
-  "@id" : "https://purl.org/ontodesign#AcceptableLevelOfNoise",
+  "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#AcceptableLevelOfNoise",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
 }, {
-  "@id" : "https://purl.org/ontodesign#AdhesionMechanism",
+  "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#AdhesionMechanismRequirement_Indoor",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#AirBasedRobot",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://purl.org/ontodesign#RobotComponent"
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#Robot"
   } ]
 }, {
-  "@id" : "https://purl.org/ontodesign#AdhesionMechanismRequirement",
+  "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#AirPressure",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://purl.org/ontodesign#StructuralCharacteristicsRequirement"
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#EnvironmentalCondition"
   } ]
 }, {
-  "@id" : "https://purl.org/ontodesign#AdhesionMechanismRequirement_Indoor",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://purl.org/ontodesign#AdhesionMechanismRequirement"
-  } ]
-}, {
-  "@id" : "https://purl.org/ontodesign#AirBasedRobot",
+  "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#Angle",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://purl.org/ontodesign#Robot"
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#Attribute"
   } ]
 }, {
-  "@id" : "https://purl.org/ontodesign#AirHumidity",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://purl.org/ontodesign#EnvironmentData"
-  } ]
-}, {
-  "@id" : "https://purl.org/ontodesign#AirHumidity1",
+  "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#Angle1",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://purl.org/ontodesign#AirHumidity"
+  "http://www.semanticweb.org/ontologies/Onto-Design.owl#determines" : [ {
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#TransitionDexterityRequirement_Indoor"
   } ],
-  "https://purl.org/ontodesign#determines" : [ {
-    "@id" : "https://purl.org/ontodesign#SensoryCapabilityRequirement1"
-  } ],
-  "https://purl.org/ontodesign#hasUnit" : [ {
-    "@value" : "%"
-  } ],
-  "https://purl.org/ontodesign#hasValue" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#double",
-    "@value" : "30.0"
-  } ]
-}, {
-  "@id" : "https://purl.org/ontodesign#AirHumidity2",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://purl.org/ontodesign#AirHumidity"
-  } ],
-  "https://purl.org/ontodesign#determines" : [ {
-    "@id" : "https://purl.org/ontodesign#SensoryCapabilityRequirement1"
-  } ],
-  "https://purl.org/ontodesign#hasUnit" : [ {
-    "@value" : "%"
-  } ],
-  "https://purl.org/ontodesign#hasValue" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#double",
-    "@value" : "40.0"
-  } ]
-}, {
-  "@id" : "https://purl.org/ontodesign#AirHumidity3",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://purl.org/ontodesign#AirHumidity"
-  } ],
-  "https://purl.org/ontodesign#determines" : [ {
-    "@id" : "https://purl.org/ontodesign#SensoryCapabilityRequirement1"
-  } ],
-  "https://purl.org/ontodesign#hasUnit" : [ {
-    "@value" : "%"
-  } ],
-  "https://purl.org/ontodesign#hasValue" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#double",
-    "@value" : "45.0"
-  } ]
-}, {
-  "@id" : "https://purl.org/ontodesign#AirHumidity4",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://purl.org/ontodesign#AirHumidity"
-  } ],
-  "https://purl.org/ontodesign#determines" : [ {
-    "@id" : "https://purl.org/ontodesign#SensoryCapabilityRequirement1"
-  } ],
-  "https://purl.org/ontodesign#hasUnit" : [ {
-    "@value" : "%"
-  } ],
-  "https://purl.org/ontodesign#hasValue" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#double",
-    "@value" : "60.0"
-  } ]
-}, {
-  "@id" : "https://purl.org/ontodesign#AirPressure",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://purl.org/ontodesign#EnvironmentData"
-  } ]
-}, {
-  "@id" : "https://purl.org/ontodesign#AirTemperature",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://purl.org/ontodesign#EnvironmentData"
-  } ]
-}, {
-  "@id" : "https://purl.org/ontodesign#AirTemperature1",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://purl.org/ontodesign#AirTemperature"
-  } ],
-  "https://purl.org/ontodesign#determines" : [ {
-    "@id" : "https://purl.org/ontodesign#SensoryCapabilityRequirement1"
-  } ],
-  "https://purl.org/ontodesign#hasValue" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#double",
-    "@value" : "10.0"
-  } ]
-}, {
-  "@id" : "https://purl.org/ontodesign#AirTemperature2",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://purl.org/ontodesign#AirTemperature"
-  } ],
-  "https://purl.org/ontodesign#determines" : [ {
-    "@id" : "https://purl.org/ontodesign#SensoryCapabilityRequirement1"
-  } ],
-  "https://purl.org/ontodesign#hasValue" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#double",
-    "@value" : "15.0"
-  } ]
-}, {
-  "@id" : "https://purl.org/ontodesign#AirTemperature3",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://purl.org/ontodesign#AirTemperature"
-  } ],
-  "https://purl.org/ontodesign#determines" : [ {
-    "@id" : "https://purl.org/ontodesign#SensoryCapabilityRequirement1"
-  } ],
-  "https://purl.org/ontodesign#hasValue" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#double",
-    "@value" : "19.0"
-  } ]
-}, {
-  "@id" : "https://purl.org/ontodesign#AirTemperature4",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://purl.org/ontodesign#AirTemperature"
-  } ],
-  "https://purl.org/ontodesign#determines" : [ {
-    "@id" : "https://purl.org/ontodesign#SensoryCapabilityRequirement1"
-  } ],
-  "https://purl.org/ontodesign#hasValue" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#double",
-    "@value" : "5.0"
-  } ]
-}, {
-  "@id" : "https://purl.org/ontodesign#Angle",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://purl.org/ontodesign#Attribute"
-  } ]
-}, {
-  "@id" : "https://purl.org/ontodesign#Angle1",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://purl.org/ontodesign#Angle"
-  } ],
-  "https://purl.org/ontodesign#determines" : [ {
-    "@id" : "https://purl.org/ontodesign#TransitionDexterityRequirement_Indoor"
-  } ],
-  "https://purl.org/ontodesign#hasUnit" : [ {
+  "http://www.semanticweb.org/ontologies/Onto-Design.owl#hasUnit" : [ {
     "@value" : "degree"
   } ],
-  "https://purl.org/ontodesign#hasValue" : [ {
+  "http://www.semanticweb.org/ontologies/Onto-Design.owl#hasValue" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#double",
     "@value" : "90.0"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#Angle"
   } ]
 }, {
-  "@id" : "https://purl.org/ontodesign#Angle2_1",
+  "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#Angle2_1",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://purl.org/ontodesign#Angle"
+  "http://www.semanticweb.org/ontologies/Onto-Design.owl#determines" : [ {
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#TransitionDexterityRequirement_Indoor"
   } ],
-  "https://purl.org/ontodesign#determines" : [ {
-    "@id" : "https://purl.org/ontodesign#TransitionDexterityRequirement_Indoor"
-  } ],
-  "https://purl.org/ontodesign#hasUnit" : [ {
+  "http://www.semanticweb.org/ontologies/Onto-Design.owl#hasUnit" : [ {
     "@value" : "degree"
   } ],
-  "https://purl.org/ontodesign#hasValue" : [ {
+  "http://www.semanticweb.org/ontologies/Onto-Design.owl#hasValue" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#double",
     "@value" : "60.0"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#Angle"
   } ]
 }, {
-  "@id" : "https://purl.org/ontodesign#Angle2_2",
+  "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#Angle2_2",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://purl.org/ontodesign#Angle"
-  } ],
-  "https://purl.org/ontodesign#hasUnit" : [ {
+  "http://www.semanticweb.org/ontologies/Onto-Design.owl#hasUnit" : [ {
     "@value" : "degree"
   } ],
-  "https://purl.org/ontodesign#hasValue" : [ {
+  "http://www.semanticweb.org/ontologies/Onto-Design.owl#hasValue" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#double",
     "@value" : "80.0"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#Angle"
   } ]
 }, {
-  "@id" : "https://purl.org/ontodesign#Angle3",
+  "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#Angle3",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://purl.org/ontodesign#Angle"
+  "http://www.semanticweb.org/ontologies/Onto-Design.owl#determines" : [ {
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#TransitionDexterityRequirement_Indoor"
   } ],
-  "https://purl.org/ontodesign#determines" : [ {
-    "@id" : "https://purl.org/ontodesign#TransitionDexterityRequirement_Indoor"
-  } ],
-  "https://purl.org/ontodesign#hasUnit" : [ {
+  "http://www.semanticweb.org/ontologies/Onto-Design.owl#hasUnit" : [ {
     "@value" : "degree"
   } ],
-  "https://purl.org/ontodesign#hasValue" : [ {
+  "http://www.semanticweb.org/ontologies/Onto-Design.owl#hasValue" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#double",
     "@value" : "105.0"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#Angle"
   } ]
 }, {
-  "@id" : "https://purl.org/ontodesign#Angle4",
+  "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#Angle4",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://purl.org/ontodesign#Angle"
+  "http://www.semanticweb.org/ontologies/Onto-Design.owl#determines" : [ {
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#TransitionDexterityRequirement_Indoor"
   } ],
-  "https://purl.org/ontodesign#determines" : [ {
-    "@id" : "https://purl.org/ontodesign#TransitionDexterityRequirement_Indoor"
-  } ],
-  "https://purl.org/ontodesign#hasUnit" : [ {
+  "http://www.semanticweb.org/ontologies/Onto-Design.owl#hasUnit" : [ {
     "@value" : "degree"
   } ],
-  "https://purl.org/ontodesign#hasValue" : [ {
+  "http://www.semanticweb.org/ontologies/Onto-Design.owl#hasValue" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#double",
     "@value" : "120.0"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#Angle"
   } ]
 }, {
-  "@id" : "https://purl.org/ontodesign#Attribute",
+  "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#Attribute",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2002/07/owl#disjointWith" : [ {
-    "@id" : "https://purl.org/ontodesign#IndoorSpace"
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#IndoorSpace"
   } ]
 }, {
-  "@id" : "https://purl.org/ontodesign#AuxiliaryEquipment",
+  "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#AuxiliaryEquipment",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "AuxiliaryEquipment includes any equipment, devices, or sensors supporting the robot performing specific inspection tasks."
+  } ],
   "http://www.w3.org/2002/07/owl#disjointWith" : [ {
-    "@id" : "https://purl.org/ontodesign#IndoorSpace"
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#IndoorSpace"
   } ]
 }, {
-  "@id" : "https://purl.org/ontodesign#Building",
+  "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#AverageAnnualAirHumidity",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#EnvironmentalCondition"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#AverageAnnualAirTemperature",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#EnvironmentalCondition"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#AverageAnnualWindSpeed",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#EnvironmentalCondition"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#Building",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "_:genid15"
@@ -675,1116 +527,1045 @@
     "@id" : "_:genid17"
   } ],
   "http://www.w3.org/2002/07/owl#disjointWith" : [ {
-    "@id" : "https://purl.org/ontodesign#IndoorSpace"
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#IndoorSpace"
   } ]
 }, {
-  "@id" : "https://purl.org/ontodesign#Building1",
+  "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#Building1",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://purl.org/ontodesign#Building"
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#Building"
   } ]
 }, {
-  "@id" : "https://purl.org/ontodesign#BuildingDefect",
+  "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#BuildingDefect",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "BuildingDefect is defined as a failing or shortcoming in the function, performance, statutory, or user requirements of a building, and might manifest itself within the BuildingElement of the affected building."
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "_:genid18"
   }, {
     "@id" : "_:genid19"
   } ],
   "http://www.w3.org/2002/07/owl#disjointWith" : [ {
-    "@id" : "https://purl.org/ontodesign#IndoorSpace"
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#IndoorSpace"
   } ]
 }, {
-  "@id" : "https://purl.org/ontodesign#BuildingElement",
+  "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#BuildingElement",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "BuildingElement is defined as all elements that are primarily part of an existing building. These elements could be from the BuildingInterior or the BuildingExterior."
+  } ],
   "http://www.w3.org/2002/07/owl#disjointWith" : [ {
-    "@id" : "https://purl.org/ontodesign#IndoorSpace"
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#IndoorSpace"
   } ]
 }, {
-  "@id" : "https://purl.org/ontodesign#BuildingExterior",
+  "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#BuildingExterior",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "BuildingExterior includes all elements exposed to the Site of the building."
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "_:genid20"
   }, {
     "@id" : "_:genid21"
   } ],
   "http://www.w3.org/2002/07/owl#disjointWith" : [ {
-    "@id" : "https://purl.org/ontodesign#IndoorSpace"
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#IndoorSpace"
   } ]
 }, {
-  "@id" : "https://purl.org/ontodesign#BuildingInterior",
+  "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#BuildingInterior",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "BuildingInterior includes all elements exposed to the inside of the building and IndoorSpace bounded by the elements."
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "_:genid22"
   }, {
     "@id" : "_:genid23"
   } ],
   "http://www.w3.org/2002/07/owl#disjointWith" : [ {
-    "@id" : "https://purl.org/ontodesign#IndoorSpace"
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#IndoorSpace"
   } ]
 }, {
-  "@id" : "https://purl.org/ontodesign#BuildingInterior1",
+  "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#BuildingInterior1",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://purl.org/ontodesign#BuildingInterior"
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#BuildingInterior"
   } ]
 }, {
-  "@id" : "https://purl.org/ontodesign#BuildingInterior2",
+  "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#BuildingInterior2",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://purl.org/ontodesign#BuildingInterior"
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#BuildingInterior"
   } ]
 }, {
-  "@id" : "https://purl.org/ontodesign#BuildingInterior3",
+  "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#BuildingInterior3",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://purl.org/ontodesign#BuildingInterior"
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#BuildingInterior"
   } ]
 }, {
-  "@id" : "https://purl.org/ontodesign#BuildingInterior4",
+  "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#BuildingInterior4",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://purl.org/ontodesign#BuildingInterior"
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#BuildingInterior"
   } ]
 }, {
-  "@id" : "https://purl.org/ontodesign#Capability",
+  "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#Capability",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Capability describes the manifested behavioral features of the robot system."
+  } ],
   "http://www.w3.org/2002/07/owl#disjointWith" : [ {
-    "@id" : "https://purl.org/ontodesign#IndoorSpace"
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#IndoorSpace"
   } ]
 }, {
-  "@id" : "https://purl.org/ontodesign#CapabilityRequirement",
+  "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#CapabilityRequirement",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://purl.org/ontodesign#RobotSystemHardwareRequirement"
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#RobotSystemHardwareRequirement"
   } ]
 }, {
-  "@id" : "https://purl.org/ontodesign#Ceiling1",
+  "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#Ceiling1",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://purl.org/ontodesign#BuildingElement"
+  "http://www.semanticweb.org/ontologies/Onto-Design.owl#hasExposedSurface" : [ {
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#Surface1"
   } ],
-  "https://purl.org/ontodesign#hasExposedSurface" : [ {
-    "@id" : "https://purl.org/ontodesign#Surface1"
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#BuildingElement"
   } ]
 }, {
-  "@id" : "https://purl.org/ontodesign#Ceiling4",
+  "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#Ceiling4",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://purl.org/ontodesign#BuildingElement"
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#BuildingElement"
   } ]
 }, {
-  "@id" : "https://purl.org/ontodesign#Ceramics2",
+  "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#Ceramics2",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://purl.org/ontodesign#SurfaceMaterial"
+  "http://www.semanticweb.org/ontologies/Onto-Design.owl#determines" : [ {
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#AdhesionMechanismRequirement_Indoor"
   } ],
-  "https://purl.org/ontodesign#determines" : [ {
-    "@id" : "https://purl.org/ontodesign#AdhesionMechanismRequirement_Indoor"
-  } ],
-  "https://purl.org/ontodesign#isFerromagnetic" : [ {
+  "http://www.semanticweb.org/ontologies/Onto-Design.owl#isFerromagnetic" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
     "@value" : "false"
   } ],
-  "https://purl.org/ontodesign#isSmooth" : [ {
+  "http://www.semanticweb.org/ontologies/Onto-Design.owl#isSmooth" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
     "@value" : "true"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#SurfaceMaterial"
   } ]
 }, {
-  "@id" : "https://purl.org/ontodesign#Communication",
+  "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#Communication",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://purl.org/ontodesign#Capability"
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#Capability"
   } ]
 }, {
-  "@id" : "https://purl.org/ontodesign#CommunicationRequirement",
+  "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#CommunicationRequirement",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://purl.org/ontodesign#CommunicationRequirement"
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#CommunicationRequirement"
   }, {
-    "@id" : "https://purl.org/ontodesign#RobotSystemHardwareRequirement"
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#RobotSystemHardwareRequirement"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://purl.org/ontodesign#CapabilityRequirement"
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#CapabilityRequirement"
   } ]
 }, {
-  "@id" : "https://purl.org/ontodesign#CommunicationRequirement1",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
-}, {
-  "@id" : "https://purl.org/ontodesign#ConcaveCorner",
+  "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#ConcaveCorner",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://purl.org/ontodesign#Corner"
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#Corner"
   } ]
 }, {
-  "@id" : "https://purl.org/ontodesign#ConcaveCorner1",
+  "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#ConcaveCorner1",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/ontologies/Onto-Design.owl#hasCornerAngle" : [ {
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#Angle1"
+  } ],
+  "http://www.semanticweb.org/ontologies/Onto-Design.owl#isLocatedAt" : [ {
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#WorkEnvironment1"
+  } ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://purl.org/ontodesign#ConcaveCorner"
-  } ],
-  "https://purl.org/ontodesign#hasCornerAngle" : [ {
-    "@id" : "https://purl.org/ontodesign#Angle1"
-  } ],
-  "https://purl.org/ontodesign#isLocatedAt" : [ {
-    "@id" : "https://purl.org/ontodesign#WorkEnvironment1"
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#ConcaveCorner"
   } ]
 }, {
-  "@id" : "https://purl.org/ontodesign#ConcaveCorner2",
+  "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#ConcaveCorner2",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/ontologies/Onto-Design.owl#hasCornerAngle" : [ {
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#Angle2_1"
+  } ],
+  "http://www.semanticweb.org/ontologies/Onto-Design.owl#isLocatedAt" : [ {
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#WorkEnvironment2"
+  } ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://purl.org/ontodesign#ConcaveCorner"
-  } ],
-  "https://purl.org/ontodesign#hasCornerAngle" : [ {
-    "@id" : "https://purl.org/ontodesign#Angle2_1"
-  } ],
-  "https://purl.org/ontodesign#isLocatedAt" : [ {
-    "@id" : "https://purl.org/ontodesign#WorkEnvironment2"
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#ConcaveCorner"
   } ]
 }, {
-  "@id" : "https://purl.org/ontodesign#ConcaveCorner3",
+  "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#ConcaveCorner3",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/ontologies/Onto-Design.owl#hasCornerAngle" : [ {
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#Angle3"
+  } ],
+  "http://www.semanticweb.org/ontologies/Onto-Design.owl#isLocatedAt" : [ {
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#WorkEnvironment3"
+  } ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://purl.org/ontodesign#ConcaveCorner"
-  } ],
-  "https://purl.org/ontodesign#hasCornerAngle" : [ {
-    "@id" : "https://purl.org/ontodesign#Angle3"
-  } ],
-  "https://purl.org/ontodesign#isLocatedAt" : [ {
-    "@id" : "https://purl.org/ontodesign#WorkEnvironment3"
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#ConcaveCorner"
   } ]
 }, {
-  "@id" : "https://purl.org/ontodesign#ConcaveCorner4",
+  "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#ConcaveCorner4",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/ontologies/Onto-Design.owl#hasCornerAngle" : [ {
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#Angle4"
+  } ],
+  "http://www.semanticweb.org/ontologies/Onto-Design.owl#isLocatedAt" : [ {
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#WorkEnvironment4"
+  } ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://purl.org/ontodesign#ConcaveCorner"
-  } ],
-  "https://purl.org/ontodesign#hasCornerAngle" : [ {
-    "@id" : "https://purl.org/ontodesign#Angle4"
-  } ],
-  "https://purl.org/ontodesign#isLocatedAt" : [ {
-    "@id" : "https://purl.org/ontodesign#WorkEnvironment4"
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#ConcaveCorner"
   } ]
 }, {
-  "@id" : "https://purl.org/ontodesign#ConcaveObstacle",
+  "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#ConcaveObstacle",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://purl.org/ontodesign#SurfaceObstacle"
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#SurfaceObstacle"
   } ]
 }, {
-  "@id" : "https://purl.org/ontodesign#ConcaveObstacle1",
+  "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#ConcaveObstacle1",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/ontologies/Onto-Design.owl#hasDepth" : [ {
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#ObstacleDepth1"
+  } ],
+  "http://www.semanticweb.org/ontologies/Onto-Design.owl#hasWidth" : [ {
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#ObstacleWidth4"
+  } ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://purl.org/ontodesign#ConcaveObstacle"
-  } ],
-  "https://purl.org/ontodesign#hasDepth" : [ {
-    "@id" : "https://purl.org/ontodesign#ObstacleDepth1"
-  } ],
-  "https://purl.org/ontodesign#hasWidth" : [ {
-    "@id" : "https://purl.org/ontodesign#ObstacleWidth4"
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#ConcaveObstacle"
   } ]
 }, {
-  "@id" : "https://purl.org/ontodesign#ConcaveTransistion1",
+  "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#ConcaveTransistion1",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://purl.org/ontodesign#RobotBehavior"
-  }, {
-    "@id" : "https://purl.org/ontodesign#SurfaceToSurfaceTransistion"
+  "http://www.semanticweb.org/ontologies/Onto-Design.owl#occursAt" : [ {
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#WorkEnvironment1"
   } ],
-  "https://purl.org/ontodesign#occursAt" : [ {
-    "@id" : "https://purl.org/ontodesign#WorkEnvironment1"
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#RobotBehavior"
   } ]
 }, {
-  "@id" : "https://purl.org/ontodesign#ConcaveTransistion2",
+  "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#ConcaveTransistion2",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://purl.org/ontodesign#RobotBehavior"
-  }, {
-    "@id" : "https://purl.org/ontodesign#SurfaceToSurfaceTransistion"
+  "http://www.semanticweb.org/ontologies/Onto-Design.owl#occursAt" : [ {
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#WorkEnvironment2"
   } ],
-  "https://purl.org/ontodesign#occursAt" : [ {
-    "@id" : "https://purl.org/ontodesign#WorkEnvironment2"
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#RobotBehavior"
   } ]
 }, {
-  "@id" : "https://purl.org/ontodesign#ConcaveTransistion3",
+  "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#ConcaveTransistion3",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://purl.org/ontodesign#RobotBehavior"
-  }, {
-    "@id" : "https://purl.org/ontodesign#SurfaceToSurfaceTransistion"
+  "http://www.semanticweb.org/ontologies/Onto-Design.owl#occursAt" : [ {
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#WorkEnvironment3"
   } ],
-  "https://purl.org/ontodesign#occursAt" : [ {
-    "@id" : "https://purl.org/ontodesign#WorkEnvironment3"
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#RobotBehavior"
   } ]
 }, {
-  "@id" : "https://purl.org/ontodesign#ConcaveTransistion4",
+  "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#ConcaveTransistion4",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://purl.org/ontodesign#SurfaceToSurfaceTransistion"
-  } ],
-  "https://purl.org/ontodesign#occursAt" : [ {
-    "@id" : "https://purl.org/ontodesign#WorkEnvironment4"
+  "http://www.semanticweb.org/ontologies/Onto-Design.owl#occursAt" : [ {
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#WorkEnvironment4"
   } ]
 }, {
-  "@id" : "https://purl.org/ontodesign#ContinuousInspection",
+  "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#ContinuousInspection",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://purl.org/ontodesign#InspectionMethod"
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#InspectionMethod"
   } ]
 }, {
-  "@id" : "https://purl.org/ontodesign#ConvexCorner",
+  "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#ConvexCorner",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://purl.org/ontodesign#Corner"
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#Corner"
   } ]
 }, {
-  "@id" : "https://purl.org/ontodesign#ConvexCorner1",
+  "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#ConvexCorner1",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://purl.org/ontodesign#ConvexCorner"
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#ConvexCorner"
   } ]
 }, {
-  "@id" : "https://purl.org/ontodesign#ConvexCorner2",
+  "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#ConvexCorner2",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://purl.org/ontodesign#ConvexCorner"
+  "http://www.semanticweb.org/ontologies/Onto-Design.owl#hasCornerAngle" : [ {
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#Angle2_2"
   } ],
-  "https://purl.org/ontodesign#hasCornerAngle" : [ {
-    "@id" : "https://purl.org/ontodesign#Angle2_2"
+  "http://www.semanticweb.org/ontologies/Onto-Design.owl#isLocatedAt" : [ {
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#WorkEnvironment2"
   } ],
-  "https://purl.org/ontodesign#isLocatedAt" : [ {
-    "@id" : "https://purl.org/ontodesign#WorkEnvironment2"
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#ConvexCorner"
   } ]
 }, {
-  "@id" : "https://purl.org/ontodesign#ConvexCorner3",
+  "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#ConvexCorner3",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://purl.org/ontodesign#ConvexCorner"
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#ConvexCorner"
   } ]
 }, {
-  "@id" : "https://purl.org/ontodesign#ConvexCorner4",
+  "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#ConvexCorner4",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://purl.org/ontodesign#ConvexCorner"
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#ConvexCorner"
   } ]
 }, {
-  "@id" : "https://purl.org/ontodesign#ConvexObstacle",
+  "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#ConvexObstacle",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://purl.org/ontodesign#SurfaceObstacle"
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#SurfaceObstacle"
   } ]
 }, {
-  "@id" : "https://purl.org/ontodesign#ConvexObstacle1",
+  "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#ConvexObstacle1",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/ontologies/Onto-Design.owl#hasHeight" : [ {
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#ObstacleHeight1"
+  } ],
+  "http://www.semanticweb.org/ontologies/Onto-Design.owl#hasWidth" : [ {
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#ObstacleWidth1"
+  } ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://purl.org/ontodesign#ConvexObstacle"
-  } ],
-  "https://purl.org/ontodesign#hasHeight" : [ {
-    "@id" : "https://purl.org/ontodesign#ObstacleHeight1"
-  } ],
-  "https://purl.org/ontodesign#hasWidth" : [ {
-    "@id" : "https://purl.org/ontodesign#ObstacleWidth1"
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#ConvexObstacle"
   } ]
 }, {
-  "@id" : "https://purl.org/ontodesign#ConvexObstacle2",
+  "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#ConvexObstacle2",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/ontologies/Onto-Design.owl#hasHeight" : [ {
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#ObstacleHeight2"
+  } ],
+  "http://www.semanticweb.org/ontologies/Onto-Design.owl#hasWidth" : [ {
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#ObstacleWidth2"
+  } ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://purl.org/ontodesign#ConvexObstacle"
-  } ],
-  "https://purl.org/ontodesign#hasHeight" : [ {
-    "@id" : "https://purl.org/ontodesign#ObstacleHeight2"
-  } ],
-  "https://purl.org/ontodesign#hasWidth" : [ {
-    "@id" : "https://purl.org/ontodesign#ObstacleWidth2"
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#ConvexObstacle"
   } ]
 }, {
-  "@id" : "https://purl.org/ontodesign#ConvexObstacle3",
+  "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#ConvexObstacle3",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/ontologies/Onto-Design.owl#hasHeight" : [ {
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#ObstacleHeight3"
+  } ],
+  "http://www.semanticweb.org/ontologies/Onto-Design.owl#hasWidth" : [ {
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#ObstacleWidth3"
+  } ],
+  "http://www.semanticweb.org/ontologies/Onto-Design.owl#isLocatedAt" : [ {
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#Surface3"
+  } ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://purl.org/ontodesign#ConvexObstacle"
-  } ],
-  "https://purl.org/ontodesign#hasHeight" : [ {
-    "@id" : "https://purl.org/ontodesign#ObstacleHeight3"
-  } ],
-  "https://purl.org/ontodesign#hasWidth" : [ {
-    "@id" : "https://purl.org/ontodesign#ObstacleWidth3"
-  } ],
-  "https://purl.org/ontodesign#isLocatedAt" : [ {
-    "@id" : "https://purl.org/ontodesign#Surface3"
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#ConvexObstacle"
   } ]
 }, {
-  "@id" : "https://purl.org/ontodesign#ConvexTransistion2",
+  "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#ConvexTransistion2",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://purl.org/ontodesign#SurfaceToSurfaceTransistion"
-  } ],
-  "https://purl.org/ontodesign#occursAt" : [ {
-    "@id" : "https://purl.org/ontodesign#WorkEnvironment2"
+  "http://www.semanticweb.org/ontologies/Onto-Design.owl#occursAt" : [ {
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#WorkEnvironment2"
   } ]
 }, {
-  "@id" : "https://purl.org/ontodesign#Corner",
+  "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#Corner",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "http://www.w3.org/2002/07/owl#Thing"
   } ]
 }, {
-  "@id" : "https://purl.org/ontodesign#Curved",
+  "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#Curved",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://purl.org/ontodesign#Shape"
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#Shape"
   } ]
 }, {
-  "@id" : "https://purl.org/ontodesign#DegreeOfAutonomy",
+  "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#DegreeOfAutonomy",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://purl.org/ontodesign#Capability"
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#Capability"
   } ]
 }, {
-  "@id" : "https://purl.org/ontodesign#DegreeOfAutonomyRequirement1",
+  "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#DegreeOfAutonomyRequirement1",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://purl.org/ontodesign#RobotSystemHardwareRequirement"
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#RobotSystemHardwareRequirement"
   } ]
 }, {
-  "@id" : "https://purl.org/ontodesign#Depth",
+  "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#Depth",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://purl.org/ontodesign#Attribute"
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#Attribute"
   } ]
 }, {
-  "@id" : "https://purl.org/ontodesign#Depth2",
+  "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#Depth2",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://purl.org/ontodesign#Depth"
-  } ],
-  "https://purl.org/ontodesign#hasUnit" : [ {
+  "http://www.semanticweb.org/ontologies/Onto-Design.owl#hasUnit" : [ {
     "@value" : "cm"
   } ],
-  "https://purl.org/ontodesign#hasValue" : [ {
+  "http://www.semanticweb.org/ontologies/Onto-Design.owl#hasValue" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#double",
     "@value" : "5.0"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#Depth"
   } ]
 }, {
-  "@id" : "https://purl.org/ontodesign#DetectableAttribute",
+  "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#DetectableAttribute",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "DetectableAttribute refers to attributes whose values would change due to defects."
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://purl.org/ontodesign#Attribute"
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#Attribute"
   }, {
     "@id" : "_:genid24"
   }, {
     "@id" : "_:genid25"
   } ]
 }, {
-  "@id" : "https://purl.org/ontodesign#Dustiness",
+  "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#Dustiness",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://purl.org/ontodesign#SurfaceAttribute"
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#SurfaceAttribute"
   } ]
 }, {
-  "@id" : "https://purl.org/ontodesign#Dustiness1",
+  "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#Dustiness1",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://purl.org/ontodesign#Dustiness"
+  "http://www.semanticweb.org/ontologies/Onto-Design.owl#determines" : [ {
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#AdhesionMechanismRequirement_Indoor"
   } ],
-  "https://purl.org/ontodesign#determines" : [ {
-    "@id" : "https://purl.org/ontodesign#AdhesionMechanismRequirement_Indoor"
-  } ],
-  "https://purl.org/ontodesign#hasDustinessLevel" : [ {
+  "http://www.semanticweb.org/ontologies/Onto-Design.owl#hasDustinessLevel" : [ {
     "@value" : "low"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#Dustiness"
   } ]
 }, {
-  "@id" : "https://purl.org/ontodesign#Dustiness2",
+  "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#Dustiness2",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://purl.org/ontodesign#Dustiness"
+  "http://www.semanticweb.org/ontologies/Onto-Design.owl#determines" : [ {
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#AdhesionMechanismRequirement_Indoor"
   } ],
-  "https://purl.org/ontodesign#determines" : [ {
-    "@id" : "https://purl.org/ontodesign#AdhesionMechanismRequirement_Indoor"
-  } ],
-  "https://purl.org/ontodesign#hasDustinessLevel" : [ {
+  "http://www.semanticweb.org/ontologies/Onto-Design.owl#hasDustinessLevel" : [ {
     "@value" : "medium"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#Dustiness"
   } ]
 }, {
-  "@id" : "https://purl.org/ontodesign#Dustiness3",
+  "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#Dustiness3",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://purl.org/ontodesign#Dustiness"
+  "http://www.semanticweb.org/ontologies/Onto-Design.owl#determines" : [ {
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#AdhesionMechanismRequirement_Indoor"
   } ],
-  "https://purl.org/ontodesign#determines" : [ {
-    "@id" : "https://purl.org/ontodesign#AdhesionMechanismRequirement_Indoor"
-  } ],
-  "https://purl.org/ontodesign#hasDustinessLevel" : [ {
+  "http://www.semanticweb.org/ontologies/Onto-Design.owl#hasDustinessLevel" : [ {
     "@value" : "high"
-  } ]
-}, {
-  "@id" : "https://purl.org/ontodesign#Dustiness4",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  } ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://purl.org/ontodesign#Dustiness"
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#Dustiness"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#Dustiness4",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/ontologies/Onto-Design.owl#determines" : [ {
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#AdhesionMechanismRequirement_Indoor"
   } ],
-  "https://purl.org/ontodesign#determines" : [ {
-    "@id" : "https://purl.org/ontodesign#AdhesionMechanismRequirement_Indoor"
-  } ],
-  "https://purl.org/ontodesign#hasDustinessLevel" : [ {
+  "http://www.semanticweb.org/ontologies/Onto-Design.owl#hasDustinessLevel" : [ {
     "@value" : "low"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#Dustiness"
   } ]
 }, {
-  "@id" : "https://purl.org/ontodesign#EnvironmentData",
+  "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#EnvironmentalCondition",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "EnvironmentalCondition describes environmental conditions of the building Site and IndoorSpace, which includes AverageAnnualAirTemperature, AverageAnnualAirHumidity, AirPressure, Visibility, and AverageAnnualWindSpeed, SignalReceptionCondition."
+  } ],
   "http://www.w3.org/2002/07/owl#disjointWith" : [ {
-    "@id" : "https://purl.org/ontodesign#IndoorSpace"
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#IndoorSpace"
   } ]
 }, {
-  "@id" : "https://purl.org/ontodesign#Flat",
+  "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#Flat",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://purl.org/ontodesign#Shape"
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#Shape"
   } ]
 }, {
-  "@id" : "https://purl.org/ontodesign#Floor3",
+  "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#Floor3",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://purl.org/ontodesign#BuildingElement"
+  "http://www.semanticweb.org/ontologies/Onto-Design.owl#hasExposedSurface" : [ {
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#Surface3"
   } ],
-  "https://purl.org/ontodesign#hasExposedSurface" : [ {
-    "@id" : "https://purl.org/ontodesign#Surface3"
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#BuildingElement"
   } ]
 }, {
-  "@id" : "https://purl.org/ontodesign#Glass3",
+  "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#Glass3",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://purl.org/ontodesign#SurfaceMaterial"
+  "http://www.semanticweb.org/ontologies/Onto-Design.owl#determines" : [ {
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#AdhesionMechanismRequirement_Indoor"
   } ],
-  "https://purl.org/ontodesign#determines" : [ {
-    "@id" : "https://purl.org/ontodesign#AdhesionMechanismRequirement_Indoor"
-  } ],
-  "https://purl.org/ontodesign#isFerromagnetic" : [ {
+  "http://www.semanticweb.org/ontologies/Onto-Design.owl#isFerromagnetic" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
     "@value" : "false"
   } ],
-  "https://purl.org/ontodesign#isSmooth" : [ {
+  "http://www.semanticweb.org/ontologies/Onto-Design.owl#isSmooth" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
     "@value" : "true"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#SurfaceMaterial"
   } ]
 }, {
-  "@id" : "https://purl.org/ontodesign#GroundBasedRobot",
+  "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#GroundBasedRobot",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://purl.org/ontodesign#Robot"
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#Robot"
   } ]
 }, {
-  "@id" : "https://purl.org/ontodesign#Height",
+  "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#Height",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://purl.org/ontodesign#Attribute"
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#Attribute"
   }, {
     "@id" : "_:genid26"
   }, {
     "@id" : "_:genid27"
   } ]
 }, {
-  "@id" : "https://purl.org/ontodesign#Height1",
+  "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#Height1",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://purl.org/ontodesign#Height"
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#Height"
   } ]
 }, {
-  "@id" : "https://purl.org/ontodesign#Height1234",
+  "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#Height1234",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://purl.org/ontodesign#Size"
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#Size"
   } ]
 }, {
-  "@id" : "https://purl.org/ontodesign#Height2",
+  "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#Height2",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://purl.org/ontodesign#Height"
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#Height"
   } ]
 }, {
-  "@id" : "https://purl.org/ontodesign#Height3",
+  "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#Height3",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://purl.org/ontodesign#Height"
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#Height"
   } ]
 }, {
-  "@id" : "https://purl.org/ontodesign#Height4",
+  "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#Height4",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://purl.org/ontodesign#Height"
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#Height"
   } ]
 }, {
-  "@id" : "https://purl.org/ontodesign#HeightConstraint",
+  "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#HeightConstraint",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://purl.org/ontodesign#PhysicalConstraintToRobot"
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#PhysicalConstraintToRobot"
   } ]
 }, {
-  "@id" : "https://purl.org/ontodesign#HeightConstraint1",
+  "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#HeightConstraint1",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://purl.org/ontodesign#HeightConstraint"
+  "http://www.semanticweb.org/ontologies/Onto-Design.owl#determines" : [ {
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#SizeRequirement1"
   } ],
-  "https://purl.org/ontodesign#determines" : [ {
-    "@id" : "https://purl.org/ontodesign#SizeRequirement1"
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#HeightConstraint"
   } ]
 }, {
-  "@id" : "https://purl.org/ontodesign#HighestPoint1",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "https://purl.org/ontodesign#determines" : [ {
-    "@id" : "https://purl.org/ontodesign#OperationalCapabilityRequirement1"
-  }, {
-    "@id" : "https://purl.org/ontodesign#SensoryCapabilityRequirement1"
-  } ]
-}, {
-  "@id" : "https://purl.org/ontodesign#HighestPoint2",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "https://purl.org/ontodesign#determines" : [ {
-    "@id" : "https://purl.org/ontodesign#OperationalCapabilityRequirement1"
-  }, {
-    "@id" : "https://purl.org/ontodesign#SensoryCapabilityRequirement1"
-  } ]
-}, {
-  "@id" : "https://purl.org/ontodesign#HighestPoint3",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "https://purl.org/ontodesign#determines" : [ {
-    "@id" : "https://purl.org/ontodesign#OperationalCapabilityRequirement1"
-  }, {
-    "@id" : "https://purl.org/ontodesign#SensoryCapabilityRequirement1"
-  } ]
-}, {
-  "@id" : "https://purl.org/ontodesign#HighestPoint4",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "https://purl.org/ontodesign#determines" : [ {
-    "@id" : "https://purl.org/ontodesign#OperationalCapabilityRequirement1"
-  }, {
-    "@id" : "https://purl.org/ontodesign#SensoryCapabilityRequirement1"
-  } ]
-}, {
-  "@id" : "https://purl.org/ontodesign#HumanInspector1",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
-}, {
-  "@id" : "https://purl.org/ontodesign#InclinationAngle",
+  "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#InclinationAngle",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://purl.org/ontodesign#SurfaceAttribute"
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#SurfaceAttribute"
   } ]
 }, {
-  "@id" : "https://purl.org/ontodesign#InclinationAngle1",
+  "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#InclinationAngle1",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://purl.org/ontodesign#InclinationAngle"
+  "http://www.semanticweb.org/ontologies/Onto-Design.owl#determines" : [ {
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#AdhesionMechanismRequirement_Indoor"
   } ],
-  "https://purl.org/ontodesign#determines" : [ {
-    "@id" : "https://purl.org/ontodesign#AdhesionMechanismRequirement_Indoor"
-  } ],
-  "https://purl.org/ontodesign#hasUnit" : [ {
+  "http://www.semanticweb.org/ontologies/Onto-Design.owl#hasUnit" : [ {
     "@value" : "degree"
   } ],
-  "https://purl.org/ontodesign#hasValue" : [ {
+  "http://www.semanticweb.org/ontologies/Onto-Design.owl#hasValue" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#double",
     "@value" : "180.0"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#InclinationAngle"
   } ]
 }, {
-  "@id" : "https://purl.org/ontodesign#InclinationAngle2",
+  "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#InclinationAngle2",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://purl.org/ontodesign#InclinationAngle"
+  "http://www.semanticweb.org/ontologies/Onto-Design.owl#determines" : [ {
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#AdhesionMechanismRequirement_Indoor"
   } ],
-  "https://purl.org/ontodesign#determines" : [ {
-    "@id" : "https://purl.org/ontodesign#AdhesionMechanismRequirement_Indoor"
-  } ],
-  "https://purl.org/ontodesign#hasUnit" : [ {
+  "http://www.semanticweb.org/ontologies/Onto-Design.owl#hasUnit" : [ {
     "@value" : "degree"
   } ],
-  "https://purl.org/ontodesign#hasValue" : [ {
+  "http://www.semanticweb.org/ontologies/Onto-Design.owl#hasValue" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#double",
     "@value" : "90.0"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#InclinationAngle"
   } ]
 }, {
-  "@id" : "https://purl.org/ontodesign#InclinationAngle3",
+  "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#InclinationAngle3",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://purl.org/ontodesign#InclinationAngle"
+  "http://www.semanticweb.org/ontologies/Onto-Design.owl#determines" : [ {
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#AdhesionMechanismRequirement_Indoor"
   } ],
-  "https://purl.org/ontodesign#determines" : [ {
-    "@id" : "https://purl.org/ontodesign#AdhesionMechanismRequirement_Indoor"
-  } ],
-  "https://purl.org/ontodesign#hasUnit" : [ {
+  "http://www.semanticweb.org/ontologies/Onto-Design.owl#hasUnit" : [ {
     "@value" : "degree"
   } ],
-  "https://purl.org/ontodesign#hasValue" : [ {
+  "http://www.semanticweb.org/ontologies/Onto-Design.owl#hasValue" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#double",
     "@value" : "90.0"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#InclinationAngle"
   } ]
 }, {
-  "@id" : "https://purl.org/ontodesign#InclinationAngle4",
+  "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#InclinationAngle4",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://purl.org/ontodesign#InclinationAngle"
+  "http://www.semanticweb.org/ontologies/Onto-Design.owl#determines" : [ {
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#AdhesionMechanismRequirement_Indoor"
   } ],
-  "https://purl.org/ontodesign#determines" : [ {
-    "@id" : "https://purl.org/ontodesign#AdhesionMechanismRequirement_Indoor"
-  } ],
-  "https://purl.org/ontodesign#hasUnit" : [ {
+  "http://www.semanticweb.org/ontologies/Onto-Design.owl#hasUnit" : [ {
     "@value" : "degree"
   } ],
-  "https://purl.org/ontodesign#hasValue" : [ {
+  "http://www.semanticweb.org/ontologies/Onto-Design.owl#hasValue" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#double",
     "@value" : "80.0"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#InclinationAngle"
   } ]
 }, {
-  "@id" : "https://purl.org/ontodesign#IndoorSpace",
+  "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#IndoorSpace",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2002/07/owl#disjointWith" : [ {
-    "@id" : "https://purl.org/ontodesign#PhysicalConstraintToRobot"
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#PhysicalConstraintToRobot"
   }, {
-    "@id" : "https://purl.org/ontodesign#Robot"
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#Robot"
   }, {
-    "@id" : "https://purl.org/ontodesign#RobotBehavior"
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#RobotBehavior"
   }, {
-    "@id" : "https://purl.org/ontodesign#RobotComponent"
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#RobotComponent"
   }, {
-    "@id" : "https://purl.org/ontodesign#RobotMovementMedium"
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#RobotMovementMedium"
   }, {
-    "@id" : "https://purl.org/ontodesign#RobotSystem"
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#RobotSystem"
   }, {
-    "@id" : "https://purl.org/ontodesign#RobotSystemHardwareRequirement"
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#RobotSystemHardwareRequirement"
   }, {
-    "@id" : "https://purl.org/ontodesign#Site"
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#Site"
   } ]
 }, {
-  "@id" : "https://purl.org/ontodesign#IndoorSpace1",
+  "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#IndoorSpace1",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/ontologies/Onto-Design.owl#hasPhysicalConstraintsToRobots" : [ {
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#HeightConstraint1"
+  } ],
+  "http://www.semanticweb.org/ontologies/Onto-Design.owl#hasSignalReceptionCondition" : [ {
+    "@value" : "good"
+  } ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://purl.org/ontodesign#IndoorSpace"
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#IndoorSpace"
   } ],
   "http://www.w3.org/2002/07/owl#sameAs" : [ {
-    "@id" : "https://purl.org/ontodesign#WorkEnvironment1"
-  } ],
-  "https://purl.org/ontodesign#hasPhysicalConstraintsToRobots" : [ {
-    "@id" : "https://purl.org/ontodesign#HeightConstraint1"
-  } ],
-  "https://purl.org/ontodesign#hasSignalReceptionCondition" : [ {
-    "@value" : "good"
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#WorkEnvironment1"
   } ]
 }, {
-  "@id" : "https://purl.org/ontodesign#IndoorSpace2",
+  "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#IndoorSpace2",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://purl.org/ontodesign#IndoorSpace"
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#IndoorSpace"
   } ]
 }, {
-  "@id" : "https://purl.org/ontodesign#IndoorSpace3",
+  "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#IndoorSpace3",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://purl.org/ontodesign#IndoorSpace"
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#IndoorSpace"
   } ]
 }, {
-  "@id" : "https://purl.org/ontodesign#IndoorSpace4",
+  "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#IndoorSpace4",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://purl.org/ontodesign#IndoorSpace"
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#IndoorSpace"
   } ]
 }, {
-  "@id" : "https://purl.org/ontodesign#InspectionMethod",
+  "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#InspectionMethod",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
 }, {
-  "@id" : "https://purl.org/ontodesign#InspectionSpeed1",
+  "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#InspectionSpeed1",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://purl.org/ontodesign#Speed"
+  "http://www.semanticweb.org/ontologies/Onto-Design.owl#determines" : [ {
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#VelocityRequirement_Indoor"
   } ],
-  "https://purl.org/ontodesign#determines" : [ {
-    "@id" : "https://purl.org/ontodesign#VelocityRequirement_Indoor"
-  } ],
-  "https://purl.org/ontodesign#hasUnit" : [ {
+  "http://www.semanticweb.org/ontologies/Onto-Design.owl#hasUnit" : [ {
     "@value" : "m/min"
   } ],
-  "https://purl.org/ontodesign#hasValue" : [ {
+  "http://www.semanticweb.org/ontologies/Onto-Design.owl#hasValue" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#double",
     "@value" : "10.0"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#Speed"
   } ]
 }, {
-  "@id" : "https://purl.org/ontodesign#Length1234",
+  "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#Length1234",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://purl.org/ontodesign#Size"
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#Size"
   } ]
 }, {
-  "@id" : "https://purl.org/ontodesign#LengthConstraint",
+  "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#LengthConstraint",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://purl.org/ontodesign#PhysicalConstraintToRobot"
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#PhysicalConstraintToRobot"
   } ]
 }, {
-  "@id" : "https://purl.org/ontodesign#LocomotionCapability",
+  "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#LocomotionCapability",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://purl.org/ontodesign#Capability"
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#Capability"
   } ]
 }, {
-  "@id" : "https://purl.org/ontodesign#LocomotionCapabilityRequirement",
+  "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#LocomotionCapabilityRequirement",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://purl.org/ontodesign#CapabilityRequirement"
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#CapabilityRequirement"
   } ]
 }, {
-  "@id" : "https://purl.org/ontodesign#LocomotionCapabilityRequirement1",
+  "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#LocomotionCapabilityRequirement1",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://purl.org/ontodesign#LocomotionCapabilityRequirement"
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#LocomotionCapabilityRequirement"
   }, {
-    "@id" : "https://purl.org/ontodesign#RobotSystemHardwareRequirement"
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#RobotSystemHardwareRequirement"
   } ]
 }, {
-  "@id" : "https://purl.org/ontodesign#LocomotionMechanism",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://purl.org/ontodesign#RobotComponent"
-  } ]
-}, {
-  "@id" : "https://purl.org/ontodesign#LocomotionMechanismCharacteristic",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://purl.org/ontodesign#StructuralCharacteristic"
-  } ]
-}, {
-  "@id" : "https://purl.org/ontodesign#LocomotionMechanismCharacteristicRequirement1",
+  "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#LocomotionMechanismCharacteristicRequirement1",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://purl.org/ontodesign#LocomotionMechanismRequirement"
-  }, {
-    "@id" : "https://purl.org/ontodesign#RobotSystemHardwareRequirement"
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#RobotSystemHardwareRequirement"
   } ]
 }, {
-  "@id" : "https://purl.org/ontodesign#LocomotionMechanismRequirement",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://purl.org/ontodesign#StructuralCharacteristicsRequirement"
-  } ]
+  "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#LocomotionMechanismRequirement_Indoor",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
 }, {
-  "@id" : "https://purl.org/ontodesign#LocomotionMechanismRequirement_Indoor",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://purl.org/ontodesign#LocomotionMechanismRequirement"
-  } ]
-}, {
-  "@id" : "https://purl.org/ontodesign#MinimumChangeOfValue",
+  "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#MinimumChangeOfValue",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
 }, {
-  "@id" : "https://purl.org/ontodesign#Moisture1",
+  "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#Moisture1",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/ontologies/Onto-Design.owl#causes" : [ {
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#AbnormalArea1"
+  } ],
+  "http://www.semanticweb.org/ontologies/Onto-Design.owl#isLocatedAt" : [ {
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#Ceiling1"
+  } ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://purl.org/ontodesign#BuildingDefect"
-  } ],
-  "https://purl.org/ontodesign#causes" : [ {
-    "@id" : "https://purl.org/ontodesign#AbnormalArea1"
-  } ],
-  "https://purl.org/ontodesign#isLocatedAt" : [ {
-    "@id" : "https://purl.org/ontodesign#Ceiling1"
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#BuildingDefect"
   } ]
 }, {
-  "@id" : "https://purl.org/ontodesign#Moisture2",
+  "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#Moisture2",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/ontologies/Onto-Design.owl#causes" : [ {
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#AbnormalArea2"
+  } ],
+  "http://www.semanticweb.org/ontologies/Onto-Design.owl#isLocatedAt" : [ {
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#Wall2"
+  } ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://purl.org/ontodesign#BuildingDefect"
-  } ],
-  "https://purl.org/ontodesign#causes" : [ {
-    "@id" : "https://purl.org/ontodesign#AbnormalArea2"
-  } ],
-  "https://purl.org/ontodesign#isLocatedAt" : [ {
-    "@id" : "https://purl.org/ontodesign#Wall2"
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#BuildingDefect"
   } ]
 }, {
-  "@id" : "https://purl.org/ontodesign#Moisture3",
+  "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#Moisture3",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/ontologies/Onto-Design.owl#causes" : [ {
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#AbnormalArea3"
+  } ],
+  "http://www.semanticweb.org/ontologies/Onto-Design.owl#isLocatedAt" : [ {
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#Floor3"
+  } ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://purl.org/ontodesign#BuildingDefect"
-  } ],
-  "https://purl.org/ontodesign#causes" : [ {
-    "@id" : "https://purl.org/ontodesign#AbnormalArea3"
-  } ],
-  "https://purl.org/ontodesign#isLocatedAt" : [ {
-    "@id" : "https://purl.org/ontodesign#Floor3"
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#BuildingDefect"
   } ]
 }, {
-  "@id" : "https://purl.org/ontodesign#Moisture4",
+  "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#Moisture4",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/ontologies/Onto-Design.owl#causes" : [ {
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#AbnormalArea4"
+  } ],
+  "http://www.semanticweb.org/ontologies/Onto-Design.owl#isLocatedAt" : [ {
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#Wall4"
+  } ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://purl.org/ontodesign#BuildingDefect"
-  } ],
-  "https://purl.org/ontodesign#causes" : [ {
-    "@id" : "https://purl.org/ontodesign#AbnormalArea4"
-  } ],
-  "https://purl.org/ontodesign#isLocatedAt" : [ {
-    "@id" : "https://purl.org/ontodesign#Wall4"
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#BuildingDefect"
   } ]
 }, {
-  "@id" : "https://purl.org/ontodesign#MoistureMeter2",
+  "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#MoistureMeter2",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://purl.org/ontodesign#AuxiliaryEquipment"
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#AuxiliaryEquipment"
   } ]
 }, {
-  "@id" : "https://purl.org/ontodesign#MovingOnASurface",
+  "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#NonContinuousInspection",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://purl.org/ontodesign#RobotBehavior"
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#InspectionMethod"
   } ]
 }, {
-  "@id" : "https://purl.org/ontodesign#NonContinuousInspection",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://purl.org/ontodesign#InspectionMethod"
-  } ]
-}, {
-  "@id" : "https://purl.org/ontodesign#Obstacle2",
+  "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#Obstacle2",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://purl.org/ontodesign#Width"
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#Width"
   } ]
 }, {
-  "@id" : "https://purl.org/ontodesign#ObstacleDepth1",
+  "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#ObstacleDepth1",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://purl.org/ontodesign#Attribute"
-  }, {
-    "@id" : "https://purl.org/ontodesign#Depth"
+  "http://www.semanticweb.org/ontologies/Onto-Design.owl#determines" : [ {
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#ObstacleOvercomingAbilityRequirement_Indoor"
   } ],
-  "https://purl.org/ontodesign#determines" : [ {
-    "@id" : "https://purl.org/ontodesign#ObstacleOvercomingAbilityRequirement_Indoor"
-  } ],
-  "https://purl.org/ontodesign#hasUnit" : [ {
+  "http://www.semanticweb.org/ontologies/Onto-Design.owl#hasUnit" : [ {
     "@value" : "mm"
   } ],
-  "https://purl.org/ontodesign#hasValue" : [ {
+  "http://www.semanticweb.org/ontologies/Onto-Design.owl#hasValue" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#double",
     "@value" : "10.0"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#Attribute"
+  }, {
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#Depth"
   } ]
 }, {
-  "@id" : "https://purl.org/ontodesign#ObstacleDepth2",
+  "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#ObstacleDepth2",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://purl.org/ontodesign#Attribute"
-  }, {
-    "@id" : "https://purl.org/ontodesign#Depth"
+  "http://www.semanticweb.org/ontologies/Onto-Design.owl#determines" : [ {
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#ObstacleOvercomingAbilityRequirement_Indoor"
   } ],
-  "https://purl.org/ontodesign#determines" : [ {
-    "@id" : "https://purl.org/ontodesign#ObstacleOvercomingAbilityRequirement_Indoor"
-  } ],
-  "https://purl.org/ontodesign#hasUnit" : [ {
+  "http://www.semanticweb.org/ontologies/Onto-Design.owl#hasUnit" : [ {
     "@value" : "mm"
   } ],
-  "https://purl.org/ontodesign#hasValue" : [ {
+  "http://www.semanticweb.org/ontologies/Onto-Design.owl#hasValue" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#double",
     "@value" : "15.0"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#Attribute"
+  }, {
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#Depth"
   } ]
 }, {
-  "@id" : "https://purl.org/ontodesign#ObstacleDepth3",
+  "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#ObstacleDepth3",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://purl.org/ontodesign#Attribute"
-  }, {
-    "@id" : "https://purl.org/ontodesign#Depth"
+  "http://www.semanticweb.org/ontologies/Onto-Design.owl#determines" : [ {
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#ObstacleOvercomingAbilityRequirement_Indoor"
   } ],
-  "https://purl.org/ontodesign#determines" : [ {
-    "@id" : "https://purl.org/ontodesign#ObstacleOvercomingAbilityRequirement_Indoor"
-  } ],
-  "https://purl.org/ontodesign#hasUnit" : [ {
+  "http://www.semanticweb.org/ontologies/Onto-Design.owl#hasUnit" : [ {
     "@value" : "mm"
   } ],
-  "https://purl.org/ontodesign#hasValue" : [ {
+  "http://www.semanticweb.org/ontologies/Onto-Design.owl#hasValue" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#double",
     "@value" : "20.0"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#Attribute"
+  }, {
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#Depth"
   } ]
 }, {
-  "@id" : "https://purl.org/ontodesign#ObstacleHeight1",
+  "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#ObstacleHeight1",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://purl.org/ontodesign#Attribute"
-  }, {
-    "@id" : "https://purl.org/ontodesign#Height"
+  "http://www.semanticweb.org/ontologies/Onto-Design.owl#determines" : [ {
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#ObstacleOvercomingAbilityRequirement_Indoor"
   } ],
-  "https://purl.org/ontodesign#determines" : [ {
-    "@id" : "https://purl.org/ontodesign#ObstacleOvercomingAbilityRequirement_Indoor"
-  } ],
-  "https://purl.org/ontodesign#hasUnit" : [ {
+  "http://www.semanticweb.org/ontologies/Onto-Design.owl#hasUnit" : [ {
     "@value" : "mm"
   } ],
-  "https://purl.org/ontodesign#hasValue" : [ {
+  "http://www.semanticweb.org/ontologies/Onto-Design.owl#hasValue" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#double",
     "@value" : "30.0"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#Attribute"
+  }, {
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#Height"
   } ]
 }, {
-  "@id" : "https://purl.org/ontodesign#ObstacleHeight2",
+  "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#ObstacleHeight2",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://purl.org/ontodesign#Attribute"
-  }, {
-    "@id" : "https://purl.org/ontodesign#Height"
+  "http://www.semanticweb.org/ontologies/Onto-Design.owl#determines" : [ {
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#ObstacleOvercomingAbilityRequirement_Indoor"
   } ],
-  "https://purl.org/ontodesign#determines" : [ {
-    "@id" : "https://purl.org/ontodesign#ObstacleOvercomingAbilityRequirement_Indoor"
-  } ],
-  "https://purl.org/ontodesign#hasUnit" : [ {
+  "http://www.semanticweb.org/ontologies/Onto-Design.owl#hasUnit" : [ {
     "@value" : "mm"
   } ],
-  "https://purl.org/ontodesign#hasValue" : [ {
+  "http://www.semanticweb.org/ontologies/Onto-Design.owl#hasValue" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#double",
     "@value" : "20.0"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#Attribute"
+  }, {
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#Height"
   } ]
 }, {
-  "@id" : "https://purl.org/ontodesign#ObstacleHeight3",
+  "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#ObstacleHeight3",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://purl.org/ontodesign#Attribute"
-  }, {
-    "@id" : "https://purl.org/ontodesign#Height"
+  "http://www.semanticweb.org/ontologies/Onto-Design.owl#determines" : [ {
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#ObstacleOvercomingAbilityRequirement_Indoor"
   } ],
-  "https://purl.org/ontodesign#determines" : [ {
-    "@id" : "https://purl.org/ontodesign#ObstacleOvercomingAbilityRequirement_Indoor"
-  } ],
-  "https://purl.org/ontodesign#hasUnit" : [ {
+  "http://www.semanticweb.org/ontologies/Onto-Design.owl#hasUnit" : [ {
     "@value" : "mm"
   } ],
-  "https://purl.org/ontodesign#hasValue" : [ {
+  "http://www.semanticweb.org/ontologies/Onto-Design.owl#hasValue" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#double",
     "@value" : "12.0"
-  } ]
-}, {
-  "@id" : "https://purl.org/ontodesign#ObstacleOvercomingAbilityRequirement",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://purl.org/ontodesign#LocomotionCapabilityRequirement"
-  } ]
-}, {
-  "@id" : "https://purl.org/ontodesign#ObstacleOvercomingAbilityRequirement_Indoor",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  } ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://purl.org/ontodesign#ObstacleOvercomingAbilityRequirement"
-  } ]
-}, {
-  "@id" : "https://purl.org/ontodesign#ObstacleWidth1",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://purl.org/ontodesign#Attribute"
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#Attribute"
   }, {
-    "@id" : "https://purl.org/ontodesign#Width"
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#Height"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#ObstacleOvercomingAbilityRequirement_Indoor",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#ObstacleWidth1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/ontologies/Onto-Design.owl#determines" : [ {
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#ObstacleOvercomingAbilityRequirement_Indoor"
   } ],
-  "https://purl.org/ontodesign#determines" : [ {
-    "@id" : "https://purl.org/ontodesign#ObstacleOvercomingAbilityRequirement_Indoor"
-  } ],
-  "https://purl.org/ontodesign#hasUnit" : [ {
+  "http://www.semanticweb.org/ontologies/Onto-Design.owl#hasUnit" : [ {
     "@value" : "mm"
   } ],
-  "https://purl.org/ontodesign#hasValue" : [ {
+  "http://www.semanticweb.org/ontologies/Onto-Design.owl#hasValue" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#double",
     "@value" : "15.0"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#Attribute"
+  }, {
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#Width"
   } ]
 }, {
-  "@id" : "https://purl.org/ontodesign#ObstacleWidth2",
+  "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#ObstacleWidth2",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://purl.org/ontodesign#Width"
+  "http://www.semanticweb.org/ontologies/Onto-Design.owl#determines" : [ {
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#ObstacleOvercomingAbilityRequirement_Indoor"
   } ],
-  "https://purl.org/ontodesign#determines" : [ {
-    "@id" : "https://purl.org/ontodesign#ObstacleOvercomingAbilityRequirement_Indoor"
-  } ],
-  "https://purl.org/ontodesign#hasUnit" : [ {
+  "http://www.semanticweb.org/ontologies/Onto-Design.owl#hasUnit" : [ {
     "@value" : "mm"
   } ],
-  "https://purl.org/ontodesign#hasValue" : [ {
+  "http://www.semanticweb.org/ontologies/Onto-Design.owl#hasValue" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#double",
     "@value" : "20.0"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#Width"
   } ]
 }, {
-  "@id" : "https://purl.org/ontodesign#ObstacleWidth3",
+  "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#ObstacleWidth3",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://purl.org/ontodesign#Width"
+  "http://www.semanticweb.org/ontologies/Onto-Design.owl#determines" : [ {
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#ObstacleOvercomingAbilityRequirement_Indoor"
   } ],
-  "https://purl.org/ontodesign#determines" : [ {
-    "@id" : "https://purl.org/ontodesign#ObstacleOvercomingAbilityRequirement_Indoor"
-  } ],
-  "https://purl.org/ontodesign#hasUnit" : [ {
+  "http://www.semanticweb.org/ontologies/Onto-Design.owl#hasUnit" : [ {
     "@value" : "mm"
   } ],
-  "https://purl.org/ontodesign#hasValue" : [ {
+  "http://www.semanticweb.org/ontologies/Onto-Design.owl#hasValue" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#double",
     "@value" : "40.0"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#Width"
   } ]
 }, {
-  "@id" : "https://purl.org/ontodesign#ObstacleWidth4",
+  "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#ObstacleWidth4",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://purl.org/ontodesign#Width"
+  "http://www.semanticweb.org/ontologies/Onto-Design.owl#determines" : [ {
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#ObstacleOvercomingAbilityRequirement_Indoor"
   } ],
-  "https://purl.org/ontodesign#determines" : [ {
-    "@id" : "https://purl.org/ontodesign#ObstacleOvercomingAbilityRequirement_Indoor"
-  } ],
-  "https://purl.org/ontodesign#hasUnit" : [ {
+  "http://www.semanticweb.org/ontologies/Onto-Design.owl#hasUnit" : [ {
     "@value" : "mm"
   } ],
-  "https://purl.org/ontodesign#hasValue" : [ {
+  "http://www.semanticweb.org/ontologies/Onto-Design.owl#hasValue" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#double",
     "@value" : "10.0"
-  } ]
-}, {
-  "@id" : "https://purl.org/ontodesign#OperationalCapability",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://purl.org/ontodesign#Capability"
-  } ]
-}, {
-  "@id" : "https://purl.org/ontodesign#OperationalCapabilityRequirement",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://purl.org/ontodesign#CapabilityRequirement"
-  } ]
-}, {
-  "@id" : "https://purl.org/ontodesign#OperationalCapabilityRequirement1",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://purl.org/ontodesign#OperationalCapabilityRequirement"
-  }, {
-    "@id" : "https://purl.org/ontodesign#RobotSystemHardwareRequirement"
-  } ]
-}, {
-  "@id" : "https://purl.org/ontodesign#OvercomingSurfaceObstacle",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://purl.org/ontodesign#RobotBehavior"
-  } ]
-}, {
-  "@id" : "https://purl.org/ontodesign#OvercomingSurfaceObstacle2",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://purl.org/ontodesign#OvercomingSurfaceObstacle"
-  }, {
-    "@id" : "https://purl.org/ontodesign#RobotBehavior"
   } ],
-  "https://purl.org/ontodesign#occursAt" : [ {
-    "@id" : "https://purl.org/ontodesign#WorkEnvironment2"
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#Width"
   } ]
 }, {
-  "@id" : "https://purl.org/ontodesign#OvercomingSurfaceObstacle3",
+  "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#OperationalCapability",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#Capability"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#OperationalCapabilityRequirement",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#CapabilityRequirement"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#OperationalCapabilityRequirement1",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://purl.org/ontodesign#OvercomingSurfaceObstacle"
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#OperationalCapabilityRequirement"
   }, {
-    "@id" : "https://purl.org/ontodesign#RobotBehavior"
-  } ],
-  "https://purl.org/ontodesign#occursAt" : [ {
-    "@id" : "https://purl.org/ontodesign#WorkEnvironment3"
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#RobotSystemHardwareRequirement"
   } ]
 }, {
-  "@id" : "https://purl.org/ontodesign#PhysicalConstraintToRobot",
+  "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#OvercomingSurfaceObstacle2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/ontologies/Onto-Design.owl#occursAt" : [ {
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#WorkEnvironment2"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#RobotBehavior"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#OvercomingSurfaceObstacle3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/ontologies/Onto-Design.owl#occursAt" : [ {
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#WorkEnvironment3"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#RobotBehavior"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#PhysicalConstraintToRobot",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "PhysicalConstraintToRobot means the maximum size of the space or area that the BuildingElement or the IndoorSpace can provide for the robot movement."
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "_:genid28"
   } ]
 }, {
-  "@id" : "https://purl.org/ontodesign#Robot",
+  "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#Robot",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Robot refers exclusively to mobile robots in the context of building inspection robots. It is a programmed actuated mechanism able to move around at a RobotMovementMedium of  its WorkEnvironment and conduct RobotBehavior with a degree of autonomy."
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "_:genid29"
   }, {
@@ -1793,13 +1574,13 @@
     "@id" : "_:genid31"
   } ]
 }, {
-  "@id" : "https://purl.org/ontodesign#Robot1234",
+  "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#Robot1234",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://purl.org/ontodesign#Width"
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#Width"
   } ]
 }, {
-  "@id" : "https://purl.org/ontodesign#RobotBehavior",
+  "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#RobotBehavior",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "_:genid32"
@@ -1807,1075 +1588,1009 @@
     "@id" : "_:genid33"
   } ]
 }, {
-  "@id" : "https://purl.org/ontodesign#RobotComponent",
+  "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#RobotComponent",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
 }, {
-  "@id" : "https://purl.org/ontodesign#RobotMovementMedium",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
-}, {
-  "@id" : "https://purl.org/ontodesign#RobotSystem",
+  "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#RobotMovementMedium",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "RobotMovementMedium is what the robot relies on for its movement."
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#RobotSystem",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "RobotSystem is defined as an artificial system formed by robots and AuxiliaryEquipment"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "_:genid34"
   } ]
 }, {
-  "@id" : "https://purl.org/ontodesign#RobotSystemHardwareRequirement",
+  "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#RobotSystemHardwareRequirement",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
 }, {
-  "@id" : "https://purl.org/ontodesign#RoboticMoistureInspection1",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
-}, {
-  "@id" : "https://purl.org/ontodesign#SensoryCapability",
+  "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#SensoryCapability",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://purl.org/ontodesign#Capability"
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#Capability"
   } ]
 }, {
-  "@id" : "https://purl.org/ontodesign#SensoryCapabilityRequirement",
+  "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#SensoryCapabilityRequirement",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://purl.org/ontodesign#CapabilityRequirement"
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#CapabilityRequirement"
   } ]
 }, {
-  "@id" : "https://purl.org/ontodesign#SensoryCapabilityRequirement1",
+  "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#SensoryCapabilityRequirement1",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://purl.org/ontodesign#RobotSystemHardwareRequirement"
-  }, {
-    "@id" : "https://purl.org/ontodesign#SensoryCapabilityRequirement"
+  "http://www.semanticweb.org/ontologies/Onto-Design.owl#determines" : [ {
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#SensoryCapabilityRequirement1"
   } ],
-  "https://purl.org/ontodesign#determines" : [ {
-    "@id" : "https://purl.org/ontodesign#SensoryCapabilityRequirement1"
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#RobotSystemHardwareRequirement"
+  }, {
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#SensoryCapabilityRequirement"
   } ]
 }, {
-  "@id" : "https://purl.org/ontodesign#Shape",
+  "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#Shape",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://purl.org/ontodesign#SurfaceAttribute"
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#SurfaceAttribute"
   } ]
 }, {
-  "@id" : "https://purl.org/ontodesign#Site",
+  "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#SignalReceptionCondition",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#EnvironmentalCondition"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#Site",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "_:genid35"
   } ]
 }, {
-  "@id" : "https://purl.org/ontodesign#Size",
+  "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#Size",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://purl.org/ontodesign#StructuralCharacteristic"
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#StructuralCharacteristic"
   } ]
 }, {
-  "@id" : "https://purl.org/ontodesign#SizeRequirement",
+  "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#SizeRequirement",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://purl.org/ontodesign#StructuralCharacteristicsRequirement"
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#StructuralCharacteristicsRequirement"
   } ]
 }, {
-  "@id" : "https://purl.org/ontodesign#SizeRequirement1",
+  "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#SizeRequirement1",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://purl.org/ontodesign#RobotSystemHardwareRequirement"
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#RobotSystemHardwareRequirement"
   }, {
-    "@id" : "https://purl.org/ontodesign#SizeRequirement"
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#SizeRequirement"
   } ]
 }, {
-  "@id" : "https://purl.org/ontodesign#SizeRequirement_Indoor",
+  "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#SizeRequirement_Indoor",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://purl.org/ontodesign#SizeRequirement"
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#SizeRequirement"
   } ]
 }, {
-  "@id" : "https://purl.org/ontodesign#Speed",
+  "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#Speed",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://purl.org/ontodesign#Attribute"
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#Attribute"
   }, {
     "@id" : "_:genid36"
   }, {
     "@id" : "_:genid37"
   } ]
 }, {
-  "@id" : "https://purl.org/ontodesign#SteeringAbilityRequirement",
+  "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#StructuralCharacteristic",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "StructuralCharacteristic refers to generic features necessary to describe the physical and structural aspects of a robot system."
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://purl.org/ontodesign#LocomotionCapabilityRequirement"
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#Attribute"
   } ]
 }, {
-  "@id" : "https://purl.org/ontodesign#StructuralCharacteristic",
+  "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#StructuralCharacteristicsRequirement",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://purl.org/ontodesign#Attribute"
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#RobotSystemHardwareRequirement"
   } ]
 }, {
-  "@id" : "https://purl.org/ontodesign#StructuralCharacteristicsRequirement",
+  "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#Surface",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://purl.org/ontodesign#RobotSystemHardwareRequirement"
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#RobotMovementMedium"
   } ]
 }, {
-  "@id" : "https://purl.org/ontodesign#Surface",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://purl.org/ontodesign#RobotMovementMedium"
-  } ]
-}, {
-  "@id" : "https://purl.org/ontodesign#Surface1",
+  "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#Surface1",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://purl.org/ontodesign#Surface"
+  "http://www.semanticweb.org/ontologies/Onto-Design.owl#hasDustiness" : [ {
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#Dustiness1"
   } ],
-  "https://purl.org/ontodesign#hasDustiness" : [ {
-    "@id" : "https://purl.org/ontodesign#Dustiness1"
-  } ],
-  "https://purl.org/ontodesign#hasSurfaceAttribute" : [ {
-    "@id" : "https://purl.org/ontodesign#InclinationAngle1"
+  "http://www.semanticweb.org/ontologies/Onto-Design.owl#hasSurfaceAttribute" : [ {
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#InclinationAngle1"
   }, {
-    "@id" : "https://purl.org/ontodesign#SurfaceOrientation1"
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#SurfaceOrientation1"
   } ],
-  "https://purl.org/ontodesign#hasSurfaceMaterial" : [ {
-    "@id" : "https://purl.org/ontodesign#Wallpaper1"
+  "http://www.semanticweb.org/ontologies/Onto-Design.owl#hasSurfaceMaterial" : [ {
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#Wallpaper1"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#Surface"
   } ]
 }, {
-  "@id" : "https://purl.org/ontodesign#Surface2",
+  "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#Surface2",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://purl.org/ontodesign#Surface"
+  "http://www.semanticweb.org/ontologies/Onto-Design.owl#hasDustiness" : [ {
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#Dustiness2"
   } ],
-  "https://purl.org/ontodesign#hasDustiness" : [ {
-    "@id" : "https://purl.org/ontodesign#Dustiness2"
-  } ],
-  "https://purl.org/ontodesign#hasSurfaceAttribute" : [ {
-    "@id" : "https://purl.org/ontodesign#InclinationAngle2"
+  "http://www.semanticweb.org/ontologies/Onto-Design.owl#hasSurfaceAttribute" : [ {
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#InclinationAngle2"
   }, {
-    "@id" : "https://purl.org/ontodesign#SurfaceOrientation234"
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#SurfaceOrientation234"
   } ],
-  "https://purl.org/ontodesign#hasSurfaceMaterial" : [ {
-    "@id" : "https://purl.org/ontodesign#Ceramics2"
+  "http://www.semanticweb.org/ontologies/Onto-Design.owl#hasSurfaceMaterial" : [ {
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#Ceramics2"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#Surface"
   } ]
 }, {
-  "@id" : "https://purl.org/ontodesign#Surface3",
+  "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#Surface3",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://purl.org/ontodesign#Surface"
+  "http://www.semanticweb.org/ontologies/Onto-Design.owl#hasDustiness" : [ {
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#Dustiness3"
   } ],
-  "https://purl.org/ontodesign#hasDustiness" : [ {
-    "@id" : "https://purl.org/ontodesign#Dustiness3"
-  } ],
-  "https://purl.org/ontodesign#hasSurfaceAttribute" : [ {
-    "@id" : "https://purl.org/ontodesign#InclinationAngle3"
+  "http://www.semanticweb.org/ontologies/Onto-Design.owl#hasSurfaceAttribute" : [ {
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#InclinationAngle3"
   }, {
-    "@id" : "https://purl.org/ontodesign#SurfaceOrientation234"
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#SurfaceOrientation234"
   } ],
-  "https://purl.org/ontodesign#hasSurfaceMaterial" : [ {
-    "@id" : "https://purl.org/ontodesign#Glass3"
+  "http://www.semanticweb.org/ontologies/Onto-Design.owl#hasSurfaceMaterial" : [ {
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#Glass3"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#Surface"
   } ]
 }, {
-  "@id" : "https://purl.org/ontodesign#Surface4",
+  "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#Surface4",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://purl.org/ontodesign#Surface"
+  "http://www.semanticweb.org/ontologies/Onto-Design.owl#hasDustiness" : [ {
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#Dustiness4"
   } ],
-  "https://purl.org/ontodesign#hasDustiness" : [ {
-    "@id" : "https://purl.org/ontodesign#Dustiness4"
-  } ],
-  "https://purl.org/ontodesign#hasSurfaceAttribute" : [ {
-    "@id" : "https://purl.org/ontodesign#InclinationAngle4"
+  "http://www.semanticweb.org/ontologies/Onto-Design.owl#hasSurfaceAttribute" : [ {
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#InclinationAngle4"
   }, {
-    "@id" : "https://purl.org/ontodesign#SurfaceOrientation234"
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#SurfaceOrientation234"
   } ],
-  "https://purl.org/ontodesign#hasSurfaceMaterial" : [ {
-    "@id" : "https://purl.org/ontodesign#Wallpaper4"
+  "http://www.semanticweb.org/ontologies/Onto-Design.owl#hasSurfaceMaterial" : [ {
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#Wallpaper4"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#Surface"
   } ]
 }, {
-  "@id" : "https://purl.org/ontodesign#SurfaceAttribute",
+  "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#SurfaceAttribute",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://purl.org/ontodesign#Attribute"
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#Attribute"
   } ]
 }, {
-  "@id" : "https://purl.org/ontodesign#SurfaceMaterial",
+  "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#SurfaceMaterial",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://purl.org/ontodesign#SurfaceAttribute"
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#SurfaceAttribute"
   } ]
 }, {
-  "@id" : "https://purl.org/ontodesign#SurfaceObstacle",
+  "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#SurfaceObstacle",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "http://www.w3.org/2002/07/owl#Thing"
   } ]
 }, {
-  "@id" : "https://purl.org/ontodesign#SurfaceOrientation",
+  "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#SurfaceOrientation",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://purl.org/ontodesign#SurfaceAttribute"
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#SurfaceAttribute"
   } ]
 }, {
-  "@id" : "https://purl.org/ontodesign#SurfaceOrientation1",
+  "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#SurfaceOrientation1",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://purl.org/ontodesign#SurfaceOrientation"
+  "http://www.semanticweb.org/ontologies/Onto-Design.owl#determines" : [ {
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#AdhesionMechanismRequirement_Indoor"
   } ],
-  "https://purl.org/ontodesign#determines" : [ {
-    "@id" : "https://purl.org/ontodesign#AdhesionMechanismRequirement_Indoor"
-  } ],
-  "https://purl.org/ontodesign#isInverted" : [ {
+  "http://www.semanticweb.org/ontologies/Onto-Design.owl#isInverted" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
     "@value" : "true"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#SurfaceOrientation"
   } ]
 }, {
-  "@id" : "https://purl.org/ontodesign#SurfaceOrientation234",
+  "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#SurfaceOrientation234",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://purl.org/ontodesign#SurfaceOrientation"
+  "http://www.semanticweb.org/ontologies/Onto-Design.owl#determines" : [ {
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#AdhesionMechanismRequirement_Indoor"
   } ],
-  "https://purl.org/ontodesign#determines" : [ {
-    "@id" : "https://purl.org/ontodesign#AdhesionMechanismRequirement_Indoor"
-  } ],
-  "https://purl.org/ontodesign#isInverted" : [ {
+  "http://www.semanticweb.org/ontologies/Onto-Design.owl#isInverted" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
     "@value" : "false"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#SurfaceOrientation"
   } ]
 }, {
-  "@id" : "https://purl.org/ontodesign#SurfaceToSurfaceTransistion",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://purl.org/ontodesign#RobotBehavior"
+  "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#TemperatureChange1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/ontologies/Onto-Design.owl#determines" : [ {
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#SensoryCapabilityRequirement1"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#DetectableAttribute"
   } ]
 }, {
-  "@id" : "https://purl.org/ontodesign#SurfaceToSurfaceTransistion1_1",
+  "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#TemperatureChange2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/ontologies/Onto-Design.owl#determines" : [ {
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#SensoryCapabilityRequirement1"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#DetectableAttribute"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#TemperatureChange3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/ontologies/Onto-Design.owl#determines" : [ {
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#SensoryCapabilityRequirement1"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#DetectableAttribute"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#TemperatureChange4",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/ontologies/Onto-Design.owl#determines" : [ {
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#SensoryCapabilityRequirement1"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#DetectableAttribute"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#ThermalCamera1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#AuxiliaryEquipment"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#TransitionDexterityRequirement_Indoor",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
 }, {
-  "@id" : "https://purl.org/ontodesign#TemperatureChange1",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://purl.org/ontodesign#DetectableAttribute"
-  } ],
-  "https://purl.org/ontodesign#determines" : [ {
-    "@id" : "https://purl.org/ontodesign#SensoryCapabilityRequirement1"
-  } ]
-}, {
-  "@id" : "https://purl.org/ontodesign#TemperatureChange2",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://purl.org/ontodesign#DetectableAttribute"
-  } ],
-  "https://purl.org/ontodesign#determines" : [ {
-    "@id" : "https://purl.org/ontodesign#SensoryCapabilityRequirement1"
-  } ]
-}, {
-  "@id" : "https://purl.org/ontodesign#TemperatureChange3",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://purl.org/ontodesign#DetectableAttribute"
-  } ],
-  "https://purl.org/ontodesign#determines" : [ {
-    "@id" : "https://purl.org/ontodesign#SensoryCapabilityRequirement1"
-  } ]
-}, {
-  "@id" : "https://purl.org/ontodesign#TemperatureChange4",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://purl.org/ontodesign#DetectableAttribute"
-  } ],
-  "https://purl.org/ontodesign#determines" : [ {
-    "@id" : "https://purl.org/ontodesign#SensoryCapabilityRequirement1"
-  } ]
-}, {
-  "@id" : "https://purl.org/ontodesign#ThermalCamera1",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://purl.org/ontodesign#AuxiliaryEquipment"
-  } ]
-}, {
-  "@id" : "https://purl.org/ontodesign#TransitionDexterityRequirement",
+  "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#VelocityRequirement",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://purl.org/ontodesign#LocomotionCapabilityRequirement"
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#LocomotionCapabilityRequirement"
   } ]
 }, {
-  "@id" : "https://purl.org/ontodesign#TransitionDexterityRequirement_Indoor",
+  "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#VelocityRequirement_Indoor",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://purl.org/ontodesign#TransitionDexterityRequirement"
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#VelocityRequirement"
   } ]
 }, {
-  "@id" : "https://purl.org/ontodesign#VelocityRequirement",
+  "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#Visibility",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://purl.org/ontodesign#LocomotionCapabilityRequirement"
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#EnvironmentalCondition"
   } ]
 }, {
-  "@id" : "https://purl.org/ontodesign#VelocityRequirement_Indoor",
+  "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#Wall1",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://purl.org/ontodesign#VelocityRequirement"
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#BuildingElement"
   } ]
 }, {
-  "@id" : "https://purl.org/ontodesign#Visibility",
+  "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#Wall2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/ontologies/Onto-Design.owl#hasExposedSurface" : [ {
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#Surface2"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#BuildingElement"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#Wall4",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/ontologies/Onto-Design.owl#hasExposedSurface" : [ {
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#Surface4"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#BuildingElement"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#WallCimbingRobot1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#WallClimbingRobot"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#WallClimbingRobot",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://purl.org/ontodesign#EnvironmentData"
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#Robot"
   } ]
 }, {
-  "@id" : "https://purl.org/ontodesign#Visibility1",
+  "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#WallClimbingRobotSystem_indoor",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://purl.org/ontodesign#Visibility"
-  } ],
-  "https://purl.org/ontodesign#determines" : [ {
-    "@id" : "https://purl.org/ontodesign#SensoryCapabilityRequirement1"
-  } ],
-  "https://purl.org/ontodesign#hasVisibilityLevel" : [ {
-    "@value" : "low"
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#RobotSystem"
   } ]
 }, {
-  "@id" : "https://purl.org/ontodesign#Visibility234",
+  "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#Wallpaper1",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://purl.org/ontodesign#Visibility"
+  "http://www.semanticweb.org/ontologies/Onto-Design.owl#determines" : [ {
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#AdhesionMechanismRequirement_Indoor"
   } ],
-  "https://purl.org/ontodesign#determines" : [ {
-    "@id" : "https://purl.org/ontodesign#SensoryCapabilityRequirement1"
-  } ],
-  "https://purl.org/ontodesign#hasVisibilityLevel" : [ {
-    "@value" : "high"
-  } ]
-}, {
-  "@id" : "https://purl.org/ontodesign#Wall1",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://purl.org/ontodesign#BuildingElement"
-  } ]
-}, {
-  "@id" : "https://purl.org/ontodesign#Wall2",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://purl.org/ontodesign#BuildingElement"
-  } ],
-  "https://purl.org/ontodesign#hasExposedSurface" : [ {
-    "@id" : "https://purl.org/ontodesign#Surface2"
-  } ]
-}, {
-  "@id" : "https://purl.org/ontodesign#Wall4",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://purl.org/ontodesign#BuildingElement"
-  } ],
-  "https://purl.org/ontodesign#hasExposedSurface" : [ {
-    "@id" : "https://purl.org/ontodesign#Surface4"
-  } ]
-}, {
-  "@id" : "https://purl.org/ontodesign#WallCimbingRobot1",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://purl.org/ontodesign#WallClimbingRobot"
-  } ]
-}, {
-  "@id" : "https://purl.org/ontodesign#WallClimbingRobot",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://purl.org/ontodesign#Robot"
-  } ]
-}, {
-  "@id" : "https://purl.org/ontodesign#WallClimbingRobotSystem_indoor",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://purl.org/ontodesign#RobotSystem"
-  } ]
-}, {
-  "@id" : "https://purl.org/ontodesign#Wallpaper1",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://purl.org/ontodesign#SurfaceMaterial"
-  } ],
-  "https://purl.org/ontodesign#determines" : [ {
-    "@id" : "https://purl.org/ontodesign#AdhesionMechanismRequirement_Indoor"
-  } ],
-  "https://purl.org/ontodesign#isFerromagnetic" : [ {
+  "http://www.semanticweb.org/ontologies/Onto-Design.owl#isFerromagnetic" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
     "@value" : "false"
   } ],
-  "https://purl.org/ontodesign#isSmooth" : [ {
+  "http://www.semanticweb.org/ontologies/Onto-Design.owl#isSmooth" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
     "@value" : "false"
-  } ]
-}, {
-  "@id" : "https://purl.org/ontodesign#Wallpaper4",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  } ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://purl.org/ontodesign#SurfaceMaterial"
-  } ],
-  "https://purl.org/ontodesign#determines" : [ {
-    "@id" : "https://purl.org/ontodesign#AdhesionMechanismRequirement_Indoor"
-  } ],
-  "https://purl.org/ontodesign#isFerromagnetic" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
-    "@value" : "false"
-  } ],
-  "https://purl.org/ontodesign#isSmooth" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
-    "@value" : "false"
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#SurfaceMaterial"
   } ]
 }, {
-  "@id" : "https://purl.org/ontodesign#WeatherResistance",
+  "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#Wallpaper4",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/ontologies/Onto-Design.owl#determines" : [ {
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#AdhesionMechanismRequirement_Indoor"
+  } ],
+  "http://www.semanticweb.org/ontologies/Onto-Design.owl#isFerromagnetic" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "false"
+  } ],
+  "http://www.semanticweb.org/ontologies/Onto-Design.owl#isSmooth" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "false"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#SurfaceMaterial"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#WeatherResistance",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://purl.org/ontodesign#Capability"
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#Capability"
   } ]
 }, {
-  "@id" : "https://purl.org/ontodesign#WeatherResistanceRequirement",
+  "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#WeatherResistanceRequirement",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://purl.org/ontodesign#RobotSystemHardwareRequirement"
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#RobotSystemHardwareRequirement"
   }, {
-    "@id" : "https://purl.org/ontodesign#WeatherResistanceRequirement"
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#WeatherResistanceRequirement"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://purl.org/ontodesign#CapabilityRequirement"
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#CapabilityRequirement"
   } ]
 }, {
-  "@id" : "https://purl.org/ontodesign#Weight",
+  "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#Weight",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://purl.org/ontodesign#StructuralCharacteristic"
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#StructuralCharacteristic"
   } ]
 }, {
-  "@id" : "https://purl.org/ontodesign#WeightRequirement",
+  "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#WeightRequirement",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://purl.org/ontodesign#RobotSystemHardwareRequirement"
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#RobotSystemHardwareRequirement"
   } ]
 }, {
-  "@id" : "https://purl.org/ontodesign#WheeledMechanismCharacteristics",
+  "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#Width",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://purl.org/ontodesign#LocomotionMechanismCharacteristic"
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#Attribute"
   } ]
 }, {
-  "@id" : "https://purl.org/ontodesign#Width",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://purl.org/ontodesign#Attribute"
-  } ]
-}, {
-  "@id" : "https://purl.org/ontodesign#Width1234",
+  "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#Width1234",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://purl.org/ontodesign#Size"
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#Size"
   } ]
 }, {
-  "@id" : "https://purl.org/ontodesign#WidthConstraint",
+  "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#WidthConstraint",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://purl.org/ontodesign#PhysicalConstraintToRobot"
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#PhysicalConstraintToRobot"
   } ]
 }, {
-  "@id" : "https://purl.org/ontodesign#WidthConstraint2",
+  "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#WidthConstraint2",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://purl.org/ontodesign#WidthConstraint"
+  "http://www.semanticweb.org/ontologies/Onto-Design.owl#determines" : [ {
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#SizeRequirement1"
   } ],
-  "https://purl.org/ontodesign#determines" : [ {
-    "@id" : "https://purl.org/ontodesign#SizeRequirement1"
-  } ]
-}, {
-  "@id" : "https://purl.org/ontodesign#WindSpeed",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://purl.org/ontodesign#EnvironmentData"
-  } ]
-}, {
-  "@id" : "https://purl.org/ontodesign#WindSpeed1234",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://purl.org/ontodesign#WindSpeed"
-  } ],
-  "https://purl.org/ontodesign#determines" : [ {
-    "@id" : "https://purl.org/ontodesign#SensoryCapabilityRequirement1"
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#WidthConstraint"
   } ]
 }, {
-  "@id" : "https://purl.org/ontodesign#WorkEnvironment",
+  "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#WorkEnvironment",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "WorkEnvironment is the environment where the robot is exposed to."
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "_:genid38"
   } ]
 }, {
-  "@id" : "https://purl.org/ontodesign#WorkEnvironment1",
+  "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#WorkEnvironment1",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/ontologies/Onto-Design.owl#hasRobotMovementMedium" : [ {
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#Surface1"
+  } ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://purl.org/ontodesign#WorkEnvironment"
-  } ],
-  "https://purl.org/ontodesign#hasAirTemperature" : [ {
-    "@id" : "https://purl.org/ontodesign#AirTemperature1"
-  } ],
-  "https://purl.org/ontodesign#hasRobotMovementMedium" : [ {
-    "@id" : "https://purl.org/ontodesign#Surface1"
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#WorkEnvironment"
   } ]
 }, {
-  "@id" : "https://purl.org/ontodesign#WorkEnvironment2",
+  "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#WorkEnvironment2",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/ontologies/Onto-Design.owl#hasRobotMovementMedium" : [ {
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#Surface2"
+  } ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://purl.org/ontodesign#WorkEnvironment"
-  } ],
-  "https://purl.org/ontodesign#hasAirTemperature" : [ {
-    "@id" : "https://purl.org/ontodesign#AirTemperature2"
-  } ],
-  "https://purl.org/ontodesign#hasRobotMovementMedium" : [ {
-    "@id" : "https://purl.org/ontodesign#Surface2"
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#WorkEnvironment"
   } ]
 }, {
-  "@id" : "https://purl.org/ontodesign#WorkEnvironment3",
+  "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#WorkEnvironment3",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/ontologies/Onto-Design.owl#hasRobotMovementMedium" : [ {
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#Surface3"
+  } ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://purl.org/ontodesign#WorkEnvironment"
-  } ],
-  "https://purl.org/ontodesign#hasAirTemperature" : [ {
-    "@id" : "https://purl.org/ontodesign#AirTemperature3"
-  } ],
-  "https://purl.org/ontodesign#hasRobotMovementMedium" : [ {
-    "@id" : "https://purl.org/ontodesign#Surface3"
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#WorkEnvironment"
   } ]
 }, {
-  "@id" : "https://purl.org/ontodesign#WorkEnvironment4",
+  "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#WorkEnvironment4",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/ontologies/Onto-Design.owl#hasRobotMovementMedium" : [ {
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#Surface4"
+  } ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://purl.org/ontodesign#WorkEnvironment"
-  } ],
-  "https://purl.org/ontodesign#hasAirTemperature" : [ {
-    "@id" : "https://purl.org/ontodesign#AirTemperature4"
-  } ],
-  "https://purl.org/ontodesign#hasRobotMovementMedium" : [ {
-    "@id" : "https://purl.org/ontodesign#Surface4"
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#WorkEnvironment"
   } ]
 }, {
-  "@id" : "https://purl.org/ontodesign#causes",
+  "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#causes",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
     "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
   } ]
 }, {
-  "@id" : "https://purl.org/ontodesign#causesAbnormalArea",
+  "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#causesAbnormalArea",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://purl.org/ontodesign#BuildingDefect"
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#BuildingDefect"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://purl.org/ontodesign#AbnormalArea"
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#AbnormalArea"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "https://purl.org/ontodesign#causes"
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#causes"
   } ]
 }, {
-  "@id" : "https://purl.org/ontodesign#causesInterferenceToEnvironment",
+  "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#causesInterferenceToEnvironment",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://purl.org/ontodesign#RobotBehavior"
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#RobotBehavior"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "https://purl.org/ontodesign#causes"
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#causes"
   } ]
 }, {
-  "@id" : "https://purl.org/ontodesign#determines",
+  "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#determines",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
     "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
   } ]
 }, {
-  "@id" : "https://purl.org/ontodesign#fulfills",
+  "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#fulfills",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
     "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
   } ]
 }, {
-  "@id" : "https://purl.org/ontodesign#fulfillsCapabilityRequirement",
+  "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#fulfillsCapabilityRequirement",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "_:genid1"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://purl.org/ontodesign#CapabilityRequirement"
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#CapabilityRequirement"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "https://purl.org/ontodesign#fulfills"
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#fulfills"
   } ]
 }, {
-  "@id" : "https://purl.org/ontodesign#fulfillsStructuralCharacteristicsRequirement",
+  "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#fulfillsStructuralCharacteristicsRequirement",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://purl.org/ontodesign#RobotSystem"
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#RobotSystem"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://purl.org/ontodesign#StructuralCharacteristicsRequirement"
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#StructuralCharacteristicsRequirement"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "https://purl.org/ontodesign#fulfills"
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#fulfills"
   } ]
 }, {
-  "@id" : "https://purl.org/ontodesign#hasAirHumidity",
+  "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#hasAirHumidity",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "https://purl.org/ontodesign#hasEnvironmentData"
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#hasEnvironmentData"
   } ]
 }, {
-  "@id" : "https://purl.org/ontodesign#hasAirPressure",
+  "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#hasAirPressure",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "https://purl.org/ontodesign#hasEnvironmentData"
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#hasEnvironmentData"
   } ]
 }, {
-  "@id" : "https://purl.org/ontodesign#hasAirTemperature",
+  "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#hasAirTemperature",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "https://purl.org/ontodesign#hasEnvironmentData"
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#hasEnvironmentData"
   } ]
 }, {
-  "@id" : "https://purl.org/ontodesign#hasAttribute",
+  "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#hasAttribute",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
     "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
   } ]
 }, {
-  "@id" : "https://purl.org/ontodesign#hasAuxiliaryEquipment",
+  "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#hasAuxiliaryEquipment",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://purl.org/ontodesign#RobotSystem"
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#RobotSystem"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://purl.org/ontodesign#AuxiliaryEquipment"
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#AuxiliaryEquipment"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "https://purl.org/ontodesign#hasComponent"
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#hasComponent"
   } ]
 }, {
-  "@id" : "https://purl.org/ontodesign#hasBuildingElement",
+  "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#hasBuildingElement",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "_:genid4"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://purl.org/ontodesign#BuildingElement"
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#BuildingElement"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "https://purl.org/ontodesign#hasComponent"
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#hasComponent"
   } ]
 }, {
-  "@id" : "https://purl.org/ontodesign#hasBuildingExterior",
+  "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#hasBuildingExterior",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://purl.org/ontodesign#Building"
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#Building"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://purl.org/ontodesign#BuildingExterior"
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#BuildingExterior"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
     "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
   } ]
 }, {
-  "@id" : "https://purl.org/ontodesign#hasBuildingInterior",
+  "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#hasBuildingInterior",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://purl.org/ontodesign#Building"
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#Building"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://purl.org/ontodesign#BuildingInterior"
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#BuildingInterior"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
     "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
   } ]
 }, {
-  "@id" : "https://purl.org/ontodesign#hasCapability",
+  "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#hasCapability",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://purl.org/ontodesign#RobotSystem"
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#RobotSystem"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://purl.org/ontodesign#Capability"
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#Capability"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
     "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
   } ]
 }, {
-  "@id" : "https://purl.org/ontodesign#hasComponent",
+  "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#hasComponent",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
     "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
   } ]
 }, {
-  "@id" : "https://purl.org/ontodesign#hasCorner",
+  "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#hasCorner",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
 }, {
-  "@id" : "https://purl.org/ontodesign#hasCornerAngle",
+  "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#hasCornerAngle",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "https://purl.org/ontodesign#hasAttribute"
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#hasAttribute"
   } ]
 }, {
-  "@id" : "https://purl.org/ontodesign#hasDepth",
+  "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#hasDepth",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "https://purl.org/ontodesign#hasAttribute"
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#hasAttribute"
   } ]
 }, {
-  "@id" : "https://purl.org/ontodesign#hasDetectableAttribute",
+  "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#hasDetectableAttribute",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://purl.org/ontodesign#DetectableAttribute"
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#DetectableAttribute"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "https://purl.org/ontodesign#hasAttribute"
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#hasAttribute"
   } ]
 }, {
-  "@id" : "https://purl.org/ontodesign#hasDustiness",
+  "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#hasDustiness",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "https://purl.org/ontodesign#hasSurfaceAttribute"
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#hasSurfaceAttribute"
   } ]
 }, {
-  "@id" : "https://purl.org/ontodesign#hasDustinessLevel",
+  "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#hasDustinessLevel",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ]
 }, {
-  "@id" : "https://purl.org/ontodesign#hasEnvironmentData",
+  "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#hasEnvironmentData",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "_:genid8"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://purl.org/ontodesign#EnvironmentData"
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#EnvironmentalCondition"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
     "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
   } ]
 }, {
-  "@id" : "https://purl.org/ontodesign#hasExpectedInspectionSpeed",
+  "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#hasExpectedInspectionSpeed",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://purl.org/ontodesign#Speed"
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#Speed"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "https://purl.org/ontodesign#hasAttribute"
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#hasAttribute"
   } ]
 }, {
-  "@id" : "https://purl.org/ontodesign#hasExposedSurface",
+  "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#hasExposedSurface",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
 }, {
-  "@id" : "https://purl.org/ontodesign#hasHeight",
+  "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#hasHeight",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://purl.org/ontodesign#Height"
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#Height"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "https://purl.org/ontodesign#hasAttribute"
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#hasAttribute"
   } ]
 }, {
-  "@id" : "https://purl.org/ontodesign#hasHighestPoint",
+  "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#hasHighestPoint",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
     "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
   } ]
 }, {
-  "@id" : "https://purl.org/ontodesign#hasInclinationAngle",
+  "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#hasInclinationAngle",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "https://purl.org/ontodesign#hasSurfaceAttribute"
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#hasSurfaceAttribute"
   } ]
 }, {
-  "@id" : "https://purl.org/ontodesign#hasIndoorSpace",
+  "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#hasIndoorSpace",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://purl.org/ontodesign#BuildingInterior"
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#BuildingInterior"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://purl.org/ontodesign#IndoorSpace"
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#IndoorSpace"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
     "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
   } ]
 }, {
-  "@id" : "https://purl.org/ontodesign#hasPhysicalConstraintsToRobots",
+  "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#hasPhysicalConstraintsToRobots",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://purl.org/ontodesign#PhysicalConstraintToRobot"
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#PhysicalConstraintToRobot"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
     "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
   } ]
 }, {
-  "@id" : "https://purl.org/ontodesign#hasRobot",
+  "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#hasRobot",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://purl.org/ontodesign#RobotSystem"
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#RobotSystem"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://purl.org/ontodesign#Robot"
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#Robot"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "https://purl.org/ontodesign#hasComponent"
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#hasComponent"
   } ]
 }, {
-  "@id" : "https://purl.org/ontodesign#hasRobotComponent",
+  "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#hasRobotComponent",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://purl.org/ontodesign#Robot"
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#Robot"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://purl.org/ontodesign#RobotComponent"
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#RobotComponent"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "https://purl.org/ontodesign#hasComponent"
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#hasComponent"
   } ]
 }, {
-  "@id" : "https://purl.org/ontodesign#hasRobotMovementMedium",
+  "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#hasRobotMovementMedium",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://purl.org/ontodesign#WorkEnvironment"
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#WorkEnvironment"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://purl.org/ontodesign#RobotMovementMedium"
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#RobotMovementMedium"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
     "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
   } ]
 }, {
-  "@id" : "https://purl.org/ontodesign#hasShape",
+  "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#hasShape",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "https://purl.org/ontodesign#hasSurfaceAttribute"
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#hasSurfaceAttribute"
   } ]
 }, {
-  "@id" : "https://purl.org/ontodesign#hasSignalReceptionCondition",
+  "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#hasSignalReceptionCondition",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
   } ]
 }, {
-  "@id" : "https://purl.org/ontodesign#hasSite",
+  "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#hasSite",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://purl.org/ontodesign#BuildingExterior"
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#BuildingExterior"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://purl.org/ontodesign#Site"
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#Site"
   } ]
 }, {
-  "@id" : "https://purl.org/ontodesign#hasStructuralCharacteristics",
+  "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#hasStructuralCharacteristics",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://purl.org/ontodesign#StructuralCharacteristic"
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#StructuralCharacteristic"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "https://purl.org/ontodesign#hasAttribute"
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#hasAttribute"
   } ]
 }, {
-  "@id" : "https://purl.org/ontodesign#hasSurfaceAttribute",
+  "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#hasSurfaceAttribute",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "https://purl.org/ontodesign#hasAttribute"
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#hasAttribute"
   } ]
 }, {
-  "@id" : "https://purl.org/ontodesign#hasSurfaceMaterial",
+  "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#hasSurfaceMaterial",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "https://purl.org/ontodesign#hasSurfaceAttribute"
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#hasSurfaceAttribute"
   } ]
 }, {
-  "@id" : "https://purl.org/ontodesign#hasSurfaceOrientation",
+  "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#hasSurfaceOrientation",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "https://purl.org/ontodesign#hasSurfaceAttribute"
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#hasSurfaceAttribute"
   } ]
 }, {
-  "@id" : "https://purl.org/ontodesign#hasTargetBuildingDefect",
+  "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#hasTargetBuildingDefect",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://purl.org/ontodesign#BuildingDefect"
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#BuildingDefect"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
     "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
   } ]
 }, {
-  "@id" : "https://purl.org/ontodesign#hasUnit",
+  "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#hasUnit",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
   } ]
 }, {
-  "@id" : "https://purl.org/ontodesign#hasValue",
+  "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#hasValue",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#double"
   } ]
 }, {
-  "@id" : "https://purl.org/ontodesign#hasVisibilityLevel",
+  "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#hasVisibilityLevel",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ]
 }, {
-  "@id" : "https://purl.org/ontodesign#hasVisibiltiy",
+  "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#hasVisibiltiy",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "https://purl.org/ontodesign#hasEnvironmentData"
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#hasEnvironmentData"
   } ]
 }, {
-  "@id" : "https://purl.org/ontodesign#hasWidth",
+  "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#hasWidth",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "https://purl.org/ontodesign#hasAttribute"
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#hasAttribute"
   } ]
 }, {
-  "@id" : "https://purl.org/ontodesign#hasWindSpeed",
+  "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#hasWindSpeed",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "https://purl.org/ontodesign#hasEnvironmentData"
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#hasEnvironmentData"
   } ]
 }, {
-  "@id" : "https://purl.org/ontodesign#influences",
+  "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#influences",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://purl.org/ontodesign#WorkEnvironment"
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#WorkEnvironment"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
     "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
   } ]
 }, {
-  "@id" : "https://purl.org/ontodesign#isAssistedBy",
+  "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#isAssistedBy",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
     "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
   } ]
 }, {
-  "@id" : "https://purl.org/ontodesign#isConductedBy",
+  "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#isConductedBy",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
     "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
   } ]
 }, {
-  "@id" : "https://purl.org/ontodesign#isConductedByHumanInspector",
+  "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#isConductedByHumanInspector",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "https://purl.org/ontodesign#isConductedBy"
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#isConductedBy"
   } ]
 }, {
-  "@id" : "https://purl.org/ontodesign#isConductedByRobotSystem",
+  "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#isConductedByRobotSystem",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://purl.org/ontodesign#RobotSystem"
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#RobotSystem"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "https://purl.org/ontodesign#isConductedBy"
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#isConductedBy"
   } ]
 }, {
-  "@id" : "https://purl.org/ontodesign#isFerromagnetic",
+  "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#isFerromagnetic",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
     "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
   } ]
 }, {
-  "@id" : "https://purl.org/ontodesign#isInverted",
+  "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#isInverted",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ]
 }, {
-  "@id" : "https://purl.org/ontodesign#isLocatedAt",
+  "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#isLocatedAt",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
     "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
   } ]
 }, {
-  "@id" : "https://purl.org/ontodesign#isLocatedAtBuildingElement",
+  "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#isLocatedAtBuildingElement",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://purl.org/ontodesign#BuildingElement"
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#BuildingElement"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "https://purl.org/ontodesign#isLocatedAt"
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#isLocatedAt"
   } ]
 }, {
-  "@id" : "https://purl.org/ontodesign#isLocatedAtSite",
+  "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#isLocatedAtSite",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://purl.org/ontodesign#Building"
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#Building"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://purl.org/ontodesign#Site"
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#Site"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "https://purl.org/ontodesign#isLocatedAt"
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#isLocatedAt"
   } ]
 }, {
-  "@id" : "https://purl.org/ontodesign#isSmooth",
+  "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#isSmooth",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
     "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
   } ]
 }, {
-  "@id" : "https://purl.org/ontodesign#isToBeDetectedBy",
+  "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#isToBeDetectedBy",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
 }, {
-  "@id" : "https://purl.org/ontodesign#movesAt",
+  "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#movesAt",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
     "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
   } ]
 }, {
-  "@id" : "https://purl.org/ontodesign#movesAtMovementMedium",
+  "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#movesAtMovementMedium",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://purl.org/ontodesign#Robot"
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#Robot"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://purl.org/ontodesign#RobotMovementMedium"
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#RobotMovementMedium"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "https://purl.org/ontodesign#movesAt"
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#movesAt"
   } ]
 }, {
-  "@id" : "https://purl.org/ontodesign#occursAt",
+  "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#occursAt",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
     "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
   } ]
 }, {
-  "@id" : "https://purl.org/ontodesign#provides",
+  "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#provides",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "_:genid11"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://purl.org/ontodesign#WorkEnvironment"
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#WorkEnvironment"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
     "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
   } ]
 }, {
-  "@id" : "https://purl.org/ontodesign#requires",
+  "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#requires",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
     "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
   } ]
 }, {
-  "@id" : "https://purl.org/ontodesign#requiresContinuousWork",
+  "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#requiresContinuousWork",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#boolean"
   } ]
 }, {
-  "@id" : "https://purl.org/ontodesign#requiresRobotComponent",
+  "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#requiresRobotComponent",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://purl.org/ontodesign#RobotBehavior"
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#RobotBehavior"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://purl.org/ontodesign#RobotComponent"
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#RobotComponent"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "https://purl.org/ontodesign#requires"
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#requires"
   } ]
 }, {
-  "@id" : "https://purl.org/ontodesign#worksIn",
+  "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#worksIn",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://purl.org/ontodesign#Robot"
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#Robot"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://purl.org/ontodesign#WorkEnvironment"
+    "@id" : "http://www.semanticweb.org/ontologies/Onto-Design.owl#WorkEnvironment"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
     "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
