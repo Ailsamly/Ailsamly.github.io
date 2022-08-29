@@ -766,15 +766,6 @@
     
 
 
-    <!-- https://purl.org/ontodesign#Angle -->
-
-
-    <owl:Class rdf:about="https://purl.org/ontodesign#Angle">
-        <rdfs:subClassOf rdf:resource="https://purl.org/ontodesign#Attribute"/>
-    </owl:Class>
-    
-
-
     <!-- https://purl.org/ontodesign#Attribute -->
 
 
@@ -963,24 +954,6 @@
     
 
 
-    <!-- https://purl.org/ontodesign#ConcaveCorner -->
-
-
-    <owl:Class rdf:about="https://purl.org/ontodesign#ConcaveCorner">
-        <rdfs:subClassOf rdf:resource="https://purl.org/ontodesign#Corner"/>
-    </owl:Class>
-    
-
-
-    <!-- https://purl.org/ontodesign#ConcaveObstacle -->
-
-
-    <owl:Class rdf:about="https://purl.org/ontodesign#ConcaveObstacle">
-        <rdfs:subClassOf rdf:resource="https://purl.org/ontodesign#SurfaceObstacle"/>
-    </owl:Class>
-    
-
-
     <!-- https://purl.org/ontodesign#ContinuousInspection -->
 
 
@@ -990,56 +963,11 @@
     
 
 
-    <!-- https://purl.org/ontodesign#ConvexCorner -->
-
-
-    <owl:Class rdf:about="https://purl.org/ontodesign#ConvexCorner">
-        <rdfs:subClassOf rdf:resource="https://purl.org/ontodesign#Corner"/>
-    </owl:Class>
-    
-
-
-    <!-- https://purl.org/ontodesign#ConvexObstacle -->
-
-
-    <owl:Class rdf:about="https://purl.org/ontodesign#ConvexObstacle">
-        <rdfs:subClassOf rdf:resource="https://purl.org/ontodesign#SurfaceObstacle"/>
-    </owl:Class>
-    
-
-
-    <!-- https://purl.org/ontodesign#Corner -->
-
-
-    <owl:Class rdf:about="https://purl.org/ontodesign#Corner">
-        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
-    </owl:Class>
-    
-
-
-    <!-- https://purl.org/ontodesign#Curved -->
-
-
-    <owl:Class rdf:about="https://purl.org/ontodesign#Curved">
-        <rdfs:subClassOf rdf:resource="https://purl.org/ontodesign#Shape"/>
-    </owl:Class>
-    
-
-
     <!-- https://purl.org/ontodesign#DegreeOfAutonomy -->
 
 
     <owl:Class rdf:about="https://purl.org/ontodesign#DegreeOfAutonomy">
         <rdfs:subClassOf rdf:resource="https://purl.org/ontodesign#Capability"/>
-    </owl:Class>
-    
-
-
-    <!-- https://purl.org/ontodesign#Depth -->
-
-
-    <owl:Class rdf:about="https://purl.org/ontodesign#Depth">
-        <rdfs:subClassOf rdf:resource="https://purl.org/ontodesign#Attribute"/>
     </owl:Class>
     
 
@@ -1066,30 +994,12 @@
     
 
 
-    <!-- https://purl.org/ontodesign#Dustiness -->
-
-
-    <owl:Class rdf:about="https://purl.org/ontodesign#Dustiness">
-        <rdfs:subClassOf rdf:resource="https://purl.org/ontodesign#SurfaceAttribute"/>
-    </owl:Class>
-    
-
-
     <!-- https://purl.org/ontodesign#EnvironmentalCondition -->
 
 
     <owl:Class rdf:about="https://purl.org/ontodesign#EnvironmentalCondition">
         <owl:disjointWith rdf:resource="https://purl.org/ontodesign#IndoorSpace"/>
         <rdfs:comment>EnvironmentalCondition describes environmental conditions of the building Site and IndoorSpace, which includes AverageAnnualAirTemperature, AverageAnnualAirHumidity, AirPressure, Visibility, and AverageAnnualWindSpeed, SignalReceptionCondition.</rdfs:comment>
-    </owl:Class>
-    
-
-
-    <!-- https://purl.org/ontodesign#Flat -->
-
-
-    <owl:Class rdf:about="https://purl.org/ontodesign#Flat">
-        <rdfs:subClassOf rdf:resource="https://purl.org/ontodesign#Shape"/>
     </owl:Class>
     
 
@@ -1129,15 +1039,6 @@
 
     <owl:Class rdf:about="https://purl.org/ontodesign#HeightConstraint">
         <rdfs:subClassOf rdf:resource="https://purl.org/ontodesign#PhysicalConstraintToRobot"/>
-    </owl:Class>
-    
-
-
-    <!-- https://purl.org/ontodesign#InclinationAngle -->
-
-
-    <owl:Class rdf:about="https://purl.org/ontodesign#InclinationAngle">
-        <rdfs:subClassOf rdf:resource="https://purl.org/ontodesign#SurfaceAttribute"/>
     </owl:Class>
     
 
@@ -1344,15 +1245,6 @@
     
 
 
-    <!-- https://purl.org/ontodesign#Shape -->
-
-
-    <owl:Class rdf:about="https://purl.org/ontodesign#Shape">
-        <rdfs:subClassOf rdf:resource="https://purl.org/ontodesign#SurfaceAttribute"/>
-    </owl:Class>
-    
-
-
     <!-- https://purl.org/ontodesign#SignalReceptionCondition -->
 
 
@@ -1372,15 +1264,6 @@
                 <owl:someValuesFrom rdf:resource="https://purl.org/ontodesign#EnvironmentalCondition"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-    </owl:Class>
-    
-
-
-    <!-- https://purl.org/ontodesign#Size -->
-
-
-    <owl:Class rdf:about="https://purl.org/ontodesign#Size">
-        <rdfs:subClassOf rdf:resource="https://purl.org/ontodesign#StructuralCharacteristic"/>
     </owl:Class>
     
 
@@ -1434,51 +1317,6 @@
     
 
 
-    <!-- https://purl.org/ontodesign#Surface -->
-
-
-    <owl:Class rdf:about="https://purl.org/ontodesign#Surface">
-        <rdfs:subClassOf rdf:resource="https://purl.org/ontodesign#RobotMovementMedium"/>
-    </owl:Class>
-    
-
-
-    <!-- https://purl.org/ontodesign#SurfaceAttribute -->
-
-
-    <owl:Class rdf:about="https://purl.org/ontodesign#SurfaceAttribute">
-        <rdfs:subClassOf rdf:resource="https://purl.org/ontodesign#Attribute"/>
-    </owl:Class>
-    
-
-
-    <!-- https://purl.org/ontodesign#SurfaceMaterial -->
-
-
-    <owl:Class rdf:about="https://purl.org/ontodesign#SurfaceMaterial">
-        <rdfs:subClassOf rdf:resource="https://purl.org/ontodesign#SurfaceAttribute"/>
-    </owl:Class>
-    
-
-
-    <!-- https://purl.org/ontodesign#SurfaceObstacle -->
-
-
-    <owl:Class rdf:about="https://purl.org/ontodesign#SurfaceObstacle">
-        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
-    </owl:Class>
-    
-
-
-    <!-- https://purl.org/ontodesign#SurfaceOrientation -->
-
-
-    <owl:Class rdf:about="https://purl.org/ontodesign#SurfaceOrientation">
-        <rdfs:subClassOf rdf:resource="https://purl.org/ontodesign#SurfaceAttribute"/>
-    </owl:Class>
-    
-
-
     <!-- https://purl.org/ontodesign#VelocityRequirement -->
 
 
@@ -1520,24 +1358,6 @@
 
     <owl:Class rdf:about="https://purl.org/ontodesign#WeatherResistanceRequirement">
         <rdfs:subClassOf rdf:resource="https://purl.org/ontodesign#CapabilityRequirement"/>
-    </owl:Class>
-    
-
-
-    <!-- https://purl.org/ontodesign#Weight -->
-
-
-    <owl:Class rdf:about="https://purl.org/ontodesign#Weight">
-        <rdfs:subClassOf rdf:resource="https://purl.org/ontodesign#StructuralCharacteristic"/>
-    </owl:Class>
-    
-
-
-    <!-- https://purl.org/ontodesign#Width -->
-
-
-    <owl:Class rdf:about="https://purl.org/ontodesign#Width">
-        <rdfs:subClassOf rdf:resource="https://purl.org/ontodesign#Attribute"/>
     </owl:Class>
     
 
@@ -1629,7 +1449,6 @@
 
 
     <owl:NamedIndividual rdf:about="https://purl.org/ontodesign#Angle1">
-        <rdf:type rdf:resource="https://purl.org/ontodesign#Angle"/>
         <determines rdf:resource="https://purl.org/ontodesign#TransitionDexterityRequirement_Indoor"/>
         <hasUnit>degree</hasUnit>
         <hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">90.0</hasValue>
@@ -1641,7 +1460,6 @@
 
 
     <owl:NamedIndividual rdf:about="https://purl.org/ontodesign#Angle2_1">
-        <rdf:type rdf:resource="https://purl.org/ontodesign#Angle"/>
         <determines rdf:resource="https://purl.org/ontodesign#TransitionDexterityRequirement_Indoor"/>
         <hasUnit>degree</hasUnit>
         <hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">60.0</hasValue>
@@ -1653,7 +1471,6 @@
 
 
     <owl:NamedIndividual rdf:about="https://purl.org/ontodesign#Angle2_2">
-        <rdf:type rdf:resource="https://purl.org/ontodesign#Angle"/>
         <hasUnit>degree</hasUnit>
         <hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">80.0</hasValue>
     </owl:NamedIndividual>
@@ -1664,7 +1481,6 @@
 
 
     <owl:NamedIndividual rdf:about="https://purl.org/ontodesign#Angle3">
-        <rdf:type rdf:resource="https://purl.org/ontodesign#Angle"/>
         <determines rdf:resource="https://purl.org/ontodesign#TransitionDexterityRequirement_Indoor"/>
         <hasUnit>degree</hasUnit>
         <hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">105.0</hasValue>
@@ -1676,7 +1492,6 @@
 
 
     <owl:NamedIndividual rdf:about="https://purl.org/ontodesign#Angle4">
-        <rdf:type rdf:resource="https://purl.org/ontodesign#Angle"/>
         <determines rdf:resource="https://purl.org/ontodesign#TransitionDexterityRequirement_Indoor"/>
         <hasUnit>degree</hasUnit>
         <hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">120.0</hasValue>
@@ -1752,7 +1567,6 @@
 
 
     <owl:NamedIndividual rdf:about="https://purl.org/ontodesign#Ceramics2">
-        <rdf:type rdf:resource="https://purl.org/ontodesign#SurfaceMaterial"/>
         <determines rdf:resource="https://purl.org/ontodesign#AdhesionMechanismRequirement_Indoor"/>
         <isFerromagnetic rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</isFerromagnetic>
         <isSmooth rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</isSmooth>
@@ -1774,7 +1588,6 @@
 
 
     <owl:NamedIndividual rdf:about="https://purl.org/ontodesign#ConcaveCorner1">
-        <rdf:type rdf:resource="https://purl.org/ontodesign#ConcaveCorner"/>
         <hasCornerAngle rdf:resource="https://purl.org/ontodesign#Angle1"/>
         <isLocatedAt rdf:resource="https://purl.org/ontodesign#WorkEnvironment1"/>
     </owl:NamedIndividual>
@@ -1785,7 +1598,6 @@
 
 
     <owl:NamedIndividual rdf:about="https://purl.org/ontodesign#ConcaveCorner2">
-        <rdf:type rdf:resource="https://purl.org/ontodesign#ConcaveCorner"/>
         <hasCornerAngle rdf:resource="https://purl.org/ontodesign#Angle2_1"/>
         <isLocatedAt rdf:resource="https://purl.org/ontodesign#WorkEnvironment2"/>
     </owl:NamedIndividual>
@@ -1796,7 +1608,6 @@
 
 
     <owl:NamedIndividual rdf:about="https://purl.org/ontodesign#ConcaveCorner3">
-        <rdf:type rdf:resource="https://purl.org/ontodesign#ConcaveCorner"/>
         <hasCornerAngle rdf:resource="https://purl.org/ontodesign#Angle3"/>
         <isLocatedAt rdf:resource="https://purl.org/ontodesign#WorkEnvironment3"/>
     </owl:NamedIndividual>
@@ -1807,7 +1618,6 @@
 
 
     <owl:NamedIndividual rdf:about="https://purl.org/ontodesign#ConcaveCorner4">
-        <rdf:type rdf:resource="https://purl.org/ontodesign#ConcaveCorner"/>
         <hasCornerAngle rdf:resource="https://purl.org/ontodesign#Angle4"/>
         <isLocatedAt rdf:resource="https://purl.org/ontodesign#WorkEnvironment4"/>
     </owl:NamedIndividual>
@@ -1818,7 +1628,6 @@
 
 
     <owl:NamedIndividual rdf:about="https://purl.org/ontodesign#ConcaveObstacle1">
-        <rdf:type rdf:resource="https://purl.org/ontodesign#ConcaveObstacle"/>
         <hasDepth rdf:resource="https://purl.org/ontodesign#ObstacleDepth1"/>
         <hasWidth rdf:resource="https://purl.org/ontodesign#ObstacleWidth4"/>
     </owl:NamedIndividual>
@@ -1867,9 +1676,7 @@
     <!-- https://purl.org/ontodesign#ConvexCorner1 -->
 
 
-    <owl:NamedIndividual rdf:about="https://purl.org/ontodesign#ConvexCorner1">
-        <rdf:type rdf:resource="https://purl.org/ontodesign#ConvexCorner"/>
-    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://purl.org/ontodesign#ConvexCorner1"/>
     
 
 
@@ -1877,7 +1684,6 @@
 
 
     <owl:NamedIndividual rdf:about="https://purl.org/ontodesign#ConvexCorner2">
-        <rdf:type rdf:resource="https://purl.org/ontodesign#ConvexCorner"/>
         <hasCornerAngle rdf:resource="https://purl.org/ontodesign#Angle2_2"/>
         <isLocatedAt rdf:resource="https://purl.org/ontodesign#WorkEnvironment2"/>
     </owl:NamedIndividual>
@@ -1887,18 +1693,14 @@
     <!-- https://purl.org/ontodesign#ConvexCorner3 -->
 
 
-    <owl:NamedIndividual rdf:about="https://purl.org/ontodesign#ConvexCorner3">
-        <rdf:type rdf:resource="https://purl.org/ontodesign#ConvexCorner"/>
-    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://purl.org/ontodesign#ConvexCorner3"/>
     
 
 
     <!-- https://purl.org/ontodesign#ConvexCorner4 -->
 
 
-    <owl:NamedIndividual rdf:about="https://purl.org/ontodesign#ConvexCorner4">
-        <rdf:type rdf:resource="https://purl.org/ontodesign#ConvexCorner"/>
-    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://purl.org/ontodesign#ConvexCorner4"/>
     
 
 
@@ -1906,7 +1708,6 @@
 
 
     <owl:NamedIndividual rdf:about="https://purl.org/ontodesign#ConvexObstacle1">
-        <rdf:type rdf:resource="https://purl.org/ontodesign#ConvexObstacle"/>
         <hasHeight rdf:resource="https://purl.org/ontodesign#ObstacleHeight1"/>
         <hasWidth rdf:resource="https://purl.org/ontodesign#ObstacleWidth1"/>
     </owl:NamedIndividual>
@@ -1917,7 +1718,6 @@
 
 
     <owl:NamedIndividual rdf:about="https://purl.org/ontodesign#ConvexObstacle2">
-        <rdf:type rdf:resource="https://purl.org/ontodesign#ConvexObstacle"/>
         <hasHeight rdf:resource="https://purl.org/ontodesign#ObstacleHeight2"/>
         <hasWidth rdf:resource="https://purl.org/ontodesign#ObstacleWidth2"/>
     </owl:NamedIndividual>
@@ -1928,7 +1728,6 @@
 
 
     <owl:NamedIndividual rdf:about="https://purl.org/ontodesign#ConvexObstacle3">
-        <rdf:type rdf:resource="https://purl.org/ontodesign#ConvexObstacle"/>
         <hasHeight rdf:resource="https://purl.org/ontodesign#ObstacleHeight3"/>
         <hasWidth rdf:resource="https://purl.org/ontodesign#ObstacleWidth3"/>
         <isLocatedAt rdf:resource="https://purl.org/ontodesign#Surface3"/>
@@ -1958,7 +1757,6 @@
 
 
     <owl:NamedIndividual rdf:about="https://purl.org/ontodesign#Depth2">
-        <rdf:type rdf:resource="https://purl.org/ontodesign#Depth"/>
         <hasUnit>cm</hasUnit>
         <hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">5.0</hasValue>
     </owl:NamedIndividual>
@@ -1969,7 +1767,6 @@
 
 
     <owl:NamedIndividual rdf:about="https://purl.org/ontodesign#Dustiness1">
-        <rdf:type rdf:resource="https://purl.org/ontodesign#Dustiness"/>
         <determines rdf:resource="https://purl.org/ontodesign#AdhesionMechanismRequirement_Indoor"/>
         <hasDustinessLevel>low</hasDustinessLevel>
     </owl:NamedIndividual>
@@ -1980,7 +1777,6 @@
 
 
     <owl:NamedIndividual rdf:about="https://purl.org/ontodesign#Dustiness2">
-        <rdf:type rdf:resource="https://purl.org/ontodesign#Dustiness"/>
         <determines rdf:resource="https://purl.org/ontodesign#AdhesionMechanismRequirement_Indoor"/>
         <hasDustinessLevel>medium</hasDustinessLevel>
     </owl:NamedIndividual>
@@ -1991,7 +1787,6 @@
 
 
     <owl:NamedIndividual rdf:about="https://purl.org/ontodesign#Dustiness3">
-        <rdf:type rdf:resource="https://purl.org/ontodesign#Dustiness"/>
         <determines rdf:resource="https://purl.org/ontodesign#AdhesionMechanismRequirement_Indoor"/>
         <hasDustinessLevel>high</hasDustinessLevel>
     </owl:NamedIndividual>
@@ -2002,7 +1797,6 @@
 
 
     <owl:NamedIndividual rdf:about="https://purl.org/ontodesign#Dustiness4">
-        <rdf:type rdf:resource="https://purl.org/ontodesign#Dustiness"/>
         <determines rdf:resource="https://purl.org/ontodesign#AdhesionMechanismRequirement_Indoor"/>
         <hasDustinessLevel>low</hasDustinessLevel>
     </owl:NamedIndividual>
@@ -2023,7 +1817,6 @@
 
 
     <owl:NamedIndividual rdf:about="https://purl.org/ontodesign#Glass3">
-        <rdf:type rdf:resource="https://purl.org/ontodesign#SurfaceMaterial"/>
         <determines rdf:resource="https://purl.org/ontodesign#AdhesionMechanismRequirement_Indoor"/>
         <isFerromagnetic rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</isFerromagnetic>
         <isSmooth rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</isSmooth>
@@ -2043,9 +1836,7 @@
     <!-- https://purl.org/ontodesign#Height1234 -->
 
 
-    <owl:NamedIndividual rdf:about="https://purl.org/ontodesign#Height1234">
-        <rdf:type rdf:resource="https://purl.org/ontodesign#Size"/>
-    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://purl.org/ontodesign#Height1234"/>
     
 
 
@@ -2090,7 +1881,6 @@
 
 
     <owl:NamedIndividual rdf:about="https://purl.org/ontodesign#InclinationAngle1">
-        <rdf:type rdf:resource="https://purl.org/ontodesign#InclinationAngle"/>
         <determines rdf:resource="https://purl.org/ontodesign#AdhesionMechanismRequirement_Indoor"/>
         <hasUnit>degree</hasUnit>
         <hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">180.0</hasValue>
@@ -2102,7 +1892,6 @@
 
 
     <owl:NamedIndividual rdf:about="https://purl.org/ontodesign#InclinationAngle2">
-        <rdf:type rdf:resource="https://purl.org/ontodesign#InclinationAngle"/>
         <determines rdf:resource="https://purl.org/ontodesign#AdhesionMechanismRequirement_Indoor"/>
         <hasUnit>degree</hasUnit>
         <hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">90.0</hasValue>
@@ -2114,7 +1903,6 @@
 
 
     <owl:NamedIndividual rdf:about="https://purl.org/ontodesign#InclinationAngle3">
-        <rdf:type rdf:resource="https://purl.org/ontodesign#InclinationAngle"/>
         <determines rdf:resource="https://purl.org/ontodesign#AdhesionMechanismRequirement_Indoor"/>
         <hasUnit>degree</hasUnit>
         <hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">90.0</hasValue>
@@ -2126,7 +1914,6 @@
 
 
     <owl:NamedIndividual rdf:about="https://purl.org/ontodesign#InclinationAngle4">
-        <rdf:type rdf:resource="https://purl.org/ontodesign#InclinationAngle"/>
         <determines rdf:resource="https://purl.org/ontodesign#AdhesionMechanismRequirement_Indoor"/>
         <hasUnit>degree</hasUnit>
         <hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">80.0</hasValue>
@@ -2195,9 +1982,7 @@
     <!-- https://purl.org/ontodesign#Length1234 -->
 
 
-    <owl:NamedIndividual rdf:about="https://purl.org/ontodesign#Length1234">
-        <rdf:type rdf:resource="https://purl.org/ontodesign#Size"/>
-    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://purl.org/ontodesign#Length1234"/>
     
 
 
@@ -2283,9 +2068,7 @@
     <!-- https://purl.org/ontodesign#Obstacle2 -->
 
 
-    <owl:NamedIndividual rdf:about="https://purl.org/ontodesign#Obstacle2">
-        <rdf:type rdf:resource="https://purl.org/ontodesign#Width"/>
-    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://purl.org/ontodesign#Obstacle2"/>
     
 
 
@@ -2294,7 +2077,6 @@
 
     <owl:NamedIndividual rdf:about="https://purl.org/ontodesign#ObstacleDepth1">
         <rdf:type rdf:resource="https://purl.org/ontodesign#Attribute"/>
-        <rdf:type rdf:resource="https://purl.org/ontodesign#Depth"/>
         <determines rdf:resource="https://purl.org/ontodesign#ObstacleOvercomingAbilityRequirement_Indoor"/>
         <hasUnit>mm</hasUnit>
         <hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">10.0</hasValue>
@@ -2307,7 +2089,6 @@
 
     <owl:NamedIndividual rdf:about="https://purl.org/ontodesign#ObstacleDepth2">
         <rdf:type rdf:resource="https://purl.org/ontodesign#Attribute"/>
-        <rdf:type rdf:resource="https://purl.org/ontodesign#Depth"/>
         <determines rdf:resource="https://purl.org/ontodesign#ObstacleOvercomingAbilityRequirement_Indoor"/>
         <hasUnit>mm</hasUnit>
         <hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">15.0</hasValue>
@@ -2320,7 +2101,6 @@
 
     <owl:NamedIndividual rdf:about="https://purl.org/ontodesign#ObstacleDepth3">
         <rdf:type rdf:resource="https://purl.org/ontodesign#Attribute"/>
-        <rdf:type rdf:resource="https://purl.org/ontodesign#Depth"/>
         <determines rdf:resource="https://purl.org/ontodesign#ObstacleOvercomingAbilityRequirement_Indoor"/>
         <hasUnit>mm</hasUnit>
         <hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">20.0</hasValue>
@@ -2379,7 +2159,6 @@
 
     <owl:NamedIndividual rdf:about="https://purl.org/ontodesign#ObstacleWidth1">
         <rdf:type rdf:resource="https://purl.org/ontodesign#Attribute"/>
-        <rdf:type rdf:resource="https://purl.org/ontodesign#Width"/>
         <determines rdf:resource="https://purl.org/ontodesign#ObstacleOvercomingAbilityRequirement_Indoor"/>
         <hasUnit>mm</hasUnit>
         <hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">15.0</hasValue>
@@ -2391,7 +2170,6 @@
 
 
     <owl:NamedIndividual rdf:about="https://purl.org/ontodesign#ObstacleWidth2">
-        <rdf:type rdf:resource="https://purl.org/ontodesign#Width"/>
         <determines rdf:resource="https://purl.org/ontodesign#ObstacleOvercomingAbilityRequirement_Indoor"/>
         <hasUnit>mm</hasUnit>
         <hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">20.0</hasValue>
@@ -2403,7 +2181,6 @@
 
 
     <owl:NamedIndividual rdf:about="https://purl.org/ontodesign#ObstacleWidth3">
-        <rdf:type rdf:resource="https://purl.org/ontodesign#Width"/>
         <determines rdf:resource="https://purl.org/ontodesign#ObstacleOvercomingAbilityRequirement_Indoor"/>
         <hasUnit>mm</hasUnit>
         <hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.0</hasValue>
@@ -2415,7 +2192,6 @@
 
 
     <owl:NamedIndividual rdf:about="https://purl.org/ontodesign#ObstacleWidth4">
-        <rdf:type rdf:resource="https://purl.org/ontodesign#Width"/>
         <determines rdf:resource="https://purl.org/ontodesign#ObstacleOvercomingAbilityRequirement_Indoor"/>
         <hasUnit>mm</hasUnit>
         <hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">10.0</hasValue>
@@ -2456,9 +2232,7 @@
     <!-- https://purl.org/ontodesign#Robot1234 -->
 
 
-    <owl:NamedIndividual rdf:about="https://purl.org/ontodesign#Robot1234">
-        <rdf:type rdf:resource="https://purl.org/ontodesign#Width"/>
-    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://purl.org/ontodesign#Robot1234"/>
     
 
 
@@ -2496,7 +2270,6 @@
 
 
     <owl:NamedIndividual rdf:about="https://purl.org/ontodesign#Surface1">
-        <rdf:type rdf:resource="https://purl.org/ontodesign#Surface"/>
         <hasDustiness rdf:resource="https://purl.org/ontodesign#Dustiness1"/>
         <hasSurfaceAttribute rdf:resource="https://purl.org/ontodesign#InclinationAngle1"/>
         <hasSurfaceAttribute rdf:resource="https://purl.org/ontodesign#SurfaceOrientation1"/>
@@ -2509,7 +2282,6 @@
 
 
     <owl:NamedIndividual rdf:about="https://purl.org/ontodesign#Surface2">
-        <rdf:type rdf:resource="https://purl.org/ontodesign#Surface"/>
         <hasDustiness rdf:resource="https://purl.org/ontodesign#Dustiness2"/>
         <hasSurfaceAttribute rdf:resource="https://purl.org/ontodesign#InclinationAngle2"/>
         <hasSurfaceAttribute rdf:resource="https://purl.org/ontodesign#SurfaceOrientation234"/>
@@ -2522,7 +2294,6 @@
 
 
     <owl:NamedIndividual rdf:about="https://purl.org/ontodesign#Surface3">
-        <rdf:type rdf:resource="https://purl.org/ontodesign#Surface"/>
         <hasDustiness rdf:resource="https://purl.org/ontodesign#Dustiness3"/>
         <hasSurfaceAttribute rdf:resource="https://purl.org/ontodesign#InclinationAngle3"/>
         <hasSurfaceAttribute rdf:resource="https://purl.org/ontodesign#SurfaceOrientation234"/>
@@ -2535,7 +2306,6 @@
 
 
     <owl:NamedIndividual rdf:about="https://purl.org/ontodesign#Surface4">
-        <rdf:type rdf:resource="https://purl.org/ontodesign#Surface"/>
         <hasDustiness rdf:resource="https://purl.org/ontodesign#Dustiness4"/>
         <hasSurfaceAttribute rdf:resource="https://purl.org/ontodesign#InclinationAngle4"/>
         <hasSurfaceAttribute rdf:resource="https://purl.org/ontodesign#SurfaceOrientation234"/>
@@ -2548,7 +2318,6 @@
 
 
     <owl:NamedIndividual rdf:about="https://purl.org/ontodesign#SurfaceOrientation1">
-        <rdf:type rdf:resource="https://purl.org/ontodesign#SurfaceOrientation"/>
         <determines rdf:resource="https://purl.org/ontodesign#AdhesionMechanismRequirement_Indoor"/>
         <isInverted rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</isInverted>
     </owl:NamedIndividual>
@@ -2559,7 +2328,6 @@
 
 
     <owl:NamedIndividual rdf:about="https://purl.org/ontodesign#SurfaceOrientation234">
-        <rdf:type rdf:resource="https://purl.org/ontodesign#SurfaceOrientation"/>
         <determines rdf:resource="https://purl.org/ontodesign#AdhesionMechanismRequirement_Indoor"/>
         <isInverted rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</isInverted>
     </owl:NamedIndividual>
@@ -2682,7 +2450,6 @@
 
 
     <owl:NamedIndividual rdf:about="https://purl.org/ontodesign#Wallpaper1">
-        <rdf:type rdf:resource="https://purl.org/ontodesign#SurfaceMaterial"/>
         <determines rdf:resource="https://purl.org/ontodesign#AdhesionMechanismRequirement_Indoor"/>
         <isFerromagnetic rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</isFerromagnetic>
         <isSmooth rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</isSmooth>
@@ -2694,7 +2461,6 @@
 
 
     <owl:NamedIndividual rdf:about="https://purl.org/ontodesign#Wallpaper4">
-        <rdf:type rdf:resource="https://purl.org/ontodesign#SurfaceMaterial"/>
         <determines rdf:resource="https://purl.org/ontodesign#AdhesionMechanismRequirement_Indoor"/>
         <isFerromagnetic rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</isFerromagnetic>
         <isSmooth rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</isSmooth>
@@ -2724,9 +2490,7 @@
     <!-- https://purl.org/ontodesign#Width1234 -->
 
 
-    <owl:NamedIndividual rdf:about="https://purl.org/ontodesign#Width1234">
-        <rdf:type rdf:resource="https://purl.org/ontodesign#Size"/>
-    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://purl.org/ontodesign#Width1234"/>
     
 
 

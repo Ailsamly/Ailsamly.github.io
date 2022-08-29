@@ -404,17 +404,8 @@
     "@id" : "https://purl.org/ontodesign#EnvironmentalCondition"
   } ]
 }, {
-  "@id" : "https://purl.org/ontodesign#Angle",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://purl.org/ontodesign#Attribute"
-  } ]
-}, {
   "@id" : "https://purl.org/ontodesign#Angle1",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://purl.org/ontodesign#Angle"
-  } ],
   "https://purl.org/ontodesign#determines" : [ {
     "@id" : "https://purl.org/ontodesign#TransitionDexterityRequirement_Indoor"
   } ],
@@ -428,9 +419,6 @@
 }, {
   "@id" : "https://purl.org/ontodesign#Angle2_1",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://purl.org/ontodesign#Angle"
-  } ],
   "https://purl.org/ontodesign#determines" : [ {
     "@id" : "https://purl.org/ontodesign#TransitionDexterityRequirement_Indoor"
   } ],
@@ -444,9 +432,6 @@
 }, {
   "@id" : "https://purl.org/ontodesign#Angle2_2",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://purl.org/ontodesign#Angle"
-  } ],
   "https://purl.org/ontodesign#hasUnit" : [ {
     "@value" : "degree"
   } ],
@@ -457,9 +442,6 @@
 }, {
   "@id" : "https://purl.org/ontodesign#Angle3",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://purl.org/ontodesign#Angle"
-  } ],
   "https://purl.org/ontodesign#determines" : [ {
     "@id" : "https://purl.org/ontodesign#TransitionDexterityRequirement_Indoor"
   } ],
@@ -473,9 +455,6 @@
 }, {
   "@id" : "https://purl.org/ontodesign#Angle4",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://purl.org/ontodesign#Angle"
-  } ],
   "https://purl.org/ontodesign#determines" : [ {
     "@id" : "https://purl.org/ontodesign#TransitionDexterityRequirement_Indoor"
   } ],
@@ -646,9 +625,6 @@
 }, {
   "@id" : "https://purl.org/ontodesign#Ceramics2",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://purl.org/ontodesign#SurfaceMaterial"
-  } ],
   "https://purl.org/ontodesign#determines" : [ {
     "@id" : "https://purl.org/ontodesign#AdhesionMechanismRequirement_Indoor"
   } ],
@@ -678,17 +654,8 @@
     "@id" : "https://purl.org/ontodesign#CapabilityRequirement"
   } ]
 }, {
-  "@id" : "https://purl.org/ontodesign#ConcaveCorner",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://purl.org/ontodesign#Corner"
-  } ]
-}, {
   "@id" : "https://purl.org/ontodesign#ConcaveCorner1",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://purl.org/ontodesign#ConcaveCorner"
-  } ],
   "https://purl.org/ontodesign#hasCornerAngle" : [ {
     "@id" : "https://purl.org/ontodesign#Angle1"
   } ],
@@ -698,9 +665,6 @@
 }, {
   "@id" : "https://purl.org/ontodesign#ConcaveCorner2",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://purl.org/ontodesign#ConcaveCorner"
-  } ],
   "https://purl.org/ontodesign#hasCornerAngle" : [ {
     "@id" : "https://purl.org/ontodesign#Angle2_1"
   } ],
@@ -710,9 +674,6 @@
 }, {
   "@id" : "https://purl.org/ontodesign#ConcaveCorner3",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://purl.org/ontodesign#ConcaveCorner"
-  } ],
   "https://purl.org/ontodesign#hasCornerAngle" : [ {
     "@id" : "https://purl.org/ontodesign#Angle3"
   } ],
@@ -722,9 +683,6 @@
 }, {
   "@id" : "https://purl.org/ontodesign#ConcaveCorner4",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://purl.org/ontodesign#ConcaveCorner"
-  } ],
   "https://purl.org/ontodesign#hasCornerAngle" : [ {
     "@id" : "https://purl.org/ontodesign#Angle4"
   } ],
@@ -732,17 +690,8 @@
     "@id" : "https://purl.org/ontodesign#WorkEnvironment4"
   } ]
 }, {
-  "@id" : "https://purl.org/ontodesign#ConcaveObstacle",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://purl.org/ontodesign#SurfaceObstacle"
-  } ]
-}, {
   "@id" : "https://purl.org/ontodesign#ConcaveObstacle1",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://purl.org/ontodesign#ConcaveObstacle"
-  } ],
   "https://purl.org/ontodesign#hasDepth" : [ {
     "@id" : "https://purl.org/ontodesign#ObstacleDepth1"
   } ],
@@ -789,23 +738,11 @@
     "@id" : "https://purl.org/ontodesign#InspectionMethod"
   } ]
 }, {
-  "@id" : "https://purl.org/ontodesign#ConvexCorner",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://purl.org/ontodesign#Corner"
-  } ]
-}, {
   "@id" : "https://purl.org/ontodesign#ConvexCorner1",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://purl.org/ontodesign#ConvexCorner"
-  } ]
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
 }, {
   "@id" : "https://purl.org/ontodesign#ConvexCorner2",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://purl.org/ontodesign#ConvexCorner"
-  } ],
   "https://purl.org/ontodesign#hasCornerAngle" : [ {
     "@id" : "https://purl.org/ontodesign#Angle2_2"
   } ],
@@ -814,28 +751,13 @@
   } ]
 }, {
   "@id" : "https://purl.org/ontodesign#ConvexCorner3",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://purl.org/ontodesign#ConvexCorner"
-  } ]
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
 }, {
   "@id" : "https://purl.org/ontodesign#ConvexCorner4",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://purl.org/ontodesign#ConvexCorner"
-  } ]
-}, {
-  "@id" : "https://purl.org/ontodesign#ConvexObstacle",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://purl.org/ontodesign#SurfaceObstacle"
-  } ]
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
 }, {
   "@id" : "https://purl.org/ontodesign#ConvexObstacle1",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://purl.org/ontodesign#ConvexObstacle"
-  } ],
   "https://purl.org/ontodesign#hasHeight" : [ {
     "@id" : "https://purl.org/ontodesign#ObstacleHeight1"
   } ],
@@ -845,9 +767,6 @@
 }, {
   "@id" : "https://purl.org/ontodesign#ConvexObstacle2",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://purl.org/ontodesign#ConvexObstacle"
-  } ],
   "https://purl.org/ontodesign#hasHeight" : [ {
     "@id" : "https://purl.org/ontodesign#ObstacleHeight2"
   } ],
@@ -857,9 +776,6 @@
 }, {
   "@id" : "https://purl.org/ontodesign#ConvexObstacle3",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://purl.org/ontodesign#ConvexObstacle"
-  } ],
   "https://purl.org/ontodesign#hasHeight" : [ {
     "@id" : "https://purl.org/ontodesign#ObstacleHeight3"
   } ],
@@ -876,18 +792,6 @@
     "@id" : "https://purl.org/ontodesign#WorkEnvironment2"
   } ]
 }, {
-  "@id" : "https://purl.org/ontodesign#Corner",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.w3.org/2002/07/owl#Thing"
-  } ]
-}, {
-  "@id" : "https://purl.org/ontodesign#Curved",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://purl.org/ontodesign#Shape"
-  } ]
-}, {
   "@id" : "https://purl.org/ontodesign#DegreeOfAutonomy",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
@@ -900,17 +804,8 @@
     "@id" : "https://purl.org/ontodesign#RobotSystemHardwareRequirement"
   } ]
 }, {
-  "@id" : "https://purl.org/ontodesign#Depth",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://purl.org/ontodesign#Attribute"
-  } ]
-}, {
   "@id" : "https://purl.org/ontodesign#Depth2",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://purl.org/ontodesign#Depth"
-  } ],
   "https://purl.org/ontodesign#hasUnit" : [ {
     "@value" : "cm"
   } ],
@@ -932,17 +827,8 @@
     "@id" : "_:genid25"
   } ]
 }, {
-  "@id" : "https://purl.org/ontodesign#Dustiness",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://purl.org/ontodesign#SurfaceAttribute"
-  } ]
-}, {
   "@id" : "https://purl.org/ontodesign#Dustiness1",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://purl.org/ontodesign#Dustiness"
-  } ],
   "https://purl.org/ontodesign#determines" : [ {
     "@id" : "https://purl.org/ontodesign#AdhesionMechanismRequirement_Indoor"
   } ],
@@ -952,9 +838,6 @@
 }, {
   "@id" : "https://purl.org/ontodesign#Dustiness2",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://purl.org/ontodesign#Dustiness"
-  } ],
   "https://purl.org/ontodesign#determines" : [ {
     "@id" : "https://purl.org/ontodesign#AdhesionMechanismRequirement_Indoor"
   } ],
@@ -964,9 +847,6 @@
 }, {
   "@id" : "https://purl.org/ontodesign#Dustiness3",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://purl.org/ontodesign#Dustiness"
-  } ],
   "https://purl.org/ontodesign#determines" : [ {
     "@id" : "https://purl.org/ontodesign#AdhesionMechanismRequirement_Indoor"
   } ],
@@ -976,9 +856,6 @@
 }, {
   "@id" : "https://purl.org/ontodesign#Dustiness4",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://purl.org/ontodesign#Dustiness"
-  } ],
   "https://purl.org/ontodesign#determines" : [ {
     "@id" : "https://purl.org/ontodesign#AdhesionMechanismRequirement_Indoor"
   } ],
@@ -995,12 +872,6 @@
     "@id" : "https://purl.org/ontodesign#IndoorSpace"
   } ]
 }, {
-  "@id" : "https://purl.org/ontodesign#Flat",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://purl.org/ontodesign#Shape"
-  } ]
-}, {
   "@id" : "https://purl.org/ontodesign#Floor3",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
@@ -1012,9 +883,6 @@
 }, {
   "@id" : "https://purl.org/ontodesign#Glass3",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://purl.org/ontodesign#SurfaceMaterial"
-  } ],
   "https://purl.org/ontodesign#determines" : [ {
     "@id" : "https://purl.org/ontodesign#AdhesionMechanismRequirement_Indoor"
   } ],
@@ -1050,10 +918,7 @@
   } ]
 }, {
   "@id" : "https://purl.org/ontodesign#Height1234",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://purl.org/ontodesign#Size"
-  } ]
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
 }, {
   "@id" : "https://purl.org/ontodesign#Height2",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
@@ -1088,17 +953,8 @@
     "@id" : "https://purl.org/ontodesign#SizeRequirement1"
   } ]
 }, {
-  "@id" : "https://purl.org/ontodesign#InclinationAngle",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://purl.org/ontodesign#SurfaceAttribute"
-  } ]
-}, {
   "@id" : "https://purl.org/ontodesign#InclinationAngle1",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://purl.org/ontodesign#InclinationAngle"
-  } ],
   "https://purl.org/ontodesign#determines" : [ {
     "@id" : "https://purl.org/ontodesign#AdhesionMechanismRequirement_Indoor"
   } ],
@@ -1112,9 +968,6 @@
 }, {
   "@id" : "https://purl.org/ontodesign#InclinationAngle2",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://purl.org/ontodesign#InclinationAngle"
-  } ],
   "https://purl.org/ontodesign#determines" : [ {
     "@id" : "https://purl.org/ontodesign#AdhesionMechanismRequirement_Indoor"
   } ],
@@ -1128,9 +981,6 @@
 }, {
   "@id" : "https://purl.org/ontodesign#InclinationAngle3",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://purl.org/ontodesign#InclinationAngle"
-  } ],
   "https://purl.org/ontodesign#determines" : [ {
     "@id" : "https://purl.org/ontodesign#AdhesionMechanismRequirement_Indoor"
   } ],
@@ -1144,9 +994,6 @@
 }, {
   "@id" : "https://purl.org/ontodesign#InclinationAngle4",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://purl.org/ontodesign#InclinationAngle"
-  } ],
   "https://purl.org/ontodesign#determines" : [ {
     "@id" : "https://purl.org/ontodesign#AdhesionMechanismRequirement_Indoor"
   } ],
@@ -1231,10 +1078,7 @@
   } ]
 }, {
   "@id" : "https://purl.org/ontodesign#Length1234",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://purl.org/ontodesign#Size"
-  } ]
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
 }, {
   "@id" : "https://purl.org/ontodesign#LengthConstraint",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
@@ -1335,17 +1179,12 @@
   } ]
 }, {
   "@id" : "https://purl.org/ontodesign#Obstacle2",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://purl.org/ontodesign#Width"
-  } ]
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
 }, {
   "@id" : "https://purl.org/ontodesign#ObstacleDepth1",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
     "@id" : "https://purl.org/ontodesign#Attribute"
-  }, {
-    "@id" : "https://purl.org/ontodesign#Depth"
   } ],
   "https://purl.org/ontodesign#determines" : [ {
     "@id" : "https://purl.org/ontodesign#ObstacleOvercomingAbilityRequirement_Indoor"
@@ -1362,8 +1201,6 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
     "@id" : "https://purl.org/ontodesign#Attribute"
-  }, {
-    "@id" : "https://purl.org/ontodesign#Depth"
   } ],
   "https://purl.org/ontodesign#determines" : [ {
     "@id" : "https://purl.org/ontodesign#ObstacleOvercomingAbilityRequirement_Indoor"
@@ -1380,8 +1217,6 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
     "@id" : "https://purl.org/ontodesign#Attribute"
-  }, {
-    "@id" : "https://purl.org/ontodesign#Depth"
   } ],
   "https://purl.org/ontodesign#determines" : [ {
     "@id" : "https://purl.org/ontodesign#ObstacleOvercomingAbilityRequirement_Indoor"
@@ -1455,8 +1290,6 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
     "@id" : "https://purl.org/ontodesign#Attribute"
-  }, {
-    "@id" : "https://purl.org/ontodesign#Width"
   } ],
   "https://purl.org/ontodesign#determines" : [ {
     "@id" : "https://purl.org/ontodesign#ObstacleOvercomingAbilityRequirement_Indoor"
@@ -1471,9 +1304,6 @@
 }, {
   "@id" : "https://purl.org/ontodesign#ObstacleWidth2",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://purl.org/ontodesign#Width"
-  } ],
   "https://purl.org/ontodesign#determines" : [ {
     "@id" : "https://purl.org/ontodesign#ObstacleOvercomingAbilityRequirement_Indoor"
   } ],
@@ -1487,9 +1317,6 @@
 }, {
   "@id" : "https://purl.org/ontodesign#ObstacleWidth3",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://purl.org/ontodesign#Width"
-  } ],
   "https://purl.org/ontodesign#determines" : [ {
     "@id" : "https://purl.org/ontodesign#ObstacleOvercomingAbilityRequirement_Indoor"
   } ],
@@ -1503,9 +1330,6 @@
 }, {
   "@id" : "https://purl.org/ontodesign#ObstacleWidth4",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://purl.org/ontodesign#Width"
-  } ],
   "https://purl.org/ontodesign#determines" : [ {
     "@id" : "https://purl.org/ontodesign#ObstacleOvercomingAbilityRequirement_Indoor"
   } ],
@@ -1578,10 +1402,7 @@
   } ]
 }, {
   "@id" : "https://purl.org/ontodesign#Robot1234",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://purl.org/ontodesign#Width"
-  } ]
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
 }, {
   "@id" : "https://purl.org/ontodesign#RobotBehavior",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
@@ -1635,12 +1456,6 @@
     "@id" : "https://purl.org/ontodesign#SensoryCapabilityRequirement1"
   } ]
 }, {
-  "@id" : "https://purl.org/ontodesign#Shape",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://purl.org/ontodesign#SurfaceAttribute"
-  } ]
-}, {
   "@id" : "https://purl.org/ontodesign#SignalReceptionCondition",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
@@ -1651,12 +1466,6 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "_:genid35"
-  } ]
-}, {
-  "@id" : "https://purl.org/ontodesign#Size",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://purl.org/ontodesign#StructuralCharacteristic"
   } ]
 }, {
   "@id" : "https://purl.org/ontodesign#SizeRequirement",
@@ -1704,17 +1513,8 @@
     "@id" : "https://purl.org/ontodesign#RobotSystemHardwareRequirement"
   } ]
 }, {
-  "@id" : "https://purl.org/ontodesign#Surface",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://purl.org/ontodesign#RobotMovementMedium"
-  } ]
-}, {
   "@id" : "https://purl.org/ontodesign#Surface1",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://purl.org/ontodesign#Surface"
-  } ],
   "https://purl.org/ontodesign#hasDustiness" : [ {
     "@id" : "https://purl.org/ontodesign#Dustiness1"
   } ],
@@ -1729,9 +1529,6 @@
 }, {
   "@id" : "https://purl.org/ontodesign#Surface2",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://purl.org/ontodesign#Surface"
-  } ],
   "https://purl.org/ontodesign#hasDustiness" : [ {
     "@id" : "https://purl.org/ontodesign#Dustiness2"
   } ],
@@ -1746,9 +1543,6 @@
 }, {
   "@id" : "https://purl.org/ontodesign#Surface3",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://purl.org/ontodesign#Surface"
-  } ],
   "https://purl.org/ontodesign#hasDustiness" : [ {
     "@id" : "https://purl.org/ontodesign#Dustiness3"
   } ],
@@ -1763,9 +1557,6 @@
 }, {
   "@id" : "https://purl.org/ontodesign#Surface4",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://purl.org/ontodesign#Surface"
-  } ],
   "https://purl.org/ontodesign#hasDustiness" : [ {
     "@id" : "https://purl.org/ontodesign#Dustiness4"
   } ],
@@ -1778,35 +1569,8 @@
     "@id" : "https://purl.org/ontodesign#Wallpaper4"
   } ]
 }, {
-  "@id" : "https://purl.org/ontodesign#SurfaceAttribute",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://purl.org/ontodesign#Attribute"
-  } ]
-}, {
-  "@id" : "https://purl.org/ontodesign#SurfaceMaterial",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://purl.org/ontodesign#SurfaceAttribute"
-  } ]
-}, {
-  "@id" : "https://purl.org/ontodesign#SurfaceObstacle",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.w3.org/2002/07/owl#Thing"
-  } ]
-}, {
-  "@id" : "https://purl.org/ontodesign#SurfaceOrientation",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://purl.org/ontodesign#SurfaceAttribute"
-  } ]
-}, {
   "@id" : "https://purl.org/ontodesign#SurfaceOrientation1",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://purl.org/ontodesign#SurfaceOrientation"
-  } ],
   "https://purl.org/ontodesign#determines" : [ {
     "@id" : "https://purl.org/ontodesign#AdhesionMechanismRequirement_Indoor"
   } ],
@@ -1817,9 +1581,6 @@
 }, {
   "@id" : "https://purl.org/ontodesign#SurfaceOrientation234",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://purl.org/ontodesign#SurfaceOrientation"
-  } ],
   "https://purl.org/ontodesign#determines" : [ {
     "@id" : "https://purl.org/ontodesign#AdhesionMechanismRequirement_Indoor"
   } ],
@@ -1935,9 +1696,6 @@
 }, {
   "@id" : "https://purl.org/ontodesign#Wallpaper1",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://purl.org/ontodesign#SurfaceMaterial"
-  } ],
   "https://purl.org/ontodesign#determines" : [ {
     "@id" : "https://purl.org/ontodesign#AdhesionMechanismRequirement_Indoor"
   } ],
@@ -1952,9 +1710,6 @@
 }, {
   "@id" : "https://purl.org/ontodesign#Wallpaper4",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://purl.org/ontodesign#SurfaceMaterial"
-  } ],
   "https://purl.org/ontodesign#determines" : [ {
     "@id" : "https://purl.org/ontodesign#AdhesionMechanismRequirement_Indoor"
   } ],
@@ -1984,29 +1739,14 @@
     "@id" : "https://purl.org/ontodesign#CapabilityRequirement"
   } ]
 }, {
-  "@id" : "https://purl.org/ontodesign#Weight",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://purl.org/ontodesign#StructuralCharacteristic"
-  } ]
-}, {
   "@id" : "https://purl.org/ontodesign#WeightRequirement",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
     "@id" : "https://purl.org/ontodesign#RobotSystemHardwareRequirement"
   } ]
 }, {
-  "@id" : "https://purl.org/ontodesign#Width",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://purl.org/ontodesign#Attribute"
-  } ]
-}, {
   "@id" : "https://purl.org/ontodesign#Width1234",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://purl.org/ontodesign#Size"
-  } ]
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
 }, {
   "@id" : "https://purl.org/ontodesign#WidthConstraint",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],

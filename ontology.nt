@@ -395,10 +395,6 @@ _:genid14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 <https://purl.org/ontodesign#AirPressure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://purl.org/ontodesign#AirPressure> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://purl.org/ontodesign#EnvironmentalCondition> .
 # 
-# https://purl.org/ontodesign#Angle
-<https://purl.org/ontodesign#Angle> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://purl.org/ontodesign#Angle> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://purl.org/ontodesign#Attribute> .
-# 
 # https://purl.org/ontodesign#Attribute
 <https://purl.org/ontodesign#Attribute> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://purl.org/ontodesign#Attribute> <http://www.w3.org/2002/07/owl#disjointWith> <https://purl.org/ontodesign#IndoorSpace> .
@@ -499,41 +495,13 @@ _:genid23 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 <https://purl.org/ontodesign#CommunicationRequirement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://purl.org/ontodesign#CommunicationRequirement> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://purl.org/ontodesign#CapabilityRequirement> .
 # 
-# https://purl.org/ontodesign#ConcaveCorner
-<https://purl.org/ontodesign#ConcaveCorner> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://purl.org/ontodesign#ConcaveCorner> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://purl.org/ontodesign#Corner> .
-# 
-# https://purl.org/ontodesign#ConcaveObstacle
-<https://purl.org/ontodesign#ConcaveObstacle> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://purl.org/ontodesign#ConcaveObstacle> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://purl.org/ontodesign#SurfaceObstacle> .
-# 
 # https://purl.org/ontodesign#ContinuousInspection
 <https://purl.org/ontodesign#ContinuousInspection> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://purl.org/ontodesign#ContinuousInspection> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://purl.org/ontodesign#InspectionMethod> .
 # 
-# https://purl.org/ontodesign#ConvexCorner
-<https://purl.org/ontodesign#ConvexCorner> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://purl.org/ontodesign#ConvexCorner> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://purl.org/ontodesign#Corner> .
-# 
-# https://purl.org/ontodesign#ConvexObstacle
-<https://purl.org/ontodesign#ConvexObstacle> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://purl.org/ontodesign#ConvexObstacle> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://purl.org/ontodesign#SurfaceObstacle> .
-# 
-# https://purl.org/ontodesign#Corner
-<https://purl.org/ontodesign#Corner> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://purl.org/ontodesign#Corner> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/2002/07/owl#Thing> .
-# 
-# https://purl.org/ontodesign#Curved
-<https://purl.org/ontodesign#Curved> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://purl.org/ontodesign#Curved> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://purl.org/ontodesign#Shape> .
-# 
 # https://purl.org/ontodesign#DegreeOfAutonomy
 <https://purl.org/ontodesign#DegreeOfAutonomy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://purl.org/ontodesign#DegreeOfAutonomy> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://purl.org/ontodesign#Capability> .
-# 
-# https://purl.org/ontodesign#Depth
-<https://purl.org/ontodesign#Depth> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://purl.org/ontodesign#Depth> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://purl.org/ontodesign#Attribute> .
 # 
 # https://purl.org/ontodesign#DetectableAttribute
 <https://purl.org/ontodesign#DetectableAttribute> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -548,18 +516,10 @@ _:genid25 <http://www.w3.org/2002/07/owl#onProperty> <https://purl.org/ontodesig
 _:genid25 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
 <https://purl.org/ontodesign#DetectableAttribute> <http://www.w3.org/2000/01/rdf-schema#comment> "DetectableAttribute refers to attributes whose values would change due to defects." .
 # 
-# https://purl.org/ontodesign#Dustiness
-<https://purl.org/ontodesign#Dustiness> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://purl.org/ontodesign#Dustiness> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://purl.org/ontodesign#SurfaceAttribute> .
-# 
 # https://purl.org/ontodesign#EnvironmentalCondition
 <https://purl.org/ontodesign#EnvironmentalCondition> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://purl.org/ontodesign#EnvironmentalCondition> <http://www.w3.org/2002/07/owl#disjointWith> <https://purl.org/ontodesign#IndoorSpace> .
 <https://purl.org/ontodesign#EnvironmentalCondition> <http://www.w3.org/2000/01/rdf-schema#comment> "EnvironmentalCondition describes environmental conditions of the building Site and IndoorSpace, which includes AverageAnnualAirTemperature, AverageAnnualAirHumidity, AirPressure, Visibility, and AverageAnnualWindSpeed, SignalReceptionCondition." .
-# 
-# https://purl.org/ontodesign#Flat
-<https://purl.org/ontodesign#Flat> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://purl.org/ontodesign#Flat> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://purl.org/ontodesign#Shape> .
 # 
 # https://purl.org/ontodesign#GroundBasedRobot
 <https://purl.org/ontodesign#GroundBasedRobot> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -580,10 +540,6 @@ _:genid27 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 # https://purl.org/ontodesign#HeightConstraint
 <https://purl.org/ontodesign#HeightConstraint> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://purl.org/ontodesign#HeightConstraint> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://purl.org/ontodesign#PhysicalConstraintToRobot> .
-# 
-# https://purl.org/ontodesign#InclinationAngle
-<https://purl.org/ontodesign#InclinationAngle> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://purl.org/ontodesign#InclinationAngle> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://purl.org/ontodesign#SurfaceAttribute> .
 # 
 # https://purl.org/ontodesign#IndoorSpace
 <https://purl.org/ontodesign#IndoorSpace> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -687,10 +643,6 @@ _:genid34 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 <https://purl.org/ontodesign#SensoryCapabilityRequirement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://purl.org/ontodesign#SensoryCapabilityRequirement> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://purl.org/ontodesign#CapabilityRequirement> .
 # 
-# https://purl.org/ontodesign#Shape
-<https://purl.org/ontodesign#Shape> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://purl.org/ontodesign#Shape> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://purl.org/ontodesign#SurfaceAttribute> .
-# 
 # https://purl.org/ontodesign#SignalReceptionCondition
 <https://purl.org/ontodesign#SignalReceptionCondition> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://purl.org/ontodesign#SignalReceptionCondition> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://purl.org/ontodesign#EnvironmentalCondition> .
@@ -701,10 +653,6 @@ _:genid34 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 _:genid35 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://purl.org/ontodesign#EnvironmentalCondition> .
 _:genid35 <http://www.w3.org/2002/07/owl#onProperty> <https://purl.org/ontodesign#hasEnvironmentData> .
 _:genid35 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-# 
-# https://purl.org/ontodesign#Size
-<https://purl.org/ontodesign#Size> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://purl.org/ontodesign#Size> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://purl.org/ontodesign#StructuralCharacteristic> .
 # 
 # https://purl.org/ontodesign#SizeRequirement
 <https://purl.org/ontodesign#SizeRequirement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -731,26 +679,6 @@ _:genid37 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 <https://purl.org/ontodesign#StructuralCharacteristicsRequirement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://purl.org/ontodesign#StructuralCharacteristicsRequirement> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://purl.org/ontodesign#RobotSystemHardwareRequirement> .
 # 
-# https://purl.org/ontodesign#Surface
-<https://purl.org/ontodesign#Surface> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://purl.org/ontodesign#Surface> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://purl.org/ontodesign#RobotMovementMedium> .
-# 
-# https://purl.org/ontodesign#SurfaceAttribute
-<https://purl.org/ontodesign#SurfaceAttribute> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://purl.org/ontodesign#SurfaceAttribute> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://purl.org/ontodesign#Attribute> .
-# 
-# https://purl.org/ontodesign#SurfaceMaterial
-<https://purl.org/ontodesign#SurfaceMaterial> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://purl.org/ontodesign#SurfaceMaterial> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://purl.org/ontodesign#SurfaceAttribute> .
-# 
-# https://purl.org/ontodesign#SurfaceObstacle
-<https://purl.org/ontodesign#SurfaceObstacle> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://purl.org/ontodesign#SurfaceObstacle> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/2002/07/owl#Thing> .
-# 
-# https://purl.org/ontodesign#SurfaceOrientation
-<https://purl.org/ontodesign#SurfaceOrientation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://purl.org/ontodesign#SurfaceOrientation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://purl.org/ontodesign#SurfaceAttribute> .
-# 
 # https://purl.org/ontodesign#VelocityRequirement
 <https://purl.org/ontodesign#VelocityRequirement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://purl.org/ontodesign#VelocityRequirement> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://purl.org/ontodesign#LocomotionCapabilityRequirement> .
@@ -770,14 +698,6 @@ _:genid37 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 # https://purl.org/ontodesign#WeatherResistanceRequirement
 <https://purl.org/ontodesign#WeatherResistanceRequirement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://purl.org/ontodesign#WeatherResistanceRequirement> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://purl.org/ontodesign#CapabilityRequirement> .
-# 
-# https://purl.org/ontodesign#Weight
-<https://purl.org/ontodesign#Weight> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://purl.org/ontodesign#Weight> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://purl.org/ontodesign#StructuralCharacteristic> .
-# 
-# https://purl.org/ontodesign#Width
-<https://purl.org/ontodesign#Width> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://purl.org/ontodesign#Width> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://purl.org/ontodesign#Attribute> .
 # 
 # https://purl.org/ontodesign#WidthConstraint
 <https://purl.org/ontodesign#WidthConstraint> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -825,34 +745,29 @@ _:genid38 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 # 
 # https://purl.org/ontodesign#Angle1
 <https://purl.org/ontodesign#Angle1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://purl.org/ontodesign#Angle1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://purl.org/ontodesign#Angle> .
 <https://purl.org/ontodesign#Angle1> <https://purl.org/ontodesign#determines> <https://purl.org/ontodesign#TransitionDexterityRequirement_Indoor> .
 <https://purl.org/ontodesign#Angle1> <https://purl.org/ontodesign#hasUnit> "degree" .
 <https://purl.org/ontodesign#Angle1> <https://purl.org/ontodesign#hasValue> "90.0"^^<http://www.w3.org/2001/XMLSchema#double> .
 # 
 # https://purl.org/ontodesign#Angle2_1
 <https://purl.org/ontodesign#Angle2_1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://purl.org/ontodesign#Angle2_1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://purl.org/ontodesign#Angle> .
 <https://purl.org/ontodesign#Angle2_1> <https://purl.org/ontodesign#determines> <https://purl.org/ontodesign#TransitionDexterityRequirement_Indoor> .
 <https://purl.org/ontodesign#Angle2_1> <https://purl.org/ontodesign#hasUnit> "degree" .
 <https://purl.org/ontodesign#Angle2_1> <https://purl.org/ontodesign#hasValue> "60.0"^^<http://www.w3.org/2001/XMLSchema#double> .
 # 
 # https://purl.org/ontodesign#Angle2_2
 <https://purl.org/ontodesign#Angle2_2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://purl.org/ontodesign#Angle2_2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://purl.org/ontodesign#Angle> .
 <https://purl.org/ontodesign#Angle2_2> <https://purl.org/ontodesign#hasUnit> "degree" .
 <https://purl.org/ontodesign#Angle2_2> <https://purl.org/ontodesign#hasValue> "80.0"^^<http://www.w3.org/2001/XMLSchema#double> .
 # 
 # https://purl.org/ontodesign#Angle3
 <https://purl.org/ontodesign#Angle3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://purl.org/ontodesign#Angle3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://purl.org/ontodesign#Angle> .
 <https://purl.org/ontodesign#Angle3> <https://purl.org/ontodesign#determines> <https://purl.org/ontodesign#TransitionDexterityRequirement_Indoor> .
 <https://purl.org/ontodesign#Angle3> <https://purl.org/ontodesign#hasUnit> "degree" .
 <https://purl.org/ontodesign#Angle3> <https://purl.org/ontodesign#hasValue> "105.0"^^<http://www.w3.org/2001/XMLSchema#double> .
 # 
 # https://purl.org/ontodesign#Angle4
 <https://purl.org/ontodesign#Angle4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://purl.org/ontodesign#Angle4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://purl.org/ontodesign#Angle> .
 <https://purl.org/ontodesign#Angle4> <https://purl.org/ontodesign#determines> <https://purl.org/ontodesign#TransitionDexterityRequirement_Indoor> .
 <https://purl.org/ontodesign#Angle4> <https://purl.org/ontodesign#hasUnit> "degree" .
 <https://purl.org/ontodesign#Angle4> <https://purl.org/ontodesign#hasValue> "120.0"^^<http://www.w3.org/2001/XMLSchema#double> .
@@ -888,7 +803,6 @@ _:genid38 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 # 
 # https://purl.org/ontodesign#Ceramics2
 <https://purl.org/ontodesign#Ceramics2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://purl.org/ontodesign#Ceramics2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://purl.org/ontodesign#SurfaceMaterial> .
 <https://purl.org/ontodesign#Ceramics2> <https://purl.org/ontodesign#determines> <https://purl.org/ontodesign#AdhesionMechanismRequirement_Indoor> .
 <https://purl.org/ontodesign#Ceramics2> <https://purl.org/ontodesign#isFerromagnetic> "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
 <https://purl.org/ontodesign#Ceramics2> <https://purl.org/ontodesign#isSmooth> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
@@ -900,31 +814,26 @@ _:genid38 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 # 
 # https://purl.org/ontodesign#ConcaveCorner1
 <https://purl.org/ontodesign#ConcaveCorner1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://purl.org/ontodesign#ConcaveCorner1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://purl.org/ontodesign#ConcaveCorner> .
 <https://purl.org/ontodesign#ConcaveCorner1> <https://purl.org/ontodesign#hasCornerAngle> <https://purl.org/ontodesign#Angle1> .
 <https://purl.org/ontodesign#ConcaveCorner1> <https://purl.org/ontodesign#isLocatedAt> <https://purl.org/ontodesign#WorkEnvironment1> .
 # 
 # https://purl.org/ontodesign#ConcaveCorner2
 <https://purl.org/ontodesign#ConcaveCorner2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://purl.org/ontodesign#ConcaveCorner2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://purl.org/ontodesign#ConcaveCorner> .
 <https://purl.org/ontodesign#ConcaveCorner2> <https://purl.org/ontodesign#hasCornerAngle> <https://purl.org/ontodesign#Angle2_1> .
 <https://purl.org/ontodesign#ConcaveCorner2> <https://purl.org/ontodesign#isLocatedAt> <https://purl.org/ontodesign#WorkEnvironment2> .
 # 
 # https://purl.org/ontodesign#ConcaveCorner3
 <https://purl.org/ontodesign#ConcaveCorner3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://purl.org/ontodesign#ConcaveCorner3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://purl.org/ontodesign#ConcaveCorner> .
 <https://purl.org/ontodesign#ConcaveCorner3> <https://purl.org/ontodesign#hasCornerAngle> <https://purl.org/ontodesign#Angle3> .
 <https://purl.org/ontodesign#ConcaveCorner3> <https://purl.org/ontodesign#isLocatedAt> <https://purl.org/ontodesign#WorkEnvironment3> .
 # 
 # https://purl.org/ontodesign#ConcaveCorner4
 <https://purl.org/ontodesign#ConcaveCorner4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://purl.org/ontodesign#ConcaveCorner4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://purl.org/ontodesign#ConcaveCorner> .
 <https://purl.org/ontodesign#ConcaveCorner4> <https://purl.org/ontodesign#hasCornerAngle> <https://purl.org/ontodesign#Angle4> .
 <https://purl.org/ontodesign#ConcaveCorner4> <https://purl.org/ontodesign#isLocatedAt> <https://purl.org/ontodesign#WorkEnvironment4> .
 # 
 # https://purl.org/ontodesign#ConcaveObstacle1
 <https://purl.org/ontodesign#ConcaveObstacle1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://purl.org/ontodesign#ConcaveObstacle1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://purl.org/ontodesign#ConcaveObstacle> .
 <https://purl.org/ontodesign#ConcaveObstacle1> <https://purl.org/ontodesign#hasDepth> <https://purl.org/ontodesign#ObstacleDepth1> .
 <https://purl.org/ontodesign#ConcaveObstacle1> <https://purl.org/ontodesign#hasWidth> <https://purl.org/ontodesign#ObstacleWidth4> .
 # 
@@ -949,37 +858,30 @@ _:genid38 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 # 
 # https://purl.org/ontodesign#ConvexCorner1
 <https://purl.org/ontodesign#ConvexCorner1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://purl.org/ontodesign#ConvexCorner1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://purl.org/ontodesign#ConvexCorner> .
 # 
 # https://purl.org/ontodesign#ConvexCorner2
 <https://purl.org/ontodesign#ConvexCorner2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://purl.org/ontodesign#ConvexCorner2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://purl.org/ontodesign#ConvexCorner> .
 <https://purl.org/ontodesign#ConvexCorner2> <https://purl.org/ontodesign#hasCornerAngle> <https://purl.org/ontodesign#Angle2_2> .
 <https://purl.org/ontodesign#ConvexCorner2> <https://purl.org/ontodesign#isLocatedAt> <https://purl.org/ontodesign#WorkEnvironment2> .
 # 
 # https://purl.org/ontodesign#ConvexCorner3
 <https://purl.org/ontodesign#ConvexCorner3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://purl.org/ontodesign#ConvexCorner3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://purl.org/ontodesign#ConvexCorner> .
 # 
 # https://purl.org/ontodesign#ConvexCorner4
 <https://purl.org/ontodesign#ConvexCorner4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://purl.org/ontodesign#ConvexCorner4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://purl.org/ontodesign#ConvexCorner> .
 # 
 # https://purl.org/ontodesign#ConvexObstacle1
 <https://purl.org/ontodesign#ConvexObstacle1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://purl.org/ontodesign#ConvexObstacle1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://purl.org/ontodesign#ConvexObstacle> .
 <https://purl.org/ontodesign#ConvexObstacle1> <https://purl.org/ontodesign#hasHeight> <https://purl.org/ontodesign#ObstacleHeight1> .
 <https://purl.org/ontodesign#ConvexObstacle1> <https://purl.org/ontodesign#hasWidth> <https://purl.org/ontodesign#ObstacleWidth1> .
 # 
 # https://purl.org/ontodesign#ConvexObstacle2
 <https://purl.org/ontodesign#ConvexObstacle2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://purl.org/ontodesign#ConvexObstacle2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://purl.org/ontodesign#ConvexObstacle> .
 <https://purl.org/ontodesign#ConvexObstacle2> <https://purl.org/ontodesign#hasHeight> <https://purl.org/ontodesign#ObstacleHeight2> .
 <https://purl.org/ontodesign#ConvexObstacle2> <https://purl.org/ontodesign#hasWidth> <https://purl.org/ontodesign#ObstacleWidth2> .
 # 
 # https://purl.org/ontodesign#ConvexObstacle3
 <https://purl.org/ontodesign#ConvexObstacle3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://purl.org/ontodesign#ConvexObstacle3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://purl.org/ontodesign#ConvexObstacle> .
 <https://purl.org/ontodesign#ConvexObstacle3> <https://purl.org/ontodesign#hasHeight> <https://purl.org/ontodesign#ObstacleHeight3> .
 <https://purl.org/ontodesign#ConvexObstacle3> <https://purl.org/ontodesign#hasWidth> <https://purl.org/ontodesign#ObstacleWidth3> .
 <https://purl.org/ontodesign#ConvexObstacle3> <https://purl.org/ontodesign#isLocatedAt> <https://purl.org/ontodesign#Surface3> .
@@ -994,31 +896,26 @@ _:genid38 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 # 
 # https://purl.org/ontodesign#Depth2
 <https://purl.org/ontodesign#Depth2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://purl.org/ontodesign#Depth2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://purl.org/ontodesign#Depth> .
 <https://purl.org/ontodesign#Depth2> <https://purl.org/ontodesign#hasUnit> "cm" .
 <https://purl.org/ontodesign#Depth2> <https://purl.org/ontodesign#hasValue> "5.0"^^<http://www.w3.org/2001/XMLSchema#double> .
 # 
 # https://purl.org/ontodesign#Dustiness1
 <https://purl.org/ontodesign#Dustiness1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://purl.org/ontodesign#Dustiness1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://purl.org/ontodesign#Dustiness> .
 <https://purl.org/ontodesign#Dustiness1> <https://purl.org/ontodesign#determines> <https://purl.org/ontodesign#AdhesionMechanismRequirement_Indoor> .
 <https://purl.org/ontodesign#Dustiness1> <https://purl.org/ontodesign#hasDustinessLevel> "low" .
 # 
 # https://purl.org/ontodesign#Dustiness2
 <https://purl.org/ontodesign#Dustiness2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://purl.org/ontodesign#Dustiness2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://purl.org/ontodesign#Dustiness> .
 <https://purl.org/ontodesign#Dustiness2> <https://purl.org/ontodesign#determines> <https://purl.org/ontodesign#AdhesionMechanismRequirement_Indoor> .
 <https://purl.org/ontodesign#Dustiness2> <https://purl.org/ontodesign#hasDustinessLevel> "medium" .
 # 
 # https://purl.org/ontodesign#Dustiness3
 <https://purl.org/ontodesign#Dustiness3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://purl.org/ontodesign#Dustiness3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://purl.org/ontodesign#Dustiness> .
 <https://purl.org/ontodesign#Dustiness3> <https://purl.org/ontodesign#determines> <https://purl.org/ontodesign#AdhesionMechanismRequirement_Indoor> .
 <https://purl.org/ontodesign#Dustiness3> <https://purl.org/ontodesign#hasDustinessLevel> "high" .
 # 
 # https://purl.org/ontodesign#Dustiness4
 <https://purl.org/ontodesign#Dustiness4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://purl.org/ontodesign#Dustiness4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://purl.org/ontodesign#Dustiness> .
 <https://purl.org/ontodesign#Dustiness4> <https://purl.org/ontodesign#determines> <https://purl.org/ontodesign#AdhesionMechanismRequirement_Indoor> .
 <https://purl.org/ontodesign#Dustiness4> <https://purl.org/ontodesign#hasDustinessLevel> "low" .
 # 
@@ -1029,7 +926,6 @@ _:genid38 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 # 
 # https://purl.org/ontodesign#Glass3
 <https://purl.org/ontodesign#Glass3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://purl.org/ontodesign#Glass3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://purl.org/ontodesign#SurfaceMaterial> .
 <https://purl.org/ontodesign#Glass3> <https://purl.org/ontodesign#determines> <https://purl.org/ontodesign#AdhesionMechanismRequirement_Indoor> .
 <https://purl.org/ontodesign#Glass3> <https://purl.org/ontodesign#isFerromagnetic> "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
 <https://purl.org/ontodesign#Glass3> <https://purl.org/ontodesign#isSmooth> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
@@ -1040,7 +936,6 @@ _:genid38 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 # 
 # https://purl.org/ontodesign#Height1234
 <https://purl.org/ontodesign#Height1234> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://purl.org/ontodesign#Height1234> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://purl.org/ontodesign#Size> .
 # 
 # https://purl.org/ontodesign#Height2
 <https://purl.org/ontodesign#Height2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
@@ -1061,28 +956,24 @@ _:genid38 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 # 
 # https://purl.org/ontodesign#InclinationAngle1
 <https://purl.org/ontodesign#InclinationAngle1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://purl.org/ontodesign#InclinationAngle1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://purl.org/ontodesign#InclinationAngle> .
 <https://purl.org/ontodesign#InclinationAngle1> <https://purl.org/ontodesign#determines> <https://purl.org/ontodesign#AdhesionMechanismRequirement_Indoor> .
 <https://purl.org/ontodesign#InclinationAngle1> <https://purl.org/ontodesign#hasUnit> "degree" .
 <https://purl.org/ontodesign#InclinationAngle1> <https://purl.org/ontodesign#hasValue> "180.0"^^<http://www.w3.org/2001/XMLSchema#double> .
 # 
 # https://purl.org/ontodesign#InclinationAngle2
 <https://purl.org/ontodesign#InclinationAngle2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://purl.org/ontodesign#InclinationAngle2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://purl.org/ontodesign#InclinationAngle> .
 <https://purl.org/ontodesign#InclinationAngle2> <https://purl.org/ontodesign#determines> <https://purl.org/ontodesign#AdhesionMechanismRequirement_Indoor> .
 <https://purl.org/ontodesign#InclinationAngle2> <https://purl.org/ontodesign#hasUnit> "degree" .
 <https://purl.org/ontodesign#InclinationAngle2> <https://purl.org/ontodesign#hasValue> "90.0"^^<http://www.w3.org/2001/XMLSchema#double> .
 # 
 # https://purl.org/ontodesign#InclinationAngle3
 <https://purl.org/ontodesign#InclinationAngle3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://purl.org/ontodesign#InclinationAngle3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://purl.org/ontodesign#InclinationAngle> .
 <https://purl.org/ontodesign#InclinationAngle3> <https://purl.org/ontodesign#determines> <https://purl.org/ontodesign#AdhesionMechanismRequirement_Indoor> .
 <https://purl.org/ontodesign#InclinationAngle3> <https://purl.org/ontodesign#hasUnit> "degree" .
 <https://purl.org/ontodesign#InclinationAngle3> <https://purl.org/ontodesign#hasValue> "90.0"^^<http://www.w3.org/2001/XMLSchema#double> .
 # 
 # https://purl.org/ontodesign#InclinationAngle4
 <https://purl.org/ontodesign#InclinationAngle4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://purl.org/ontodesign#InclinationAngle4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://purl.org/ontodesign#InclinationAngle> .
 <https://purl.org/ontodesign#InclinationAngle4> <https://purl.org/ontodesign#determines> <https://purl.org/ontodesign#AdhesionMechanismRequirement_Indoor> .
 <https://purl.org/ontodesign#InclinationAngle4> <https://purl.org/ontodesign#hasUnit> "degree" .
 <https://purl.org/ontodesign#InclinationAngle4> <https://purl.org/ontodesign#hasValue> "80.0"^^<http://www.w3.org/2001/XMLSchema#double> .
@@ -1117,7 +1008,6 @@ _:genid38 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 # 
 # https://purl.org/ontodesign#Length1234
 <https://purl.org/ontodesign#Length1234> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://purl.org/ontodesign#Length1234> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://purl.org/ontodesign#Size> .
 # 
 # https://purl.org/ontodesign#LocomotionCapabilityRequirement1
 <https://purl.org/ontodesign#LocomotionCapabilityRequirement1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
@@ -1161,12 +1051,10 @@ _:genid38 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 # 
 # https://purl.org/ontodesign#Obstacle2
 <https://purl.org/ontodesign#Obstacle2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://purl.org/ontodesign#Obstacle2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://purl.org/ontodesign#Width> .
 # 
 # https://purl.org/ontodesign#ObstacleDepth1
 <https://purl.org/ontodesign#ObstacleDepth1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <https://purl.org/ontodesign#ObstacleDepth1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://purl.org/ontodesign#Attribute> .
-<https://purl.org/ontodesign#ObstacleDepth1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://purl.org/ontodesign#Depth> .
 <https://purl.org/ontodesign#ObstacleDepth1> <https://purl.org/ontodesign#determines> <https://purl.org/ontodesign#ObstacleOvercomingAbilityRequirement_Indoor> .
 <https://purl.org/ontodesign#ObstacleDepth1> <https://purl.org/ontodesign#hasUnit> "mm" .
 <https://purl.org/ontodesign#ObstacleDepth1> <https://purl.org/ontodesign#hasValue> "10.0"^^<http://www.w3.org/2001/XMLSchema#double> .
@@ -1174,7 +1062,6 @@ _:genid38 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 # https://purl.org/ontodesign#ObstacleDepth2
 <https://purl.org/ontodesign#ObstacleDepth2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <https://purl.org/ontodesign#ObstacleDepth2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://purl.org/ontodesign#Attribute> .
-<https://purl.org/ontodesign#ObstacleDepth2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://purl.org/ontodesign#Depth> .
 <https://purl.org/ontodesign#ObstacleDepth2> <https://purl.org/ontodesign#determines> <https://purl.org/ontodesign#ObstacleOvercomingAbilityRequirement_Indoor> .
 <https://purl.org/ontodesign#ObstacleDepth2> <https://purl.org/ontodesign#hasUnit> "mm" .
 <https://purl.org/ontodesign#ObstacleDepth2> <https://purl.org/ontodesign#hasValue> "15.0"^^<http://www.w3.org/2001/XMLSchema#double> .
@@ -1182,7 +1069,6 @@ _:genid38 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 # https://purl.org/ontodesign#ObstacleDepth3
 <https://purl.org/ontodesign#ObstacleDepth3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <https://purl.org/ontodesign#ObstacleDepth3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://purl.org/ontodesign#Attribute> .
-<https://purl.org/ontodesign#ObstacleDepth3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://purl.org/ontodesign#Depth> .
 <https://purl.org/ontodesign#ObstacleDepth3> <https://purl.org/ontodesign#determines> <https://purl.org/ontodesign#ObstacleOvercomingAbilityRequirement_Indoor> .
 <https://purl.org/ontodesign#ObstacleDepth3> <https://purl.org/ontodesign#hasUnit> "mm" .
 <https://purl.org/ontodesign#ObstacleDepth3> <https://purl.org/ontodesign#hasValue> "20.0"^^<http://www.w3.org/2001/XMLSchema#double> .
@@ -1217,28 +1103,24 @@ _:genid38 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 # https://purl.org/ontodesign#ObstacleWidth1
 <https://purl.org/ontodesign#ObstacleWidth1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <https://purl.org/ontodesign#ObstacleWidth1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://purl.org/ontodesign#Attribute> .
-<https://purl.org/ontodesign#ObstacleWidth1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://purl.org/ontodesign#Width> .
 <https://purl.org/ontodesign#ObstacleWidth1> <https://purl.org/ontodesign#determines> <https://purl.org/ontodesign#ObstacleOvercomingAbilityRequirement_Indoor> .
 <https://purl.org/ontodesign#ObstacleWidth1> <https://purl.org/ontodesign#hasUnit> "mm" .
 <https://purl.org/ontodesign#ObstacleWidth1> <https://purl.org/ontodesign#hasValue> "15.0"^^<http://www.w3.org/2001/XMLSchema#double> .
 # 
 # https://purl.org/ontodesign#ObstacleWidth2
 <https://purl.org/ontodesign#ObstacleWidth2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://purl.org/ontodesign#ObstacleWidth2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://purl.org/ontodesign#Width> .
 <https://purl.org/ontodesign#ObstacleWidth2> <https://purl.org/ontodesign#determines> <https://purl.org/ontodesign#ObstacleOvercomingAbilityRequirement_Indoor> .
 <https://purl.org/ontodesign#ObstacleWidth2> <https://purl.org/ontodesign#hasUnit> "mm" .
 <https://purl.org/ontodesign#ObstacleWidth2> <https://purl.org/ontodesign#hasValue> "20.0"^^<http://www.w3.org/2001/XMLSchema#double> .
 # 
 # https://purl.org/ontodesign#ObstacleWidth3
 <https://purl.org/ontodesign#ObstacleWidth3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://purl.org/ontodesign#ObstacleWidth3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://purl.org/ontodesign#Width> .
 <https://purl.org/ontodesign#ObstacleWidth3> <https://purl.org/ontodesign#determines> <https://purl.org/ontodesign#ObstacleOvercomingAbilityRequirement_Indoor> .
 <https://purl.org/ontodesign#ObstacleWidth3> <https://purl.org/ontodesign#hasUnit> "mm" .
 <https://purl.org/ontodesign#ObstacleWidth3> <https://purl.org/ontodesign#hasValue> "40.0"^^<http://www.w3.org/2001/XMLSchema#double> .
 # 
 # https://purl.org/ontodesign#ObstacleWidth4
 <https://purl.org/ontodesign#ObstacleWidth4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://purl.org/ontodesign#ObstacleWidth4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://purl.org/ontodesign#Width> .
 <https://purl.org/ontodesign#ObstacleWidth4> <https://purl.org/ontodesign#determines> <https://purl.org/ontodesign#ObstacleOvercomingAbilityRequirement_Indoor> .
 <https://purl.org/ontodesign#ObstacleWidth4> <https://purl.org/ontodesign#hasUnit> "mm" .
 <https://purl.org/ontodesign#ObstacleWidth4> <https://purl.org/ontodesign#hasValue> "10.0"^^<http://www.w3.org/2001/XMLSchema#double> .
@@ -1260,7 +1142,6 @@ _:genid38 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 # 
 # https://purl.org/ontodesign#Robot1234
 <https://purl.org/ontodesign#Robot1234> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://purl.org/ontodesign#Robot1234> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://purl.org/ontodesign#Width> .
 # 
 # https://purl.org/ontodesign#SensoryCapabilityRequirement1
 <https://purl.org/ontodesign#SensoryCapabilityRequirement1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
@@ -1279,7 +1160,6 @@ _:genid38 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 # 
 # https://purl.org/ontodesign#Surface1
 <https://purl.org/ontodesign#Surface1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://purl.org/ontodesign#Surface1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://purl.org/ontodesign#Surface> .
 <https://purl.org/ontodesign#Surface1> <https://purl.org/ontodesign#hasDustiness> <https://purl.org/ontodesign#Dustiness1> .
 <https://purl.org/ontodesign#Surface1> <https://purl.org/ontodesign#hasSurfaceAttribute> <https://purl.org/ontodesign#InclinationAngle1> .
 <https://purl.org/ontodesign#Surface1> <https://purl.org/ontodesign#hasSurfaceAttribute> <https://purl.org/ontodesign#SurfaceOrientation1> .
@@ -1287,7 +1167,6 @@ _:genid38 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 # 
 # https://purl.org/ontodesign#Surface2
 <https://purl.org/ontodesign#Surface2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://purl.org/ontodesign#Surface2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://purl.org/ontodesign#Surface> .
 <https://purl.org/ontodesign#Surface2> <https://purl.org/ontodesign#hasDustiness> <https://purl.org/ontodesign#Dustiness2> .
 <https://purl.org/ontodesign#Surface2> <https://purl.org/ontodesign#hasSurfaceAttribute> <https://purl.org/ontodesign#InclinationAngle2> .
 <https://purl.org/ontodesign#Surface2> <https://purl.org/ontodesign#hasSurfaceAttribute> <https://purl.org/ontodesign#SurfaceOrientation234> .
@@ -1295,7 +1174,6 @@ _:genid38 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 # 
 # https://purl.org/ontodesign#Surface3
 <https://purl.org/ontodesign#Surface3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://purl.org/ontodesign#Surface3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://purl.org/ontodesign#Surface> .
 <https://purl.org/ontodesign#Surface3> <https://purl.org/ontodesign#hasDustiness> <https://purl.org/ontodesign#Dustiness3> .
 <https://purl.org/ontodesign#Surface3> <https://purl.org/ontodesign#hasSurfaceAttribute> <https://purl.org/ontodesign#InclinationAngle3> .
 <https://purl.org/ontodesign#Surface3> <https://purl.org/ontodesign#hasSurfaceAttribute> <https://purl.org/ontodesign#SurfaceOrientation234> .
@@ -1303,7 +1181,6 @@ _:genid38 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 # 
 # https://purl.org/ontodesign#Surface4
 <https://purl.org/ontodesign#Surface4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://purl.org/ontodesign#Surface4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://purl.org/ontodesign#Surface> .
 <https://purl.org/ontodesign#Surface4> <https://purl.org/ontodesign#hasDustiness> <https://purl.org/ontodesign#Dustiness4> .
 <https://purl.org/ontodesign#Surface4> <https://purl.org/ontodesign#hasSurfaceAttribute> <https://purl.org/ontodesign#InclinationAngle4> .
 <https://purl.org/ontodesign#Surface4> <https://purl.org/ontodesign#hasSurfaceAttribute> <https://purl.org/ontodesign#SurfaceOrientation234> .
@@ -1311,13 +1188,11 @@ _:genid38 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 # 
 # https://purl.org/ontodesign#SurfaceOrientation1
 <https://purl.org/ontodesign#SurfaceOrientation1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://purl.org/ontodesign#SurfaceOrientation1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://purl.org/ontodesign#SurfaceOrientation> .
 <https://purl.org/ontodesign#SurfaceOrientation1> <https://purl.org/ontodesign#determines> <https://purl.org/ontodesign#AdhesionMechanismRequirement_Indoor> .
 <https://purl.org/ontodesign#SurfaceOrientation1> <https://purl.org/ontodesign#isInverted> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
 # 
 # https://purl.org/ontodesign#SurfaceOrientation234
 <https://purl.org/ontodesign#SurfaceOrientation234> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://purl.org/ontodesign#SurfaceOrientation234> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://purl.org/ontodesign#SurfaceOrientation> .
 <https://purl.org/ontodesign#SurfaceOrientation234> <https://purl.org/ontodesign#determines> <https://purl.org/ontodesign#AdhesionMechanismRequirement_Indoor> .
 <https://purl.org/ontodesign#SurfaceOrientation234> <https://purl.org/ontodesign#isInverted> "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
 # 
@@ -1376,14 +1251,12 @@ _:genid38 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 # 
 # https://purl.org/ontodesign#Wallpaper1
 <https://purl.org/ontodesign#Wallpaper1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://purl.org/ontodesign#Wallpaper1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://purl.org/ontodesign#SurfaceMaterial> .
 <https://purl.org/ontodesign#Wallpaper1> <https://purl.org/ontodesign#determines> <https://purl.org/ontodesign#AdhesionMechanismRequirement_Indoor> .
 <https://purl.org/ontodesign#Wallpaper1> <https://purl.org/ontodesign#isFerromagnetic> "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
 <https://purl.org/ontodesign#Wallpaper1> <https://purl.org/ontodesign#isSmooth> "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
 # 
 # https://purl.org/ontodesign#Wallpaper4
 <https://purl.org/ontodesign#Wallpaper4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://purl.org/ontodesign#Wallpaper4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://purl.org/ontodesign#SurfaceMaterial> .
 <https://purl.org/ontodesign#Wallpaper4> <https://purl.org/ontodesign#determines> <https://purl.org/ontodesign#AdhesionMechanismRequirement_Indoor> .
 <https://purl.org/ontodesign#Wallpaper4> <https://purl.org/ontodesign#isFerromagnetic> "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
 <https://purl.org/ontodesign#Wallpaper4> <https://purl.org/ontodesign#isSmooth> "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
@@ -1399,7 +1272,6 @@ _:genid38 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 # 
 # https://purl.org/ontodesign#Width1234
 <https://purl.org/ontodesign#Width1234> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://purl.org/ontodesign#Width1234> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://purl.org/ontodesign#Size> .
 # 
 # https://purl.org/ontodesign#WidthConstraint2
 <https://purl.org/ontodesign#WidthConstraint2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
