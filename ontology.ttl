@@ -18,17 +18,9 @@
         rdfs:subPropertyOf owl:topObjectProperty .
 
 
-###  https://purl.org/ontodesign#causesAbnormalArea
-:causesAbnormalArea rdf:type owl:ObjectProperty ;
-                    rdfs:subPropertyOf :causes ;
-                    rdfs:domain :BuildingDefect ;
-                    rdfs:range :AbnormalArea .
-
-
-###  https://purl.org/ontodesign#causesInterferenceToEnvironment
-:causesInterferenceToEnvironment rdf:type owl:ObjectProperty ;
-                                 rdfs:subPropertyOf :causes ;
-                                 rdfs:domain :RobotBehavior .
+###  https://purl.org/ontodesign#conducts
+:conducts rdf:type owl:ObjectProperty ;
+          rdfs:subPropertyOf owl:topObjectProperty .
 
 
 ###  https://purl.org/ontodesign#determines
@@ -57,21 +49,6 @@
                                               rdfs:subPropertyOf :fulfills ;
                                               rdfs:domain :RobotSystem ;
                                               rdfs:range :StructuralCharacteristicsRequirement .
-
-
-###  https://purl.org/ontodesign#hasAirHumidity
-:hasAirHumidity rdf:type owl:ObjectProperty ;
-                rdfs:subPropertyOf :hasEnvironmentData .
-
-
-###  https://purl.org/ontodesign#hasAirPressure
-:hasAirPressure rdf:type owl:ObjectProperty ;
-                rdfs:subPropertyOf :hasEnvironmentData .
-
-
-###  https://purl.org/ontodesign#hasAirTemperature
-:hasAirTemperature rdf:type owl:ObjectProperty ;
-                   rdfs:subPropertyOf :hasEnvironmentData .
 
 
 ###  https://purl.org/ontodesign#hasAttribute
@@ -124,18 +101,8 @@
               rdfs:subPropertyOf owl:topObjectProperty .
 
 
-###  https://purl.org/ontodesign#hasCorner
-:hasCorner rdf:type owl:ObjectProperty .
-
-
-###  https://purl.org/ontodesign#hasCornerAngle
-:hasCornerAngle rdf:type owl:ObjectProperty ;
-                rdfs:subPropertyOf :hasAttribute .
-
-
-###  https://purl.org/ontodesign#hasDepth
-:hasDepth rdf:type owl:ObjectProperty ;
-          rdfs:subPropertyOf :hasAttribute .
+###  https://purl.org/ontodesign#hasDefect
+:hasDefect rdf:type owl:ObjectProperty .
 
 
 ###  https://purl.org/ontodesign#hasDetectableAttribute
@@ -144,30 +111,10 @@
                         rdfs:range :DetectableAttribute .
 
 
-###  https://purl.org/ontodesign#hasDustiness
-:hasDustiness rdf:type owl:ObjectProperty ;
-              rdfs:subPropertyOf :hasSurfaceAttribute .
-
-
-###  https://purl.org/ontodesign#hasEnvironmentData
-:hasEnvironmentData rdf:type owl:ObjectProperty ;
-                    rdfs:subPropertyOf owl:topObjectProperty ;
-                    rdfs:domain [ rdf:type owl:Class ;
-                                  owl:unionOf ( :Site
-                                                :WorkEnvironment
-                                              )
-                                ] ;
-                    rdfs:range :EnvironmentalCondition .
-
-
 ###  https://purl.org/ontodesign#hasExpectedInspectionSpeed
 :hasExpectedInspectionSpeed rdf:type owl:ObjectProperty ;
                             rdfs:subPropertyOf :hasAttribute ;
                             rdfs:range :Speed .
-
-
-###  https://purl.org/ontodesign#hasExposedSurface
-:hasExposedSurface rdf:type owl:ObjectProperty .
 
 
 ###  https://purl.org/ontodesign#hasHeight
@@ -176,21 +123,16 @@
            rdfs:range :Height .
 
 
-###  https://purl.org/ontodesign#hasHighestPoint
-:hasHighestPoint rdf:type owl:ObjectProperty ;
-                 rdfs:subPropertyOf owl:topObjectProperty .
-
-
-###  https://purl.org/ontodesign#hasInclinationAngle
-:hasInclinationAngle rdf:type owl:ObjectProperty ;
-                     rdfs:subPropertyOf :hasSurfaceAttribute .
-
-
 ###  https://purl.org/ontodesign#hasIndoorSpace
 :hasIndoorSpace rdf:type owl:ObjectProperty ;
                 rdfs:subPropertyOf owl:topObjectProperty ;
                 rdfs:domain :BuildingInterior ;
                 rdfs:range :IndoorSpace .
+
+
+###  https://purl.org/ontodesign#hasMinimumChange
+:hasMinimumChange rdf:type owl:ObjectProperty ;
+                  rdfs:subPropertyOf :hasAttribute .
 
 
 ###  https://purl.org/ontodesign#hasPhysicalConstraintsToRobots
@@ -220,102 +162,14 @@
                         rdfs:range :RobotMovementMedium .
 
 
-###  https://purl.org/ontodesign#hasShape
-:hasShape rdf:type owl:ObjectProperty ;
-          rdfs:subPropertyOf :hasSurfaceAttribute .
-
-
-###  https://purl.org/ontodesign#hasSite
-:hasSite rdf:type owl:ObjectProperty ;
-         rdfs:domain :BuildingExterior ;
-         rdfs:range :Site .
-
-
 ###  https://purl.org/ontodesign#hasStructuralCharacteristics
 :hasStructuralCharacteristics rdf:type owl:ObjectProperty ;
                               rdfs:subPropertyOf :hasAttribute ;
                               rdfs:range :StructuralCharacteristic .
 
 
-###  https://purl.org/ontodesign#hasSurfaceAttribute
-:hasSurfaceAttribute rdf:type owl:ObjectProperty ;
-                     rdfs:subPropertyOf :hasAttribute .
-
-
-###  https://purl.org/ontodesign#hasSurfaceMaterial
-:hasSurfaceMaterial rdf:type owl:ObjectProperty ;
-                    rdfs:subPropertyOf :hasSurfaceAttribute .
-
-
-###  https://purl.org/ontodesign#hasSurfaceOrientation
-:hasSurfaceOrientation rdf:type owl:ObjectProperty ;
-                       rdfs:subPropertyOf :hasSurfaceAttribute .
-
-
-###  https://purl.org/ontodesign#hasTargetBuildingDefect
-:hasTargetBuildingDefect rdf:type owl:ObjectProperty ;
-                         rdfs:subPropertyOf owl:topObjectProperty ;
-                         rdfs:range :BuildingDefect .
-
-
-###  https://purl.org/ontodesign#hasVisibiltiy
-:hasVisibiltiy rdf:type owl:ObjectProperty ;
-               rdfs:subPropertyOf :hasEnvironmentData .
-
-
-###  https://purl.org/ontodesign#hasWidth
-:hasWidth rdf:type owl:ObjectProperty ;
-          rdfs:subPropertyOf :hasAttribute .
-
-
-###  https://purl.org/ontodesign#hasWindSpeed
-:hasWindSpeed rdf:type owl:ObjectProperty ;
-              rdfs:subPropertyOf :hasEnvironmentData .
-
-
-###  https://purl.org/ontodesign#influences
-:influences rdf:type owl:ObjectProperty ;
-            rdfs:subPropertyOf owl:topObjectProperty ;
-            rdfs:range :WorkEnvironment .
-
-
-###  https://purl.org/ontodesign#isAssistedBy
-:isAssistedBy rdf:type owl:ObjectProperty ;
-              rdfs:subPropertyOf owl:topObjectProperty .
-
-
-###  https://purl.org/ontodesign#isConductedBy
-:isConductedBy rdf:type owl:ObjectProperty ;
-               rdfs:subPropertyOf owl:topObjectProperty .
-
-
-###  https://purl.org/ontodesign#isConductedByHumanInspector
-:isConductedByHumanInspector rdf:type owl:ObjectProperty ;
-                             rdfs:subPropertyOf :isConductedBy .
-
-
-###  https://purl.org/ontodesign#isConductedByRobotSystem
-:isConductedByRobotSystem rdf:type owl:ObjectProperty ;
-                          rdfs:subPropertyOf :isConductedBy ;
-                          rdfs:range :RobotSystem .
-
-
 ###  https://purl.org/ontodesign#isLocatedAt
-:isLocatedAt rdf:type owl:ObjectProperty ;
-             rdfs:subPropertyOf owl:topObjectProperty .
-
-
-###  https://purl.org/ontodesign#isLocatedAtBuildingElement
-:isLocatedAtBuildingElement rdf:type owl:ObjectProperty ;
-                            rdfs:subPropertyOf :isLocatedAt ;
-                            rdfs:range :BuildingElement .
-
-
-###  https://purl.org/ontodesign#isLocatedAtSite
-:isLocatedAtSite rdf:type owl:ObjectProperty ;
-                 rdfs:subPropertyOf :isLocatedAt ;
-                 rdfs:domain :Building ;
-                 rdfs:range :Site .
+:isLocatedAt rdf:type owl:ObjectProperty .
 
 
 ###  https://purl.org/ontodesign#isToBeDetectedBy
@@ -350,16 +204,8 @@
           rdfs:range :WorkEnvironment .
 
 
-###  https://purl.org/ontodesign#requires
-:requires rdf:type owl:ObjectProperty ;
-          rdfs:subPropertyOf owl:topObjectProperty .
-
-
-###  https://purl.org/ontodesign#requiresRobotComponent
-:requiresRobotComponent rdf:type owl:ObjectProperty ;
-                        rdfs:subPropertyOf :requires ;
-                        rdfs:domain :RobotBehavior ;
-                        rdfs:range :RobotComponent .
+###  https://purl.org/ontodesign#requiresMethod
+:requiresMethod rdf:type owl:ObjectProperty .
 
 
 ###  https://purl.org/ontodesign#worksIn
@@ -421,10 +267,6 @@
 
 ###  https://purl.org/ontodesign#AbnormalArea
 :AbnormalArea rdf:type owl:Class ;
-              rdfs:subClassOf [ rdf:type owl:Restriction ;
-                                owl:onProperty :isLocatedAtBuildingElement ;
-                                owl:someValuesFrom :BuildingElement
-                              ] ;
               owl:disjointWith :IndoorSpace ;
               rdfs:comment "AbnormalArea is an area that has some anomalies compared to other areas of the same building element. This area is caused by the BuildingDefect, and it usually has some variations in the values of some attributes." .
 
@@ -478,25 +320,12 @@
                           [ rdf:type owl:Restriction ;
                             owl:onProperty :hasBuildingInterior ;
                             owl:someValuesFrom :BuildingInterior
-                          ] ,
-                          [ rdf:type owl:Restriction ;
-                            owl:onProperty :isLocatedAtSite ;
-                            owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
-                            owl:onClass :Site
                           ] ;
           owl:disjointWith :IndoorSpace .
 
 
 ###  https://purl.org/ontodesign#BuildingDefect
 :BuildingDefect rdf:type owl:Class ;
-                rdfs:subClassOf [ rdf:type owl:Restriction ;
-                                  owl:onProperty :causesAbnormalArea ;
-                                  owl:someValuesFrom :AbnormalArea
-                                ] ,
-                                [ rdf:type owl:Restriction ;
-                                  owl:onProperty :isLocatedAt ;
-                                  owl:someValuesFrom :BuildingElement
-                                ] ;
                 owl:disjointWith :IndoorSpace ;
                 rdfs:comment "BuildingDefect is defined as a failing or shortcoming in the function, performance, statutory, or user requirements of a building, and might manifest itself within the BuildingElement of the affected building." .
 
@@ -512,11 +341,6 @@
                   rdfs:subClassOf [ rdf:type owl:Restriction ;
                                     owl:onProperty :hasBuildingElement ;
                                     owl:someValuesFrom :BuildingElement
-                                  ] ,
-                                  [ rdf:type owl:Restriction ;
-                                    owl:onProperty :hasSite ;
-                                    owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
-                                    owl:onClass :Site
                                   ] ;
                   owl:disjointWith :IndoorSpace ;
                   rdfs:comment "BuildingExterior includes all elements exposed to the Site of the building." .
@@ -691,10 +515,6 @@
                rdfs:subClassOf [ rdf:type owl:Restriction ;
                                  owl:onProperty :occursAt ;
                                  owl:someValuesFrom :WorkEnvironment
-                               ] ,
-                               [ rdf:type owl:Restriction ;
-                                 owl:onProperty :requiresRobotComponent ;
-                                 owl:someValuesFrom :RobotComponent
                                ] .
 
 
@@ -736,11 +556,7 @@
 
 
 ###  https://purl.org/ontodesign#Site
-:Site rdf:type owl:Class ;
-      rdfs:subClassOf [ rdf:type owl:Restriction ;
-                        owl:onProperty :hasEnvironmentData ;
-                        owl:someValuesFrom :EnvironmentalCondition
-                      ] .
+:Site rdf:type owl:Class .
 
 
 ###  https://purl.org/ontodesign#SizeRequirement
@@ -843,40 +659,6 @@
 :AdhesionMechanismRequirement_Indoor rdf:type owl:NamedIndividual .
 
 
-###  https://purl.org/ontodesign#Angle1
-:Angle1 rdf:type owl:NamedIndividual ;
-        :determines :TransitionDexterityRequirement_Indoor ;
-        :hasUnit "degree" ;
-        :hasValue "90.0"^^xsd:double .
-
-
-###  https://purl.org/ontodesign#Angle2_1
-:Angle2_1 rdf:type owl:NamedIndividual ;
-          :determines :TransitionDexterityRequirement_Indoor ;
-          :hasUnit "degree" ;
-          :hasValue "60.0"^^xsd:double .
-
-
-###  https://purl.org/ontodesign#Angle2_2
-:Angle2_2 rdf:type owl:NamedIndividual ;
-          :hasUnit "degree" ;
-          :hasValue "80.0"^^xsd:double .
-
-
-###  https://purl.org/ontodesign#Angle3
-:Angle3 rdf:type owl:NamedIndividual ;
-        :determines :TransitionDexterityRequirement_Indoor ;
-        :hasUnit "degree" ;
-        :hasValue "105.0"^^xsd:double .
-
-
-###  https://purl.org/ontodesign#Angle4
-:Angle4 rdf:type owl:NamedIndividual ;
-        :determines :TransitionDexterityRequirement_Indoor ;
-        :hasUnit "degree" ;
-        :hasValue "120.0"^^xsd:double .
-
-
 ###  https://purl.org/ontodesign#Building1
 :Building1 rdf:type owl:NamedIndividual ,
                     :Building .
@@ -904,8 +686,7 @@
 
 ###  https://purl.org/ontodesign#Ceiling1
 :Ceiling1 rdf:type owl:NamedIndividual ,
-                   :BuildingElement ;
-          :hasExposedSurface :Surface1 .
+                   :BuildingElement .
 
 
 ###  https://purl.org/ontodesign#Ceiling4
@@ -913,169 +694,14 @@
                    :BuildingElement .
 
 
-###  https://purl.org/ontodesign#Ceramics2
-:Ceramics2 rdf:type owl:NamedIndividual ;
-           :determines :AdhesionMechanismRequirement_Indoor ;
-           :isFerromagnetic "false"^^xsd:boolean ;
-           :isSmooth "true"^^xsd:boolean .
-
-
-###  https://purl.org/ontodesign#CommunicationRequirement
-:CommunicationRequirement rdf:type owl:NamedIndividual ,
-                                   :CommunicationRequirement ,
-                                   :RobotSystemHardwareRequirement .
-
-
-###  https://purl.org/ontodesign#ConcaveCorner1
-:ConcaveCorner1 rdf:type owl:NamedIndividual ;
-                :hasCornerAngle :Angle1 ;
-                :isLocatedAt :WorkEnvironment1 .
-
-
-###  https://purl.org/ontodesign#ConcaveCorner2
-:ConcaveCorner2 rdf:type owl:NamedIndividual ;
-                :hasCornerAngle :Angle2_1 ;
-                :isLocatedAt :WorkEnvironment2 .
-
-
-###  https://purl.org/ontodesign#ConcaveCorner3
-:ConcaveCorner3 rdf:type owl:NamedIndividual ;
-                :hasCornerAngle :Angle3 ;
-                :isLocatedAt :WorkEnvironment3 .
-
-
-###  https://purl.org/ontodesign#ConcaveCorner4
-:ConcaveCorner4 rdf:type owl:NamedIndividual ;
-                :hasCornerAngle :Angle4 ;
-                :isLocatedAt :WorkEnvironment4 .
-
-
-###  https://purl.org/ontodesign#ConcaveObstacle1
-:ConcaveObstacle1 rdf:type owl:NamedIndividual ;
-                  :hasDepth :ObstacleDepth1 ;
-                  :hasWidth :ObstacleWidth4 .
-
-
-###  https://purl.org/ontodesign#ConcaveTransistion1
-:ConcaveTransistion1 rdf:type owl:NamedIndividual ,
-                              :RobotBehavior ;
-                     :occursAt :WorkEnvironment1 .
-
-
-###  https://purl.org/ontodesign#ConcaveTransistion2
-:ConcaveTransistion2 rdf:type owl:NamedIndividual ,
-                              :RobotBehavior ;
-                     :occursAt :WorkEnvironment2 .
-
-
-###  https://purl.org/ontodesign#ConcaveTransistion3
-:ConcaveTransistion3 rdf:type owl:NamedIndividual ,
-                              :RobotBehavior ;
-                     :occursAt :WorkEnvironment3 .
-
-
-###  https://purl.org/ontodesign#ConcaveTransistion4
-:ConcaveTransistion4 rdf:type owl:NamedIndividual ;
-                     :occursAt :WorkEnvironment4 .
-
-
-###  https://purl.org/ontodesign#ConvexCorner1
-:ConvexCorner1 rdf:type owl:NamedIndividual .
-
-
-###  https://purl.org/ontodesign#ConvexCorner2
-:ConvexCorner2 rdf:type owl:NamedIndividual ;
-               :hasCornerAngle :Angle2_2 ;
-               :isLocatedAt :WorkEnvironment2 .
-
-
-###  https://purl.org/ontodesign#ConvexCorner3
-:ConvexCorner3 rdf:type owl:NamedIndividual .
-
-
-###  https://purl.org/ontodesign#ConvexCorner4
-:ConvexCorner4 rdf:type owl:NamedIndividual .
-
-
-###  https://purl.org/ontodesign#ConvexObstacle1
-:ConvexObstacle1 rdf:type owl:NamedIndividual ;
-                 :hasHeight :ObstacleHeight1 ;
-                 :hasWidth :ObstacleWidth1 .
-
-
-###  https://purl.org/ontodesign#ConvexObstacle2
-:ConvexObstacle2 rdf:type owl:NamedIndividual ;
-                 :hasHeight :ObstacleHeight2 ;
-                 :hasWidth :ObstacleWidth2 .
-
-
-###  https://purl.org/ontodesign#ConvexObstacle3
-:ConvexObstacle3 rdf:type owl:NamedIndividual ;
-                 :hasHeight :ObstacleHeight3 ;
-                 :hasWidth :ObstacleWidth3 ;
-                 :isLocatedAt :Surface3 .
-
-
-###  https://purl.org/ontodesign#ConvexTransistion2
-:ConvexTransistion2 rdf:type owl:NamedIndividual ;
-                    :occursAt :WorkEnvironment2 .
-
-
-###  https://purl.org/ontodesign#DegreeOfAutonomyRequirement1
-:DegreeOfAutonomyRequirement1 rdf:type owl:NamedIndividual ,
-                                       :RobotSystemHardwareRequirement .
-
-
-###  https://purl.org/ontodesign#Depth2
-:Depth2 rdf:type owl:NamedIndividual ;
-        :hasUnit "cm" ;
-        :hasValue "5.0"^^xsd:double .
-
-
-###  https://purl.org/ontodesign#Dustiness1
-:Dustiness1 rdf:type owl:NamedIndividual ;
-            :determines :AdhesionMechanismRequirement_Indoor ;
-            :hasDustinessLevel "low" .
-
-
-###  https://purl.org/ontodesign#Dustiness2
-:Dustiness2 rdf:type owl:NamedIndividual ;
-            :determines :AdhesionMechanismRequirement_Indoor ;
-            :hasDustinessLevel "medium" .
-
-
-###  https://purl.org/ontodesign#Dustiness3
-:Dustiness3 rdf:type owl:NamedIndividual ;
-            :determines :AdhesionMechanismRequirement_Indoor ;
-            :hasDustinessLevel "high" .
-
-
-###  https://purl.org/ontodesign#Dustiness4
-:Dustiness4 rdf:type owl:NamedIndividual ;
-            :determines :AdhesionMechanismRequirement_Indoor ;
-            :hasDustinessLevel "low" .
-
-
 ###  https://purl.org/ontodesign#Floor3
 :Floor3 rdf:type owl:NamedIndividual ,
-                 :BuildingElement ;
-        :hasExposedSurface :Surface3 .
-
-
-###  https://purl.org/ontodesign#Glass3
-:Glass3 rdf:type owl:NamedIndividual ;
-        :determines :AdhesionMechanismRequirement_Indoor ;
-        :isFerromagnetic "false"^^xsd:boolean ;
-        :isSmooth "true"^^xsd:boolean .
+                 :BuildingElement .
 
 
 ###  https://purl.org/ontodesign#Height1
 :Height1 rdf:type owl:NamedIndividual ,
                   :Height .
-
-
-###  https://purl.org/ontodesign#Height1234
-:Height1234 rdf:type owl:NamedIndividual .
 
 
 ###  https://purl.org/ontodesign#Height2
@@ -1088,54 +714,17 @@
                   :Height .
 
 
-###  https://purl.org/ontodesign#Height4
-:Height4 rdf:type owl:NamedIndividual ,
-                  :Height .
-
-
 ###  https://purl.org/ontodesign#HeightConstraint1
 :HeightConstraint1 rdf:type owl:NamedIndividual ,
-                            :HeightConstraint ;
-                   :determines :SizeRequirement1 .
-
-
-###  https://purl.org/ontodesign#InclinationAngle1
-:InclinationAngle1 rdf:type owl:NamedIndividual ;
-                   :determines :AdhesionMechanismRequirement_Indoor ;
-                   :hasUnit "degree" ;
-                   :hasValue "180.0"^^xsd:double .
-
-
-###  https://purl.org/ontodesign#InclinationAngle2
-:InclinationAngle2 rdf:type owl:NamedIndividual ;
-                   :determines :AdhesionMechanismRequirement_Indoor ;
-                   :hasUnit "degree" ;
-                   :hasValue "90.0"^^xsd:double .
-
-
-###  https://purl.org/ontodesign#InclinationAngle3
-:InclinationAngle3 rdf:type owl:NamedIndividual ;
-                   :determines :AdhesionMechanismRequirement_Indoor ;
-                   :hasUnit "degree" ;
-                   :hasValue "90.0"^^xsd:double .
-
-
-###  https://purl.org/ontodesign#InclinationAngle4
-:InclinationAngle4 rdf:type owl:NamedIndividual ;
-                   :determines :AdhesionMechanismRequirement_Indoor ;
-                   :hasUnit "degree" ;
-                   :hasValue "80.0"^^xsd:double .
+                            :HeightConstraint .
 
 
 ###  https://purl.org/ontodesign#IndoorSpace1
 :IndoorSpace1 rdf:type owl:NamedIndividual ,
                        :IndoorSpace ;
-              owl:sameAs :WorkEnvironment1 ;
               :hasPhysicalConstraintsToRobots :HeightConstraint1 ;
               :hasSignalReceptionCondition "good" .
 
-
-###  https://purl.org/ontodesign#WorkEnvironment1
 
 ###  https://purl.org/ontodesign#IndoorSpace2
 :IndoorSpace2 rdf:type owl:NamedIndividual ,
@@ -1160,21 +749,6 @@
                   :hasValue "10.0"^^xsd:double .
 
 
-###  https://purl.org/ontodesign#Length1234
-:Length1234 rdf:type owl:NamedIndividual .
-
-
-###  https://purl.org/ontodesign#LocomotionCapabilityRequirement1
-:LocomotionCapabilityRequirement1 rdf:type owl:NamedIndividual ,
-                                           :LocomotionCapabilityRequirement ,
-                                           :RobotSystemHardwareRequirement .
-
-
-###  https://purl.org/ontodesign#LocomotionMechanismCharacteristicRequirement1
-:LocomotionMechanismCharacteristicRequirement1 rdf:type owl:NamedIndividual ,
-                                                        :RobotSystemHardwareRequirement .
-
-
 ###  https://purl.org/ontodesign#LocomotionMechanismRequirement_Indoor
 :LocomotionMechanismRequirement_Indoor rdf:type owl:NamedIndividual .
 
@@ -1182,38 +756,30 @@
 ###  https://purl.org/ontodesign#Moisture1
 :Moisture1 rdf:type owl:NamedIndividual ,
                     :BuildingDefect ;
-           :causes :AbnormalArea1 ;
-           :isLocatedAt :Ceiling1 .
+           :causes :AbnormalArea1 .
 
 
 ###  https://purl.org/ontodesign#Moisture2
 :Moisture2 rdf:type owl:NamedIndividual ,
                     :BuildingDefect ;
-           :causes :AbnormalArea2 ;
-           :isLocatedAt :Wall2 .
+           :causes :AbnormalArea2 .
 
 
 ###  https://purl.org/ontodesign#Moisture3
 :Moisture3 rdf:type owl:NamedIndividual ,
                     :BuildingDefect ;
-           :causes :AbnormalArea3 ;
-           :isLocatedAt :Floor3 .
+           :causes :AbnormalArea3 .
 
 
 ###  https://purl.org/ontodesign#Moisture4
 :Moisture4 rdf:type owl:NamedIndividual ,
                     :BuildingDefect ;
-           :causes :AbnormalArea4 ;
-           :isLocatedAt :Wall4 .
+           :causes :AbnormalArea4 .
 
 
 ###  https://purl.org/ontodesign#MoistureMeter2
 :MoistureMeter2 rdf:type owl:NamedIndividual ,
                          :AuxiliaryEquipment .
-
-
-###  https://purl.org/ontodesign#Obstacle2
-:Obstacle2 rdf:type owl:NamedIndividual .
 
 
 ###  https://purl.org/ontodesign#ObstacleDepth1
@@ -1240,33 +806,6 @@
                 :hasValue "20.0"^^xsd:double .
 
 
-###  https://purl.org/ontodesign#ObstacleHeight1
-:ObstacleHeight1 rdf:type owl:NamedIndividual ,
-                          :Attribute ,
-                          :Height ;
-                 :determines :ObstacleOvercomingAbilityRequirement_Indoor ;
-                 :hasUnit "mm" ;
-                 :hasValue "30.0"^^xsd:double .
-
-
-###  https://purl.org/ontodesign#ObstacleHeight2
-:ObstacleHeight2 rdf:type owl:NamedIndividual ,
-                          :Attribute ,
-                          :Height ;
-                 :determines :ObstacleOvercomingAbilityRequirement_Indoor ;
-                 :hasUnit "mm" ;
-                 :hasValue "20.0"^^xsd:double .
-
-
-###  https://purl.org/ontodesign#ObstacleHeight3
-:ObstacleHeight3 rdf:type owl:NamedIndividual ,
-                          :Attribute ,
-                          :Height ;
-                 :determines :ObstacleOvercomingAbilityRequirement_Indoor ;
-                 :hasUnit "mm" ;
-                 :hasValue "12.0"^^xsd:double .
-
-
 ###  https://purl.org/ontodesign#ObstacleOvercomingAbilityRequirement_Indoor
 :ObstacleOvercomingAbilityRequirement_Indoor rdf:type owl:NamedIndividual .
 
@@ -1279,133 +818,29 @@
                 :hasValue "15.0"^^xsd:double .
 
 
-###  https://purl.org/ontodesign#ObstacleWidth2
-:ObstacleWidth2 rdf:type owl:NamedIndividual ;
-                :determines :ObstacleOvercomingAbilityRequirement_Indoor ;
-                :hasUnit "mm" ;
-                :hasValue "20.0"^^xsd:double .
-
-
-###  https://purl.org/ontodesign#ObstacleWidth3
-:ObstacleWidth3 rdf:type owl:NamedIndividual ;
-                :determines :ObstacleOvercomingAbilityRequirement_Indoor ;
-                :hasUnit "mm" ;
-                :hasValue "40.0"^^xsd:double .
-
-
-###  https://purl.org/ontodesign#ObstacleWidth4
-:ObstacleWidth4 rdf:type owl:NamedIndividual ;
-                :determines :ObstacleOvercomingAbilityRequirement_Indoor ;
-                :hasUnit "mm" ;
-                :hasValue "10.0"^^xsd:double .
-
-
-###  https://purl.org/ontodesign#OperationalCapabilityRequirement1
-:OperationalCapabilityRequirement1 rdf:type owl:NamedIndividual ,
-                                            :OperationalCapabilityRequirement ,
-                                            :RobotSystemHardwareRequirement .
-
-
-###  https://purl.org/ontodesign#OvercomingSurfaceObstacle2
-:OvercomingSurfaceObstacle2 rdf:type owl:NamedIndividual ,
-                                     :RobotBehavior ;
-                            :occursAt :WorkEnvironment2 .
-
-
-###  https://purl.org/ontodesign#OvercomingSurfaceObstacle3
-:OvercomingSurfaceObstacle3 rdf:type owl:NamedIndividual ,
-                                     :RobotBehavior ;
-                            :occursAt :WorkEnvironment3 .
-
-
-###  https://purl.org/ontodesign#Robot1234
-:Robot1234 rdf:type owl:NamedIndividual .
-
-
-###  https://purl.org/ontodesign#SensoryCapabilityRequirement1
-:SensoryCapabilityRequirement1 rdf:type owl:NamedIndividual ,
-                                        :RobotSystemHardwareRequirement ,
-                                        :SensoryCapabilityRequirement ;
-                               :determines :SensoryCapabilityRequirement1 .
-
-
-###  https://purl.org/ontodesign#SizeRequirement1
-:SizeRequirement1 rdf:type owl:NamedIndividual ,
-                           :RobotSystemHardwareRequirement ,
-                           :SizeRequirement .
-
-
 ###  https://purl.org/ontodesign#SizeRequirement_Indoor
 :SizeRequirement_Indoor rdf:type owl:NamedIndividual ,
                                  :SizeRequirement .
 
 
-###  https://purl.org/ontodesign#Surface1
-:Surface1 rdf:type owl:NamedIndividual ;
-          :hasDustiness :Dustiness1 ;
-          :hasSurfaceAttribute :InclinationAngle1 ,
-                               :SurfaceOrientation1 ;
-          :hasSurfaceMaterial :Wallpaper1 .
-
-
-###  https://purl.org/ontodesign#Surface2
-:Surface2 rdf:type owl:NamedIndividual ;
-          :hasDustiness :Dustiness2 ;
-          :hasSurfaceAttribute :InclinationAngle2 ,
-                               :SurfaceOrientation234 ;
-          :hasSurfaceMaterial :Ceramics2 .
-
-
-###  https://purl.org/ontodesign#Surface3
-:Surface3 rdf:type owl:NamedIndividual ;
-          :hasDustiness :Dustiness3 ;
-          :hasSurfaceAttribute :InclinationAngle3 ,
-                               :SurfaceOrientation234 ;
-          :hasSurfaceMaterial :Glass3 .
-
-
-###  https://purl.org/ontodesign#Surface4
-:Surface4 rdf:type owl:NamedIndividual ;
-          :hasDustiness :Dustiness4 ;
-          :hasSurfaceAttribute :InclinationAngle4 ,
-                               :SurfaceOrientation234 ;
-          :hasSurfaceMaterial :Wallpaper4 .
-
-
-###  https://purl.org/ontodesign#SurfaceOrientation1
-:SurfaceOrientation1 rdf:type owl:NamedIndividual ;
-                     :determines :AdhesionMechanismRequirement_Indoor ;
-                     :isInverted "true"^^xsd:boolean .
-
-
-###  https://purl.org/ontodesign#SurfaceOrientation234
-:SurfaceOrientation234 rdf:type owl:NamedIndividual ;
-                       :determines :AdhesionMechanismRequirement_Indoor ;
-                       :isInverted "false"^^xsd:boolean .
-
-
 ###  https://purl.org/ontodesign#TemperatureChange1
 :TemperatureChange1 rdf:type owl:NamedIndividual ,
-                             :DetectableAttribute ;
-                    :determines :SensoryCapabilityRequirement1 .
+                             :DetectableAttribute .
 
 
 ###  https://purl.org/ontodesign#TemperatureChange2
 :TemperatureChange2 rdf:type owl:NamedIndividual ,
-                             :DetectableAttribute ;
-                    :determines :SensoryCapabilityRequirement1 .
+                             :DetectableAttribute .
 
 
 ###  https://purl.org/ontodesign#TemperatureChange3
 :TemperatureChange3 rdf:type owl:NamedIndividual ,
-                             :DetectableAttribute ;
-                    :determines :SensoryCapabilityRequirement1 .
+                             :DetectableAttribute .
 
 
 ###  https://purl.org/ontodesign#TemperatureChange4
 :TemperatureChange4 rdf:type owl:NamedIndividual ,
-                             :DetectableAttribute ;
-                    :determines :SensoryCapabilityRequirement1 .
+                             :DetectableAttribute .
 
 
 ###  https://purl.org/ontodesign#ThermalCamera1
@@ -1429,14 +864,12 @@
 
 ###  https://purl.org/ontodesign#Wall2
 :Wall2 rdf:type owl:NamedIndividual ,
-                :BuildingElement ;
-       :hasExposedSurface :Surface2 .
+                :BuildingElement .
 
 
 ###  https://purl.org/ontodesign#Wall4
 :Wall4 rdf:type owl:NamedIndividual ,
-                :BuildingElement ;
-       :hasExposedSurface :Surface4 .
+                :BuildingElement .
 
 
 ###  https://purl.org/ontodesign#WallCimbingRobot1
@@ -1449,63 +882,9 @@
                                          :RobotSystem .
 
 
-###  https://purl.org/ontodesign#Wallpaper1
-:Wallpaper1 rdf:type owl:NamedIndividual ;
-            :determines :AdhesionMechanismRequirement_Indoor ;
-            :isFerromagnetic "false"^^xsd:boolean ;
-            :isSmooth "false"^^xsd:boolean .
-
-
-###  https://purl.org/ontodesign#Wallpaper4
-:Wallpaper4 rdf:type owl:NamedIndividual ;
-            :determines :AdhesionMechanismRequirement_Indoor ;
-            :isFerromagnetic "false"^^xsd:boolean ;
-            :isSmooth "false"^^xsd:boolean .
-
-
-###  https://purl.org/ontodesign#WeatherResistanceRequirement
-:WeatherResistanceRequirement rdf:type owl:NamedIndividual ,
-                                       :RobotSystemHardwareRequirement ,
-                                       :WeatherResistanceRequirement .
-
-
-###  https://purl.org/ontodesign#WeightRequirement
-:WeightRequirement rdf:type owl:NamedIndividual ,
-                            :RobotSystemHardwareRequirement .
-
-
-###  https://purl.org/ontodesign#Width1234
-:Width1234 rdf:type owl:NamedIndividual .
-
-
 ###  https://purl.org/ontodesign#WidthConstraint2
 :WidthConstraint2 rdf:type owl:NamedIndividual ,
-                           :WidthConstraint ;
-                  :determines :SizeRequirement1 .
-
-
-###  https://purl.org/ontodesign#WorkEnvironment1
-:WorkEnvironment1 rdf:type owl:NamedIndividual ,
-                           :WorkEnvironment ;
-                  :hasRobotMovementMedium :Surface1 .
-
-
-###  https://purl.org/ontodesign#WorkEnvironment2
-:WorkEnvironment2 rdf:type owl:NamedIndividual ,
-                           :WorkEnvironment ;
-                  :hasRobotMovementMedium :Surface2 .
-
-
-###  https://purl.org/ontodesign#WorkEnvironment3
-:WorkEnvironment3 rdf:type owl:NamedIndividual ,
-                           :WorkEnvironment ;
-                  :hasRobotMovementMedium :Surface3 .
-
-
-###  https://purl.org/ontodesign#WorkEnvironment4
-:WorkEnvironment4 rdf:type owl:NamedIndividual ,
-                           :WorkEnvironment ;
-                  :hasRobotMovementMedium :Surface4 .
+                           :WidthConstraint .
 
 
 #################################################################
