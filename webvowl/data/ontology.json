@@ -7,7 +7,7 @@
   },
   "namespace" : [ ],
   "class" : [ {
-    "id" : "28",
+    "id" : "31",
     "type" : "owl:Class"
   }, {
     "id" : "53",
@@ -31,7 +31,7 @@
     "id" : "65",
     "type" : "owl:Thing"
   }, {
-    "id" : "29",
+    "id" : "32",
     "type" : "owl:Class"
   }, {
     "id" : "69",
@@ -91,10 +91,10 @@
     "id" : "112",
     "type" : "owl:Class"
   }, {
-    "id" : "119",
+    "id" : "107",
     "type" : "owl:Class"
   }, {
-    "id" : "107",
+    "id" : "119",
     "type" : "owl:Class"
   }, {
     "id" : "122",
@@ -133,11 +133,11 @@
     "id" : "189",
     "type" : "rdfs:Datatype"
   }, {
-    "id" : "194",
-    "type" : "rdfs:Datatype"
-  }, {
     "id" : "72",
     "type" : "owl:Class"
+  }, {
+    "id" : "196",
+    "type" : "rdfs:Datatype"
   }, {
     "id" : "73",
     "type" : "owl:Class"
@@ -288,8 +288,8 @@
         "IRI-based" : "SizeRequirement_Indoor"
       }
     } ],
-    "id" : "28",
-    "superClasses" : [ "29" ]
+    "id" : "31",
+    "superClasses" : [ "32" ]
   }, {
     "iri" : "https://purl.org/ontodesign#Height",
     "baseIri" : "https://purl.org/ontodesign",
@@ -391,8 +391,8 @@
     "label" : {
       "IRI-based" : "StructuralCharacteristicsRequirement"
     },
-    "subClasses" : [ "28" ],
-    "id" : "29",
+    "subClasses" : [ "31" ],
+    "id" : "32",
     "superClasses" : [ "72" ]
   }, {
     "iri" : "https://purl.org/ontodesign#LocomotionCapabilityRequirement",
@@ -710,15 +710,6 @@
     "id" : "112",
     "superClasses" : [ "87" ]
   }, {
-    "iri" : "https://purl.org/ontodesign#SignalReceptionCondition",
-    "baseIri" : "https://purl.org/ontodesign",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "SignalReceptionCondition"
-    },
-    "id" : "119",
-    "superClasses" : [ "87" ]
-  }, {
     "iri" : "https://purl.org/ontodesign#DegreeOfAutonomy",
     "baseIri" : "https://purl.org/ontodesign",
     "instances" : 0,
@@ -727,6 +718,15 @@
     },
     "id" : "107",
     "superClasses" : [ "85" ]
+  }, {
+    "iri" : "https://purl.org/ontodesign#SignalReceptionCondition",
+    "baseIri" : "https://purl.org/ontodesign",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "SignalReceptionCondition"
+    },
+    "id" : "119",
+    "superClasses" : [ "87" ]
   }, {
     "iri" : "https://purl.org/ontodesign#RobotComponent",
     "baseIri" : "https://purl.org/ontodesign",
@@ -843,16 +843,9 @@
     "id" : "138",
     "superClasses" : [ "87" ]
   }, {
-    "iri" : "http://www.w3.org/2001/XMLSchema#string",
-    "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "189",
-    "label" : {
-      "IRI-based" : "string"
-    }
-  }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#double",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "194",
+    "id" : "189",
     "label" : {
       "IRI-based" : "double"
     }
@@ -906,8 +899,15 @@
         "IRI-based" : "LocomotionMechanismCharacteristicRequirement1"
       }
     } ],
-    "subClasses" : [ "29", "73" ],
+    "subClasses" : [ "32", "73" ],
     "id" : "72"
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "196",
+    "label" : {
+      "IRI-based" : "string"
+    }
   }, {
     "iri" : "https://purl.org/ontodesign#CapabilityRequirement",
     "baseIri" : "https://purl.org/ontodesign",
@@ -1275,18 +1275,18 @@
     "id" : "21",
     "superClasses" : [ "22" ]
   }, {
-    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "iri" : "http://www.w3.org/2001/XMLSchema#double",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
     "id" : "239",
     "label" : {
-      "IRI-based" : "string"
+      "IRI-based" : "double"
     }
   }, {
-    "iri" : "http://www.w3.org/2001/XMLSchema#double",
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
     "id" : "241",
     "label" : {
-      "IRI-based" : "double"
+      "IRI-based" : "string"
     }
   }, {
     "iri" : "http://www.w3.org/2002/07/owl#Thing",
@@ -1488,7 +1488,7 @@
     "id" : "25",
     "type" : "owl:objectProperty"
   }, {
-    "id" : "30",
+    "id" : "28",
     "type" : "owl:objectProperty"
   }, {
     "id" : "33",
@@ -1704,14 +1704,14 @@
     "id" : "167",
     "type" : "owl:objectProperty"
   }, {
-    "id" : "31",
+    "id" : "29",
     "type" : "owl:objectProperty"
   }, {
     "id" : "153",
     "type" : "owl:objectProperty"
   }, {
     "id" : "176",
-    "type" : "owl:someValuesFrom"
+    "type" : "owl:disjointWith"
   }, {
     "id" : "177",
     "type" : "owl:someValuesFrom"
@@ -1720,7 +1720,7 @@
     "type" : "owl:objectProperty"
   }, {
     "id" : "180",
-    "type" : "owl:disjointWith"
+    "type" : "owl:someValuesFrom"
   }, {
     "id" : "181",
     "type" : "owl:disjointWith"
@@ -1764,14 +1764,14 @@
     "id" : "193",
     "type" : "owl:disjointWith"
   }, {
+    "id" : "194",
+    "type" : "owl:disjointWith"
+  }, {
     "id" : "195",
     "type" : "owl:objectProperty"
   }, {
-    "id" : "196",
-    "type" : "owl:disjointWith"
-  }, {
     "id" : "197",
-    "type" : "owl:disjointWith"
+    "type" : "owl:someValuesFrom"
   }, {
     "id" : "198",
     "type" : "owl:disjointWith"
@@ -1780,7 +1780,7 @@
     "type" : "owl:disjointWith"
   }, {
     "id" : "200",
-    "type" : "owl:someValuesFrom"
+    "type" : "owl:disjointWith"
   }, {
     "id" : "201",
     "type" : "owl:disjointWith"
@@ -1947,7 +1947,7 @@
     "id" : "255",
     "type" : "owl:objectProperty"
   }, {
-    "id" : "32",
+    "id" : "30",
     "type" : "owl:objectProperty"
   }, {
     "id" : "256",
@@ -1962,10 +1962,10 @@
     "id" : "259",
     "type" : "rdf:Property"
   }, {
-    "id" : "35",
+    "id" : "260",
     "type" : "owl:objectProperty"
   }, {
-    "id" : "260",
+    "id" : "35",
     "type" : "owl:objectProperty"
   }, {
     "id" : "41",
@@ -2058,9 +2058,9 @@
     },
     "superproperty" : [ "10" ],
     "domain" : "9",
-    "subproperty" : [ "31", "32" ],
+    "subproperty" : [ "29", "30" ],
     "attributes" : [ "object" ],
-    "id" : "30"
+    "id" : "28"
   }, {
     "iri" : "https://purl.org/ontodesign#isAssistedBy",
     "baseIri" : "https://purl.org/ontodesign",
@@ -2080,8 +2080,8 @@
       "IRI-based" : "topObjectProperty"
     },
     "domain" : "9",
-    "subproperty" : [ "34", "35", "8", "36", "37", "38", "39", "40", "41", "42", "43", "44", "45", "25", "30", "46", "47", "48", "33", "49", "50", "51", "52" ],
-    "attributes" : [ "external", "object" ],
+    "subproperty" : [ "34", "35", "8", "36", "37", "38", "39", "40", "41", "42", "43", "44", "45", "25", "28", "46", "47", "48", "33", "49", "50", "51", "52" ],
+    "attributes" : [ "object", "external" ],
     "id" : "10"
   }, {
     "range" : "2",
@@ -2115,8 +2115,8 @@
     "attributes" : [ "datatype" ],
     "id" : "62"
   }, {
-    "range" : "29",
-    "domain" : "28",
+    "range" : "32",
+    "domain" : "31",
     "attributes" : [ "anonymous", "object" ],
     "id" : "66"
   }, {
@@ -2156,7 +2156,7 @@
   }, {
     "iri" : "https://purl.org/ontodesign#fulfillsStructuralCharacteristicsRequirement",
     "baseIri" : "https://purl.org/ontodesign",
-    "range" : "29",
+    "range" : "32",
     "label" : {
       "IRI-based" : "fulfillsStructuralCharacteristicsRequirement"
     },
@@ -2471,7 +2471,7 @@
     "id" : "144"
   }, {
     "range" : "72",
-    "domain" : "29",
+    "domain" : "32",
     "attributes" : [ "anonymous", "object" ],
     "id" : "146"
   }, {
@@ -2618,7 +2618,7 @@
     "label" : {
       "IRI-based" : "causesAbnormalArea"
     },
-    "superproperty" : [ "30" ],
+    "superproperty" : [ "28" ],
     "domain" : "166",
     "attributes" : [ "someValues", "object" ],
     "id" : "168"
@@ -2662,10 +2662,10 @@
     "label" : {
       "IRI-based" : "causesInterferenceToEnvironment"
     },
-    "superproperty" : [ "30" ],
+    "superproperty" : [ "28" ],
     "domain" : "121",
     "attributes" : [ "object" ],
-    "id" : "31"
+    "id" : "29"
   }, {
     "iri" : "https://purl.org/ontodesign#hasAuxiliaryEquipment",
     "baseIri" : "https://purl.org/ontodesign",
@@ -2678,15 +2678,9 @@
     "attributes" : [ "object" ],
     "id" : "153"
   }, {
-    "iri" : "https://purl.org/ontodesign#hasBuildingInterior",
-    "baseIri" : "https://purl.org/ontodesign",
-    "range" : "141",
-    "label" : {
-      "IRI-based" : "hasBuildingInterior"
-    },
-    "superproperty" : [ "10" ],
+    "range" : "81",
     "domain" : "116",
-    "attributes" : [ "someValues", "object" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "176"
   }, {
     "iri" : "https://purl.org/ontodesign#hasBuildingExterior",
@@ -2711,9 +2705,15 @@
     "attributes" : [ "object" ],
     "id" : "11"
   }, {
-    "range" : "81",
+    "iri" : "https://purl.org/ontodesign#hasBuildingInterior",
+    "baseIri" : "https://purl.org/ontodesign",
+    "range" : "141",
+    "label" : {
+      "IRI-based" : "hasBuildingInterior"
+    },
+    "superproperty" : [ "10" ],
     "domain" : "116",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "someValues", "object" ],
     "id" : "180"
   }, {
     "range" : "86",
@@ -2751,11 +2751,11 @@
     "attributes" : [ "anonymous", "object" ],
     "id" : "187"
   }, {
-    "iri" : "https://purl.org/ontodesign#hasUnit",
+    "iri" : "https://purl.org/ontodesign#hasValue",
     "baseIri" : "https://purl.org/ontodesign",
     "range" : "189",
     "label" : {
-      "IRI-based" : "hasUnit"
+      "IRI-based" : "hasValue"
     },
     "domain" : "1",
     "attributes" : [ "datatype", "someValues" ],
@@ -2809,10 +2809,15 @@
     "attributes" : [ "object" ],
     "id" : "172"
   }, {
-    "range" : "53",
-    "domain" : "1",
+    "range" : "71",
+    "domain" : "53",
     "attributes" : [ "anonymous", "object" ],
     "id" : "193"
+  }, {
+    "range" : "71",
+    "domain" : "1",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "194"
   }, {
     "iri" : "https://purl.org/ontodesign#hasAirHumidity",
     "baseIri" : "https://purl.org/ontodesign",
@@ -2825,14 +2830,14 @@
     "attributes" : [ "object" ],
     "id" : "195"
   }, {
-    "range" : "71",
-    "domain" : "53",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "196"
-  }, {
-    "range" : "71",
+    "iri" : "https://purl.org/ontodesign#hasUnit",
+    "baseIri" : "https://purl.org/ontodesign",
+    "range" : "196",
+    "label" : {
+      "IRI-based" : "hasUnit"
+    },
     "domain" : "1",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "datatype", "someValues" ],
     "id" : "197"
   }, {
     "range" : "91",
@@ -2845,14 +2850,9 @@
     "attributes" : [ "anonymous", "object" ],
     "id" : "199"
   }, {
-    "iri" : "https://purl.org/ontodesign#hasValue",
-    "baseIri" : "https://purl.org/ontodesign",
-    "range" : "194",
-    "label" : {
-      "IRI-based" : "hasValue"
-    },
+    "range" : "53",
     "domain" : "1",
-    "attributes" : [ "datatype", "someValues" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "200"
   }, {
     "range" : "91",
@@ -3078,7 +3078,7 @@
   }, {
     "iri" : "https://purl.org/ontodesign#determines",
     "baseIri" : "https://purl.org/ontodesign",
-    "range" : "28",
+    "range" : "31",
     "label" : {
       "IRI-based" : "determines"
     },
@@ -3087,7 +3087,7 @@
     "attributes" : [ "someValues", "object" ],
     "id" : "228"
   }, {
-    "range" : "15",
+    "range" : "122",
     "domain" : "81",
     "attributes" : [ "anonymous", "object" ],
     "id" : "229"
@@ -3114,12 +3114,12 @@
     "attributes" : [ "someValues", "object" ],
     "id" : "231"
   }, {
-    "range" : "72",
+    "range" : "82",
     "domain" : "81",
     "attributes" : [ "anonymous", "object" ],
     "id" : "232"
   }, {
-    "range" : "117",
+    "range" : "72",
     "domain" : "81",
     "attributes" : [ "anonymous", "object" ],
     "id" : "233"
@@ -3129,7 +3129,7 @@
     "attributes" : [ "anonymous", "object" ],
     "id" : "234"
   }, {
-    "range" : "122",
+    "range" : "15",
     "domain" : "81",
     "attributes" : [ "anonymous", "object" ],
     "id" : "235"
@@ -3145,36 +3145,36 @@
     "attributes" : [ "object" ],
     "id" : "48"
   }, {
-    "range" : "82",
+    "range" : "22",
     "domain" : "81",
     "attributes" : [ "anonymous", "object" ],
     "id" : "236"
   }, {
-    "range" : "22",
+    "range" : "143",
     "domain" : "81",
     "attributes" : [ "anonymous", "object" ],
     "id" : "237"
   }, {
-    "range" : "143",
+    "range" : "117",
     "domain" : "81",
     "attributes" : [ "anonymous", "object" ],
     "id" : "238"
   }, {
-    "iri" : "https://purl.org/ontodesign#hasUnit",
+    "iri" : "https://purl.org/ontodesign#hasValue",
     "baseIri" : "https://purl.org/ontodesign",
     "range" : "239",
     "label" : {
-      "IRI-based" : "hasUnit"
+      "IRI-based" : "hasValue"
     },
     "domain" : "53",
     "attributes" : [ "datatype", "someValues" ],
     "id" : "240"
   }, {
-    "iri" : "https://purl.org/ontodesign#hasValue",
+    "iri" : "https://purl.org/ontodesign#hasUnit",
     "baseIri" : "https://purl.org/ontodesign",
     "range" : "241",
     "label" : {
-      "IRI-based" : "hasValue"
+      "IRI-based" : "hasUnit"
     },
     "domain" : "53",
     "attributes" : [ "datatype", "someValues" ],
@@ -3285,10 +3285,10 @@
     "label" : {
       "IRI-based" : "causesAbnormalArea"
     },
-    "superproperty" : [ "30" ],
+    "superproperty" : [ "28" ],
     "domain" : "166",
     "attributes" : [ "object" ],
-    "id" : "32"
+    "id" : "30"
   }, {
     "domain" : "72",
     "range" : "130",
@@ -3322,17 +3322,6 @@
       "undefined" : "is a"
     }
   }, {
-    "iri" : "https://purl.org/ontodesign#worksIn",
-    "baseIri" : "https://purl.org/ontodesign",
-    "range" : "27",
-    "label" : {
-      "IRI-based" : "worksIn"
-    },
-    "superproperty" : [ "10" ],
-    "domain" : "22",
-    "attributes" : [ "object" ],
-    "id" : "35"
-  }, {
     "iri" : "https://purl.org/ontodesign#hasWidth",
     "baseIri" : "https://purl.org/ontodesign",
     "range" : "9",
@@ -3343,6 +3332,17 @@
     "domain" : "9",
     "attributes" : [ "object" ],
     "id" : "260"
+  }, {
+    "iri" : "https://purl.org/ontodesign#worksIn",
+    "baseIri" : "https://purl.org/ontodesign",
+    "range" : "27",
+    "label" : {
+      "IRI-based" : "worksIn"
+    },
+    "superproperty" : [ "10" ],
+    "domain" : "22",
+    "attributes" : [ "object" ],
+    "id" : "35"
   }, {
     "iri" : "https://purl.org/ontodesign#hasIndoorSpace",
     "baseIri" : "https://purl.org/ontodesign",
