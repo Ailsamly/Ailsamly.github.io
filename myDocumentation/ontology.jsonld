@@ -1,0 +1,2341 @@
+[ {
+  "@id" : "_:genid1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "https://purl.org/ontodesign#RobotBehavior"
+    }, {
+      "@id" : "https://purl.org/ontodesign#RobotSystem"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid11",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "https://purl.org/ontodesign#BuildingExterior"
+    }, {
+      "@id" : "https://purl.org/ontodesign#BuildingInterior"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid14",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://purl.org/ontodesign#isLocatedAtBuildingElement"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "https://purl.org/ontodesign#BuildingElement"
+  } ]
+}, {
+  "@id" : "_:genid15",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://purl.org/ontodesign#hasBuildingExterior"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "https://purl.org/ontodesign#BuildingExterior"
+  } ]
+}, {
+  "@id" : "_:genid16",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://purl.org/ontodesign#hasBuildingInterior"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "https://purl.org/ontodesign#BuildingInterior"
+  } ]
+}, {
+  "@id" : "_:genid17",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onClass" : [ {
+    "@id" : "https://purl.org/ontodesign#Site"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://purl.org/ontodesign#isLocatedAtSite"
+  } ],
+  "http://www.w3.org/2002/07/owl#qualifiedCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "1"
+  } ]
+}, {
+  "@id" : "_:genid18",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://purl.org/ontodesign#causesAbnormalArea"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "https://purl.org/ontodesign#AbnormalArea"
+  } ]
+}, {
+  "@id" : "_:genid19",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://purl.org/ontodesign#isLocatedAt"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "https://purl.org/ontodesign#BuildingElement"
+  } ]
+}, {
+  "@id" : "_:genid20",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://purl.org/ontodesign#hasBuildingElement"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "https://purl.org/ontodesign#BuildingElement"
+  } ]
+}, {
+  "@id" : "_:genid21",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onClass" : [ {
+    "@id" : "https://purl.org/ontodesign#Site"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://purl.org/ontodesign#hasSite"
+  } ],
+  "http://www.w3.org/2002/07/owl#qualifiedCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "1"
+  } ]
+}, {
+  "@id" : "_:genid22",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://purl.org/ontodesign#hasBuildingElement"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "https://purl.org/ontodesign#BuildingElement"
+  } ]
+}, {
+  "@id" : "_:genid23",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://purl.org/ontodesign#hasIndoorSpace"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "https://purl.org/ontodesign#IndoorSpace"
+  } ]
+}, {
+  "@id" : "_:genid24",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://purl.org/ontodesign#hasUnit"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "_:genid25",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://purl.org/ontodesign#hasValue"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#double"
+  } ]
+}, {
+  "@id" : "_:genid26",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://purl.org/ontodesign#hasUnit"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "_:genid27",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://purl.org/ontodesign#hasValue"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#double"
+  } ]
+}, {
+  "@id" : "_:genid28",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://purl.org/ontodesign#determines"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "https://purl.org/ontodesign#SizeRequirement"
+  } ]
+}, {
+  "@id" : "_:genid29",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://purl.org/ontodesign#hasRobotComponent"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "https://purl.org/ontodesign#RobotComponent"
+  } ]
+}, {
+  "@id" : "_:genid30",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://purl.org/ontodesign#movesAtMovementMedium"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "https://purl.org/ontodesign#RobotMovementMedium"
+  } ]
+}, {
+  "@id" : "_:genid31",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://purl.org/ontodesign#worksIn"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "https://purl.org/ontodesign#WorkEnvironment"
+  } ]
+}, {
+  "@id" : "_:genid32",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://purl.org/ontodesign#occursAt"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "https://purl.org/ontodesign#WorkEnvironment"
+  } ]
+}, {
+  "@id" : "_:genid33",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://purl.org/ontodesign#requiresRobotComponent"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "https://purl.org/ontodesign#RobotComponent"
+  } ]
+}, {
+  "@id" : "_:genid34",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://purl.org/ontodesign#hasCapability"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "https://purl.org/ontodesign#Capability"
+  } ]
+}, {
+  "@id" : "_:genid35",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://purl.org/ontodesign#hasEnvironmentData"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "https://purl.org/ontodesign#EnvironmentalCondition"
+  } ]
+}, {
+  "@id" : "_:genid36",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://purl.org/ontodesign#hasUnit"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "_:genid37",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://purl.org/ontodesign#hasValue"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#double"
+  } ]
+}, {
+  "@id" : "_:genid38",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://purl.org/ontodesign#hasRobotMovementMedium"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "https://purl.org/ontodesign#RobotMovementMedium"
+  } ]
+}, {
+  "@id" : "_:genid39",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "https://purl.org/ontodesign#AirBasedRobot"
+    }, {
+      "@id" : "https://purl.org/ontodesign#GroundBasedRobot"
+    }, {
+      "@id" : "https://purl.org/ontodesign#WallClimbingRobot"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid4",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "https://purl.org/ontodesign#Building"
+    }, {
+      "@id" : "https://purl.org/ontodesign#BuildingExterior"
+    }, {
+      "@id" : "https://purl.org/ontodesign#BuildingInterior"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid43",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "https://purl.org/ontodesign#AirPressure"
+    }, {
+      "@id" : "https://purl.org/ontodesign#AverageAnnualAirHumidity"
+    }, {
+      "@id" : "https://purl.org/ontodesign#AverageAnnualAirTemperature"
+    }, {
+      "@id" : "https://purl.org/ontodesign#AverageAnnualWindSpeed"
+    }, {
+      "@id" : "https://purl.org/ontodesign#Visibility"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid49",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "https://purl.org/ontodesign#Communication"
+    }, {
+      "@id" : "https://purl.org/ontodesign#DegreeOfAutonomy"
+    }, {
+      "@id" : "https://purl.org/ontodesign#LocomotionCapability"
+    }, {
+      "@id" : "https://purl.org/ontodesign#OperationalCapability"
+    }, {
+      "@id" : "https://purl.org/ontodesign#SensoryCapability"
+    }, {
+      "@id" : "https://purl.org/ontodesign#WeatherResistance"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid56",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "https://purl.org/ontodesign#DetectableAttribute"
+    }, {
+      "@id" : "https://purl.org/ontodesign#Height"
+    }, {
+      "@id" : "https://purl.org/ontodesign#Speed"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid8",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "https://purl.org/ontodesign#Site"
+    }, {
+      "@id" : "https://purl.org/ontodesign#WorkEnvironment"
+    } ]
+  } ]
+}, {
+  "@id" : "https://purl.org/ontodesign",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ],
+  "http://www.w3.org/2002/07/owl#versionIRI" : [ {
+    "@id" : "https://purl.org/ontodesign/1.0.0"
+  } ]
+}, {
+  "@id" : "https://purl.org/ontodesign#AbnormalArea",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "AbnormalArea is an area that has some anomalies compared to other areas of the same building element. This area is caused by the BuildingDefect, and it usually has some variations in the values of some attributes."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "_:genid14"
+  } ],
+  "http://www.w3.org/2002/07/owl#disjointWith" : [ {
+    "@id" : "https://purl.org/ontodesign#IndoorSpace"
+  } ]
+}, {
+  "@id" : "https://purl.org/ontodesign#AbnormalArea1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://purl.org/ontodesign#AbnormalArea"
+  } ],
+  "https://purl.org/ontodesign#hasDetectableAttribute" : [ {
+    "@id" : "https://purl.org/ontodesign#TemperatureChange1"
+  } ]
+}, {
+  "@id" : "https://purl.org/ontodesign#AbnormalArea2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://purl.org/ontodesign#AbnormalArea"
+  } ],
+  "https://purl.org/ontodesign#hasDetectableAttribute" : [ {
+    "@id" : "https://purl.org/ontodesign#TemperatureChange2"
+  } ]
+}, {
+  "@id" : "https://purl.org/ontodesign#AbnormalArea3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://purl.org/ontodesign#AbnormalArea"
+  } ],
+  "https://purl.org/ontodesign#hasDetectableAttribute" : [ {
+    "@id" : "https://purl.org/ontodesign#TemperatureChange3"
+  } ]
+}, {
+  "@id" : "https://purl.org/ontodesign#AbnormalArea4",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://purl.org/ontodesign#AbnormalArea"
+  } ],
+  "https://purl.org/ontodesign#hasDetectableAttribute" : [ {
+    "@id" : "https://purl.org/ontodesign#TemperatureChange4"
+  } ]
+}, {
+  "@id" : "https://purl.org/ontodesign#AcceptableLevelOfNoise",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://purl.org/ontodesign#AdhesionMechanismRequirement_Indoor",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "https://purl.org/ontodesign#AirBasedRobot",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://purl.org/ontodesign#Robot"
+  } ]
+}, {
+  "@id" : "https://purl.org/ontodesign#AirPressure",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://purl.org/ontodesign#EnvironmentalCondition"
+  } ]
+}, {
+  "@id" : "https://purl.org/ontodesign#Angle1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "https://purl.org/ontodesign#determines" : [ {
+    "@id" : "https://purl.org/ontodesign#TransitionDexterityRequirement_Indoor"
+  } ],
+  "https://purl.org/ontodesign#hasUnit" : [ {
+    "@value" : "degree"
+  } ],
+  "https://purl.org/ontodesign#hasValue" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "90.0"
+  } ]
+}, {
+  "@id" : "https://purl.org/ontodesign#Angle2_1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "https://purl.org/ontodesign#determines" : [ {
+    "@id" : "https://purl.org/ontodesign#TransitionDexterityRequirement_Indoor"
+  } ],
+  "https://purl.org/ontodesign#hasUnit" : [ {
+    "@value" : "degree"
+  } ],
+  "https://purl.org/ontodesign#hasValue" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "60.0"
+  } ]
+}, {
+  "@id" : "https://purl.org/ontodesign#Angle2_2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "https://purl.org/ontodesign#hasUnit" : [ {
+    "@value" : "degree"
+  } ],
+  "https://purl.org/ontodesign#hasValue" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "80.0"
+  } ]
+}, {
+  "@id" : "https://purl.org/ontodesign#Angle3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "https://purl.org/ontodesign#determines" : [ {
+    "@id" : "https://purl.org/ontodesign#TransitionDexterityRequirement_Indoor"
+  } ],
+  "https://purl.org/ontodesign#hasUnit" : [ {
+    "@value" : "degree"
+  } ],
+  "https://purl.org/ontodesign#hasValue" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "105.0"
+  } ]
+}, {
+  "@id" : "https://purl.org/ontodesign#Angle4",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "https://purl.org/ontodesign#determines" : [ {
+    "@id" : "https://purl.org/ontodesign#TransitionDexterityRequirement_Indoor"
+  } ],
+  "https://purl.org/ontodesign#hasUnit" : [ {
+    "@value" : "degree"
+  } ],
+  "https://purl.org/ontodesign#hasValue" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "120.0"
+  } ]
+}, {
+  "@id" : "https://purl.org/ontodesign#Attribute",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#disjointWith" : [ {
+    "@id" : "https://purl.org/ontodesign#IndoorSpace"
+  } ]
+}, {
+  "@id" : "https://purl.org/ontodesign#AuxiliaryEquipment",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "AuxiliaryEquipment includes any equipment, devices, or sensors supporting the robot performing specific inspection tasks."
+  } ],
+  "http://www.w3.org/2002/07/owl#disjointWith" : [ {
+    "@id" : "https://purl.org/ontodesign#IndoorSpace"
+  } ]
+}, {
+  "@id" : "https://purl.org/ontodesign#AverageAnnualAirHumidity",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://purl.org/ontodesign#EnvironmentalCondition"
+  } ]
+}, {
+  "@id" : "https://purl.org/ontodesign#AverageAnnualAirTemperature",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://purl.org/ontodesign#EnvironmentalCondition"
+  } ]
+}, {
+  "@id" : "https://purl.org/ontodesign#AverageAnnualWindSpeed",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://purl.org/ontodesign#EnvironmentalCondition"
+  } ]
+}, {
+  "@id" : "https://purl.org/ontodesign#Building",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "_:genid15"
+  }, {
+    "@id" : "_:genid16"
+  }, {
+    "@id" : "_:genid17"
+  } ],
+  "http://www.w3.org/2002/07/owl#disjointWith" : [ {
+    "@id" : "https://purl.org/ontodesign#IndoorSpace"
+  } ]
+}, {
+  "@id" : "https://purl.org/ontodesign#Building1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://purl.org/ontodesign#Building"
+  } ]
+}, {
+  "@id" : "https://purl.org/ontodesign#BuildingDefect",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "BuildingDefect is defined as a failing or shortcoming in the function, performance, statutory, or user requirements of a building, and might manifest itself within the BuildingElement of the affected building."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "_:genid18"
+  }, {
+    "@id" : "_:genid19"
+  } ],
+  "http://www.w3.org/2002/07/owl#disjointWith" : [ {
+    "@id" : "https://purl.org/ontodesign#IndoorSpace"
+  } ]
+}, {
+  "@id" : "https://purl.org/ontodesign#BuildingElement",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "BuildingElement is defined as all elements that are primarily part of an existing building. These elements could be from the BuildingInterior or the BuildingExterior."
+  } ],
+  "http://www.w3.org/2002/07/owl#disjointWith" : [ {
+    "@id" : "https://purl.org/ontodesign#IndoorSpace"
+  } ]
+}, {
+  "@id" : "https://purl.org/ontodesign#BuildingExterior",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "BuildingExterior includes all elements exposed to the Site of the building."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "_:genid20"
+  }, {
+    "@id" : "_:genid21"
+  } ],
+  "http://www.w3.org/2002/07/owl#disjointWith" : [ {
+    "@id" : "https://purl.org/ontodesign#IndoorSpace"
+  } ]
+}, {
+  "@id" : "https://purl.org/ontodesign#BuildingInterior",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "BuildingInterior includes all elements exposed to the inside of the building and IndoorSpace bounded by the elements."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "_:genid22"
+  }, {
+    "@id" : "_:genid23"
+  } ],
+  "http://www.w3.org/2002/07/owl#disjointWith" : [ {
+    "@id" : "https://purl.org/ontodesign#IndoorSpace"
+  } ]
+}, {
+  "@id" : "https://purl.org/ontodesign#BuildingInterior1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://purl.org/ontodesign#BuildingInterior"
+  } ]
+}, {
+  "@id" : "https://purl.org/ontodesign#BuildingInterior2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://purl.org/ontodesign#BuildingInterior"
+  } ]
+}, {
+  "@id" : "https://purl.org/ontodesign#BuildingInterior3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://purl.org/ontodesign#BuildingInterior"
+  } ]
+}, {
+  "@id" : "https://purl.org/ontodesign#BuildingInterior4",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://purl.org/ontodesign#BuildingInterior"
+  } ]
+}, {
+  "@id" : "https://purl.org/ontodesign#Capability",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Capability describes the manifested behavioral features of the robot system."
+  } ],
+  "http://www.w3.org/2002/07/owl#disjointWith" : [ {
+    "@id" : "https://purl.org/ontodesign#IndoorSpace"
+  } ]
+}, {
+  "@id" : "https://purl.org/ontodesign#CapabilityRequirement",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://purl.org/ontodesign#RobotSystemHardwareRequirement"
+  } ]
+}, {
+  "@id" : "https://purl.org/ontodesign#Ceiling1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://purl.org/ontodesign#BuildingElement"
+  } ],
+  "https://purl.org/ontodesign#hasExposedSurface" : [ {
+    "@id" : "https://purl.org/ontodesign#Surface1"
+  } ]
+}, {
+  "@id" : "https://purl.org/ontodesign#Ceiling4",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://purl.org/ontodesign#BuildingElement"
+  } ]
+}, {
+  "@id" : "https://purl.org/ontodesign#Ceramics2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "https://purl.org/ontodesign#determines" : [ {
+    "@id" : "https://purl.org/ontodesign#AdhesionMechanismRequirement_Indoor"
+  } ],
+  "https://purl.org/ontodesign#isFerromagnetic" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "false"
+  } ],
+  "https://purl.org/ontodesign#isSmooth" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "true"
+  } ]
+}, {
+  "@id" : "https://purl.org/ontodesign#Communication",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://purl.org/ontodesign#Capability"
+  } ]
+}, {
+  "@id" : "https://purl.org/ontodesign#CommunicationRequirement",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://purl.org/ontodesign#CommunicationRequirement"
+  }, {
+    "@id" : "https://purl.org/ontodesign#RobotSystemHardwareRequirement"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://purl.org/ontodesign#CapabilityRequirement"
+  } ]
+}, {
+  "@id" : "https://purl.org/ontodesign#ConcaveCorner1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "https://purl.org/ontodesign#hasCornerAngle" : [ {
+    "@id" : "https://purl.org/ontodesign#Angle1"
+  } ],
+  "https://purl.org/ontodesign#isLocatedAt" : [ {
+    "@id" : "https://purl.org/ontodesign#WorkEnvironment1"
+  } ]
+}, {
+  "@id" : "https://purl.org/ontodesign#ConcaveCorner2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "https://purl.org/ontodesign#hasCornerAngle" : [ {
+    "@id" : "https://purl.org/ontodesign#Angle2_1"
+  } ],
+  "https://purl.org/ontodesign#isLocatedAt" : [ {
+    "@id" : "https://purl.org/ontodesign#WorkEnvironment2"
+  } ]
+}, {
+  "@id" : "https://purl.org/ontodesign#ConcaveCorner3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "https://purl.org/ontodesign#hasCornerAngle" : [ {
+    "@id" : "https://purl.org/ontodesign#Angle3"
+  } ],
+  "https://purl.org/ontodesign#isLocatedAt" : [ {
+    "@id" : "https://purl.org/ontodesign#WorkEnvironment3"
+  } ]
+}, {
+  "@id" : "https://purl.org/ontodesign#ConcaveCorner4",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "https://purl.org/ontodesign#hasCornerAngle" : [ {
+    "@id" : "https://purl.org/ontodesign#Angle4"
+  } ],
+  "https://purl.org/ontodesign#isLocatedAt" : [ {
+    "@id" : "https://purl.org/ontodesign#WorkEnvironment4"
+  } ]
+}, {
+  "@id" : "https://purl.org/ontodesign#ConcaveObstacle1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "https://purl.org/ontodesign#hasDepth" : [ {
+    "@id" : "https://purl.org/ontodesign#ObstacleDepth1"
+  } ],
+  "https://purl.org/ontodesign#hasWidth" : [ {
+    "@id" : "https://purl.org/ontodesign#ObstacleWidth4"
+  } ]
+}, {
+  "@id" : "https://purl.org/ontodesign#ConcaveTransistion1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://purl.org/ontodesign#RobotBehavior"
+  } ],
+  "https://purl.org/ontodesign#occursAt" : [ {
+    "@id" : "https://purl.org/ontodesign#WorkEnvironment1"
+  } ]
+}, {
+  "@id" : "https://purl.org/ontodesign#ConcaveTransistion2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://purl.org/ontodesign#RobotBehavior"
+  } ],
+  "https://purl.org/ontodesign#occursAt" : [ {
+    "@id" : "https://purl.org/ontodesign#WorkEnvironment2"
+  } ]
+}, {
+  "@id" : "https://purl.org/ontodesign#ConcaveTransistion3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://purl.org/ontodesign#RobotBehavior"
+  } ],
+  "https://purl.org/ontodesign#occursAt" : [ {
+    "@id" : "https://purl.org/ontodesign#WorkEnvironment3"
+  } ]
+}, {
+  "@id" : "https://purl.org/ontodesign#ConcaveTransistion4",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "https://purl.org/ontodesign#occursAt" : [ {
+    "@id" : "https://purl.org/ontodesign#WorkEnvironment4"
+  } ]
+}, {
+  "@id" : "https://purl.org/ontodesign#ContinuousInspection",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://purl.org/ontodesign#InspectionMethod"
+  } ]
+}, {
+  "@id" : "https://purl.org/ontodesign#ConvexCorner1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "https://purl.org/ontodesign#ConvexCorner2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "https://purl.org/ontodesign#hasCornerAngle" : [ {
+    "@id" : "https://purl.org/ontodesign#Angle2_2"
+  } ],
+  "https://purl.org/ontodesign#isLocatedAt" : [ {
+    "@id" : "https://purl.org/ontodesign#WorkEnvironment2"
+  } ]
+}, {
+  "@id" : "https://purl.org/ontodesign#ConvexCorner3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "https://purl.org/ontodesign#ConvexCorner4",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "https://purl.org/ontodesign#ConvexObstacle1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "https://purl.org/ontodesign#hasHeight" : [ {
+    "@id" : "https://purl.org/ontodesign#ObstacleHeight1"
+  } ],
+  "https://purl.org/ontodesign#hasWidth" : [ {
+    "@id" : "https://purl.org/ontodesign#ObstacleWidth1"
+  } ]
+}, {
+  "@id" : "https://purl.org/ontodesign#ConvexObstacle2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "https://purl.org/ontodesign#hasHeight" : [ {
+    "@id" : "https://purl.org/ontodesign#ObstacleHeight2"
+  } ],
+  "https://purl.org/ontodesign#hasWidth" : [ {
+    "@id" : "https://purl.org/ontodesign#ObstacleWidth2"
+  } ]
+}, {
+  "@id" : "https://purl.org/ontodesign#ConvexObstacle3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "https://purl.org/ontodesign#hasHeight" : [ {
+    "@id" : "https://purl.org/ontodesign#ObstacleHeight3"
+  } ],
+  "https://purl.org/ontodesign#hasWidth" : [ {
+    "@id" : "https://purl.org/ontodesign#ObstacleWidth3"
+  } ],
+  "https://purl.org/ontodesign#isLocatedAt" : [ {
+    "@id" : "https://purl.org/ontodesign#Surface3"
+  } ]
+}, {
+  "@id" : "https://purl.org/ontodesign#ConvexTransistion2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "https://purl.org/ontodesign#occursAt" : [ {
+    "@id" : "https://purl.org/ontodesign#WorkEnvironment2"
+  } ]
+}, {
+  "@id" : "https://purl.org/ontodesign#DegreeOfAutonomy",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://purl.org/ontodesign#Capability"
+  } ]
+}, {
+  "@id" : "https://purl.org/ontodesign#DegreeOfAutonomyRequirement1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://purl.org/ontodesign#RobotSystemHardwareRequirement"
+  } ]
+}, {
+  "@id" : "https://purl.org/ontodesign#Depth2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "https://purl.org/ontodesign#hasUnit" : [ {
+    "@value" : "cm"
+  } ],
+  "https://purl.org/ontodesign#hasValue" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "5.0"
+  } ]
+}, {
+  "@id" : "https://purl.org/ontodesign#DetectableAttribute",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "DetectableAttribute refers to attributes whose values would change due to defects."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://purl.org/ontodesign#Attribute"
+  }, {
+    "@id" : "_:genid24"
+  }, {
+    "@id" : "_:genid25"
+  } ]
+}, {
+  "@id" : "https://purl.org/ontodesign#Dustiness1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "https://purl.org/ontodesign#determines" : [ {
+    "@id" : "https://purl.org/ontodesign#AdhesionMechanismRequirement_Indoor"
+  } ],
+  "https://purl.org/ontodesign#hasDustinessLevel" : [ {
+    "@value" : "low"
+  } ]
+}, {
+  "@id" : "https://purl.org/ontodesign#Dustiness2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "https://purl.org/ontodesign#determines" : [ {
+    "@id" : "https://purl.org/ontodesign#AdhesionMechanismRequirement_Indoor"
+  } ],
+  "https://purl.org/ontodesign#hasDustinessLevel" : [ {
+    "@value" : "medium"
+  } ]
+}, {
+  "@id" : "https://purl.org/ontodesign#Dustiness3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "https://purl.org/ontodesign#determines" : [ {
+    "@id" : "https://purl.org/ontodesign#AdhesionMechanismRequirement_Indoor"
+  } ],
+  "https://purl.org/ontodesign#hasDustinessLevel" : [ {
+    "@value" : "high"
+  } ]
+}, {
+  "@id" : "https://purl.org/ontodesign#Dustiness4",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "https://purl.org/ontodesign#determines" : [ {
+    "@id" : "https://purl.org/ontodesign#AdhesionMechanismRequirement_Indoor"
+  } ],
+  "https://purl.org/ontodesign#hasDustinessLevel" : [ {
+    "@value" : "low"
+  } ]
+}, {
+  "@id" : "https://purl.org/ontodesign#EnvironmentalCondition",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "EnvironmentalCondition describes environmental conditions of the building Site and IndoorSpace, which includes AverageAnnualAirTemperature, AverageAnnualAirHumidity, AirPressure, Visibility, and AverageAnnualWindSpeed, SignalReceptionCondition."
+  } ],
+  "http://www.w3.org/2002/07/owl#disjointWith" : [ {
+    "@id" : "https://purl.org/ontodesign#IndoorSpace"
+  } ]
+}, {
+  "@id" : "https://purl.org/ontodesign#Floor3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://purl.org/ontodesign#BuildingElement"
+  } ],
+  "https://purl.org/ontodesign#hasExposedSurface" : [ {
+    "@id" : "https://purl.org/ontodesign#Surface3"
+  } ]
+}, {
+  "@id" : "https://purl.org/ontodesign#Glass3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "https://purl.org/ontodesign#determines" : [ {
+    "@id" : "https://purl.org/ontodesign#AdhesionMechanismRequirement_Indoor"
+  } ],
+  "https://purl.org/ontodesign#isFerromagnetic" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "false"
+  } ],
+  "https://purl.org/ontodesign#isSmooth" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "true"
+  } ]
+}, {
+  "@id" : "https://purl.org/ontodesign#GroundBasedRobot",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://purl.org/ontodesign#Robot"
+  } ]
+}, {
+  "@id" : "https://purl.org/ontodesign#Height",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://purl.org/ontodesign#Attribute"
+  }, {
+    "@id" : "_:genid26"
+  }, {
+    "@id" : "_:genid27"
+  } ]
+}, {
+  "@id" : "https://purl.org/ontodesign#Height1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://purl.org/ontodesign#Height"
+  } ]
+}, {
+  "@id" : "https://purl.org/ontodesign#Height1234",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "https://purl.org/ontodesign#Height2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://purl.org/ontodesign#Height"
+  } ]
+}, {
+  "@id" : "https://purl.org/ontodesign#Height3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://purl.org/ontodesign#Height"
+  } ]
+}, {
+  "@id" : "https://purl.org/ontodesign#Height4",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://purl.org/ontodesign#Height"
+  } ]
+}, {
+  "@id" : "https://purl.org/ontodesign#HeightConstraint",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://purl.org/ontodesign#PhysicalConstraintToRobot"
+  } ]
+}, {
+  "@id" : "https://purl.org/ontodesign#HeightConstraint1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://purl.org/ontodesign#HeightConstraint"
+  } ],
+  "https://purl.org/ontodesign#determines" : [ {
+    "@id" : "https://purl.org/ontodesign#SizeRequirement1"
+  } ]
+}, {
+  "@id" : "https://purl.org/ontodesign#InclinationAngle1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "https://purl.org/ontodesign#determines" : [ {
+    "@id" : "https://purl.org/ontodesign#AdhesionMechanismRequirement_Indoor"
+  } ],
+  "https://purl.org/ontodesign#hasUnit" : [ {
+    "@value" : "degree"
+  } ],
+  "https://purl.org/ontodesign#hasValue" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "180.0"
+  } ]
+}, {
+  "@id" : "https://purl.org/ontodesign#InclinationAngle2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "https://purl.org/ontodesign#determines" : [ {
+    "@id" : "https://purl.org/ontodesign#AdhesionMechanismRequirement_Indoor"
+  } ],
+  "https://purl.org/ontodesign#hasUnit" : [ {
+    "@value" : "degree"
+  } ],
+  "https://purl.org/ontodesign#hasValue" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "90.0"
+  } ]
+}, {
+  "@id" : "https://purl.org/ontodesign#InclinationAngle3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "https://purl.org/ontodesign#determines" : [ {
+    "@id" : "https://purl.org/ontodesign#AdhesionMechanismRequirement_Indoor"
+  } ],
+  "https://purl.org/ontodesign#hasUnit" : [ {
+    "@value" : "degree"
+  } ],
+  "https://purl.org/ontodesign#hasValue" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "90.0"
+  } ]
+}, {
+  "@id" : "https://purl.org/ontodesign#InclinationAngle4",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "https://purl.org/ontodesign#determines" : [ {
+    "@id" : "https://purl.org/ontodesign#AdhesionMechanismRequirement_Indoor"
+  } ],
+  "https://purl.org/ontodesign#hasUnit" : [ {
+    "@value" : "degree"
+  } ],
+  "https://purl.org/ontodesign#hasValue" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "80.0"
+  } ]
+}, {
+  "@id" : "https://purl.org/ontodesign#IndoorSpace",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#disjointWith" : [ {
+    "@id" : "https://purl.org/ontodesign#PhysicalConstraintToRobot"
+  }, {
+    "@id" : "https://purl.org/ontodesign#Robot"
+  }, {
+    "@id" : "https://purl.org/ontodesign#RobotBehavior"
+  }, {
+    "@id" : "https://purl.org/ontodesign#RobotComponent"
+  }, {
+    "@id" : "https://purl.org/ontodesign#RobotMovementMedium"
+  }, {
+    "@id" : "https://purl.org/ontodesign#RobotSystem"
+  }, {
+    "@id" : "https://purl.org/ontodesign#RobotSystemHardwareRequirement"
+  }, {
+    "@id" : "https://purl.org/ontodesign#Site"
+  } ]
+}, {
+  "@id" : "https://purl.org/ontodesign#IndoorSpace1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://purl.org/ontodesign#IndoorSpace"
+  } ],
+  "http://www.w3.org/2002/07/owl#sameAs" : [ {
+    "@id" : "https://purl.org/ontodesign#WorkEnvironment1"
+  } ],
+  "https://purl.org/ontodesign#hasPhysicalConstraintsToRobots" : [ {
+    "@id" : "https://purl.org/ontodesign#HeightConstraint1"
+  } ],
+  "https://purl.org/ontodesign#hasSignalReceptionCondition" : [ {
+    "@value" : "good"
+  } ]
+}, {
+  "@id" : "https://purl.org/ontodesign#IndoorSpace2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://purl.org/ontodesign#IndoorSpace"
+  } ]
+}, {
+  "@id" : "https://purl.org/ontodesign#IndoorSpace3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://purl.org/ontodesign#IndoorSpace"
+  } ]
+}, {
+  "@id" : "https://purl.org/ontodesign#IndoorSpace4",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://purl.org/ontodesign#IndoorSpace"
+  } ]
+}, {
+  "@id" : "https://purl.org/ontodesign#InspectionMethod",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://purl.org/ontodesign#InspectionSpeed1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://purl.org/ontodesign#Speed"
+  } ],
+  "https://purl.org/ontodesign#determines" : [ {
+    "@id" : "https://purl.org/ontodesign#VelocityRequirement_Indoor"
+  } ],
+  "https://purl.org/ontodesign#hasUnit" : [ {
+    "@value" : "m/min"
+  } ],
+  "https://purl.org/ontodesign#hasValue" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "10.0"
+  } ]
+}, {
+  "@id" : "https://purl.org/ontodesign#Length1234",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "https://purl.org/ontodesign#LengthConstraint",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://purl.org/ontodesign#PhysicalConstraintToRobot"
+  } ]
+}, {
+  "@id" : "https://purl.org/ontodesign#LocomotionCapability",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://purl.org/ontodesign#Capability"
+  } ]
+}, {
+  "@id" : "https://purl.org/ontodesign#LocomotionCapabilityRequirement",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://purl.org/ontodesign#CapabilityRequirement"
+  } ]
+}, {
+  "@id" : "https://purl.org/ontodesign#LocomotionCapabilityRequirement1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://purl.org/ontodesign#LocomotionCapabilityRequirement"
+  }, {
+    "@id" : "https://purl.org/ontodesign#RobotSystemHardwareRequirement"
+  } ]
+}, {
+  "@id" : "https://purl.org/ontodesign#LocomotionMechanismCharacteristicRequirement1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://purl.org/ontodesign#RobotSystemHardwareRequirement"
+  } ]
+}, {
+  "@id" : "https://purl.org/ontodesign#LocomotionMechanismRequirement_Indoor",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "https://purl.org/ontodesign#MinimumChangeOfValue",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://purl.org/ontodesign#Moisture1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://purl.org/ontodesign#BuildingDefect"
+  } ],
+  "https://purl.org/ontodesign#causes" : [ {
+    "@id" : "https://purl.org/ontodesign#AbnormalArea1"
+  } ],
+  "https://purl.org/ontodesign#isLocatedAt" : [ {
+    "@id" : "https://purl.org/ontodesign#Ceiling1"
+  } ]
+}, {
+  "@id" : "https://purl.org/ontodesign#Moisture2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://purl.org/ontodesign#BuildingDefect"
+  } ],
+  "https://purl.org/ontodesign#causes" : [ {
+    "@id" : "https://purl.org/ontodesign#AbnormalArea2"
+  } ],
+  "https://purl.org/ontodesign#isLocatedAt" : [ {
+    "@id" : "https://purl.org/ontodesign#Wall2"
+  } ]
+}, {
+  "@id" : "https://purl.org/ontodesign#Moisture3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://purl.org/ontodesign#BuildingDefect"
+  } ],
+  "https://purl.org/ontodesign#causes" : [ {
+    "@id" : "https://purl.org/ontodesign#AbnormalArea3"
+  } ],
+  "https://purl.org/ontodesign#isLocatedAt" : [ {
+    "@id" : "https://purl.org/ontodesign#Floor3"
+  } ]
+}, {
+  "@id" : "https://purl.org/ontodesign#Moisture4",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://purl.org/ontodesign#BuildingDefect"
+  } ],
+  "https://purl.org/ontodesign#causes" : [ {
+    "@id" : "https://purl.org/ontodesign#AbnormalArea4"
+  } ],
+  "https://purl.org/ontodesign#isLocatedAt" : [ {
+    "@id" : "https://purl.org/ontodesign#Wall4"
+  } ]
+}, {
+  "@id" : "https://purl.org/ontodesign#MoistureMeter2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://purl.org/ontodesign#AuxiliaryEquipment"
+  } ]
+}, {
+  "@id" : "https://purl.org/ontodesign#NonContinuousInspection",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://purl.org/ontodesign#InspectionMethod"
+  } ]
+}, {
+  "@id" : "https://purl.org/ontodesign#Obstacle2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "https://purl.org/ontodesign#ObstacleDepth1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://purl.org/ontodesign#Attribute"
+  } ],
+  "https://purl.org/ontodesign#determines" : [ {
+    "@id" : "https://purl.org/ontodesign#ObstacleOvercomingAbilityRequirement_Indoor"
+  } ],
+  "https://purl.org/ontodesign#hasUnit" : [ {
+    "@value" : "mm"
+  } ],
+  "https://purl.org/ontodesign#hasValue" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "10.0"
+  } ]
+}, {
+  "@id" : "https://purl.org/ontodesign#ObstacleDepth2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://purl.org/ontodesign#Attribute"
+  } ],
+  "https://purl.org/ontodesign#determines" : [ {
+    "@id" : "https://purl.org/ontodesign#ObstacleOvercomingAbilityRequirement_Indoor"
+  } ],
+  "https://purl.org/ontodesign#hasUnit" : [ {
+    "@value" : "mm"
+  } ],
+  "https://purl.org/ontodesign#hasValue" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "15.0"
+  } ]
+}, {
+  "@id" : "https://purl.org/ontodesign#ObstacleDepth3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://purl.org/ontodesign#Attribute"
+  } ],
+  "https://purl.org/ontodesign#determines" : [ {
+    "@id" : "https://purl.org/ontodesign#ObstacleOvercomingAbilityRequirement_Indoor"
+  } ],
+  "https://purl.org/ontodesign#hasUnit" : [ {
+    "@value" : "mm"
+  } ],
+  "https://purl.org/ontodesign#hasValue" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "20.0"
+  } ]
+}, {
+  "@id" : "https://purl.org/ontodesign#ObstacleHeight1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://purl.org/ontodesign#Attribute"
+  }, {
+    "@id" : "https://purl.org/ontodesign#Height"
+  } ],
+  "https://purl.org/ontodesign#determines" : [ {
+    "@id" : "https://purl.org/ontodesign#ObstacleOvercomingAbilityRequirement_Indoor"
+  } ],
+  "https://purl.org/ontodesign#hasUnit" : [ {
+    "@value" : "mm"
+  } ],
+  "https://purl.org/ontodesign#hasValue" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "30.0"
+  } ]
+}, {
+  "@id" : "https://purl.org/ontodesign#ObstacleHeight2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://purl.org/ontodesign#Attribute"
+  }, {
+    "@id" : "https://purl.org/ontodesign#Height"
+  } ],
+  "https://purl.org/ontodesign#determines" : [ {
+    "@id" : "https://purl.org/ontodesign#ObstacleOvercomingAbilityRequirement_Indoor"
+  } ],
+  "https://purl.org/ontodesign#hasUnit" : [ {
+    "@value" : "mm"
+  } ],
+  "https://purl.org/ontodesign#hasValue" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "20.0"
+  } ]
+}, {
+  "@id" : "https://purl.org/ontodesign#ObstacleHeight3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://purl.org/ontodesign#Attribute"
+  }, {
+    "@id" : "https://purl.org/ontodesign#Height"
+  } ],
+  "https://purl.org/ontodesign#determines" : [ {
+    "@id" : "https://purl.org/ontodesign#ObstacleOvercomingAbilityRequirement_Indoor"
+  } ],
+  "https://purl.org/ontodesign#hasUnit" : [ {
+    "@value" : "mm"
+  } ],
+  "https://purl.org/ontodesign#hasValue" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "12.0"
+  } ]
+}, {
+  "@id" : "https://purl.org/ontodesign#ObstacleOvercomingAbilityRequirement_Indoor",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "https://purl.org/ontodesign#ObstacleWidth1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://purl.org/ontodesign#Attribute"
+  } ],
+  "https://purl.org/ontodesign#determines" : [ {
+    "@id" : "https://purl.org/ontodesign#ObstacleOvercomingAbilityRequirement_Indoor"
+  } ],
+  "https://purl.org/ontodesign#hasUnit" : [ {
+    "@value" : "mm"
+  } ],
+  "https://purl.org/ontodesign#hasValue" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "15.0"
+  } ]
+}, {
+  "@id" : "https://purl.org/ontodesign#ObstacleWidth2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "https://purl.org/ontodesign#determines" : [ {
+    "@id" : "https://purl.org/ontodesign#ObstacleOvercomingAbilityRequirement_Indoor"
+  } ],
+  "https://purl.org/ontodesign#hasUnit" : [ {
+    "@value" : "mm"
+  } ],
+  "https://purl.org/ontodesign#hasValue" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "20.0"
+  } ]
+}, {
+  "@id" : "https://purl.org/ontodesign#ObstacleWidth3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "https://purl.org/ontodesign#determines" : [ {
+    "@id" : "https://purl.org/ontodesign#ObstacleOvercomingAbilityRequirement_Indoor"
+  } ],
+  "https://purl.org/ontodesign#hasUnit" : [ {
+    "@value" : "mm"
+  } ],
+  "https://purl.org/ontodesign#hasValue" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "40.0"
+  } ]
+}, {
+  "@id" : "https://purl.org/ontodesign#ObstacleWidth4",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "https://purl.org/ontodesign#determines" : [ {
+    "@id" : "https://purl.org/ontodesign#ObstacleOvercomingAbilityRequirement_Indoor"
+  } ],
+  "https://purl.org/ontodesign#hasUnit" : [ {
+    "@value" : "mm"
+  } ],
+  "https://purl.org/ontodesign#hasValue" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "10.0"
+  } ]
+}, {
+  "@id" : "https://purl.org/ontodesign#OperationalCapability",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://purl.org/ontodesign#Capability"
+  } ]
+}, {
+  "@id" : "https://purl.org/ontodesign#OperationalCapabilityRequirement",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://purl.org/ontodesign#CapabilityRequirement"
+  } ]
+}, {
+  "@id" : "https://purl.org/ontodesign#OperationalCapabilityRequirement1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://purl.org/ontodesign#OperationalCapabilityRequirement"
+  }, {
+    "@id" : "https://purl.org/ontodesign#RobotSystemHardwareRequirement"
+  } ]
+}, {
+  "@id" : "https://purl.org/ontodesign#OvercomingSurfaceObstacle2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://purl.org/ontodesign#RobotBehavior"
+  } ],
+  "https://purl.org/ontodesign#occursAt" : [ {
+    "@id" : "https://purl.org/ontodesign#WorkEnvironment2"
+  } ]
+}, {
+  "@id" : "https://purl.org/ontodesign#OvercomingSurfaceObstacle3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://purl.org/ontodesign#RobotBehavior"
+  } ],
+  "https://purl.org/ontodesign#occursAt" : [ {
+    "@id" : "https://purl.org/ontodesign#WorkEnvironment3"
+  } ]
+}, {
+  "@id" : "https://purl.org/ontodesign#PhysicalConstraintToRobot",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "PhysicalConstraintToRobot means the maximum size of the space or area that the BuildingElement or the IndoorSpace can provide for the robot movement."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "_:genid28"
+  } ]
+}, {
+  "@id" : "https://purl.org/ontodesign#Robot",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Robot refers exclusively to mobile robots in the context of building inspection robots. It is a programmed actuated mechanism able to move around at a RobotMovementMedium of  its WorkEnvironment and conduct RobotBehavior with a degree of autonomy."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "_:genid29"
+  }, {
+    "@id" : "_:genid30"
+  }, {
+    "@id" : "_:genid31"
+  } ]
+}, {
+  "@id" : "https://purl.org/ontodesign#Robot1234",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "https://purl.org/ontodesign#RobotBehavior",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "_:genid32"
+  }, {
+    "@id" : "_:genid33"
+  } ]
+}, {
+  "@id" : "https://purl.org/ontodesign#RobotComponent",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://purl.org/ontodesign#RobotMovementMedium",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "RobotMovementMedium is what the robot relies on for its movement."
+  } ]
+}, {
+  "@id" : "https://purl.org/ontodesign#RobotSystem",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "RobotSystem is defined as an artificial system formed by robots and AuxiliaryEquipment"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "_:genid34"
+  } ]
+}, {
+  "@id" : "https://purl.org/ontodesign#RobotSystemHardwareRequirement",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://purl.org/ontodesign#SensoryCapability",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://purl.org/ontodesign#Capability"
+  } ]
+}, {
+  "@id" : "https://purl.org/ontodesign#SensoryCapabilityRequirement",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://purl.org/ontodesign#CapabilityRequirement"
+  } ]
+}, {
+  "@id" : "https://purl.org/ontodesign#SensoryCapabilityRequirement1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://purl.org/ontodesign#RobotSystemHardwareRequirement"
+  }, {
+    "@id" : "https://purl.org/ontodesign#SensoryCapabilityRequirement"
+  } ],
+  "https://purl.org/ontodesign#determines" : [ {
+    "@id" : "https://purl.org/ontodesign#SensoryCapabilityRequirement1"
+  } ]
+}, {
+  "@id" : "https://purl.org/ontodesign#SignalReceptionCondition",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://purl.org/ontodesign#EnvironmentalCondition"
+  } ]
+}, {
+  "@id" : "https://purl.org/ontodesign#Site",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "_:genid35"
+  } ]
+}, {
+  "@id" : "https://purl.org/ontodesign#SizeRequirement",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://purl.org/ontodesign#StructuralCharacteristicsRequirement"
+  } ]
+}, {
+  "@id" : "https://purl.org/ontodesign#SizeRequirement1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://purl.org/ontodesign#RobotSystemHardwareRequirement"
+  }, {
+    "@id" : "https://purl.org/ontodesign#SizeRequirement"
+  } ]
+}, {
+  "@id" : "https://purl.org/ontodesign#SizeRequirement_Indoor",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://purl.org/ontodesign#SizeRequirement"
+  } ]
+}, {
+  "@id" : "https://purl.org/ontodesign#Speed",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://purl.org/ontodesign#Attribute"
+  }, {
+    "@id" : "_:genid36"
+  }, {
+    "@id" : "_:genid37"
+  } ]
+}, {
+  "@id" : "https://purl.org/ontodesign#StructuralCharacteristic",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "StructuralCharacteristic refers to generic features necessary to describe the physical and structural aspects of a robot system."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://purl.org/ontodesign#Attribute"
+  } ]
+}, {
+  "@id" : "https://purl.org/ontodesign#StructuralCharacteristicsRequirement",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://purl.org/ontodesign#RobotSystemHardwareRequirement"
+  } ]
+}, {
+  "@id" : "https://purl.org/ontodesign#Surface1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "https://purl.org/ontodesign#hasDustiness" : [ {
+    "@id" : "https://purl.org/ontodesign#Dustiness1"
+  } ],
+  "https://purl.org/ontodesign#hasSurfaceAttribute" : [ {
+    "@id" : "https://purl.org/ontodesign#InclinationAngle1"
+  }, {
+    "@id" : "https://purl.org/ontodesign#SurfaceOrientation1"
+  } ],
+  "https://purl.org/ontodesign#hasSurfaceMaterial" : [ {
+    "@id" : "https://purl.org/ontodesign#Wallpaper1"
+  } ]
+}, {
+  "@id" : "https://purl.org/ontodesign#Surface2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "https://purl.org/ontodesign#hasDustiness" : [ {
+    "@id" : "https://purl.org/ontodesign#Dustiness2"
+  } ],
+  "https://purl.org/ontodesign#hasSurfaceAttribute" : [ {
+    "@id" : "https://purl.org/ontodesign#InclinationAngle2"
+  }, {
+    "@id" : "https://purl.org/ontodesign#SurfaceOrientation234"
+  } ],
+  "https://purl.org/ontodesign#hasSurfaceMaterial" : [ {
+    "@id" : "https://purl.org/ontodesign#Ceramics2"
+  } ]
+}, {
+  "@id" : "https://purl.org/ontodesign#Surface3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "https://purl.org/ontodesign#hasDustiness" : [ {
+    "@id" : "https://purl.org/ontodesign#Dustiness3"
+  } ],
+  "https://purl.org/ontodesign#hasSurfaceAttribute" : [ {
+    "@id" : "https://purl.org/ontodesign#InclinationAngle3"
+  }, {
+    "@id" : "https://purl.org/ontodesign#SurfaceOrientation234"
+  } ],
+  "https://purl.org/ontodesign#hasSurfaceMaterial" : [ {
+    "@id" : "https://purl.org/ontodesign#Glass3"
+  } ]
+}, {
+  "@id" : "https://purl.org/ontodesign#Surface4",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "https://purl.org/ontodesign#hasDustiness" : [ {
+    "@id" : "https://purl.org/ontodesign#Dustiness4"
+  } ],
+  "https://purl.org/ontodesign#hasSurfaceAttribute" : [ {
+    "@id" : "https://purl.org/ontodesign#InclinationAngle4"
+  }, {
+    "@id" : "https://purl.org/ontodesign#SurfaceOrientation234"
+  } ],
+  "https://purl.org/ontodesign#hasSurfaceMaterial" : [ {
+    "@id" : "https://purl.org/ontodesign#Wallpaper4"
+  } ]
+}, {
+  "@id" : "https://purl.org/ontodesign#SurfaceOrientation1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "https://purl.org/ontodesign#determines" : [ {
+    "@id" : "https://purl.org/ontodesign#AdhesionMechanismRequirement_Indoor"
+  } ],
+  "https://purl.org/ontodesign#isInverted" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "true"
+  } ]
+}, {
+  "@id" : "https://purl.org/ontodesign#SurfaceOrientation234",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "https://purl.org/ontodesign#determines" : [ {
+    "@id" : "https://purl.org/ontodesign#AdhesionMechanismRequirement_Indoor"
+  } ],
+  "https://purl.org/ontodesign#isInverted" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "false"
+  } ]
+}, {
+  "@id" : "https://purl.org/ontodesign#TemperatureChange1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://purl.org/ontodesign#DetectableAttribute"
+  } ],
+  "https://purl.org/ontodesign#determines" : [ {
+    "@id" : "https://purl.org/ontodesign#SensoryCapabilityRequirement1"
+  } ]
+}, {
+  "@id" : "https://purl.org/ontodesign#TemperatureChange2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://purl.org/ontodesign#DetectableAttribute"
+  } ],
+  "https://purl.org/ontodesign#determines" : [ {
+    "@id" : "https://purl.org/ontodesign#SensoryCapabilityRequirement1"
+  } ]
+}, {
+  "@id" : "https://purl.org/ontodesign#TemperatureChange3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://purl.org/ontodesign#DetectableAttribute"
+  } ],
+  "https://purl.org/ontodesign#determines" : [ {
+    "@id" : "https://purl.org/ontodesign#SensoryCapabilityRequirement1"
+  } ]
+}, {
+  "@id" : "https://purl.org/ontodesign#TemperatureChange4",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://purl.org/ontodesign#DetectableAttribute"
+  } ],
+  "https://purl.org/ontodesign#determines" : [ {
+    "@id" : "https://purl.org/ontodesign#SensoryCapabilityRequirement1"
+  } ]
+}, {
+  "@id" : "https://purl.org/ontodesign#ThermalCamera1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://purl.org/ontodesign#AuxiliaryEquipment"
+  } ]
+}, {
+  "@id" : "https://purl.org/ontodesign#TransitionDexterityRequirement_Indoor",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "https://purl.org/ontodesign#VelocityRequirement",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://purl.org/ontodesign#LocomotionCapabilityRequirement"
+  } ]
+}, {
+  "@id" : "https://purl.org/ontodesign#VelocityRequirement_Indoor",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://purl.org/ontodesign#VelocityRequirement"
+  } ]
+}, {
+  "@id" : "https://purl.org/ontodesign#Visibility",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://purl.org/ontodesign#EnvironmentalCondition"
+  } ]
+}, {
+  "@id" : "https://purl.org/ontodesign#Wall1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://purl.org/ontodesign#BuildingElement"
+  } ]
+}, {
+  "@id" : "https://purl.org/ontodesign#Wall2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://purl.org/ontodesign#BuildingElement"
+  } ],
+  "https://purl.org/ontodesign#hasExposedSurface" : [ {
+    "@id" : "https://purl.org/ontodesign#Surface2"
+  } ]
+}, {
+  "@id" : "https://purl.org/ontodesign#Wall4",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://purl.org/ontodesign#BuildingElement"
+  } ],
+  "https://purl.org/ontodesign#hasExposedSurface" : [ {
+    "@id" : "https://purl.org/ontodesign#Surface4"
+  } ]
+}, {
+  "@id" : "https://purl.org/ontodesign#WallCimbingRobot1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://purl.org/ontodesign#WallClimbingRobot"
+  } ]
+}, {
+  "@id" : "https://purl.org/ontodesign#WallClimbingRobot",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://purl.org/ontodesign#Robot"
+  } ]
+}, {
+  "@id" : "https://purl.org/ontodesign#WallClimbingRobotSystem_indoor",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://purl.org/ontodesign#RobotSystem"
+  } ]
+}, {
+  "@id" : "https://purl.org/ontodesign#Wallpaper1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "https://purl.org/ontodesign#determines" : [ {
+    "@id" : "https://purl.org/ontodesign#AdhesionMechanismRequirement_Indoor"
+  } ],
+  "https://purl.org/ontodesign#isFerromagnetic" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "false"
+  } ],
+  "https://purl.org/ontodesign#isSmooth" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "false"
+  } ]
+}, {
+  "@id" : "https://purl.org/ontodesign#Wallpaper4",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "https://purl.org/ontodesign#determines" : [ {
+    "@id" : "https://purl.org/ontodesign#AdhesionMechanismRequirement_Indoor"
+  } ],
+  "https://purl.org/ontodesign#isFerromagnetic" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "false"
+  } ],
+  "https://purl.org/ontodesign#isSmooth" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "false"
+  } ]
+}, {
+  "@id" : "https://purl.org/ontodesign#WeatherResistance",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://purl.org/ontodesign#Capability"
+  } ]
+}, {
+  "@id" : "https://purl.org/ontodesign#WeatherResistanceRequirement",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://purl.org/ontodesign#RobotSystemHardwareRequirement"
+  }, {
+    "@id" : "https://purl.org/ontodesign#WeatherResistanceRequirement"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://purl.org/ontodesign#CapabilityRequirement"
+  } ]
+}, {
+  "@id" : "https://purl.org/ontodesign#WeightRequirement",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://purl.org/ontodesign#RobotSystemHardwareRequirement"
+  } ]
+}, {
+  "@id" : "https://purl.org/ontodesign#Width1234",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "https://purl.org/ontodesign#WidthConstraint",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://purl.org/ontodesign#PhysicalConstraintToRobot"
+  } ]
+}, {
+  "@id" : "https://purl.org/ontodesign#WidthConstraint2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://purl.org/ontodesign#WidthConstraint"
+  } ],
+  "https://purl.org/ontodesign#determines" : [ {
+    "@id" : "https://purl.org/ontodesign#SizeRequirement1"
+  } ]
+}, {
+  "@id" : "https://purl.org/ontodesign#WorkEnvironment",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "WorkEnvironment is the environment where the robot is exposed to."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "_:genid38"
+  } ]
+}, {
+  "@id" : "https://purl.org/ontodesign#WorkEnvironment1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://purl.org/ontodesign#WorkEnvironment"
+  } ],
+  "https://purl.org/ontodesign#hasRobotMovementMedium" : [ {
+    "@id" : "https://purl.org/ontodesign#Surface1"
+  } ]
+}, {
+  "@id" : "https://purl.org/ontodesign#WorkEnvironment2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://purl.org/ontodesign#WorkEnvironment"
+  } ],
+  "https://purl.org/ontodesign#hasRobotMovementMedium" : [ {
+    "@id" : "https://purl.org/ontodesign#Surface2"
+  } ]
+}, {
+  "@id" : "https://purl.org/ontodesign#WorkEnvironment3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://purl.org/ontodesign#WorkEnvironment"
+  } ],
+  "https://purl.org/ontodesign#hasRobotMovementMedium" : [ {
+    "@id" : "https://purl.org/ontodesign#Surface3"
+  } ]
+}, {
+  "@id" : "https://purl.org/ontodesign#WorkEnvironment4",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://purl.org/ontodesign#WorkEnvironment"
+  } ],
+  "https://purl.org/ontodesign#hasRobotMovementMedium" : [ {
+    "@id" : "https://purl.org/ontodesign#Surface4"
+  } ]
+}, {
+  "@id" : "https://purl.org/ontodesign#causes",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "https://purl.org/ontodesign#causesAbnormalArea",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://purl.org/ontodesign#BuildingDefect"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://purl.org/ontodesign#AbnormalArea"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "https://purl.org/ontodesign#causes"
+  } ]
+}, {
+  "@id" : "https://purl.org/ontodesign#causesInterferenceToEnvironment",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://purl.org/ontodesign#RobotBehavior"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "https://purl.org/ontodesign#causes"
+  } ]
+}, {
+  "@id" : "https://purl.org/ontodesign#determines",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "https://purl.org/ontodesign#fulfills",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "https://purl.org/ontodesign#fulfillsCapabilityRequirement",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "_:genid1"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://purl.org/ontodesign#CapabilityRequirement"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "https://purl.org/ontodesign#fulfills"
+  } ]
+}, {
+  "@id" : "https://purl.org/ontodesign#fulfillsStructuralCharacteristicsRequirement",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://purl.org/ontodesign#RobotSystem"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://purl.org/ontodesign#StructuralCharacteristicsRequirement"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "https://purl.org/ontodesign#fulfills"
+  } ]
+}, {
+  "@id" : "https://purl.org/ontodesign#hasAirHumidity",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "https://purl.org/ontodesign#hasEnvironmentData"
+  } ]
+}, {
+  "@id" : "https://purl.org/ontodesign#hasAirPressure",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "https://purl.org/ontodesign#hasEnvironmentData"
+  } ]
+}, {
+  "@id" : "https://purl.org/ontodesign#hasAirTemperature",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "https://purl.org/ontodesign#hasEnvironmentData"
+  } ]
+}, {
+  "@id" : "https://purl.org/ontodesign#hasAttribute",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "https://purl.org/ontodesign#hasAuxiliaryEquipment",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://purl.org/ontodesign#RobotSystem"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://purl.org/ontodesign#AuxiliaryEquipment"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "https://purl.org/ontodesign#hasComponent"
+  } ]
+}, {
+  "@id" : "https://purl.org/ontodesign#hasBuildingElement",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "_:genid4"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://purl.org/ontodesign#BuildingElement"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "https://purl.org/ontodesign#hasComponent"
+  } ]
+}, {
+  "@id" : "https://purl.org/ontodesign#hasBuildingExterior",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://purl.org/ontodesign#Building"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://purl.org/ontodesign#BuildingExterior"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "https://purl.org/ontodesign#hasBuildingInterior",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://purl.org/ontodesign#Building"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://purl.org/ontodesign#BuildingInterior"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "https://purl.org/ontodesign#hasCapability",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://purl.org/ontodesign#RobotSystem"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://purl.org/ontodesign#Capability"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "https://purl.org/ontodesign#hasComponent",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "https://purl.org/ontodesign#hasCorner",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
+}, {
+  "@id" : "https://purl.org/ontodesign#hasCornerAngle",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "https://purl.org/ontodesign#hasAttribute"
+  } ]
+}, {
+  "@id" : "https://purl.org/ontodesign#hasDepth",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "https://purl.org/ontodesign#hasAttribute"
+  } ]
+}, {
+  "@id" : "https://purl.org/ontodesign#hasDetectableAttribute",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://purl.org/ontodesign#DetectableAttribute"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "https://purl.org/ontodesign#hasAttribute"
+  } ]
+}, {
+  "@id" : "https://purl.org/ontodesign#hasDustiness",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "https://purl.org/ontodesign#hasSurfaceAttribute"
+  } ]
+}, {
+  "@id" : "https://purl.org/ontodesign#hasDustinessLevel",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ]
+}, {
+  "@id" : "https://purl.org/ontodesign#hasEnvironmentData",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "_:genid8"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://purl.org/ontodesign#EnvironmentalCondition"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "https://purl.org/ontodesign#hasExpectedInspectionSpeed",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://purl.org/ontodesign#Speed"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "https://purl.org/ontodesign#hasAttribute"
+  } ]
+}, {
+  "@id" : "https://purl.org/ontodesign#hasExposedSurface",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
+}, {
+  "@id" : "https://purl.org/ontodesign#hasHeight",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://purl.org/ontodesign#Height"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "https://purl.org/ontodesign#hasAttribute"
+  } ]
+}, {
+  "@id" : "https://purl.org/ontodesign#hasHighestPoint",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "https://purl.org/ontodesign#hasInclinationAngle",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "https://purl.org/ontodesign#hasSurfaceAttribute"
+  } ]
+}, {
+  "@id" : "https://purl.org/ontodesign#hasIndoorSpace",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://purl.org/ontodesign#BuildingInterior"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://purl.org/ontodesign#IndoorSpace"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "https://purl.org/ontodesign#hasPhysicalConstraintsToRobots",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://purl.org/ontodesign#PhysicalConstraintToRobot"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "https://purl.org/ontodesign#hasRobot",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://purl.org/ontodesign#RobotSystem"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://purl.org/ontodesign#Robot"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "https://purl.org/ontodesign#hasComponent"
+  } ]
+}, {
+  "@id" : "https://purl.org/ontodesign#hasRobotComponent",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://purl.org/ontodesign#Robot"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://purl.org/ontodesign#RobotComponent"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "https://purl.org/ontodesign#hasComponent"
+  } ]
+}, {
+  "@id" : "https://purl.org/ontodesign#hasRobotMovementMedium",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://purl.org/ontodesign#WorkEnvironment"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://purl.org/ontodesign#RobotMovementMedium"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "https://purl.org/ontodesign#hasShape",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "https://purl.org/ontodesign#hasSurfaceAttribute"
+  } ]
+}, {
+  "@id" : "https://purl.org/ontodesign#hasSignalReceptionCondition",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "https://purl.org/ontodesign#hasSite",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://purl.org/ontodesign#BuildingExterior"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://purl.org/ontodesign#Site"
+  } ]
+}, {
+  "@id" : "https://purl.org/ontodesign#hasStructuralCharacteristics",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://purl.org/ontodesign#StructuralCharacteristic"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "https://purl.org/ontodesign#hasAttribute"
+  } ]
+}, {
+  "@id" : "https://purl.org/ontodesign#hasSurfaceAttribute",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "https://purl.org/ontodesign#hasAttribute"
+  } ]
+}, {
+  "@id" : "https://purl.org/ontodesign#hasSurfaceMaterial",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "https://purl.org/ontodesign#hasSurfaceAttribute"
+  } ]
+}, {
+  "@id" : "https://purl.org/ontodesign#hasSurfaceOrientation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "https://purl.org/ontodesign#hasSurfaceAttribute"
+  } ]
+}, {
+  "@id" : "https://purl.org/ontodesign#hasTargetBuildingDefect",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://purl.org/ontodesign#BuildingDefect"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "https://purl.org/ontodesign#hasUnit",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "https://purl.org/ontodesign#hasValue",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#double"
+  } ]
+}, {
+  "@id" : "https://purl.org/ontodesign#hasVisibilityLevel",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ]
+}, {
+  "@id" : "https://purl.org/ontodesign#hasVisibiltiy",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "https://purl.org/ontodesign#hasEnvironmentData"
+  } ]
+}, {
+  "@id" : "https://purl.org/ontodesign#hasWidth",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "https://purl.org/ontodesign#hasAttribute"
+  } ]
+}, {
+  "@id" : "https://purl.org/ontodesign#hasWindSpeed",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "https://purl.org/ontodesign#hasEnvironmentData"
+  } ]
+}, {
+  "@id" : "https://purl.org/ontodesign#influences",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://purl.org/ontodesign#WorkEnvironment"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "https://purl.org/ontodesign#isAssistedBy",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "https://purl.org/ontodesign#isConductedBy",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "https://purl.org/ontodesign#isConductedByHumanInspector",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "https://purl.org/ontodesign#isConductedBy"
+  } ]
+}, {
+  "@id" : "https://purl.org/ontodesign#isConductedByRobotSystem",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://purl.org/ontodesign#RobotSystem"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "https://purl.org/ontodesign#isConductedBy"
+  } ]
+}, {
+  "@id" : "https://purl.org/ontodesign#isFerromagnetic",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "https://purl.org/ontodesign#isInverted",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ]
+}, {
+  "@id" : "https://purl.org/ontodesign#isLocatedAt",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "https://purl.org/ontodesign#isLocatedAtBuildingElement",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://purl.org/ontodesign#BuildingElement"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "https://purl.org/ontodesign#isLocatedAt"
+  } ]
+}, {
+  "@id" : "https://purl.org/ontodesign#isLocatedAtSite",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://purl.org/ontodesign#Building"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://purl.org/ontodesign#Site"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "https://purl.org/ontodesign#isLocatedAt"
+  } ]
+}, {
+  "@id" : "https://purl.org/ontodesign#isSmooth",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "https://purl.org/ontodesign#isToBeDetectedBy",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
+}, {
+  "@id" : "https://purl.org/ontodesign#movesAt",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "https://purl.org/ontodesign#movesAtMovementMedium",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://purl.org/ontodesign#Robot"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://purl.org/ontodesign#RobotMovementMedium"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "https://purl.org/ontodesign#movesAt"
+  } ]
+}, {
+  "@id" : "https://purl.org/ontodesign#occursAt",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "https://purl.org/ontodesign#provides",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "_:genid11"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://purl.org/ontodesign#WorkEnvironment"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "https://purl.org/ontodesign#requires",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "https://purl.org/ontodesign#requiresContinuousWork",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#boolean"
+  } ]
+}, {
+  "@id" : "https://purl.org/ontodesign#requiresRobotComponent",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://purl.org/ontodesign#RobotBehavior"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://purl.org/ontodesign#RobotComponent"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "https://purl.org/ontodesign#requires"
+  } ]
+}, {
+  "@id" : "https://purl.org/ontodesign#worksIn",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://purl.org/ontodesign#Robot"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://purl.org/ontodesign#WorkEnvironment"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+} ]

@@ -1,0 +1,3413 @@
+{
+  "_comment" : "Created with OWL2VOWL (version 0.3.5), http://vowl.visualdataweb.org",
+  "header" : {
+    "languages" : [ "undefined" ],
+    "baseIris" : [ "http://www.w3.org/2002/07/owl", "http://www.w3.org/2000/01/rdf-schema", "https://purl.org/ontodesign", "http://www.w3.org/2001/XMLSchema" ],
+    "iri" : "https://purl.org/ontodesign"
+  },
+  "namespace" : [ ],
+  "class" : [ {
+    "id" : "28",
+    "type" : "owl:Class"
+  }, {
+    "id" : "53",
+    "type" : "owl:Class"
+  }, {
+    "id" : "57",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "59",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "60",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "61",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "64",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "65",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "29",
+    "type" : "owl:Class"
+  }, {
+    "id" : "69",
+    "type" : "owl:Class"
+  }, {
+    "id" : "76",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "77",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "78",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "79",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "81",
+    "type" : "owl:Class"
+  }, {
+    "id" : "86",
+    "type" : "owl:Class"
+  }, {
+    "id" : "17",
+    "type" : "owl:Class"
+  }, {
+    "id" : "2",
+    "type" : "owl:Class"
+  }, {
+    "id" : "90",
+    "type" : "owl:Class"
+  }, {
+    "id" : "91",
+    "type" : "owl:Class"
+  }, {
+    "id" : "82",
+    "type" : "owl:Class"
+  }, {
+    "id" : "24",
+    "type" : "owl:Class"
+  }, {
+    "id" : "5",
+    "type" : "owl:Class"
+  }, {
+    "id" : "1",
+    "type" : "owl:Class"
+  }, {
+    "id" : "15",
+    "type" : "owl:Class"
+  }, {
+    "id" : "100",
+    "type" : "owl:Class"
+  }, {
+    "id" : "55",
+    "type" : "owl:Class"
+  }, {
+    "id" : "112",
+    "type" : "owl:Class"
+  }, {
+    "id" : "119",
+    "type" : "owl:Class"
+  }, {
+    "id" : "107",
+    "type" : "owl:Class"
+  }, {
+    "id" : "122",
+    "type" : "owl:Class"
+  }, {
+    "id" : "130",
+    "type" : "owl:Class"
+  }, {
+    "id" : "14",
+    "type" : "owl:Class"
+  }, {
+    "id" : "150",
+    "type" : "owl:Class"
+  }, {
+    "id" : "4",
+    "type" : "owl:Class"
+  }, {
+    "id" : "111",
+    "type" : "owl:Class"
+  }, {
+    "id" : "104",
+    "type" : "owl:Class"
+  }, {
+    "id" : "102",
+    "type" : "owl:Class"
+  }, {
+    "id" : "178",
+    "type" : "owl:Class"
+  }, {
+    "id" : "22",
+    "type" : "owl:Class"
+  }, {
+    "id" : "138",
+    "type" : "owl:Class"
+  }, {
+    "id" : "189",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "194",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "72",
+    "type" : "owl:Class"
+  }, {
+    "id" : "73",
+    "type" : "owl:Class"
+  }, {
+    "id" : "99",
+    "type" : "owl:Class"
+  }, {
+    "id" : "204",
+    "type" : "owl:Class"
+  }, {
+    "id" : "129",
+    "type" : "owl:Class"
+  }, {
+    "id" : "140",
+    "type" : "owl:Class"
+  }, {
+    "id" : "134",
+    "type" : "owl:Class"
+  }, {
+    "id" : "166",
+    "type" : "owl:Class"
+  }, {
+    "id" : "27",
+    "type" : "owl:Class"
+  }, {
+    "id" : "117",
+    "type" : "owl:Class"
+  }, {
+    "id" : "219",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "116",
+    "type" : "owl:Class"
+  }, {
+    "id" : "143",
+    "type" : "owl:Class"
+  }, {
+    "id" : "87",
+    "type" : "owl:Class"
+  }, {
+    "id" : "71",
+    "type" : "owl:Class"
+  }, {
+    "id" : "141",
+    "type" : "owl:Class"
+  }, {
+    "id" : "68",
+    "type" : "owl:Class"
+  }, {
+    "id" : "109",
+    "type" : "owl:Class"
+  }, {
+    "id" : "145",
+    "type" : "owl:Class"
+  }, {
+    "id" : "121",
+    "type" : "owl:Class"
+  }, {
+    "id" : "21",
+    "type" : "owl:Class"
+  }, {
+    "id" : "239",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "241",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "174",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "63",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "179",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "175",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "9",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "163",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "159",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "19",
+    "type" : "owl:Class"
+  }, {
+    "id" : "149",
+    "type" : "owl:Class"
+  }, {
+    "id" : "7",
+    "type" : "owl:Class"
+  }, {
+    "id" : "207",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "224",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "85",
+    "type" : "owl:Class"
+  }, {
+    "id" : "114",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "84",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "26",
+    "type" : "owl:unionOf"
+  }, {
+    "id" : "261",
+    "type" : "owl:unionOf"
+  }, {
+    "id" : "136",
+    "type" : "owl:Class"
+  }, {
+    "id" : "98",
+    "type" : "owl:unionOf"
+  }, {
+    "id" : "263",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "222",
+    "type" : "owl:unionOf"
+  } ],
+  "classAttribute" : [ {
+    "iri" : "https://purl.org/ontodesign#SizeRequirement",
+    "baseIri" : "https://purl.org/ontodesign",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "SizeRequirement"
+    },
+    "individuals" : [ {
+      "iri" : "https://purl.org/ontodesign#SizeRequirement1",
+      "baseIri" : "https://purl.org/ontodesign",
+      "labels" : {
+        "IRI-based" : "SizeRequirement1"
+      }
+    }, {
+      "iri" : "https://purl.org/ontodesign#SizeRequirement_Indoor",
+      "baseIri" : "https://purl.org/ontodesign",
+      "labels" : {
+        "IRI-based" : "SizeRequirement_Indoor"
+      }
+    } ],
+    "id" : "28",
+    "superClasses" : [ "29" ]
+  }, {
+    "iri" : "https://purl.org/ontodesign#Height",
+    "baseIri" : "https://purl.org/ontodesign",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Height"
+    },
+    "individuals" : [ {
+      "iri" : "https://purl.org/ontodesign#ObstacleHeight2",
+      "baseIri" : "https://purl.org/ontodesign",
+      "labels" : {
+        "IRI-based" : "ObstacleHeight2"
+      }
+    }, {
+      "iri" : "https://purl.org/ontodesign#ObstacleHeight3",
+      "baseIri" : "https://purl.org/ontodesign",
+      "labels" : {
+        "IRI-based" : "ObstacleHeight3"
+      }
+    }, {
+      "iri" : "https://purl.org/ontodesign#ObstacleHeight1",
+      "baseIri" : "https://purl.org/ontodesign",
+      "labels" : {
+        "IRI-based" : "ObstacleHeight1"
+      }
+    }, {
+      "iri" : "https://purl.org/ontodesign#Height1",
+      "baseIri" : "https://purl.org/ontodesign",
+      "labels" : {
+        "IRI-based" : "Height1"
+      }
+    }, {
+      "iri" : "https://purl.org/ontodesign#Height2",
+      "baseIri" : "https://purl.org/ontodesign",
+      "labels" : {
+        "IRI-based" : "Height2"
+      }
+    }, {
+      "iri" : "https://purl.org/ontodesign#Height3",
+      "baseIri" : "https://purl.org/ontodesign",
+      "labels" : {
+        "IRI-based" : "Height3"
+      }
+    }, {
+      "iri" : "https://purl.org/ontodesign#Height4",
+      "baseIri" : "https://purl.org/ontodesign",
+      "labels" : {
+        "IRI-based" : "Height4"
+      }
+    } ],
+    "id" : "53",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "57",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "59",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "60",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "61",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "64",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "65",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "https://purl.org/ontodesign#StructuralCharacteristicsRequirement",
+    "baseIri" : "https://purl.org/ontodesign",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "StructuralCharacteristicsRequirement"
+    },
+    "subClasses" : [ "28" ],
+    "id" : "29",
+    "superClasses" : [ "72" ]
+  }, {
+    "iri" : "https://purl.org/ontodesign#LocomotionCapabilityRequirement",
+    "baseIri" : "https://purl.org/ontodesign",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "LocomotionCapabilityRequirement"
+    },
+    "individuals" : [ {
+      "iri" : "https://purl.org/ontodesign#LocomotionCapabilityRequirement1",
+      "baseIri" : "https://purl.org/ontodesign",
+      "labels" : {
+        "IRI-based" : "LocomotionCapabilityRequirement1"
+      }
+    } ],
+    "subClasses" : [ "68" ],
+    "id" : "69",
+    "superClasses" : [ "73" ]
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "76",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "77",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "78",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "79",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "https://purl.org/ontodesign#IndoorSpace",
+    "baseIri" : "https://purl.org/ontodesign",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "IndoorSpace"
+    },
+    "individuals" : [ {
+      "iri" : "https://purl.org/ontodesign#IndoorSpace1",
+      "baseIri" : "https://purl.org/ontodesign",
+      "labels" : {
+        "IRI-based" : "IndoorSpace1"
+      }
+    }, {
+      "iri" : "https://purl.org/ontodesign#IndoorSpace2",
+      "baseIri" : "https://purl.org/ontodesign",
+      "labels" : {
+        "IRI-based" : "IndoorSpace2"
+      }
+    }, {
+      "iri" : "https://purl.org/ontodesign#IndoorSpace3",
+      "baseIri" : "https://purl.org/ontodesign",
+      "labels" : {
+        "IRI-based" : "IndoorSpace3"
+      }
+    }, {
+      "iri" : "https://purl.org/ontodesign#IndoorSpace4",
+      "baseIri" : "https://purl.org/ontodesign",
+      "labels" : {
+        "IRI-based" : "IndoorSpace4"
+      }
+    } ],
+    "id" : "81"
+  }, {
+    "iri" : "https://purl.org/ontodesign#Visibility",
+    "baseIri" : "https://purl.org/ontodesign",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Visibility"
+    },
+    "id" : "86",
+    "superClasses" : [ "87" ]
+  }, {
+    "iri" : "https://purl.org/ontodesign#WidthConstraint",
+    "baseIri" : "https://purl.org/ontodesign",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "WidthConstraint"
+    },
+    "individuals" : [ {
+      "iri" : "https://purl.org/ontodesign#WidthConstraint2",
+      "baseIri" : "https://purl.org/ontodesign",
+      "labels" : {
+        "IRI-based" : "WidthConstraint2"
+      }
+    } ],
+    "id" : "17",
+    "superClasses" : [ "15" ]
+  }, {
+    "iri" : "https://purl.org/ontodesign#Attribute",
+    "baseIri" : "https://purl.org/ontodesign",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Attribute"
+    },
+    "individuals" : [ {
+      "iri" : "https://purl.org/ontodesign#ObstacleHeight2",
+      "baseIri" : "https://purl.org/ontodesign",
+      "labels" : {
+        "IRI-based" : "ObstacleHeight2"
+      }
+    }, {
+      "iri" : "https://purl.org/ontodesign#ObstacleHeight3",
+      "baseIri" : "https://purl.org/ontodesign",
+      "labels" : {
+        "IRI-based" : "ObstacleHeight3"
+      }
+    }, {
+      "iri" : "https://purl.org/ontodesign#ObstacleHeight1",
+      "baseIri" : "https://purl.org/ontodesign",
+      "labels" : {
+        "IRI-based" : "ObstacleHeight1"
+      }
+    }, {
+      "iri" : "https://purl.org/ontodesign#ObstacleWidth1",
+      "baseIri" : "https://purl.org/ontodesign",
+      "labels" : {
+        "IRI-based" : "ObstacleWidth1"
+      }
+    }, {
+      "iri" : "https://purl.org/ontodesign#ObstacleDepth2",
+      "baseIri" : "https://purl.org/ontodesign",
+      "labels" : {
+        "IRI-based" : "ObstacleDepth2"
+      }
+    }, {
+      "iri" : "https://purl.org/ontodesign#ObstacleDepth3",
+      "baseIri" : "https://purl.org/ontodesign",
+      "labels" : {
+        "IRI-based" : "ObstacleDepth3"
+      }
+    }, {
+      "iri" : "https://purl.org/ontodesign#ObstacleDepth1",
+      "baseIri" : "https://purl.org/ontodesign",
+      "labels" : {
+        "IRI-based" : "ObstacleDepth1"
+      }
+    } ],
+    "subClasses" : [ "71", "55", "53", "1" ],
+    "id" : "2"
+  }, {
+    "iri" : "https://purl.org/ontodesign#AbnormalArea",
+    "baseIri" : "https://purl.org/ontodesign",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "AbnormalArea"
+    },
+    "individuals" : [ {
+      "iri" : "https://purl.org/ontodesign#AbnormalArea4",
+      "baseIri" : "https://purl.org/ontodesign",
+      "labels" : {
+        "IRI-based" : "AbnormalArea4"
+      }
+    }, {
+      "iri" : "https://purl.org/ontodesign#AbnormalArea3",
+      "baseIri" : "https://purl.org/ontodesign",
+      "labels" : {
+        "IRI-based" : "AbnormalArea3"
+      }
+    }, {
+      "iri" : "https://purl.org/ontodesign#AbnormalArea2",
+      "baseIri" : "https://purl.org/ontodesign",
+      "labels" : {
+        "IRI-based" : "AbnormalArea2"
+      }
+    }, {
+      "iri" : "https://purl.org/ontodesign#AbnormalArea1",
+      "baseIri" : "https://purl.org/ontodesign",
+      "labels" : {
+        "IRI-based" : "AbnormalArea1"
+      }
+    } ],
+    "comment" : {
+      "undefined" : "AbnormalArea is an area that has some anomalies compared to other areas of the same building element. This area is caused by the BuildingDefect, and it usually has some variations in the values of some attributes."
+    },
+    "id" : "90"
+  }, {
+    "iri" : "https://purl.org/ontodesign#WeatherResistance",
+    "baseIri" : "https://purl.org/ontodesign",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "WeatherResistance"
+    },
+    "id" : "91",
+    "superClasses" : [ "85" ]
+  }, {
+    "iri" : "https://purl.org/ontodesign#RobotSystem",
+    "baseIri" : "https://purl.org/ontodesign",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "RobotSystem"
+    },
+    "individuals" : [ {
+      "iri" : "https://purl.org/ontodesign#WallClimbingRobotSystem_indoor",
+      "baseIri" : "https://purl.org/ontodesign",
+      "labels" : {
+        "IRI-based" : "WallClimbingRobotSystem_indoor"
+      }
+    } ],
+    "comment" : {
+      "undefined" : "RobotSystem is defined as an artificial system formed by robots and AuxiliaryEquipment"
+    },
+    "id" : "82"
+  }, {
+    "iri" : "https://purl.org/ontodesign#GroundBasedRobot",
+    "baseIri" : "https://purl.org/ontodesign",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "GroundBasedRobot"
+    },
+    "id" : "24",
+    "superClasses" : [ "22" ]
+  }, {
+    "iri" : "https://purl.org/ontodesign#InspectionMethod",
+    "baseIri" : "https://purl.org/ontodesign",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "InspectionMethod"
+    },
+    "subClasses" : [ "4", "7" ],
+    "id" : "5"
+  }, {
+    "iri" : "https://purl.org/ontodesign#DetectableAttribute",
+    "baseIri" : "https://purl.org/ontodesign",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "DetectableAttribute"
+    },
+    "individuals" : [ {
+      "iri" : "https://purl.org/ontodesign#TemperatureChange1",
+      "baseIri" : "https://purl.org/ontodesign",
+      "labels" : {
+        "IRI-based" : "TemperatureChange1"
+      }
+    }, {
+      "iri" : "https://purl.org/ontodesign#TemperatureChange3",
+      "baseIri" : "https://purl.org/ontodesign",
+      "labels" : {
+        "IRI-based" : "TemperatureChange3"
+      }
+    }, {
+      "iri" : "https://purl.org/ontodesign#TemperatureChange2",
+      "baseIri" : "https://purl.org/ontodesign",
+      "labels" : {
+        "IRI-based" : "TemperatureChange2"
+      }
+    }, {
+      "iri" : "https://purl.org/ontodesign#TemperatureChange4",
+      "baseIri" : "https://purl.org/ontodesign",
+      "labels" : {
+        "IRI-based" : "TemperatureChange4"
+      }
+    } ],
+    "comment" : {
+      "undefined" : "DetectableAttribute refers to attributes whose values would change due to defects."
+    },
+    "id" : "1",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "https://purl.org/ontodesign#PhysicalConstraintToRobot",
+    "baseIri" : "https://purl.org/ontodesign",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "PhysicalConstraintToRobot"
+    },
+    "subClasses" : [ "14", "17", "19" ],
+    "comment" : {
+      "undefined" : "PhysicalConstraintToRobot means the maximum size of the space or area that the BuildingElement or the IndoorSpace can provide for the robot movement."
+    },
+    "id" : "15"
+  }, {
+    "iri" : "https://purl.org/ontodesign#AirPressure",
+    "baseIri" : "https://purl.org/ontodesign",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "AirPressure"
+    },
+    "id" : "100",
+    "superClasses" : [ "87" ]
+  }, {
+    "iri" : "https://purl.org/ontodesign#StructuralCharacteristic",
+    "baseIri" : "https://purl.org/ontodesign",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "StructuralCharacteristic"
+    },
+    "comment" : {
+      "undefined" : "StructuralCharacteristic refers to generic features necessary to describe the physical and structural aspects of a robot system."
+    },
+    "id" : "55",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "https://purl.org/ontodesign#AverageAnnualAirHumidity",
+    "baseIri" : "https://purl.org/ontodesign",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "AverageAnnualAirHumidity"
+    },
+    "id" : "112",
+    "superClasses" : [ "87" ]
+  }, {
+    "iri" : "https://purl.org/ontodesign#SignalReceptionCondition",
+    "baseIri" : "https://purl.org/ontodesign",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "SignalReceptionCondition"
+    },
+    "id" : "119",
+    "superClasses" : [ "87" ]
+  }, {
+    "iri" : "https://purl.org/ontodesign#DegreeOfAutonomy",
+    "baseIri" : "https://purl.org/ontodesign",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "DegreeOfAutonomy"
+    },
+    "id" : "107",
+    "superClasses" : [ "85" ]
+  }, {
+    "iri" : "https://purl.org/ontodesign#RobotComponent",
+    "baseIri" : "https://purl.org/ontodesign",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "RobotComponent"
+    },
+    "id" : "122"
+  }, {
+    "iri" : "https://purl.org/ontodesign#CommunicationRequirement",
+    "baseIri" : "https://purl.org/ontodesign",
+    "instances" : 1,
+    "label" : {
+      "IRI-based" : "CommunicationRequirement"
+    },
+    "id" : "130",
+    "superClasses" : [ "73" ]
+  }, {
+    "iri" : "https://purl.org/ontodesign#LengthConstraint",
+    "baseIri" : "https://purl.org/ontodesign",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "LengthConstraint"
+    },
+    "id" : "14",
+    "superClasses" : [ "15" ]
+  }, {
+    "iri" : "https://purl.org/ontodesign#AuxiliaryEquipment",
+    "baseIri" : "https://purl.org/ontodesign",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "AuxiliaryEquipment"
+    },
+    "individuals" : [ {
+      "iri" : "https://purl.org/ontodesign#ThermalCamera1",
+      "baseIri" : "https://purl.org/ontodesign",
+      "labels" : {
+        "IRI-based" : "ThermalCamera1"
+      }
+    }, {
+      "iri" : "https://purl.org/ontodesign#MoistureMeter2",
+      "baseIri" : "https://purl.org/ontodesign",
+      "labels" : {
+        "IRI-based" : "MoistureMeter2"
+      }
+    } ],
+    "comment" : {
+      "undefined" : "AuxiliaryEquipment includes any equipment, devices, or sensors supporting the robot performing specific inspection tasks."
+    },
+    "id" : "150"
+  }, {
+    "iri" : "https://purl.org/ontodesign#ContinuousInspection",
+    "baseIri" : "https://purl.org/ontodesign",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "ContinuousInspection"
+    },
+    "id" : "4",
+    "superClasses" : [ "5" ]
+  }, {
+    "iri" : "https://purl.org/ontodesign#Communication",
+    "baseIri" : "https://purl.org/ontodesign",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Communication"
+    },
+    "id" : "111",
+    "superClasses" : [ "85" ]
+  }, {
+    "iri" : "https://purl.org/ontodesign#LocomotionCapability",
+    "baseIri" : "https://purl.org/ontodesign",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "LocomotionCapability"
+    },
+    "id" : "104",
+    "superClasses" : [ "85" ]
+  }, {
+    "iri" : "https://purl.org/ontodesign#SensoryCapability",
+    "baseIri" : "https://purl.org/ontodesign",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "SensoryCapability"
+    },
+    "id" : "102",
+    "superClasses" : [ "85" ]
+  }, {
+    "iri" : "https://purl.org/ontodesign#MinimumChangeOfValue",
+    "baseIri" : "https://purl.org/ontodesign",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "MinimumChangeOfValue"
+    },
+    "id" : "178"
+  }, {
+    "iri" : "https://purl.org/ontodesign#Robot",
+    "baseIri" : "https://purl.org/ontodesign",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Robot"
+    },
+    "subClasses" : [ "21", "24", "145" ],
+    "comment" : {
+      "undefined" : "Robot refers exclusively to mobile robots in the context of building inspection robots. It is a programmed actuated mechanism able to move around at a RobotMovementMedium of  its WorkEnvironment and conduct RobotBehavior with a degree of autonomy."
+    },
+    "id" : "22"
+  }, {
+    "iri" : "https://purl.org/ontodesign#AverageAnnualAirTemperature",
+    "baseIri" : "https://purl.org/ontodesign",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "AverageAnnualAirTemperature"
+    },
+    "id" : "138",
+    "superClasses" : [ "87" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "189",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#double",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "194",
+    "label" : {
+      "IRI-based" : "double"
+    }
+  }, {
+    "iri" : "https://purl.org/ontodesign#RobotSystemHardwareRequirement",
+    "baseIri" : "https://purl.org/ontodesign",
+    "instances" : 2,
+    "label" : {
+      "IRI-based" : "RobotSystemHardwareRequirement"
+    },
+    "individuals" : [ {
+      "iri" : "https://purl.org/ontodesign#WeightRequirement",
+      "baseIri" : "https://purl.org/ontodesign",
+      "labels" : {
+        "IRI-based" : "WeightRequirement"
+      }
+    }, {
+      "iri" : "https://purl.org/ontodesign#SensoryCapabilityRequirement1",
+      "baseIri" : "https://purl.org/ontodesign",
+      "labels" : {
+        "IRI-based" : "SensoryCapabilityRequirement1"
+      }
+    }, {
+      "iri" : "https://purl.org/ontodesign#SizeRequirement1",
+      "baseIri" : "https://purl.org/ontodesign",
+      "labels" : {
+        "IRI-based" : "SizeRequirement1"
+      }
+    }, {
+      "iri" : "https://purl.org/ontodesign#DegreeOfAutonomyRequirement1",
+      "baseIri" : "https://purl.org/ontodesign",
+      "labels" : {
+        "IRI-based" : "DegreeOfAutonomyRequirement1"
+      }
+    }, {
+      "iri" : "https://purl.org/ontodesign#OperationalCapabilityRequirement1",
+      "baseIri" : "https://purl.org/ontodesign",
+      "labels" : {
+        "IRI-based" : "OperationalCapabilityRequirement1"
+      }
+    }, {
+      "iri" : "https://purl.org/ontodesign#LocomotionCapabilityRequirement1",
+      "baseIri" : "https://purl.org/ontodesign",
+      "labels" : {
+        "IRI-based" : "LocomotionCapabilityRequirement1"
+      }
+    }, {
+      "iri" : "https://purl.org/ontodesign#LocomotionMechanismCharacteristicRequirement1",
+      "baseIri" : "https://purl.org/ontodesign",
+      "labels" : {
+        "IRI-based" : "LocomotionMechanismCharacteristicRequirement1"
+      }
+    } ],
+    "subClasses" : [ "29", "73" ],
+    "id" : "72"
+  }, {
+    "iri" : "https://purl.org/ontodesign#CapabilityRequirement",
+    "baseIri" : "https://purl.org/ontodesign",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "CapabilityRequirement"
+    },
+    "subClasses" : [ "129", "130", "69", "134", "136" ],
+    "id" : "73",
+    "superClasses" : [ "72" ]
+  }, {
+    "iri" : "https://purl.org/ontodesign#BuildingElement",
+    "baseIri" : "https://purl.org/ontodesign",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "BuildingElement"
+    },
+    "individuals" : [ {
+      "iri" : "https://purl.org/ontodesign#Floor3",
+      "baseIri" : "https://purl.org/ontodesign",
+      "labels" : {
+        "IRI-based" : "Floor3"
+      }
+    }, {
+      "iri" : "https://purl.org/ontodesign#Wall1",
+      "baseIri" : "https://purl.org/ontodesign",
+      "labels" : {
+        "IRI-based" : "Wall1"
+      }
+    }, {
+      "iri" : "https://purl.org/ontodesign#Ceiling4",
+      "baseIri" : "https://purl.org/ontodesign",
+      "labels" : {
+        "IRI-based" : "Ceiling4"
+      }
+    }, {
+      "iri" : "https://purl.org/ontodesign#Ceiling1",
+      "baseIri" : "https://purl.org/ontodesign",
+      "labels" : {
+        "IRI-based" : "Ceiling1"
+      }
+    }, {
+      "iri" : "https://purl.org/ontodesign#Wall2",
+      "baseIri" : "https://purl.org/ontodesign",
+      "labels" : {
+        "IRI-based" : "Wall2"
+      }
+    }, {
+      "iri" : "https://purl.org/ontodesign#Wall4",
+      "baseIri" : "https://purl.org/ontodesign",
+      "labels" : {
+        "IRI-based" : "Wall4"
+      }
+    } ],
+    "comment" : {
+      "undefined" : "BuildingElement is defined as all elements that are primarily part of an existing building. These elements could be from the BuildingInterior or the BuildingExterior."
+    },
+    "id" : "99"
+  }, {
+    "iri" : "https://purl.org/ontodesign#AcceptableLevelOfNoise",
+    "baseIri" : "https://purl.org/ontodesign",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "AcceptableLevelOfNoise"
+    },
+    "id" : "204"
+  }, {
+    "iri" : "https://purl.org/ontodesign#OperationalCapabilityRequirement",
+    "baseIri" : "https://purl.org/ontodesign",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "OperationalCapabilityRequirement"
+    },
+    "individuals" : [ {
+      "iri" : "https://purl.org/ontodesign#OperationalCapabilityRequirement1",
+      "baseIri" : "https://purl.org/ontodesign",
+      "labels" : {
+        "IRI-based" : "OperationalCapabilityRequirement1"
+      }
+    } ],
+    "id" : "129",
+    "superClasses" : [ "73" ]
+  }, {
+    "iri" : "https://purl.org/ontodesign#AverageAnnualWindSpeed",
+    "baseIri" : "https://purl.org/ontodesign",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "AverageAnnualWindSpeed"
+    },
+    "id" : "140",
+    "superClasses" : [ "87" ]
+  }, {
+    "iri" : "https://purl.org/ontodesign#WeatherResistanceRequirement",
+    "baseIri" : "https://purl.org/ontodesign",
+    "instances" : 1,
+    "label" : {
+      "IRI-based" : "WeatherResistanceRequirement"
+    },
+    "id" : "134",
+    "superClasses" : [ "73" ]
+  }, {
+    "iri" : "https://purl.org/ontodesign#BuildingDefect",
+    "baseIri" : "https://purl.org/ontodesign",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "BuildingDefect"
+    },
+    "individuals" : [ {
+      "iri" : "https://purl.org/ontodesign#Moisture3",
+      "baseIri" : "https://purl.org/ontodesign",
+      "labels" : {
+        "IRI-based" : "Moisture3"
+      }
+    }, {
+      "iri" : "https://purl.org/ontodesign#Moisture2",
+      "baseIri" : "https://purl.org/ontodesign",
+      "labels" : {
+        "IRI-based" : "Moisture2"
+      }
+    }, {
+      "iri" : "https://purl.org/ontodesign#Moisture1",
+      "baseIri" : "https://purl.org/ontodesign",
+      "labels" : {
+        "IRI-based" : "Moisture1"
+      }
+    }, {
+      "iri" : "https://purl.org/ontodesign#Moisture4",
+      "baseIri" : "https://purl.org/ontodesign",
+      "labels" : {
+        "IRI-based" : "Moisture4"
+      }
+    } ],
+    "comment" : {
+      "undefined" : "BuildingDefect is defined as a failing or shortcoming in the function, performance, statutory, or user requirements of a building, and might manifest itself within the BuildingElement of the affected building."
+    },
+    "id" : "166"
+  }, {
+    "iri" : "https://purl.org/ontodesign#WorkEnvironment",
+    "baseIri" : "https://purl.org/ontodesign",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "WorkEnvironment"
+    },
+    "individuals" : [ {
+      "iri" : "https://purl.org/ontodesign#WorkEnvironment1",
+      "baseIri" : "https://purl.org/ontodesign",
+      "labels" : {
+        "IRI-based" : "WorkEnvironment1"
+      }
+    }, {
+      "iri" : "https://purl.org/ontodesign#WorkEnvironment4",
+      "baseIri" : "https://purl.org/ontodesign",
+      "labels" : {
+        "IRI-based" : "WorkEnvironment4"
+      }
+    }, {
+      "iri" : "https://purl.org/ontodesign#WorkEnvironment3",
+      "baseIri" : "https://purl.org/ontodesign",
+      "labels" : {
+        "IRI-based" : "WorkEnvironment3"
+      }
+    }, {
+      "iri" : "https://purl.org/ontodesign#WorkEnvironment2",
+      "baseIri" : "https://purl.org/ontodesign",
+      "labels" : {
+        "IRI-based" : "WorkEnvironment2"
+      }
+    } ],
+    "comment" : {
+      "undefined" : "WorkEnvironment is the environment where the robot is exposed to."
+    },
+    "id" : "27"
+  }, {
+    "iri" : "https://purl.org/ontodesign#Site",
+    "baseIri" : "https://purl.org/ontodesign",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Site"
+    },
+    "id" : "117"
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "219",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "https://purl.org/ontodesign#Building",
+    "baseIri" : "https://purl.org/ontodesign",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Building"
+    },
+    "individuals" : [ {
+      "iri" : "https://purl.org/ontodesign#Building1",
+      "baseIri" : "https://purl.org/ontodesign",
+      "labels" : {
+        "IRI-based" : "Building1"
+      }
+    } ],
+    "id" : "116"
+  }, {
+    "iri" : "https://purl.org/ontodesign#RobotMovementMedium",
+    "baseIri" : "https://purl.org/ontodesign",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "RobotMovementMedium"
+    },
+    "comment" : {
+      "undefined" : "RobotMovementMedium is what the robot relies on for its movement."
+    },
+    "id" : "143"
+  }, {
+    "iri" : "https://purl.org/ontodesign#EnvironmentalCondition",
+    "baseIri" : "https://purl.org/ontodesign",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "EnvironmentalCondition"
+    },
+    "subClasses" : [ "138", "140", "86", "112", "119", "100" ],
+    "comment" : {
+      "undefined" : "EnvironmentalCondition describes environmental conditions of the building Site and IndoorSpace, which includes AverageAnnualAirTemperature, AverageAnnualAirHumidity, AirPressure, Visibility, and AverageAnnualWindSpeed, SignalReceptionCondition."
+    },
+    "id" : "87"
+  }, {
+    "iri" : "https://purl.org/ontodesign#Speed",
+    "baseIri" : "https://purl.org/ontodesign",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Speed"
+    },
+    "individuals" : [ {
+      "iri" : "https://purl.org/ontodesign#InspectionSpeed1",
+      "baseIri" : "https://purl.org/ontodesign",
+      "labels" : {
+        "IRI-based" : "InspectionSpeed1"
+      }
+    } ],
+    "id" : "71",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "https://purl.org/ontodesign#BuildingInterior",
+    "baseIri" : "https://purl.org/ontodesign",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "BuildingInterior"
+    },
+    "individuals" : [ {
+      "iri" : "https://purl.org/ontodesign#BuildingInterior1",
+      "baseIri" : "https://purl.org/ontodesign",
+      "labels" : {
+        "IRI-based" : "BuildingInterior1"
+      }
+    }, {
+      "iri" : "https://purl.org/ontodesign#BuildingInterior3",
+      "baseIri" : "https://purl.org/ontodesign",
+      "labels" : {
+        "IRI-based" : "BuildingInterior3"
+      }
+    }, {
+      "iri" : "https://purl.org/ontodesign#BuildingInterior2",
+      "baseIri" : "https://purl.org/ontodesign",
+      "labels" : {
+        "IRI-based" : "BuildingInterior2"
+      }
+    }, {
+      "iri" : "https://purl.org/ontodesign#BuildingInterior4",
+      "baseIri" : "https://purl.org/ontodesign",
+      "labels" : {
+        "IRI-based" : "BuildingInterior4"
+      }
+    } ],
+    "comment" : {
+      "undefined" : "BuildingInterior includes all elements exposed to the inside of the building and IndoorSpace bounded by the elements."
+    },
+    "id" : "141"
+  }, {
+    "iri" : "https://purl.org/ontodesign#VelocityRequirement",
+    "baseIri" : "https://purl.org/ontodesign",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "VelocityRequirement"
+    },
+    "individuals" : [ {
+      "iri" : "https://purl.org/ontodesign#VelocityRequirement_Indoor",
+      "baseIri" : "https://purl.org/ontodesign",
+      "labels" : {
+        "IRI-based" : "VelocityRequirement_Indoor"
+      }
+    } ],
+    "id" : "68",
+    "superClasses" : [ "69" ]
+  }, {
+    "iri" : "https://purl.org/ontodesign#OperationalCapability",
+    "baseIri" : "https://purl.org/ontodesign",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "OperationalCapability"
+    },
+    "id" : "109",
+    "superClasses" : [ "85" ]
+  }, {
+    "iri" : "https://purl.org/ontodesign#AirBasedRobot",
+    "baseIri" : "https://purl.org/ontodesign",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "AirBasedRobot"
+    },
+    "id" : "145",
+    "superClasses" : [ "22" ]
+  }, {
+    "iri" : "https://purl.org/ontodesign#RobotBehavior",
+    "baseIri" : "https://purl.org/ontodesign",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "RobotBehavior"
+    },
+    "individuals" : [ {
+      "iri" : "https://purl.org/ontodesign#OvercomingSurfaceObstacle3",
+      "baseIri" : "https://purl.org/ontodesign",
+      "labels" : {
+        "IRI-based" : "OvercomingSurfaceObstacle3"
+      }
+    }, {
+      "iri" : "https://purl.org/ontodesign#OvercomingSurfaceObstacle2",
+      "baseIri" : "https://purl.org/ontodesign",
+      "labels" : {
+        "IRI-based" : "OvercomingSurfaceObstacle2"
+      }
+    }, {
+      "iri" : "https://purl.org/ontodesign#ConcaveTransistion1",
+      "baseIri" : "https://purl.org/ontodesign",
+      "labels" : {
+        "IRI-based" : "ConcaveTransistion1"
+      }
+    }, {
+      "iri" : "https://purl.org/ontodesign#ConcaveTransistion2",
+      "baseIri" : "https://purl.org/ontodesign",
+      "labels" : {
+        "IRI-based" : "ConcaveTransistion2"
+      }
+    }, {
+      "iri" : "https://purl.org/ontodesign#ConcaveTransistion3",
+      "baseIri" : "https://purl.org/ontodesign",
+      "labels" : {
+        "IRI-based" : "ConcaveTransistion3"
+      }
+    } ],
+    "id" : "121"
+  }, {
+    "iri" : "https://purl.org/ontodesign#WallClimbingRobot",
+    "baseIri" : "https://purl.org/ontodesign",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "WallClimbingRobot"
+    },
+    "individuals" : [ {
+      "iri" : "https://purl.org/ontodesign#WallCimbingRobot1",
+      "baseIri" : "https://purl.org/ontodesign",
+      "labels" : {
+        "IRI-based" : "WallCimbingRobot1"
+      }
+    } ],
+    "id" : "21",
+    "superClasses" : [ "22" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "239",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#double",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "241",
+    "label" : {
+      "IRI-based" : "double"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "174",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "63",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "179",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "175",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "9",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "163",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "159",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "https://purl.org/ontodesign#HeightConstraint",
+    "baseIri" : "https://purl.org/ontodesign",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "HeightConstraint"
+    },
+    "individuals" : [ {
+      "iri" : "https://purl.org/ontodesign#HeightConstraint1",
+      "baseIri" : "https://purl.org/ontodesign",
+      "labels" : {
+        "IRI-based" : "HeightConstraint1"
+      }
+    } ],
+    "id" : "19",
+    "superClasses" : [ "15" ]
+  }, {
+    "iri" : "https://purl.org/ontodesign#BuildingExterior",
+    "baseIri" : "https://purl.org/ontodesign",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "BuildingExterior"
+    },
+    "comment" : {
+      "undefined" : "BuildingExterior includes all elements exposed to the Site of the building."
+    },
+    "id" : "149"
+  }, {
+    "iri" : "https://purl.org/ontodesign#NonContinuousInspection",
+    "baseIri" : "https://purl.org/ontodesign",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "NonContinuousInspection"
+    },
+    "id" : "7",
+    "superClasses" : [ "5" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "207",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "224",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "https://purl.org/ontodesign#Capability",
+    "baseIri" : "https://purl.org/ontodesign",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Capability"
+    },
+    "subClasses" : [ "102", "104", "91", "107", "109", "111" ],
+    "comment" : {
+      "undefined" : "Capability describes the manifested behavioral features of the robot system."
+    },
+    "id" : "85"
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "114",
+    "label" : {
+      "IRI-based" : "boolean"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#double",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "84",
+    "label" : {
+      "IRI-based" : "double"
+    }
+  }, {
+    "instances" : 0,
+    "union" : [ "141", "149" ],
+    "attributes" : [ "anonymous", "union" ],
+    "id" : "26"
+  }, {
+    "instances" : 0,
+    "union" : [ "117", "27" ],
+    "attributes" : [ "anonymous", "union" ],
+    "id" : "261"
+  }, {
+    "iri" : "https://purl.org/ontodesign#SensoryCapabilityRequirement",
+    "baseIri" : "https://purl.org/ontodesign",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "SensoryCapabilityRequirement"
+    },
+    "individuals" : [ {
+      "iri" : "https://purl.org/ontodesign#SensoryCapabilityRequirement1",
+      "baseIri" : "https://purl.org/ontodesign",
+      "labels" : {
+        "IRI-based" : "SensoryCapabilityRequirement1"
+      }
+    } ],
+    "id" : "136",
+    "superClasses" : [ "73" ]
+  }, {
+    "instances" : 0,
+    "union" : [ "116", "141", "149" ],
+    "attributes" : [ "anonymous", "union" ],
+    "id" : "98"
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#double",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "263",
+    "label" : {
+      "IRI-based" : "double"
+    }
+  }, {
+    "instances" : 0,
+    "union" : [ "121", "82" ],
+    "attributes" : [ "anonymous", "union" ],
+    "id" : "222"
+  } ],
+  "property" : [ {
+    "id" : "0",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "3",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "6",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "8",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "13",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "16",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "18",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "20",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "23",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "25",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "30",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "33",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "10",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "54",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "56",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "58",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "62",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "66",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "67",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "70",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "50",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "40",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "74",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "12",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "83",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "47",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "88",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "89",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "49",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "92",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "93",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "94",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "96",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "97",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "101",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "103",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "105",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "106",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "108",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "110",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "113",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "115",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "118",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "120",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "123",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "124",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "125",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "126",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "127",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "128",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "34",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "131",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "132",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "133",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "135",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "137",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "139",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "46",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "142",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "80",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "144",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "146",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "147",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "148",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "37",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "151",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "44",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "154",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "155",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "156",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "157",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "158",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "160",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "161",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "162",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "164",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "165",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "168",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "169",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "170",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "95",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "167",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "31",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "153",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "176",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "177",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "11",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "180",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "181",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "182",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "183",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "184",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "185",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "186",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "187",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "188",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "190",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "191",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "43",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "192",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "172",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "193",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "195",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "196",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "197",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "198",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "199",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "200",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "201",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "202",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "203",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "173",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "45",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "205",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "206",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "208",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "209",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "210",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "211",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "212",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "51",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "213",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "214",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "215",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "216",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "217",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "218",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "220",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "221",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "75",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "223",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "225",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "226",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "152",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "227",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "228",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "229",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "230",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "231",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "232",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "233",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "234",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "235",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "48",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "236",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "237",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "238",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "240",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "242",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "243",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "244",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "245",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "246",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "247",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "248",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "249",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "250",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "251",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "171",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "252",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "253",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "254",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "255",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "32",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "256",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "257",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "258",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "259",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "35",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "260",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "41",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "42",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "262",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "264",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "52",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "265",
+    "type" : "owl:someValuesFrom"
+  } ],
+  "propertyAttribute" : [ {
+    "range" : "2",
+    "domain" : "1",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "0"
+  }, {
+    "range" : "5",
+    "domain" : "4",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "3"
+  }, {
+    "range" : "5",
+    "domain" : "7",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "6"
+  }, {
+    "iri" : "https://purl.org/ontodesign#isConductedBy",
+    "baseIri" : "https://purl.org/ontodesign",
+    "range" : "9",
+    "label" : {
+      "IRI-based" : "isConductedBy"
+    },
+    "superproperty" : [ "10" ],
+    "domain" : "9",
+    "subproperty" : [ "11", "12" ],
+    "attributes" : [ "object" ],
+    "id" : "8"
+  }, {
+    "range" : "15",
+    "domain" : "14",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "13"
+  }, {
+    "range" : "15",
+    "domain" : "17",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "16"
+  }, {
+    "range" : "15",
+    "domain" : "19",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "18"
+  }, {
+    "range" : "22",
+    "domain" : "21",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "20"
+  }, {
+    "range" : "22",
+    "domain" : "24",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "23"
+  }, {
+    "iri" : "https://purl.org/ontodesign#provides",
+    "baseIri" : "https://purl.org/ontodesign",
+    "range" : "27",
+    "label" : {
+      "IRI-based" : "provides"
+    },
+    "superproperty" : [ "10" ],
+    "domain" : "26",
+    "attributes" : [ "object" ],
+    "id" : "25"
+  }, {
+    "iri" : "https://purl.org/ontodesign#causes",
+    "baseIri" : "https://purl.org/ontodesign",
+    "range" : "9",
+    "label" : {
+      "IRI-based" : "causes"
+    },
+    "superproperty" : [ "10" ],
+    "domain" : "9",
+    "subproperty" : [ "31", "32" ],
+    "attributes" : [ "object" ],
+    "id" : "30"
+  }, {
+    "iri" : "https://purl.org/ontodesign#isAssistedBy",
+    "baseIri" : "https://purl.org/ontodesign",
+    "range" : "9",
+    "label" : {
+      "IRI-based" : "isAssistedBy"
+    },
+    "superproperty" : [ "10" ],
+    "domain" : "9",
+    "attributes" : [ "object" ],
+    "id" : "33"
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#topObjectProperty",
+    "baseIri" : "http://www.w3.org/2002/07/owl",
+    "range" : "9",
+    "label" : {
+      "IRI-based" : "topObjectProperty"
+    },
+    "domain" : "9",
+    "subproperty" : [ "34", "35", "8", "36", "37", "38", "39", "40", "41", "42", "43", "44", "45", "25", "30", "46", "47", "48", "33", "49", "50", "51", "52" ],
+    "attributes" : [ "external", "object" ],
+    "id" : "10"
+  }, {
+    "range" : "2",
+    "domain" : "55",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "54"
+  }, {
+    "range" : "2",
+    "domain" : "53",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "56"
+  }, {
+    "iri" : "https://purl.org/ontodesign#hasWindSpeed",
+    "baseIri" : "https://purl.org/ontodesign",
+    "range" : "9",
+    "label" : {
+      "IRI-based" : "hasWindSpeed"
+    },
+    "superproperty" : [ "52" ],
+    "domain" : "9",
+    "attributes" : [ "object" ],
+    "id" : "58"
+  }, {
+    "iri" : "https://purl.org/ontodesign#isSmooth",
+    "baseIri" : "https://purl.org/ontodesign",
+    "range" : "63",
+    "label" : {
+      "IRI-based" : "isSmooth"
+    },
+    "domain" : "9",
+    "attributes" : [ "datatype" ],
+    "id" : "62"
+  }, {
+    "range" : "29",
+    "domain" : "28",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "66"
+  }, {
+    "range" : "69",
+    "domain" : "68",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "67"
+  }, {
+    "range" : "2",
+    "domain" : "71",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "70"
+  }, {
+    "iri" : "https://purl.org/ontodesign#fulfills",
+    "baseIri" : "https://purl.org/ontodesign",
+    "range" : "9",
+    "label" : {
+      "IRI-based" : "fulfills"
+    },
+    "superproperty" : [ "10" ],
+    "domain" : "9",
+    "subproperty" : [ "74", "75" ],
+    "attributes" : [ "object" ],
+    "id" : "50"
+  }, {
+    "iri" : "https://purl.org/ontodesign#movesAt",
+    "baseIri" : "https://purl.org/ontodesign",
+    "range" : "9",
+    "label" : {
+      "IRI-based" : "movesAt"
+    },
+    "superproperty" : [ "10" ],
+    "domain" : "9",
+    "subproperty" : [ "80" ],
+    "attributes" : [ "object" ],
+    "id" : "40"
+  }, {
+    "iri" : "https://purl.org/ontodesign#fulfillsStructuralCharacteristicsRequirement",
+    "baseIri" : "https://purl.org/ontodesign",
+    "range" : "29",
+    "label" : {
+      "IRI-based" : "fulfillsStructuralCharacteristicsRequirement"
+    },
+    "superproperty" : [ "50" ],
+    "domain" : "82",
+    "attributes" : [ "object" ],
+    "id" : "74"
+  }, {
+    "iri" : "https://purl.org/ontodesign#isConductedByHumanInspector",
+    "baseIri" : "https://purl.org/ontodesign",
+    "range" : "9",
+    "label" : {
+      "IRI-based" : "isConductedByHumanInspector"
+    },
+    "superproperty" : [ "8" ],
+    "domain" : "9",
+    "attributes" : [ "object" ],
+    "id" : "12"
+  }, {
+    "iri" : "https://purl.org/ontodesign#hasValue",
+    "baseIri" : "https://purl.org/ontodesign",
+    "range" : "84",
+    "label" : {
+      "IRI-based" : "hasValue"
+    },
+    "domain" : "9",
+    "attributes" : [ "datatype" ],
+    "id" : "83"
+  }, {
+    "iri" : "https://purl.org/ontodesign#hasCapability",
+    "baseIri" : "https://purl.org/ontodesign",
+    "range" : "85",
+    "label" : {
+      "IRI-based" : "hasCapability"
+    },
+    "superproperty" : [ "10" ],
+    "domain" : "82",
+    "attributes" : [ "object" ],
+    "id" : "47"
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#topDataProperty",
+    "baseIri" : "http://www.w3.org/2002/07/owl",
+    "range" : "76",
+    "label" : {
+      "IRI-based" : "topDataProperty"
+    },
+    "domain" : "9",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "88"
+  }, {
+    "iri" : "https://purl.org/ontodesign#hasHeight",
+    "baseIri" : "https://purl.org/ontodesign",
+    "range" : "53",
+    "label" : {
+      "IRI-based" : "hasHeight"
+    },
+    "superproperty" : [ "42" ],
+    "domain" : "79",
+    "attributes" : [ "object" ],
+    "id" : "89"
+  }, {
+    "iri" : "https://purl.org/ontodesign#influences",
+    "baseIri" : "https://purl.org/ontodesign",
+    "range" : "27",
+    "label" : {
+      "IRI-based" : "influences"
+    },
+    "superproperty" : [ "10" ],
+    "domain" : "59",
+    "attributes" : [ "object" ],
+    "id" : "49"
+  }, {
+    "iri" : "https://purl.org/ontodesign#isToBeDetectedBy",
+    "baseIri" : "https://purl.org/ontodesign",
+    "range" : "9",
+    "label" : {
+      "IRI-based" : "isToBeDetectedBy"
+    },
+    "domain" : "9",
+    "attributes" : [ "object" ],
+    "id" : "92"
+  }, {
+    "iri" : "https://purl.org/ontodesign#hasDustinessLevel",
+    "baseIri" : "https://purl.org/ontodesign",
+    "range" : "60",
+    "label" : {
+      "IRI-based" : "hasDustinessLevel"
+    },
+    "domain" : "9",
+    "attributes" : [ "datatype" ],
+    "id" : "93"
+  }, {
+    "iri" : "https://purl.org/ontodesign#hasDustiness",
+    "baseIri" : "https://purl.org/ontodesign",
+    "range" : "9",
+    "label" : {
+      "IRI-based" : "hasDustiness"
+    },
+    "superproperty" : [ "95" ],
+    "domain" : "9",
+    "attributes" : [ "object" ],
+    "id" : "94"
+  }, {
+    "iri" : "https://purl.org/ontodesign#hasSurfaceMaterial",
+    "baseIri" : "https://purl.org/ontodesign",
+    "range" : "9",
+    "label" : {
+      "IRI-based" : "hasSurfaceMaterial"
+    },
+    "superproperty" : [ "95" ],
+    "domain" : "9",
+    "attributes" : [ "object" ],
+    "id" : "96"
+  }, {
+    "iri" : "https://purl.org/ontodesign#hasBuildingElement",
+    "baseIri" : "https://purl.org/ontodesign",
+    "range" : "99",
+    "label" : {
+      "IRI-based" : "hasBuildingElement"
+    },
+    "superproperty" : [ "44" ],
+    "domain" : "98",
+    "attributes" : [ "object" ],
+    "id" : "97"
+  }, {
+    "range" : "85",
+    "domain" : "102",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "101"
+  }, {
+    "range" : "85",
+    "domain" : "104",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "103"
+  }, {
+    "range" : "85",
+    "domain" : "91",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "105"
+  }, {
+    "range" : "85",
+    "domain" : "107",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "106"
+  }, {
+    "range" : "85",
+    "domain" : "109",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "108"
+  }, {
+    "range" : "85",
+    "domain" : "111",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "110"
+  }, {
+    "iri" : "https://purl.org/ontodesign#requiresContinuousWork",
+    "baseIri" : "https://purl.org/ontodesign",
+    "range" : "114",
+    "label" : {
+      "IRI-based" : "requiresContinuousWork"
+    },
+    "domain" : "9",
+    "attributes" : [ "datatype" ],
+    "id" : "113"
+  }, {
+    "iri" : "https://purl.org/ontodesign#isLocatedAtSite",
+    "baseIri" : "https://purl.org/ontodesign",
+    "range" : "117",
+    "label" : {
+      "IRI-based" : "isLocatedAtSite"
+    },
+    "superproperty" : [ "39" ],
+    "domain" : "116",
+    "attributes" : [ "object" ],
+    "id" : "115"
+  }, {
+    "iri" : "https://purl.org/ontodesign#hasVisibiltiy",
+    "baseIri" : "https://purl.org/ontodesign",
+    "range" : "9",
+    "label" : {
+      "IRI-based" : "hasVisibiltiy"
+    },
+    "superproperty" : [ "52" ],
+    "domain" : "9",
+    "attributes" : [ "object" ],
+    "id" : "118"
+  }, {
+    "iri" : "https://purl.org/ontodesign#requiresRobotComponent",
+    "baseIri" : "https://purl.org/ontodesign",
+    "range" : "122",
+    "label" : {
+      "IRI-based" : "requiresRobotComponent"
+    },
+    "superproperty" : [ "34" ],
+    "domain" : "121",
+    "attributes" : [ "object" ],
+    "id" : "120"
+  }, {
+    "range" : "87",
+    "domain" : "86",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "123"
+  }, {
+    "range" : "87",
+    "domain" : "112",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "124"
+  }, {
+    "range" : "87",
+    "domain" : "119",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "125"
+  }, {
+    "range" : "87",
+    "domain" : "100",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "126"
+  }, {
+    "iri" : "https://purl.org/ontodesign#isInverted",
+    "baseIri" : "https://purl.org/ontodesign",
+    "range" : "64",
+    "label" : {
+      "IRI-based" : "isInverted"
+    },
+    "domain" : "9",
+    "attributes" : [ "datatype" ],
+    "id" : "127"
+  }, {
+    "range" : "73",
+    "domain" : "129",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "128"
+  }, {
+    "iri" : "https://purl.org/ontodesign#requires",
+    "baseIri" : "https://purl.org/ontodesign",
+    "range" : "9",
+    "label" : {
+      "IRI-based" : "requires"
+    },
+    "superproperty" : [ "10" ],
+    "domain" : "9",
+    "subproperty" : [ "120" ],
+    "attributes" : [ "object" ],
+    "id" : "34"
+  }, {
+    "range" : "73",
+    "domain" : "130",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "131"
+  }, {
+    "range" : "73",
+    "domain" : "69",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "132"
+  }, {
+    "range" : "73",
+    "domain" : "134",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "133"
+  }, {
+    "range" : "73",
+    "domain" : "136",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "135"
+  }, {
+    "range" : "87",
+    "domain" : "138",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "137"
+  }, {
+    "range" : "87",
+    "domain" : "140",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "139"
+  }, {
+    "iri" : "https://purl.org/ontodesign#hasBuildingInterior",
+    "baseIri" : "https://purl.org/ontodesign",
+    "range" : "141",
+    "label" : {
+      "IRI-based" : "hasBuildingInterior"
+    },
+    "superproperty" : [ "10" ],
+    "domain" : "116",
+    "attributes" : [ "object" ],
+    "id" : "46"
+  }, {
+    "iri" : "https://purl.org/ontodesign#hasExpectedInspectionSpeed",
+    "baseIri" : "https://purl.org/ontodesign",
+    "range" : "71",
+    "label" : {
+      "IRI-based" : "hasExpectedInspectionSpeed"
+    },
+    "superproperty" : [ "42" ],
+    "domain" : "65",
+    "attributes" : [ "object" ],
+    "id" : "142"
+  }, {
+    "iri" : "https://purl.org/ontodesign#movesAtMovementMedium",
+    "baseIri" : "https://purl.org/ontodesign",
+    "range" : "143",
+    "label" : {
+      "IRI-based" : "movesAtMovementMedium"
+    },
+    "superproperty" : [ "40" ],
+    "domain" : "22",
+    "attributes" : [ "object" ],
+    "id" : "80"
+  }, {
+    "range" : "22",
+    "domain" : "145",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "144"
+  }, {
+    "range" : "72",
+    "domain" : "29",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "146"
+  }, {
+    "range" : "72",
+    "domain" : "73",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "147"
+  }, {
+    "range" : "107",
+    "domain" : "111",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "148"
+  }, {
+    "iri" : "https://purl.org/ontodesign#hasBuildingExterior",
+    "baseIri" : "https://purl.org/ontodesign",
+    "range" : "149",
+    "label" : {
+      "IRI-based" : "hasBuildingExterior"
+    },
+    "superproperty" : [ "10" ],
+    "domain" : "116",
+    "attributes" : [ "object" ],
+    "id" : "37"
+  }, {
+    "iri" : "https://purl.org/ontodesign#hasAirPressure",
+    "baseIri" : "https://purl.org/ontodesign",
+    "range" : "9",
+    "label" : {
+      "IRI-based" : "hasAirPressure"
+    },
+    "superproperty" : [ "52" ],
+    "domain" : "9",
+    "attributes" : [ "object" ],
+    "id" : "151"
+  }, {
+    "iri" : "https://purl.org/ontodesign#hasComponent",
+    "baseIri" : "https://purl.org/ontodesign",
+    "range" : "9",
+    "label" : {
+      "IRI-based" : "hasComponent"
+    },
+    "superproperty" : [ "10" ],
+    "domain" : "9",
+    "subproperty" : [ "152", "97", "153", "154" ],
+    "attributes" : [ "object" ],
+    "id" : "44"
+  }, {
+    "iri" : "https://purl.org/ontodesign#hasRobotComponent",
+    "baseIri" : "https://purl.org/ontodesign",
+    "range" : "122",
+    "label" : {
+      "IRI-based" : "hasRobotComponent"
+    },
+    "superproperty" : [ "44" ],
+    "domain" : "22",
+    "attributes" : [ "object" ],
+    "id" : "154"
+  }, {
+    "range" : "81",
+    "domain" : "85",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "155"
+  }, {
+    "range" : "81",
+    "domain" : "141",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "156"
+  }, {
+    "range" : "81",
+    "domain" : "149",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "157"
+  }, {
+    "iri" : "https://purl.org/ontodesign#hasStructuralCharacteristics",
+    "baseIri" : "https://purl.org/ontodesign",
+    "range" : "55",
+    "label" : {
+      "IRI-based" : "hasStructuralCharacteristics"
+    },
+    "superproperty" : [ "42" ],
+    "domain" : "159",
+    "attributes" : [ "object" ],
+    "id" : "158"
+  }, {
+    "iri" : "https://purl.org/ontodesign#hasBuildingElement",
+    "baseIri" : "https://purl.org/ontodesign",
+    "range" : "99",
+    "label" : {
+      "IRI-based" : "hasBuildingElement"
+    },
+    "superproperty" : [ "44" ],
+    "domain" : "149",
+    "attributes" : [ "someValues", "object" ],
+    "id" : "160"
+  }, {
+    "iri" : "https://purl.org/ontodesign#hasIndoorSpace",
+    "baseIri" : "https://purl.org/ontodesign",
+    "range" : "81",
+    "label" : {
+      "IRI-based" : "hasIndoorSpace"
+    },
+    "superproperty" : [ "10" ],
+    "domain" : "141",
+    "attributes" : [ "someValues", "object" ],
+    "id" : "161"
+  }, {
+    "iri" : "https://purl.org/ontodesign#hasDetectableAttribute",
+    "baseIri" : "https://purl.org/ontodesign",
+    "range" : "1",
+    "label" : {
+      "IRI-based" : "hasDetectableAttribute"
+    },
+    "superproperty" : [ "42" ],
+    "domain" : "163",
+    "attributes" : [ "object" ],
+    "id" : "162"
+  }, {
+    "iri" : "https://purl.org/ontodesign#hasBuildingElement",
+    "baseIri" : "https://purl.org/ontodesign",
+    "range" : "99",
+    "label" : {
+      "IRI-based" : "hasBuildingElement"
+    },
+    "superproperty" : [ "44" ],
+    "domain" : "141",
+    "attributes" : [ "someValues", "object" ],
+    "id" : "164"
+  }, {
+    "iri" : "https://purl.org/ontodesign#isLocatedAt",
+    "baseIri" : "https://purl.org/ontodesign",
+    "range" : "99",
+    "label" : {
+      "IRI-based" : "isLocatedAt"
+    },
+    "superproperty" : [ "10" ],
+    "domain" : "166",
+    "subproperty" : [ "167", "115" ],
+    "attributes" : [ "someValues", "object" ],
+    "id" : "165"
+  }, {
+    "iri" : "https://purl.org/ontodesign#causesAbnormalArea",
+    "baseIri" : "https://purl.org/ontodesign",
+    "range" : "90",
+    "label" : {
+      "IRI-based" : "causesAbnormalArea"
+    },
+    "superproperty" : [ "30" ],
+    "domain" : "166",
+    "attributes" : [ "someValues", "object" ],
+    "id" : "168"
+  }, {
+    "range" : "81",
+    "domain" : "99",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "169"
+  }, {
+    "range" : "81",
+    "domain" : "166",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "170"
+  }, {
+    "iri" : "https://purl.org/ontodesign#hasSurfaceAttribute",
+    "baseIri" : "https://purl.org/ontodesign",
+    "range" : "9",
+    "label" : {
+      "IRI-based" : "hasSurfaceAttribute"
+    },
+    "superproperty" : [ "42" ],
+    "domain" : "9",
+    "subproperty" : [ "171", "172", "173", "96", "94" ],
+    "attributes" : [ "object" ],
+    "id" : "95"
+  }, {
+    "iri" : "https://purl.org/ontodesign#isLocatedAtBuildingElement",
+    "baseIri" : "https://purl.org/ontodesign",
+    "range" : "99",
+    "label" : {
+      "IRI-based" : "isLocatedAtBuildingElement"
+    },
+    "superproperty" : [ "39" ],
+    "domain" : "174",
+    "attributes" : [ "object" ],
+    "id" : "167"
+  }, {
+    "iri" : "https://purl.org/ontodesign#causesInterferenceToEnvironment",
+    "baseIri" : "https://purl.org/ontodesign",
+    "range" : "175",
+    "label" : {
+      "IRI-based" : "causesInterferenceToEnvironment"
+    },
+    "superproperty" : [ "30" ],
+    "domain" : "121",
+    "attributes" : [ "object" ],
+    "id" : "31"
+  }, {
+    "iri" : "https://purl.org/ontodesign#hasAuxiliaryEquipment",
+    "baseIri" : "https://purl.org/ontodesign",
+    "range" : "150",
+    "label" : {
+      "IRI-based" : "hasAuxiliaryEquipment"
+    },
+    "superproperty" : [ "44" ],
+    "domain" : "82",
+    "attributes" : [ "object" ],
+    "id" : "153"
+  }, {
+    "iri" : "https://purl.org/ontodesign#hasBuildingInterior",
+    "baseIri" : "https://purl.org/ontodesign",
+    "range" : "141",
+    "label" : {
+      "IRI-based" : "hasBuildingInterior"
+    },
+    "superproperty" : [ "10" ],
+    "domain" : "116",
+    "attributes" : [ "someValues", "object" ],
+    "id" : "176"
+  }, {
+    "iri" : "https://purl.org/ontodesign#hasBuildingExterior",
+    "baseIri" : "https://purl.org/ontodesign",
+    "range" : "149",
+    "label" : {
+      "IRI-based" : "hasBuildingExterior"
+    },
+    "superproperty" : [ "10" ],
+    "domain" : "116",
+    "attributes" : [ "someValues", "object" ],
+    "id" : "177"
+  }, {
+    "iri" : "https://purl.org/ontodesign#isConductedByRobotSystem",
+    "baseIri" : "https://purl.org/ontodesign",
+    "range" : "82",
+    "label" : {
+      "IRI-based" : "isConductedByRobotSystem"
+    },
+    "superproperty" : [ "8" ],
+    "domain" : "179",
+    "attributes" : [ "object" ],
+    "id" : "11"
+  }, {
+    "range" : "81",
+    "domain" : "116",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "180"
+  }, {
+    "range" : "86",
+    "domain" : "140",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "181"
+  }, {
+    "range" : "86",
+    "domain" : "138",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "182"
+  }, {
+    "range" : "81",
+    "domain" : "150",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "183"
+  }, {
+    "range" : "81",
+    "domain" : "2",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "184"
+  }, {
+    "range" : "140",
+    "domain" : "112",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "185"
+  }, {
+    "range" : "140",
+    "domain" : "138",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "186"
+  }, {
+    "range" : "86",
+    "domain" : "112",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "187"
+  }, {
+    "iri" : "https://purl.org/ontodesign#hasUnit",
+    "baseIri" : "https://purl.org/ontodesign",
+    "range" : "189",
+    "label" : {
+      "IRI-based" : "hasUnit"
+    },
+    "domain" : "1",
+    "attributes" : [ "datatype", "someValues" ],
+    "id" : "188"
+  }, {
+    "range" : "81",
+    "domain" : "87",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "190"
+  }, {
+    "iri" : "https://purl.org/ontodesign#hasSite",
+    "baseIri" : "https://purl.org/ontodesign",
+    "range" : "117",
+    "label" : {
+      "IRI-based" : "hasSite"
+    },
+    "domain" : "149",
+    "attributes" : [ "object" ],
+    "id" : "191"
+  }, {
+    "iri" : "https://purl.org/ontodesign#hasRobotMovementMedium",
+    "baseIri" : "https://purl.org/ontodesign",
+    "range" : "143",
+    "label" : {
+      "IRI-based" : "hasRobotMovementMedium"
+    },
+    "superproperty" : [ "10" ],
+    "domain" : "27",
+    "attributes" : [ "object" ],
+    "id" : "43"
+  }, {
+    "iri" : "https://purl.org/ontodesign#hasAirTemperature",
+    "baseIri" : "https://purl.org/ontodesign",
+    "range" : "9",
+    "label" : {
+      "IRI-based" : "hasAirTemperature"
+    },
+    "superproperty" : [ "52" ],
+    "domain" : "9",
+    "attributes" : [ "object" ],
+    "id" : "192"
+  }, {
+    "iri" : "https://purl.org/ontodesign#hasShape",
+    "baseIri" : "https://purl.org/ontodesign",
+    "range" : "9",
+    "label" : {
+      "IRI-based" : "hasShape"
+    },
+    "superproperty" : [ "95" ],
+    "domain" : "9",
+    "attributes" : [ "object" ],
+    "id" : "172"
+  }, {
+    "range" : "53",
+    "domain" : "1",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "193"
+  }, {
+    "iri" : "https://purl.org/ontodesign#hasAirHumidity",
+    "baseIri" : "https://purl.org/ontodesign",
+    "range" : "9",
+    "label" : {
+      "IRI-based" : "hasAirHumidity"
+    },
+    "superproperty" : [ "52" ],
+    "domain" : "9",
+    "attributes" : [ "object" ],
+    "id" : "195"
+  }, {
+    "range" : "71",
+    "domain" : "53",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "196"
+  }, {
+    "range" : "71",
+    "domain" : "1",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "197"
+  }, {
+    "range" : "91",
+    "domain" : "109",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "198"
+  }, {
+    "range" : "102",
+    "domain" : "109",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "199"
+  }, {
+    "iri" : "https://purl.org/ontodesign#hasValue",
+    "baseIri" : "https://purl.org/ontodesign",
+    "range" : "194",
+    "label" : {
+      "IRI-based" : "hasValue"
+    },
+    "domain" : "1",
+    "attributes" : [ "datatype", "someValues" ],
+    "id" : "200"
+  }, {
+    "range" : "91",
+    "domain" : "102",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "201"
+  }, {
+    "range" : "91",
+    "domain" : "104",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "202"
+  }, {
+    "range" : "102",
+    "domain" : "104",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "203"
+  }, {
+    "iri" : "https://purl.org/ontodesign#hasSurfaceOrientation",
+    "baseIri" : "https://purl.org/ontodesign",
+    "range" : "9",
+    "label" : {
+      "IRI-based" : "hasSurfaceOrientation"
+    },
+    "superproperty" : [ "95" ],
+    "domain" : "9",
+    "attributes" : [ "object" ],
+    "id" : "173"
+  }, {
+    "iri" : "https://purl.org/ontodesign#hasPhysicalConstraintsToRobots",
+    "baseIri" : "https://purl.org/ontodesign",
+    "range" : "15",
+    "label" : {
+      "IRI-based" : "hasPhysicalConstraintsToRobots"
+    },
+    "superproperty" : [ "10" ],
+    "domain" : "77",
+    "attributes" : [ "object" ],
+    "id" : "45"
+  }, {
+    "range" : "109",
+    "domain" : "104",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "205"
+  }, {
+    "iri" : "https://purl.org/ontodesign#hasUnit",
+    "baseIri" : "https://purl.org/ontodesign",
+    "range" : "207",
+    "label" : {
+      "IRI-based" : "hasUnit"
+    },
+    "domain" : "9",
+    "attributes" : [ "datatype" ],
+    "id" : "206"
+  }, {
+    "range" : "109",
+    "domain" : "107",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "208"
+  }, {
+    "range" : "104",
+    "domain" : "107",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "209"
+  }, {
+    "range" : "91",
+    "domain" : "107",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "210"
+  }, {
+    "range" : "102",
+    "domain" : "107",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "211"
+  }, {
+    "range" : "109",
+    "domain" : "111",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "212"
+  }, {
+    "iri" : "https://purl.org/ontodesign#hasTargetBuildingDefect",
+    "baseIri" : "https://purl.org/ontodesign",
+    "range" : "166",
+    "label" : {
+      "IRI-based" : "hasTargetBuildingDefect"
+    },
+    "superproperty" : [ "10" ],
+    "domain" : "78",
+    "attributes" : [ "object" ],
+    "id" : "51"
+  }, {
+    "range" : "104",
+    "domain" : "111",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "213"
+  }, {
+    "range" : "91",
+    "domain" : "111",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "214"
+  }, {
+    "iri" : "https://purl.org/ontodesign#hasCorner",
+    "baseIri" : "https://purl.org/ontodesign",
+    "range" : "9",
+    "label" : {
+      "IRI-based" : "hasCorner"
+    },
+    "domain" : "9",
+    "attributes" : [ "object" ],
+    "id" : "215"
+  }, {
+    "range" : "102",
+    "domain" : "111",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "216"
+  }, {
+    "iri" : "https://purl.org/ontodesign#hasEnvironmentData",
+    "baseIri" : "https://purl.org/ontodesign",
+    "range" : "87",
+    "label" : {
+      "IRI-based" : "hasEnvironmentData"
+    },
+    "superproperty" : [ "10" ],
+    "domain" : "117",
+    "subproperty" : [ "192", "58", "151", "195", "118" ],
+    "attributes" : [ "someValues", "object" ],
+    "id" : "217"
+  }, {
+    "iri" : "https://purl.org/ontodesign#hasCapability",
+    "baseIri" : "https://purl.org/ontodesign",
+    "range" : "85",
+    "label" : {
+      "IRI-based" : "hasCapability"
+    },
+    "superproperty" : [ "10" ],
+    "domain" : "82",
+    "attributes" : [ "someValues", "object" ],
+    "id" : "218"
+  }, {
+    "iri" : "https://purl.org/ontodesign#hasUnit",
+    "baseIri" : "https://purl.org/ontodesign",
+    "range" : "219",
+    "label" : {
+      "IRI-based" : "hasUnit"
+    },
+    "domain" : "71",
+    "attributes" : [ "datatype", "someValues" ],
+    "id" : "220"
+  }, {
+    "iri" : "https://purl.org/ontodesign#occursAt",
+    "baseIri" : "https://purl.org/ontodesign",
+    "range" : "27",
+    "label" : {
+      "IRI-based" : "occursAt"
+    },
+    "superproperty" : [ "10" ],
+    "domain" : "121",
+    "attributes" : [ "someValues", "object" ],
+    "id" : "221"
+  }, {
+    "iri" : "https://purl.org/ontodesign#fulfillsCapabilityRequirement",
+    "baseIri" : "https://purl.org/ontodesign",
+    "range" : "73",
+    "label" : {
+      "IRI-based" : "fulfillsCapabilityRequirement"
+    },
+    "superproperty" : [ "50" ],
+    "domain" : "222",
+    "attributes" : [ "object" ],
+    "id" : "75"
+  }, {
+    "iri" : "https://purl.org/ontodesign#hasSignalReceptionCondition",
+    "baseIri" : "https://purl.org/ontodesign",
+    "range" : "224",
+    "label" : {
+      "IRI-based" : "hasSignalReceptionCondition"
+    },
+    "domain" : "9",
+    "attributes" : [ "datatype" ],
+    "id" : "223"
+  }, {
+    "iri" : "https://purl.org/ontodesign#isFerromagnetic",
+    "baseIri" : "https://purl.org/ontodesign",
+    "range" : "57",
+    "label" : {
+      "IRI-based" : "isFerromagnetic"
+    },
+    "domain" : "9",
+    "attributes" : [ "datatype" ],
+    "id" : "225"
+  }, {
+    "iri" : "https://purl.org/ontodesign#requiresRobotComponent",
+    "baseIri" : "https://purl.org/ontodesign",
+    "range" : "122",
+    "label" : {
+      "IRI-based" : "requiresRobotComponent"
+    },
+    "superproperty" : [ "34" ],
+    "domain" : "121",
+    "attributes" : [ "someValues", "object" ],
+    "id" : "226"
+  }, {
+    "iri" : "https://purl.org/ontodesign#hasRobot",
+    "baseIri" : "https://purl.org/ontodesign",
+    "range" : "22",
+    "label" : {
+      "IRI-based" : "hasRobot"
+    },
+    "superproperty" : [ "44" ],
+    "domain" : "82",
+    "attributes" : [ "object" ],
+    "id" : "152"
+  }, {
+    "iri" : "https://purl.org/ontodesign#hasRobotComponent",
+    "baseIri" : "https://purl.org/ontodesign",
+    "range" : "122",
+    "label" : {
+      "IRI-based" : "hasRobotComponent"
+    },
+    "superproperty" : [ "44" ],
+    "domain" : "22",
+    "attributes" : [ "someValues", "object" ],
+    "id" : "227"
+  }, {
+    "iri" : "https://purl.org/ontodesign#determines",
+    "baseIri" : "https://purl.org/ontodesign",
+    "range" : "28",
+    "label" : {
+      "IRI-based" : "determines"
+    },
+    "superproperty" : [ "10" ],
+    "domain" : "15",
+    "attributes" : [ "someValues", "object" ],
+    "id" : "228"
+  }, {
+    "range" : "15",
+    "domain" : "81",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "229"
+  }, {
+    "iri" : "https://purl.org/ontodesign#movesAtMovementMedium",
+    "baseIri" : "https://purl.org/ontodesign",
+    "range" : "143",
+    "label" : {
+      "IRI-based" : "movesAtMovementMedium"
+    },
+    "superproperty" : [ "40" ],
+    "domain" : "22",
+    "attributes" : [ "someValues", "object" ],
+    "id" : "230"
+  }, {
+    "iri" : "https://purl.org/ontodesign#worksIn",
+    "baseIri" : "https://purl.org/ontodesign",
+    "range" : "27",
+    "label" : {
+      "IRI-based" : "worksIn"
+    },
+    "superproperty" : [ "10" ],
+    "domain" : "22",
+    "attributes" : [ "someValues", "object" ],
+    "id" : "231"
+  }, {
+    "range" : "72",
+    "domain" : "81",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "232"
+  }, {
+    "range" : "117",
+    "domain" : "81",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "233"
+  }, {
+    "range" : "121",
+    "domain" : "81",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "234"
+  }, {
+    "range" : "122",
+    "domain" : "81",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "235"
+  }, {
+    "iri" : "https://purl.org/ontodesign#hasHighestPoint",
+    "baseIri" : "https://purl.org/ontodesign",
+    "range" : "9",
+    "label" : {
+      "IRI-based" : "hasHighestPoint"
+    },
+    "superproperty" : [ "10" ],
+    "domain" : "9",
+    "attributes" : [ "object" ],
+    "id" : "48"
+  }, {
+    "range" : "82",
+    "domain" : "81",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "236"
+  }, {
+    "range" : "22",
+    "domain" : "81",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "237"
+  }, {
+    "range" : "143",
+    "domain" : "81",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "238"
+  }, {
+    "iri" : "https://purl.org/ontodesign#hasUnit",
+    "baseIri" : "https://purl.org/ontodesign",
+    "range" : "239",
+    "label" : {
+      "IRI-based" : "hasUnit"
+    },
+    "domain" : "53",
+    "attributes" : [ "datatype", "someValues" ],
+    "id" : "240"
+  }, {
+    "iri" : "https://purl.org/ontodesign#hasValue",
+    "baseIri" : "https://purl.org/ontodesign",
+    "range" : "241",
+    "label" : {
+      "IRI-based" : "hasValue"
+    },
+    "domain" : "53",
+    "attributes" : [ "datatype", "someValues" ],
+    "id" : "242"
+  }, {
+    "iri" : "https://purl.org/ontodesign#hasVisibilityLevel",
+    "baseIri" : "https://purl.org/ontodesign",
+    "range" : "61",
+    "label" : {
+      "IRI-based" : "hasVisibilityLevel"
+    },
+    "domain" : "9",
+    "attributes" : [ "datatype" ],
+    "id" : "243"
+  }, {
+    "range" : "24",
+    "domain" : "145",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "244"
+  }, {
+    "range" : "21",
+    "domain" : "145",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "245"
+  }, {
+    "range" : "21",
+    "domain" : "24",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "246"
+  }, {
+    "range" : "112",
+    "domain" : "100",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "247"
+  }, {
+    "range" : "138",
+    "domain" : "100",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "248"
+  }, {
+    "range" : "140",
+    "domain" : "100",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "249"
+  }, {
+    "range" : "86",
+    "domain" : "100",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "250"
+  }, {
+    "range" : "138",
+    "domain" : "112",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "251"
+  }, {
+    "iri" : "https://purl.org/ontodesign#hasInclinationAngle",
+    "baseIri" : "https://purl.org/ontodesign",
+    "range" : "9",
+    "label" : {
+      "IRI-based" : "hasInclinationAngle"
+    },
+    "superproperty" : [ "95" ],
+    "domain" : "9",
+    "attributes" : [ "object" ],
+    "id" : "171"
+  }, {
+    "iri" : "https://purl.org/ontodesign#hasDepth",
+    "baseIri" : "https://purl.org/ontodesign",
+    "range" : "9",
+    "label" : {
+      "IRI-based" : "hasDepth"
+    },
+    "superproperty" : [ "42" ],
+    "domain" : "9",
+    "attributes" : [ "object" ],
+    "id" : "252"
+  }, {
+    "iri" : "https://purl.org/ontodesign#isLocatedAtBuildingElement",
+    "baseIri" : "https://purl.org/ontodesign",
+    "range" : "99",
+    "label" : {
+      "IRI-based" : "isLocatedAtBuildingElement"
+    },
+    "superproperty" : [ "39" ],
+    "domain" : "90",
+    "attributes" : [ "someValues", "object" ],
+    "id" : "253"
+  }, {
+    "range" : "81",
+    "domain" : "90",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "254"
+  }, {
+    "iri" : "https://purl.org/ontodesign#hasCornerAngle",
+    "baseIri" : "https://purl.org/ontodesign",
+    "range" : "9",
+    "label" : {
+      "IRI-based" : "hasCornerAngle"
+    },
+    "superproperty" : [ "42" ],
+    "domain" : "9",
+    "attributes" : [ "object" ],
+    "id" : "255"
+  }, {
+    "iri" : "https://purl.org/ontodesign#causesAbnormalArea",
+    "baseIri" : "https://purl.org/ontodesign",
+    "range" : "90",
+    "label" : {
+      "IRI-based" : "causesAbnormalArea"
+    },
+    "superproperty" : [ "30" ],
+    "domain" : "166",
+    "attributes" : [ "object" ],
+    "id" : "32"
+  }, {
+    "domain" : "72",
+    "range" : "130",
+    "id" : "256",
+    "label" : {
+      "IRI-based" : "87",
+      "undefined" : "is a"
+    }
+  }, {
+    "domain" : "130",
+    "range" : "130",
+    "id" : "257",
+    "label" : {
+      "IRI-based" : "86",
+      "undefined" : "is a"
+    }
+  }, {
+    "domain" : "134",
+    "range" : "134",
+    "id" : "258",
+    "label" : {
+      "IRI-based" : "89",
+      "undefined" : "is a"
+    }
+  }, {
+    "domain" : "72",
+    "range" : "134",
+    "id" : "259",
+    "label" : {
+      "IRI-based" : "88",
+      "undefined" : "is a"
+    }
+  }, {
+    "iri" : "https://purl.org/ontodesign#worksIn",
+    "baseIri" : "https://purl.org/ontodesign",
+    "range" : "27",
+    "label" : {
+      "IRI-based" : "worksIn"
+    },
+    "superproperty" : [ "10" ],
+    "domain" : "22",
+    "attributes" : [ "object" ],
+    "id" : "35"
+  }, {
+    "iri" : "https://purl.org/ontodesign#hasWidth",
+    "baseIri" : "https://purl.org/ontodesign",
+    "range" : "9",
+    "label" : {
+      "IRI-based" : "hasWidth"
+    },
+    "superproperty" : [ "42" ],
+    "domain" : "9",
+    "attributes" : [ "object" ],
+    "id" : "260"
+  }, {
+    "iri" : "https://purl.org/ontodesign#hasIndoorSpace",
+    "baseIri" : "https://purl.org/ontodesign",
+    "range" : "81",
+    "label" : {
+      "IRI-based" : "hasIndoorSpace"
+    },
+    "superproperty" : [ "10" ],
+    "domain" : "141",
+    "attributes" : [ "object" ],
+    "id" : "41"
+  }, {
+    "iri" : "https://purl.org/ontodesign#hasAttribute",
+    "baseIri" : "https://purl.org/ontodesign",
+    "range" : "9",
+    "label" : {
+      "IRI-based" : "hasAttribute"
+    },
+    "superproperty" : [ "10" ],
+    "domain" : "9",
+    "subproperty" : [ "260", "95", "252", "89", "255", "142", "158", "162" ],
+    "attributes" : [ "object" ],
+    "id" : "42"
+  }, {
+    "iri" : "https://purl.org/ontodesign#hasExposedSurface",
+    "baseIri" : "https://purl.org/ontodesign",
+    "range" : "9",
+    "label" : {
+      "IRI-based" : "hasExposedSurface"
+    },
+    "domain" : "9",
+    "attributes" : [ "object" ],
+    "id" : "262"
+  }, {
+    "iri" : "https://purl.org/ontodesign#hasValue",
+    "baseIri" : "https://purl.org/ontodesign",
+    "range" : "263",
+    "label" : {
+      "IRI-based" : "hasValue"
+    },
+    "domain" : "71",
+    "attributes" : [ "datatype", "someValues" ],
+    "id" : "264"
+  }, {
+    "iri" : "https://purl.org/ontodesign#hasEnvironmentData",
+    "baseIri" : "https://purl.org/ontodesign",
+    "range" : "87",
+    "label" : {
+      "IRI-based" : "hasEnvironmentData"
+    },
+    "superproperty" : [ "10" ],
+    "domain" : "261",
+    "subproperty" : [ "192", "58", "151", "195", "118" ],
+    "attributes" : [ "object" ],
+    "id" : "52"
+  }, {
+    "iri" : "https://purl.org/ontodesign#hasRobotMovementMedium",
+    "baseIri" : "https://purl.org/ontodesign",
+    "range" : "143",
+    "label" : {
+      "IRI-based" : "hasRobotMovementMedium"
+    },
+    "superproperty" : [ "10" ],
+    "domain" : "27",
+    "attributes" : [ "someValues", "object" ],
+    "id" : "265"
+  } ]
+}
