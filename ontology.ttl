@@ -1,39 +1,46 @@
-@prefix : <https://purl.org/ontodesign#> .
+@prefix : <http://www.semanticweb.org/ontologies/RoboDesign.owl#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@base <https://purl.org/ontodesign#> .
+@base <http://www.semanticweb.org/ontologies/RoboDesign.owl#> .
 
-<https://purl.org/ontodesign> rdf:type owl:Ontology ;
-                               owl:versionIRI <https://purl.org/ontodesign/1.0.0> .
+<http://www.semanticweb.org/ontologies/RoboDesign.owl> rdf:type owl:Ontology .
 
 #################################################################
 #    Object Properties
 #################################################################
 
-###  https://purl.org/ontodesign#causes
+###  http://www.semanticweb.org/ontologies/RoboDesign.owl#causes
 :causes rdf:type owl:ObjectProperty ;
         rdfs:subPropertyOf owl:topObjectProperty .
 
 
-###  https://purl.org/ontodesign#conducts
-:conducts rdf:type owl:ObjectProperty ;
-          rdfs:subPropertyOf owl:topObjectProperty .
+###  http://www.semanticweb.org/ontologies/RoboDesign.owl#causesAbnormalArea
+:causesAbnormalArea rdf:type owl:ObjectProperty ;
+                    rdfs:subPropertyOf :causes ;
+                    rdfs:domain :BuildingDefect ;
+                    rdfs:range :AbnormalArea .
 
 
-###  https://purl.org/ontodesign#determines
+###  http://www.semanticweb.org/ontologies/RoboDesign.owl#causesInterferenceToEnvironment
+:causesInterferenceToEnvironment rdf:type owl:ObjectProperty ;
+                                 rdfs:subPropertyOf :causes ;
+                                 rdfs:domain :RobotBehavior .
+
+
+###  http://www.semanticweb.org/ontologies/RoboDesign.owl#determines
 :determines rdf:type owl:ObjectProperty ;
             rdfs:subPropertyOf owl:topObjectProperty .
 
 
-###  https://purl.org/ontodesign#fulfills
+###  http://www.semanticweb.org/ontologies/RoboDesign.owl#fulfills
 :fulfills rdf:type owl:ObjectProperty ;
           rdfs:subPropertyOf owl:topObjectProperty .
 
 
-###  https://purl.org/ontodesign#fulfillsCapabilityRequirement
+###  http://www.semanticweb.org/ontologies/RoboDesign.owl#fulfillsCapabilityRequirement
 :fulfillsCapabilityRequirement rdf:type owl:ObjectProperty ;
                                rdfs:subPropertyOf :fulfills ;
                                rdfs:domain [ rdf:type owl:Class ;
@@ -44,26 +51,41 @@
                                rdfs:range :CapabilityRequirement .
 
 
-###  https://purl.org/ontodesign#fulfillsStructuralCharacteristicsRequirement
+###  http://www.semanticweb.org/ontologies/RoboDesign.owl#fulfillsStructuralCharacteristicsRequirement
 :fulfillsStructuralCharacteristicsRequirement rdf:type owl:ObjectProperty ;
                                               rdfs:subPropertyOf :fulfills ;
                                               rdfs:domain :RobotSystem ;
                                               rdfs:range :StructuralCharacteristicsRequirement .
 
 
-###  https://purl.org/ontodesign#hasAttribute
+###  http://www.semanticweb.org/ontologies/RoboDesign.owl#hasAirHumidity
+:hasAirHumidity rdf:type owl:ObjectProperty ;
+                rdfs:subPropertyOf :hasEnvironmentData .
+
+
+###  http://www.semanticweb.org/ontologies/RoboDesign.owl#hasAirPressure
+:hasAirPressure rdf:type owl:ObjectProperty ;
+                rdfs:subPropertyOf :hasEnvironmentData .
+
+
+###  http://www.semanticweb.org/ontologies/RoboDesign.owl#hasAirTemperature
+:hasAirTemperature rdf:type owl:ObjectProperty ;
+                   rdfs:subPropertyOf :hasEnvironmentData .
+
+
+###  http://www.semanticweb.org/ontologies/RoboDesign.owl#hasAttribute
 :hasAttribute rdf:type owl:ObjectProperty ;
               rdfs:subPropertyOf owl:topObjectProperty .
 
 
-###  https://purl.org/ontodesign#hasAuxiliaryEquipment
+###  http://www.semanticweb.org/ontologies/RoboDesign.owl#hasAuxiliaryEquipment
 :hasAuxiliaryEquipment rdf:type owl:ObjectProperty ;
                        rdfs:subPropertyOf :hasComponent ;
                        rdfs:domain :RobotSystem ;
                        rdfs:range :AuxiliaryEquipment .
 
 
-###  https://purl.org/ontodesign#hasBuildingElement
+###  http://www.semanticweb.org/ontologies/RoboDesign.owl#hasBuildingElement
 :hasBuildingElement rdf:type owl:ObjectProperty ;
                     rdfs:subPropertyOf :hasComponent ;
                     rdfs:domain [ rdf:type owl:Class ;
@@ -75,125 +97,248 @@
                     rdfs:range :BuildingElement .
 
 
-###  https://purl.org/ontodesign#hasBuildingExterior
+###  http://www.semanticweb.org/ontologies/RoboDesign.owl#hasBuildingExterior
 :hasBuildingExterior rdf:type owl:ObjectProperty ;
                      rdfs:subPropertyOf owl:topObjectProperty ;
                      rdfs:domain :Building ;
                      rdfs:range :BuildingExterior .
 
 
-###  https://purl.org/ontodesign#hasBuildingInterior
+###  http://www.semanticweb.org/ontologies/RoboDesign.owl#hasBuildingInterior
 :hasBuildingInterior rdf:type owl:ObjectProperty ;
                      rdfs:subPropertyOf owl:topObjectProperty ;
                      rdfs:domain :Building ;
                      rdfs:range :BuildingInterior .
 
 
-###  https://purl.org/ontodesign#hasCapability
+###  http://www.semanticweb.org/ontologies/RoboDesign.owl#hasCapability
 :hasCapability rdf:type owl:ObjectProperty ;
                rdfs:subPropertyOf owl:topObjectProperty ;
                rdfs:domain :RobotSystem ;
                rdfs:range :Capability .
 
 
-###  https://purl.org/ontodesign#hasComponent
+###  http://www.semanticweb.org/ontologies/RoboDesign.owl#hasComponent
 :hasComponent rdf:type owl:ObjectProperty ;
               rdfs:subPropertyOf owl:topObjectProperty .
 
 
-###  https://purl.org/ontodesign#hasDefect
-:hasDefect rdf:type owl:ObjectProperty .
+###  http://www.semanticweb.org/ontologies/RoboDesign.owl#hasCorner
+:hasCorner rdf:type owl:ObjectProperty .
 
 
-###  https://purl.org/ontodesign#hasDetectableAttribute
+###  http://www.semanticweb.org/ontologies/RoboDesign.owl#hasCornerAngle
+:hasCornerAngle rdf:type owl:ObjectProperty ;
+                rdfs:subPropertyOf :hasAttribute .
+
+
+###  http://www.semanticweb.org/ontologies/RoboDesign.owl#hasDepth
+:hasDepth rdf:type owl:ObjectProperty ;
+          rdfs:subPropertyOf :hasAttribute .
+
+
+###  http://www.semanticweb.org/ontologies/RoboDesign.owl#hasDetectableAttribute
 :hasDetectableAttribute rdf:type owl:ObjectProperty ;
                         rdfs:subPropertyOf :hasAttribute ;
                         rdfs:range :DetectableAttribute .
 
 
-###  https://purl.org/ontodesign#hasExpectedInspectionSpeed
+###  http://www.semanticweb.org/ontologies/RoboDesign.owl#hasDustiness
+:hasDustiness rdf:type owl:ObjectProperty ;
+              rdfs:subPropertyOf :hasSurfaceAttribute .
+
+
+###  http://www.semanticweb.org/ontologies/RoboDesign.owl#hasEnvironmentData
+:hasEnvironmentData rdf:type owl:ObjectProperty ;
+                    rdfs:subPropertyOf owl:topObjectProperty ;
+                    rdfs:domain [ rdf:type owl:Class ;
+                                  owl:unionOf ( :Site
+                                                :WorkEnvironment
+                                              )
+                                ] ;
+                    rdfs:range :EnvironmentalCondition .
+
+
+###  http://www.semanticweb.org/ontologies/RoboDesign.owl#hasExpectedInspectionSpeed
 :hasExpectedInspectionSpeed rdf:type owl:ObjectProperty ;
                             rdfs:subPropertyOf :hasAttribute ;
                             rdfs:range :Speed .
 
 
-###  https://purl.org/ontodesign#hasHeight
+###  http://www.semanticweb.org/ontologies/RoboDesign.owl#hasExposedSurface
+:hasExposedSurface rdf:type owl:ObjectProperty .
+
+
+###  http://www.semanticweb.org/ontologies/RoboDesign.owl#hasHeight
 :hasHeight rdf:type owl:ObjectProperty ;
            rdfs:subPropertyOf :hasAttribute ;
            rdfs:range :Height .
 
 
-###  https://purl.org/ontodesign#hasIndoorSpace
+###  http://www.semanticweb.org/ontologies/RoboDesign.owl#hasHighestPoint
+:hasHighestPoint rdf:type owl:ObjectProperty ;
+                 rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/ontologies/RoboDesign.owl#hasInclinationAngle
+:hasInclinationAngle rdf:type owl:ObjectProperty ;
+                     rdfs:subPropertyOf :hasSurfaceAttribute .
+
+
+###  http://www.semanticweb.org/ontologies/RoboDesign.owl#hasIndoorSpace
 :hasIndoorSpace rdf:type owl:ObjectProperty ;
                 rdfs:subPropertyOf owl:topObjectProperty ;
                 rdfs:domain :BuildingInterior ;
                 rdfs:range :IndoorSpace .
 
 
-###  https://purl.org/ontodesign#hasMinimumChange
-:hasMinimumChange rdf:type owl:ObjectProperty ;
-                  rdfs:subPropertyOf :hasAttribute .
-
-
-###  https://purl.org/ontodesign#hasPhysicalConstraintsToRobots
+###  http://www.semanticweb.org/ontologies/RoboDesign.owl#hasPhysicalConstraintsToRobots
 :hasPhysicalConstraintsToRobots rdf:type owl:ObjectProperty ;
                                 rdfs:subPropertyOf owl:topObjectProperty ;
                                 rdfs:range :PhysicalConstraintToRobot .
 
 
-###  https://purl.org/ontodesign#hasRobot
+###  http://www.semanticweb.org/ontologies/RoboDesign.owl#hasRobot
 :hasRobot rdf:type owl:ObjectProperty ;
           rdfs:subPropertyOf :hasComponent ;
           rdfs:domain :RobotSystem ;
           rdfs:range :Robot .
 
 
-###  https://purl.org/ontodesign#hasRobotComponent
+###  http://www.semanticweb.org/ontologies/RoboDesign.owl#hasRobotComponent
 :hasRobotComponent rdf:type owl:ObjectProperty ;
                    rdfs:subPropertyOf :hasComponent ;
                    rdfs:domain :Robot ;
                    rdfs:range :RobotComponent .
 
 
-###  https://purl.org/ontodesign#hasRobotMovementMedium
+###  http://www.semanticweb.org/ontologies/RoboDesign.owl#hasRobotMovementMedium
 :hasRobotMovementMedium rdf:type owl:ObjectProperty ;
                         rdfs:subPropertyOf owl:topObjectProperty ;
                         rdfs:domain :WorkEnvironment ;
                         rdfs:range :RobotMovementMedium .
 
 
-###  https://purl.org/ontodesign#hasStructuralCharacteristics
+###  http://www.semanticweb.org/ontologies/RoboDesign.owl#hasShape
+:hasShape rdf:type owl:ObjectProperty ;
+          rdfs:subPropertyOf :hasSurfaceAttribute .
+
+
+###  http://www.semanticweb.org/ontologies/RoboDesign.owl#hasSite
+:hasSite rdf:type owl:ObjectProperty ;
+         rdfs:domain :BuildingExterior ;
+         rdfs:range :Site .
+
+
+###  http://www.semanticweb.org/ontologies/RoboDesign.owl#hasStructuralCharacteristics
 :hasStructuralCharacteristics rdf:type owl:ObjectProperty ;
                               rdfs:subPropertyOf :hasAttribute ;
                               rdfs:range :StructuralCharacteristic .
 
 
-###  https://purl.org/ontodesign#isLocatedAt
-:isLocatedAt rdf:type owl:ObjectProperty .
+###  http://www.semanticweb.org/ontologies/RoboDesign.owl#hasSurfaceAttribute
+:hasSurfaceAttribute rdf:type owl:ObjectProperty ;
+                     rdfs:subPropertyOf :hasAttribute .
 
 
-###  https://purl.org/ontodesign#isToBeDetectedBy
+###  http://www.semanticweb.org/ontologies/RoboDesign.owl#hasSurfaceMaterial
+:hasSurfaceMaterial rdf:type owl:ObjectProperty ;
+                    rdfs:subPropertyOf :hasSurfaceAttribute .
+
+
+###  http://www.semanticweb.org/ontologies/RoboDesign.owl#hasSurfaceOrientation
+:hasSurfaceOrientation rdf:type owl:ObjectProperty ;
+                       rdfs:subPropertyOf :hasSurfaceAttribute .
+
+
+###  http://www.semanticweb.org/ontologies/RoboDesign.owl#hasTargetBuildingDefect
+:hasTargetBuildingDefect rdf:type owl:ObjectProperty ;
+                         rdfs:subPropertyOf owl:topObjectProperty ;
+                         rdfs:range :BuildingDefect .
+
+
+###  http://www.semanticweb.org/ontologies/RoboDesign.owl#hasVisibiltiy
+:hasVisibiltiy rdf:type owl:ObjectProperty ;
+               rdfs:subPropertyOf :hasEnvironmentData .
+
+
+###  http://www.semanticweb.org/ontologies/RoboDesign.owl#hasWidth
+:hasWidth rdf:type owl:ObjectProperty ;
+          rdfs:subPropertyOf :hasAttribute .
+
+
+###  http://www.semanticweb.org/ontologies/RoboDesign.owl#hasWindSpeed
+:hasWindSpeed rdf:type owl:ObjectProperty ;
+              rdfs:subPropertyOf :hasEnvironmentData .
+
+
+###  http://www.semanticweb.org/ontologies/RoboDesign.owl#influences
+:influences rdf:type owl:ObjectProperty ;
+            rdfs:subPropertyOf owl:topObjectProperty ;
+            rdfs:range :WorkEnvironment .
+
+
+###  http://www.semanticweb.org/ontologies/RoboDesign.owl#isAssistedBy
+:isAssistedBy rdf:type owl:ObjectProperty ;
+              rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/ontologies/RoboDesign.owl#isConductedBy
+:isConductedBy rdf:type owl:ObjectProperty ;
+               rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/ontologies/RoboDesign.owl#isConductedByHumanInspector
+:isConductedByHumanInspector rdf:type owl:ObjectProperty ;
+                             rdfs:subPropertyOf :isConductedBy .
+
+
+###  http://www.semanticweb.org/ontologies/RoboDesign.owl#isConductedByRobotSystem
+:isConductedByRobotSystem rdf:type owl:ObjectProperty ;
+                          rdfs:subPropertyOf :isConductedBy ;
+                          rdfs:range :RobotSystem .
+
+
+###  http://www.semanticweb.org/ontologies/RoboDesign.owl#isLocatedAt
+:isLocatedAt rdf:type owl:ObjectProperty ;
+             rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/ontologies/RoboDesign.owl#isLocatedAtBuildingElement
+:isLocatedAtBuildingElement rdf:type owl:ObjectProperty ;
+                            rdfs:subPropertyOf :isLocatedAt ;
+                            rdfs:range :BuildingElement .
+
+
+###  http://www.semanticweb.org/ontologies/RoboDesign.owl#isLocatedAtSite
+:isLocatedAtSite rdf:type owl:ObjectProperty ;
+                 rdfs:subPropertyOf :isLocatedAt ;
+                 rdfs:domain :Building ;
+                 rdfs:range :Site .
+
+
+###  http://www.semanticweb.org/ontologies/RoboDesign.owl#isToBeDetectedBy
 :isToBeDetectedBy rdf:type owl:ObjectProperty .
 
 
-###  https://purl.org/ontodesign#movesAt
+###  http://www.semanticweb.org/ontologies/RoboDesign.owl#movesAt
 :movesAt rdf:type owl:ObjectProperty ;
          rdfs:subPropertyOf owl:topObjectProperty .
 
 
-###  https://purl.org/ontodesign#movesAtMovementMedium
+###  http://www.semanticweb.org/ontologies/RoboDesign.owl#movesAtMovementMedium
 :movesAtMovementMedium rdf:type owl:ObjectProperty ;
                        rdfs:subPropertyOf :movesAt ;
                        rdfs:domain :Robot ;
                        rdfs:range :RobotMovementMedium .
 
 
-###  https://purl.org/ontodesign#occursAt
+###  http://www.semanticweb.org/ontologies/RoboDesign.owl#occursAt
 :occursAt rdf:type owl:ObjectProperty ;
           rdfs:subPropertyOf owl:topObjectProperty .
 
 
-###  https://purl.org/ontodesign#provides
+###  http://www.semanticweb.org/ontologies/RoboDesign.owl#provides
 :provides rdf:type owl:ObjectProperty ;
           rdfs:subPropertyOf owl:topObjectProperty ;
           rdfs:domain [ rdf:type owl:Class ;
@@ -204,11 +349,19 @@
           rdfs:range :WorkEnvironment .
 
 
-###  https://purl.org/ontodesign#requiresMethod
-:requiresMethod rdf:type owl:ObjectProperty .
+###  http://www.semanticweb.org/ontologies/RoboDesign.owl#requires
+:requires rdf:type owl:ObjectProperty ;
+          rdfs:subPropertyOf owl:topObjectProperty .
 
 
-###  https://purl.org/ontodesign#worksIn
+###  http://www.semanticweb.org/ontologies/RoboDesign.owl#requiresRobotComponent
+:requiresRobotComponent rdf:type owl:ObjectProperty ;
+                        rdfs:subPropertyOf :requires ;
+                        rdfs:domain :RobotBehavior ;
+                        rdfs:range :RobotComponent .
+
+
+###  http://www.semanticweb.org/ontologies/RoboDesign.owl#worksIn
 :worksIn rdf:type owl:ObjectProperty ;
          rdfs:subPropertyOf owl:topObjectProperty ;
          rdfs:domain :Robot ;
@@ -219,44 +372,44 @@
 #    Data properties
 #################################################################
 
-###  https://purl.org/ontodesign#hasDustinessLevel
+###  http://www.semanticweb.org/ontologies/RoboDesign.owl#hasDustinessLevel
 :hasDustinessLevel rdf:type owl:DatatypeProperty .
 
 
-###  https://purl.org/ontodesign#hasSignalReceptionCondition
+###  http://www.semanticweb.org/ontologies/RoboDesign.owl#hasSignalReceptionCondition
 :hasSignalReceptionCondition rdf:type owl:DatatypeProperty ;
                              rdfs:range xsd:string .
 
 
-###  https://purl.org/ontodesign#hasUnit
+###  http://www.semanticweb.org/ontologies/RoboDesign.owl#hasUnit
 :hasUnit rdf:type owl:DatatypeProperty ;
          rdfs:range xsd:string .
 
 
-###  https://purl.org/ontodesign#hasValue
+###  http://www.semanticweb.org/ontologies/RoboDesign.owl#hasValue
 :hasValue rdf:type owl:DatatypeProperty ;
           rdfs:range xsd:double .
 
 
-###  https://purl.org/ontodesign#hasVisibilityLevel
+###  http://www.semanticweb.org/ontologies/RoboDesign.owl#hasVisibilityLevel
 :hasVisibilityLevel rdf:type owl:DatatypeProperty .
 
 
-###  https://purl.org/ontodesign#isFerromagnetic
+###  http://www.semanticweb.org/ontologies/RoboDesign.owl#isFerromagnetic
 :isFerromagnetic rdf:type owl:DatatypeProperty ;
                  rdfs:subPropertyOf owl:topDataProperty .
 
 
-###  https://purl.org/ontodesign#isInverted
+###  http://www.semanticweb.org/ontologies/RoboDesign.owl#isInverted
 :isInverted rdf:type owl:DatatypeProperty .
 
 
-###  https://purl.org/ontodesign#isSmooth
+###  http://www.semanticweb.org/ontologies/RoboDesign.owl#isSmooth
 :isSmooth rdf:type owl:DatatypeProperty ;
           rdfs:subPropertyOf owl:topDataProperty .
 
 
-###  https://purl.org/ontodesign#requiresContinuousWork
+###  http://www.semanticweb.org/ontologies/RoboDesign.owl#requiresContinuousWork
 :requiresContinuousWork rdf:type owl:DatatypeProperty ;
                         rdfs:range xsd:boolean .
 
@@ -265,53 +418,62 @@
 #    Classes
 #################################################################
 
-###  https://purl.org/ontodesign#AbnormalArea
+###  http://www.semanticweb.org/ontologies/RoboDesign.owl#AbnormalArea
 :AbnormalArea rdf:type owl:Class ;
+              rdfs:subClassOf [ rdf:type owl:Restriction ;
+                                owl:onProperty :isLocatedAtBuildingElement ;
+                                owl:someValuesFrom :BuildingElement
+                              ] ;
               owl:disjointWith :IndoorSpace ;
               rdfs:comment "AbnormalArea is an area that has some anomalies compared to other areas of the same building element. This area is caused by the BuildingDefect, and it usually has some variations in the values of some attributes." .
 
 
-###  https://purl.org/ontodesign#AcceptableLevelOfNoise
+###  http://www.semanticweb.org/ontologies/RoboDesign.owl#AcceptableLevelOfNoise
 :AcceptableLevelOfNoise rdf:type owl:Class .
 
 
-###  https://purl.org/ontodesign#AirBasedRobot
+###  http://www.semanticweb.org/ontologies/RoboDesign.owl#AirBasedRobot
 :AirBasedRobot rdf:type owl:Class ;
                rdfs:subClassOf :Robot .
 
 
-###  https://purl.org/ontodesign#AirPressure
+###  http://www.semanticweb.org/ontologies/RoboDesign.owl#AirPressure
 :AirPressure rdf:type owl:Class ;
              rdfs:subClassOf :EnvironmentalCondition .
 
 
-###  https://purl.org/ontodesign#Attribute
+###  http://www.semanticweb.org/ontologies/RoboDesign.owl#Angle
+:Angle rdf:type owl:Class ;
+       rdfs:subClassOf :Attribute .
+
+
+###  http://www.semanticweb.org/ontologies/RoboDesign.owl#Attribute
 :Attribute rdf:type owl:Class ;
            owl:disjointWith :IndoorSpace .
 
 
-###  https://purl.org/ontodesign#AuxiliaryEquipment
+###  http://www.semanticweb.org/ontologies/RoboDesign.owl#AuxiliaryEquipment
 :AuxiliaryEquipment rdf:type owl:Class ;
                     owl:disjointWith :IndoorSpace ;
                     rdfs:comment "AuxiliaryEquipment includes any equipment, devices, or sensors supporting the robot performing specific inspection tasks." .
 
 
-###  https://purl.org/ontodesign#AverageAnnualAirHumidity
+###  http://www.semanticweb.org/ontologies/RoboDesign.owl#AverageAnnualAirHumidity
 :AverageAnnualAirHumidity rdf:type owl:Class ;
                           rdfs:subClassOf :EnvironmentalCondition .
 
 
-###  https://purl.org/ontodesign#AverageAnnualAirTemperature
+###  http://www.semanticweb.org/ontologies/RoboDesign.owl#AverageAnnualAirTemperature
 :AverageAnnualAirTemperature rdf:type owl:Class ;
                              rdfs:subClassOf :EnvironmentalCondition .
 
 
-###  https://purl.org/ontodesign#AverageAnnualWindSpeed
+###  http://www.semanticweb.org/ontologies/RoboDesign.owl#AverageAnnualWindSpeed
 :AverageAnnualWindSpeed rdf:type owl:Class ;
                         rdfs:subClassOf :EnvironmentalCondition .
 
 
-###  https://purl.org/ontodesign#Building
+###  http://www.semanticweb.org/ontologies/RoboDesign.owl#Building
 :Building rdf:type owl:Class ;
           rdfs:subClassOf [ rdf:type owl:Restriction ;
                             owl:onProperty :hasBuildingExterior ;
@@ -320,33 +482,51 @@
                           [ rdf:type owl:Restriction ;
                             owl:onProperty :hasBuildingInterior ;
                             owl:someValuesFrom :BuildingInterior
+                          ] ,
+                          [ rdf:type owl:Restriction ;
+                            owl:onProperty :isLocatedAtSite ;
+                            owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                            owl:onClass :Site
                           ] ;
           owl:disjointWith :IndoorSpace .
 
 
-###  https://purl.org/ontodesign#BuildingDefect
+###  http://www.semanticweb.org/ontologies/RoboDesign.owl#BuildingDefect
 :BuildingDefect rdf:type owl:Class ;
+                rdfs:subClassOf [ rdf:type owl:Restriction ;
+                                  owl:onProperty :causesAbnormalArea ;
+                                  owl:someValuesFrom :AbnormalArea
+                                ] ,
+                                [ rdf:type owl:Restriction ;
+                                  owl:onProperty :isLocatedAt ;
+                                  owl:someValuesFrom :BuildingElement
+                                ] ;
                 owl:disjointWith :IndoorSpace ;
                 rdfs:comment "BuildingDefect is defined as a failing or shortcoming in the function, performance, statutory, or user requirements of a building, and might manifest itself within the BuildingElement of the affected building." .
 
 
-###  https://purl.org/ontodesign#BuildingElement
+###  http://www.semanticweb.org/ontologies/RoboDesign.owl#BuildingElement
 :BuildingElement rdf:type owl:Class ;
                  owl:disjointWith :IndoorSpace ;
                  rdfs:comment "BuildingElement is defined as all elements that are primarily part of an existing building. These elements could be from the BuildingInterior or the BuildingExterior." .
 
 
-###  https://purl.org/ontodesign#BuildingExterior
+###  http://www.semanticweb.org/ontologies/RoboDesign.owl#BuildingExterior
 :BuildingExterior rdf:type owl:Class ;
                   rdfs:subClassOf [ rdf:type owl:Restriction ;
                                     owl:onProperty :hasBuildingElement ;
                                     owl:someValuesFrom :BuildingElement
+                                  ] ,
+                                  [ rdf:type owl:Restriction ;
+                                    owl:onProperty :hasSite ;
+                                    owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                    owl:onClass :Site
                                   ] ;
                   owl:disjointWith :IndoorSpace ;
                   rdfs:comment "BuildingExterior includes all elements exposed to the Site of the building." .
 
 
-###  https://purl.org/ontodesign#BuildingInterior
+###  http://www.semanticweb.org/ontologies/RoboDesign.owl#BuildingInterior
 :BuildingInterior rdf:type owl:Class ;
                   rdfs:subClassOf [ rdf:type owl:Restriction ;
                                     owl:onProperty :hasBuildingElement ;
@@ -360,38 +540,73 @@
                   rdfs:comment "BuildingInterior includes all elements exposed to the inside of the building and IndoorSpace bounded by the elements." .
 
 
-###  https://purl.org/ontodesign#Capability
+###  http://www.semanticweb.org/ontologies/RoboDesign.owl#Capability
 :Capability rdf:type owl:Class ;
             owl:disjointWith :IndoorSpace ;
             rdfs:comment "Capability describes the manifested behavioral features of the robot system." .
 
 
-###  https://purl.org/ontodesign#CapabilityRequirement
+###  http://www.semanticweb.org/ontologies/RoboDesign.owl#CapabilityRequirement
 :CapabilityRequirement rdf:type owl:Class ;
                        rdfs:subClassOf :RobotSystemHardwareRequirement .
 
 
-###  https://purl.org/ontodesign#Communication
+###  http://www.semanticweb.org/ontologies/RoboDesign.owl#Communication
 :Communication rdf:type owl:Class ;
                rdfs:subClassOf :Capability .
 
 
-###  https://purl.org/ontodesign#CommunicationRequirement
+###  http://www.semanticweb.org/ontologies/RoboDesign.owl#CommunicationRequirement
 :CommunicationRequirement rdf:type owl:Class ;
                           rdfs:subClassOf :CapabilityRequirement .
 
 
-###  https://purl.org/ontodesign#ContinuousInspection
+###  http://www.semanticweb.org/ontologies/RoboDesign.owl#ConcaveCorner
+:ConcaveCorner rdf:type owl:Class ;
+               rdfs:subClassOf :Corner .
+
+
+###  http://www.semanticweb.org/ontologies/RoboDesign.owl#ConcaveObstacle
+:ConcaveObstacle rdf:type owl:Class ;
+                 rdfs:subClassOf :SurfaceObstacle .
+
+
+###  http://www.semanticweb.org/ontologies/RoboDesign.owl#ContinuousInspection
 :ContinuousInspection rdf:type owl:Class ;
                       rdfs:subClassOf :InspectionMethod .
 
 
-###  https://purl.org/ontodesign#DegreeOfAutonomy
+###  http://www.semanticweb.org/ontologies/RoboDesign.owl#ConvexCorner
+:ConvexCorner rdf:type owl:Class ;
+              rdfs:subClassOf :Corner .
+
+
+###  http://www.semanticweb.org/ontologies/RoboDesign.owl#ConvexObstacle
+:ConvexObstacle rdf:type owl:Class ;
+                rdfs:subClassOf :SurfaceObstacle .
+
+
+###  http://www.semanticweb.org/ontologies/RoboDesign.owl#Corner
+:Corner rdf:type owl:Class ;
+        rdfs:subClassOf owl:Thing .
+
+
+###  http://www.semanticweb.org/ontologies/RoboDesign.owl#Curved
+:Curved rdf:type owl:Class ;
+        rdfs:subClassOf :Shape .
+
+
+###  http://www.semanticweb.org/ontologies/RoboDesign.owl#DegreeOfAutonomy
 :DegreeOfAutonomy rdf:type owl:Class ;
                   rdfs:subClassOf :Capability .
 
 
-###  https://purl.org/ontodesign#DetectableAttribute
+###  http://www.semanticweb.org/ontologies/RoboDesign.owl#Depth
+:Depth rdf:type owl:Class ;
+       rdfs:subClassOf :Attribute .
+
+
+###  http://www.semanticweb.org/ontologies/RoboDesign.owl#DetectableAttribute
 :DetectableAttribute rdf:type owl:Class ;
                      rdfs:subClassOf :Attribute ,
                                      [ rdf:type owl:Restriction ;
@@ -405,18 +620,28 @@
                      rdfs:comment "DetectableAttribute refers to attributes whose values would change due to defects." .
 
 
-###  https://purl.org/ontodesign#EnvironmentalCondition
+###  http://www.semanticweb.org/ontologies/RoboDesign.owl#Dustiness
+:Dustiness rdf:type owl:Class ;
+           rdfs:subClassOf :SurfaceAttribute .
+
+
+###  http://www.semanticweb.org/ontologies/RoboDesign.owl#EnvironmentalCondition
 :EnvironmentalCondition rdf:type owl:Class ;
                         owl:disjointWith :IndoorSpace ;
                         rdfs:comment "EnvironmentalCondition describes environmental conditions of the building Site and IndoorSpace, which includes AverageAnnualAirTemperature, AverageAnnualAirHumidity, AirPressure, Visibility, and AverageAnnualWindSpeed, SignalReceptionCondition." .
 
 
-###  https://purl.org/ontodesign#GroundBasedRobot
+###  http://www.semanticweb.org/ontologies/RoboDesign.owl#Flat
+:Flat rdf:type owl:Class ;
+      rdfs:subClassOf :Shape .
+
+
+###  http://www.semanticweb.org/ontologies/RoboDesign.owl#GroundBasedRobot
 :GroundBasedRobot rdf:type owl:Class ;
                   rdfs:subClassOf :Robot .
 
 
-###  https://purl.org/ontodesign#Height
+###  http://www.semanticweb.org/ontologies/RoboDesign.owl#Height
 :Height rdf:type owl:Class ;
         rdfs:subClassOf :Attribute ,
                         [ rdf:type owl:Restriction ;
@@ -429,12 +654,17 @@
                         ] .
 
 
-###  https://purl.org/ontodesign#HeightConstraint
+###  http://www.semanticweb.org/ontologies/RoboDesign.owl#HeightConstraint
 :HeightConstraint rdf:type owl:Class ;
                   rdfs:subClassOf :PhysicalConstraintToRobot .
 
 
-###  https://purl.org/ontodesign#IndoorSpace
+###  http://www.semanticweb.org/ontologies/RoboDesign.owl#InclinationAngle
+:InclinationAngle rdf:type owl:Class ;
+                  rdfs:subClassOf :SurfaceAttribute .
+
+
+###  http://www.semanticweb.org/ontologies/RoboDesign.owl#IndoorSpace
 :IndoorSpace rdf:type owl:Class ;
              owl:disjointWith :PhysicalConstraintToRobot ,
                               :Robot ,
@@ -446,45 +676,45 @@
                               :Site .
 
 
-###  https://purl.org/ontodesign#InspectionMethod
+###  http://www.semanticweb.org/ontologies/RoboDesign.owl#InspectionMethod
 :InspectionMethod rdf:type owl:Class .
 
 
-###  https://purl.org/ontodesign#LengthConstraint
+###  http://www.semanticweb.org/ontologies/RoboDesign.owl#LengthConstraint
 :LengthConstraint rdf:type owl:Class ;
                   rdfs:subClassOf :PhysicalConstraintToRobot .
 
 
-###  https://purl.org/ontodesign#LocomotionCapability
+###  http://www.semanticweb.org/ontologies/RoboDesign.owl#LocomotionCapability
 :LocomotionCapability rdf:type owl:Class ;
                       rdfs:subClassOf :Capability .
 
 
-###  https://purl.org/ontodesign#LocomotionCapabilityRequirement
+###  http://www.semanticweb.org/ontologies/RoboDesign.owl#LocomotionCapabilityRequirement
 :LocomotionCapabilityRequirement rdf:type owl:Class ;
                                  rdfs:subClassOf :CapabilityRequirement .
 
 
-###  https://purl.org/ontodesign#MinimumChangeOfValue
+###  http://www.semanticweb.org/ontologies/RoboDesign.owl#MinimumChangeOfValue
 :MinimumChangeOfValue rdf:type owl:Class .
 
 
-###  https://purl.org/ontodesign#NonContinuousInspection
+###  http://www.semanticweb.org/ontologies/RoboDesign.owl#NonContinuousInspection
 :NonContinuousInspection rdf:type owl:Class ;
                          rdfs:subClassOf :InspectionMethod .
 
 
-###  https://purl.org/ontodesign#OperationalCapability
+###  http://www.semanticweb.org/ontologies/RoboDesign.owl#OperationalCapability
 :OperationalCapability rdf:type owl:Class ;
                        rdfs:subClassOf :Capability .
 
 
-###  https://purl.org/ontodesign#OperationalCapabilityRequirement
+###  http://www.semanticweb.org/ontologies/RoboDesign.owl#OperationalCapabilityRequirement
 :OperationalCapabilityRequirement rdf:type owl:Class ;
                                   rdfs:subClassOf :CapabilityRequirement .
 
 
-###  https://purl.org/ontodesign#PhysicalConstraintToRobot
+###  http://www.semanticweb.org/ontologies/RoboDesign.owl#PhysicalConstraintToRobot
 :PhysicalConstraintToRobot rdf:type owl:Class ;
                            rdfs:subClassOf [ rdf:type owl:Restriction ;
                                              owl:onProperty :determines ;
@@ -493,7 +723,7 @@
                            rdfs:comment "PhysicalConstraintToRobot means the maximum size of the space or area that the BuildingElement or the IndoorSpace can provide for the robot movement." .
 
 
-###  https://purl.org/ontodesign#Robot
+###  http://www.semanticweb.org/ontologies/RoboDesign.owl#Robot
 :Robot rdf:type owl:Class ;
        rdfs:subClassOf [ rdf:type owl:Restriction ;
                          owl:onProperty :hasRobotComponent ;
@@ -510,24 +740,28 @@
        rdfs:comment "Robot refers exclusively to mobile robots in the context of building inspection robots. It is a programmed actuated mechanism able to move around at a RobotMovementMedium of  its WorkEnvironment and conduct RobotBehavior with a degree of autonomy." .
 
 
-###  https://purl.org/ontodesign#RobotBehavior
+###  http://www.semanticweb.org/ontologies/RoboDesign.owl#RobotBehavior
 :RobotBehavior rdf:type owl:Class ;
                rdfs:subClassOf [ rdf:type owl:Restriction ;
                                  owl:onProperty :occursAt ;
                                  owl:someValuesFrom :WorkEnvironment
+                               ] ,
+                               [ rdf:type owl:Restriction ;
+                                 owl:onProperty :requiresRobotComponent ;
+                                 owl:someValuesFrom :RobotComponent
                                ] .
 
 
-###  https://purl.org/ontodesign#RobotComponent
+###  http://www.semanticweb.org/ontologies/RoboDesign.owl#RobotComponent
 :RobotComponent rdf:type owl:Class .
 
 
-###  https://purl.org/ontodesign#RobotMovementMedium
+###  http://www.semanticweb.org/ontologies/RoboDesign.owl#RobotMovementMedium
 :RobotMovementMedium rdf:type owl:Class ;
                      rdfs:comment "RobotMovementMedium is what the robot relies on for its movement." .
 
 
-###  https://purl.org/ontodesign#RobotSystem
+###  http://www.semanticweb.org/ontologies/RoboDesign.owl#RobotSystem
 :RobotSystem rdf:type owl:Class ;
              rdfs:subClassOf [ rdf:type owl:Restriction ;
                                owl:onProperty :hasCapability ;
@@ -536,35 +770,49 @@
              rdfs:comment "RobotSystem is defined as an artificial system formed by robots and AuxiliaryEquipment" .
 
 
-###  https://purl.org/ontodesign#RobotSystemHardwareRequirement
+###  http://www.semanticweb.org/ontologies/RoboDesign.owl#RobotSystemHardwareRequirement
 :RobotSystemHardwareRequirement rdf:type owl:Class .
 
 
-###  https://purl.org/ontodesign#SensoryCapability
+###  http://www.semanticweb.org/ontologies/RoboDesign.owl#SensoryCapability
 :SensoryCapability rdf:type owl:Class ;
                    rdfs:subClassOf :Capability .
 
 
-###  https://purl.org/ontodesign#SensoryCapabilityRequirement
+###  http://www.semanticweb.org/ontologies/RoboDesign.owl#SensoryCapabilityRequirement
 :SensoryCapabilityRequirement rdf:type owl:Class ;
                               rdfs:subClassOf :CapabilityRequirement .
 
 
-###  https://purl.org/ontodesign#SignalReceptionCondition
+###  http://www.semanticweb.org/ontologies/RoboDesign.owl#Shape
+:Shape rdf:type owl:Class ;
+       rdfs:subClassOf :SurfaceAttribute .
+
+
+###  http://www.semanticweb.org/ontologies/RoboDesign.owl#SignalReceptionCondition
 :SignalReceptionCondition rdf:type owl:Class ;
                           rdfs:subClassOf :EnvironmentalCondition .
 
 
-###  https://purl.org/ontodesign#Site
-:Site rdf:type owl:Class .
+###  http://www.semanticweb.org/ontologies/RoboDesign.owl#Site
+:Site rdf:type owl:Class ;
+      rdfs:subClassOf [ rdf:type owl:Restriction ;
+                        owl:onProperty :hasEnvironmentData ;
+                        owl:someValuesFrom :EnvironmentalCondition
+                      ] .
 
 
-###  https://purl.org/ontodesign#SizeRequirement
+###  http://www.semanticweb.org/ontologies/RoboDesign.owl#Size
+:Size rdf:type owl:Class ;
+      rdfs:subClassOf :StructuralCharacteristic .
+
+
+###  http://www.semanticweb.org/ontologies/RoboDesign.owl#SizeRequirement
 :SizeRequirement rdf:type owl:Class ;
                  rdfs:subClassOf :StructuralCharacteristicsRequirement .
 
 
-###  https://purl.org/ontodesign#Speed
+###  http://www.semanticweb.org/ontologies/RoboDesign.owl#Speed
 :Speed rdf:type owl:Class ;
        rdfs:subClassOf :Attribute ,
                        [ rdf:type owl:Restriction ;
@@ -577,48 +825,83 @@
                        ] .
 
 
-###  https://purl.org/ontodesign#StructuralCharacteristic
+###  http://www.semanticweb.org/ontologies/RoboDesign.owl#StructuralCharacteristic
 :StructuralCharacteristic rdf:type owl:Class ;
                           rdfs:subClassOf :Attribute ;
                           rdfs:comment "StructuralCharacteristic refers to generic features necessary to describe the physical and structural aspects of a robot system." .
 
 
-###  https://purl.org/ontodesign#StructuralCharacteristicsRequirement
+###  http://www.semanticweb.org/ontologies/RoboDesign.owl#StructuralCharacteristicsRequirement
 :StructuralCharacteristicsRequirement rdf:type owl:Class ;
                                       rdfs:subClassOf :RobotSystemHardwareRequirement .
 
 
-###  https://purl.org/ontodesign#VelocityRequirement
+###  http://www.semanticweb.org/ontologies/RoboDesign.owl#Surface
+:Surface rdf:type owl:Class ;
+         rdfs:subClassOf :RobotMovementMedium .
+
+
+###  http://www.semanticweb.org/ontologies/RoboDesign.owl#SurfaceAttribute
+:SurfaceAttribute rdf:type owl:Class ;
+                  rdfs:subClassOf :Attribute .
+
+
+###  http://www.semanticweb.org/ontologies/RoboDesign.owl#SurfaceMaterial
+:SurfaceMaterial rdf:type owl:Class ;
+                 rdfs:subClassOf :SurfaceAttribute .
+
+
+###  http://www.semanticweb.org/ontologies/RoboDesign.owl#SurfaceObstacle
+:SurfaceObstacle rdf:type owl:Class ;
+                 rdfs:subClassOf owl:Thing .
+
+
+###  http://www.semanticweb.org/ontologies/RoboDesign.owl#SurfaceOrientation
+:SurfaceOrientation rdf:type owl:Class ;
+                    rdfs:subClassOf :SurfaceAttribute .
+
+
+###  http://www.semanticweb.org/ontologies/RoboDesign.owl#VelocityRequirement
 :VelocityRequirement rdf:type owl:Class ;
                      rdfs:subClassOf :LocomotionCapabilityRequirement .
 
 
-###  https://purl.org/ontodesign#Visibility
+###  http://www.semanticweb.org/ontologies/RoboDesign.owl#Visibility
 :Visibility rdf:type owl:Class ;
             rdfs:subClassOf :EnvironmentalCondition .
 
 
-###  https://purl.org/ontodesign#WallClimbingRobot
+###  http://www.semanticweb.org/ontologies/RoboDesign.owl#WallClimbingRobot
 :WallClimbingRobot rdf:type owl:Class ;
                    rdfs:subClassOf :Robot .
 
 
-###  https://purl.org/ontodesign#WeatherResistance
+###  http://www.semanticweb.org/ontologies/RoboDesign.owl#WeatherResistance
 :WeatherResistance rdf:type owl:Class ;
                    rdfs:subClassOf :Capability .
 
 
-###  https://purl.org/ontodesign#WeatherResistanceRequirement
+###  http://www.semanticweb.org/ontologies/RoboDesign.owl#WeatherResistanceRequirement
 :WeatherResistanceRequirement rdf:type owl:Class ;
                               rdfs:subClassOf :CapabilityRequirement .
 
 
-###  https://purl.org/ontodesign#WidthConstraint
+###  http://www.semanticweb.org/ontologies/RoboDesign.owl#Weight
+:Weight rdf:type owl:Class ;
+        rdfs:subClassOf :StructuralCharacteristic .
+
+
+###  http://www.semanticweb.org/ontologies/RoboDesign.owl#Width
+:Width rdf:type owl:Class ;
+       rdfs:subClassOf :Attribute .
+
+
+###  http://www.semanticweb.org/ontologies/RoboDesign.owl#WidthConstraint
 :WidthConstraint rdf:type owl:Class ;
                  rdfs:subClassOf :PhysicalConstraintToRobot .
 
 
-###  https://purl.org/ontodesign#WorkEnvironment
+###  http://www.semanticweb.org/ontologies/RoboDesign.owl#WorkEnvironment
 :WorkEnvironment rdf:type owl:Class ;
                  rdfs:subClassOf [ rdf:type owl:Restriction ;
                                    owl:onProperty :hasRobotMovementMedium ;
@@ -631,117 +914,373 @@
 #    Individuals
 #################################################################
 
-###  https://purl.org/ontodesign#AbnormalArea1
+###  http://www.semanticweb.org/ontologies/RoboDesign.owl#AbnormalArea1
 :AbnormalArea1 rdf:type owl:NamedIndividual ,
                         :AbnormalArea ;
                :hasDetectableAttribute :TemperatureChange1 .
 
 
-###  https://purl.org/ontodesign#AbnormalArea2
+###  http://www.semanticweb.org/ontologies/RoboDesign.owl#AbnormalArea2
 :AbnormalArea2 rdf:type owl:NamedIndividual ,
                         :AbnormalArea ;
                :hasDetectableAttribute :TemperatureChange2 .
 
 
-###  https://purl.org/ontodesign#AbnormalArea3
+###  http://www.semanticweb.org/ontologies/RoboDesign.owl#AbnormalArea3
 :AbnormalArea3 rdf:type owl:NamedIndividual ,
                         :AbnormalArea ;
                :hasDetectableAttribute :TemperatureChange3 .
 
 
-###  https://purl.org/ontodesign#AbnormalArea4
+###  http://www.semanticweb.org/ontologies/RoboDesign.owl#AbnormalArea4
 :AbnormalArea4 rdf:type owl:NamedIndividual ,
                         :AbnormalArea ;
                :hasDetectableAttribute :TemperatureChange4 .
 
 
-###  https://purl.org/ontodesign#AdhesionMechanismRequirement_Indoor
+###  http://www.semanticweb.org/ontologies/RoboDesign.owl#AdhesionMechanismRequirement_Indoor
 :AdhesionMechanismRequirement_Indoor rdf:type owl:NamedIndividual .
 
 
-###  https://purl.org/ontodesign#Building1
+###  http://www.semanticweb.org/ontologies/RoboDesign.owl#Angle1
+:Angle1 rdf:type owl:NamedIndividual ,
+                 :Angle ;
+        :determines :TransitionDexterityRequirement_Indoor ;
+        :hasUnit "degree" ;
+        :hasValue "90.0"^^xsd:double .
+
+
+###  http://www.semanticweb.org/ontologies/RoboDesign.owl#Angle2_1
+:Angle2_1 rdf:type owl:NamedIndividual ,
+                   :Angle ;
+          :determines :TransitionDexterityRequirement_Indoor ;
+          :hasUnit "degree" ;
+          :hasValue "60.0"^^xsd:double .
+
+
+###  http://www.semanticweb.org/ontologies/RoboDesign.owl#Angle2_2
+:Angle2_2 rdf:type owl:NamedIndividual ,
+                   :Angle ;
+          :hasUnit "degree" ;
+          :hasValue "80.0"^^xsd:double .
+
+
+###  http://www.semanticweb.org/ontologies/RoboDesign.owl#Angle3
+:Angle3 rdf:type owl:NamedIndividual ,
+                 :Angle ;
+        :determines :TransitionDexterityRequirement_Indoor ;
+        :hasUnit "degree" ;
+        :hasValue "105.0"^^xsd:double .
+
+
+###  http://www.semanticweb.org/ontologies/RoboDesign.owl#Angle4
+:Angle4 rdf:type owl:NamedIndividual ,
+                 :Angle ;
+        :determines :TransitionDexterityRequirement_Indoor ;
+        :hasUnit "degree" ;
+        :hasValue "120.0"^^xsd:double .
+
+
+###  http://www.semanticweb.org/ontologies/RoboDesign.owl#Building1
 :Building1 rdf:type owl:NamedIndividual ,
                     :Building .
 
 
-###  https://purl.org/ontodesign#BuildingInterior1
+###  http://www.semanticweb.org/ontologies/RoboDesign.owl#BuildingInterior1
 :BuildingInterior1 rdf:type owl:NamedIndividual ,
                             :BuildingInterior .
 
 
-###  https://purl.org/ontodesign#BuildingInterior2
+###  http://www.semanticweb.org/ontologies/RoboDesign.owl#BuildingInterior2
 :BuildingInterior2 rdf:type owl:NamedIndividual ,
                             :BuildingInterior .
 
 
-###  https://purl.org/ontodesign#BuildingInterior3
+###  http://www.semanticweb.org/ontologies/RoboDesign.owl#BuildingInterior3
 :BuildingInterior3 rdf:type owl:NamedIndividual ,
                             :BuildingInterior .
 
 
-###  https://purl.org/ontodesign#BuildingInterior4
+###  http://www.semanticweb.org/ontologies/RoboDesign.owl#BuildingInterior4
 :BuildingInterior4 rdf:type owl:NamedIndividual ,
                             :BuildingInterior .
 
 
-###  https://purl.org/ontodesign#Ceiling1
+###  http://www.semanticweb.org/ontologies/RoboDesign.owl#Ceiling1
 :Ceiling1 rdf:type owl:NamedIndividual ,
-                   :BuildingElement .
+                   :BuildingElement ;
+          :hasExposedSurface :Surface1 .
 
 
-###  https://purl.org/ontodesign#Ceiling4
+###  http://www.semanticweb.org/ontologies/RoboDesign.owl#Ceiling4
 :Ceiling4 rdf:type owl:NamedIndividual ,
                    :BuildingElement .
 
 
-###  https://purl.org/ontodesign#Floor3
+###  http://www.semanticweb.org/ontologies/RoboDesign.owl#Ceramics2
+:Ceramics2 rdf:type owl:NamedIndividual ,
+                    :SurfaceMaterial ;
+           :determines :AdhesionMechanismRequirement_Indoor ;
+           :isFerromagnetic "false"^^xsd:boolean ;
+           :isSmooth "true"^^xsd:boolean .
+
+
+###  http://www.semanticweb.org/ontologies/RoboDesign.owl#CommunicationRequirement
+:CommunicationRequirement rdf:type owl:NamedIndividual ,
+                                   :CommunicationRequirement ,
+                                   :RobotSystemHardwareRequirement .
+
+
+###  http://www.semanticweb.org/ontologies/RoboDesign.owl#ConcaveCorner1
+:ConcaveCorner1 rdf:type owl:NamedIndividual ,
+                         :ConcaveCorner ;
+                :hasCornerAngle :Angle1 ;
+                :isLocatedAt :WorkEnvironment1 .
+
+
+###  http://www.semanticweb.org/ontologies/RoboDesign.owl#ConcaveCorner2
+:ConcaveCorner2 rdf:type owl:NamedIndividual ,
+                         :ConcaveCorner ;
+                :hasCornerAngle :Angle2_1 ;
+                :isLocatedAt :WorkEnvironment2 .
+
+
+###  http://www.semanticweb.org/ontologies/RoboDesign.owl#ConcaveCorner3
+:ConcaveCorner3 rdf:type owl:NamedIndividual ,
+                         :ConcaveCorner ;
+                :hasCornerAngle :Angle3 ;
+                :isLocatedAt :WorkEnvironment3 .
+
+
+###  http://www.semanticweb.org/ontologies/RoboDesign.owl#ConcaveCorner4
+:ConcaveCorner4 rdf:type owl:NamedIndividual ,
+                         :ConcaveCorner ;
+                :hasCornerAngle :Angle4 ;
+                :isLocatedAt :WorkEnvironment4 .
+
+
+###  http://www.semanticweb.org/ontologies/RoboDesign.owl#ConcaveObstacle1
+:ConcaveObstacle1 rdf:type owl:NamedIndividual ,
+                           :ConcaveObstacle ;
+                  :hasDepth :ObstacleDepth1 ;
+                  :hasWidth :ObstacleWidth4 .
+
+
+###  http://www.semanticweb.org/ontologies/RoboDesign.owl#ConcaveTransistion1
+:ConcaveTransistion1 rdf:type owl:NamedIndividual ,
+                              :RobotBehavior ;
+                     :occursAt :WorkEnvironment1 .
+
+
+###  http://www.semanticweb.org/ontologies/RoboDesign.owl#ConcaveTransistion2
+:ConcaveTransistion2 rdf:type owl:NamedIndividual ,
+                              :RobotBehavior ;
+                     :occursAt :WorkEnvironment2 .
+
+
+###  http://www.semanticweb.org/ontologies/RoboDesign.owl#ConcaveTransistion3
+:ConcaveTransistion3 rdf:type owl:NamedIndividual ,
+                              :RobotBehavior ;
+                     :occursAt :WorkEnvironment3 .
+
+
+###  http://www.semanticweb.org/ontologies/RoboDesign.owl#ConcaveTransistion4
+:ConcaveTransistion4 rdf:type owl:NamedIndividual ;
+                     :occursAt :WorkEnvironment4 .
+
+
+###  http://www.semanticweb.org/ontologies/RoboDesign.owl#ConvexCorner1
+:ConvexCorner1 rdf:type owl:NamedIndividual ,
+                        :ConvexCorner .
+
+
+###  http://www.semanticweb.org/ontologies/RoboDesign.owl#ConvexCorner2
+:ConvexCorner2 rdf:type owl:NamedIndividual ,
+                        :ConvexCorner ;
+               :hasCornerAngle :Angle2_2 ;
+               :isLocatedAt :WorkEnvironment2 .
+
+
+###  http://www.semanticweb.org/ontologies/RoboDesign.owl#ConvexCorner3
+:ConvexCorner3 rdf:type owl:NamedIndividual ,
+                        :ConvexCorner .
+
+
+###  http://www.semanticweb.org/ontologies/RoboDesign.owl#ConvexCorner4
+:ConvexCorner4 rdf:type owl:NamedIndividual ,
+                        :ConvexCorner .
+
+
+###  http://www.semanticweb.org/ontologies/RoboDesign.owl#ConvexObstacle1
+:ConvexObstacle1 rdf:type owl:NamedIndividual ,
+                          :ConvexObstacle ;
+                 :hasHeight :ObstacleHeight1 ;
+                 :hasWidth :ObstacleWidth1 .
+
+
+###  http://www.semanticweb.org/ontologies/RoboDesign.owl#ConvexObstacle2
+:ConvexObstacle2 rdf:type owl:NamedIndividual ,
+                          :ConvexObstacle ;
+                 :hasHeight :ObstacleHeight2 ;
+                 :hasWidth :ObstacleWidth2 .
+
+
+###  http://www.semanticweb.org/ontologies/RoboDesign.owl#ConvexObstacle3
+:ConvexObstacle3 rdf:type owl:NamedIndividual ,
+                          :ConvexObstacle ;
+                 :hasHeight :ObstacleHeight3 ;
+                 :hasWidth :ObstacleWidth3 ;
+                 :isLocatedAt :Surface3 .
+
+
+###  http://www.semanticweb.org/ontologies/RoboDesign.owl#ConvexTransistion2
+:ConvexTransistion2 rdf:type owl:NamedIndividual ;
+                    :occursAt :WorkEnvironment2 .
+
+
+###  http://www.semanticweb.org/ontologies/RoboDesign.owl#DegreeOfAutonomyRequirement1
+:DegreeOfAutonomyRequirement1 rdf:type owl:NamedIndividual ,
+                                       :RobotSystemHardwareRequirement .
+
+
+###  http://www.semanticweb.org/ontologies/RoboDesign.owl#Depth2
+:Depth2 rdf:type owl:NamedIndividual ,
+                 :Depth ;
+        :hasUnit "cm" ;
+        :hasValue "5.0"^^xsd:double .
+
+
+###  http://www.semanticweb.org/ontologies/RoboDesign.owl#Dustiness1
+:Dustiness1 rdf:type owl:NamedIndividual ,
+                     :Dustiness ;
+            :determines :AdhesionMechanismRequirement_Indoor ;
+            :hasDustinessLevel "low" .
+
+
+###  http://www.semanticweb.org/ontologies/RoboDesign.owl#Dustiness2
+:Dustiness2 rdf:type owl:NamedIndividual ,
+                     :Dustiness ;
+            :determines :AdhesionMechanismRequirement_Indoor ;
+            :hasDustinessLevel "medium" .
+
+
+###  http://www.semanticweb.org/ontologies/RoboDesign.owl#Dustiness3
+:Dustiness3 rdf:type owl:NamedIndividual ,
+                     :Dustiness ;
+            :determines :AdhesionMechanismRequirement_Indoor ;
+            :hasDustinessLevel "high" .
+
+
+###  http://www.semanticweb.org/ontologies/RoboDesign.owl#Dustiness4
+:Dustiness4 rdf:type owl:NamedIndividual ,
+                     :Dustiness ;
+            :determines :AdhesionMechanismRequirement_Indoor ;
+            :hasDustinessLevel "low" .
+
+
+###  http://www.semanticweb.org/ontologies/RoboDesign.owl#Floor3
 :Floor3 rdf:type owl:NamedIndividual ,
-                 :BuildingElement .
+                 :BuildingElement ;
+        :hasExposedSurface :Surface3 .
 
 
-###  https://purl.org/ontodesign#Height1
+###  http://www.semanticweb.org/ontologies/RoboDesign.owl#Glass3
+:Glass3 rdf:type owl:NamedIndividual ,
+                 :SurfaceMaterial ;
+        :determines :AdhesionMechanismRequirement_Indoor ;
+        :isFerromagnetic "false"^^xsd:boolean ;
+        :isSmooth "true"^^xsd:boolean .
+
+
+###  http://www.semanticweb.org/ontologies/RoboDesign.owl#Height1
 :Height1 rdf:type owl:NamedIndividual ,
                   :Height .
 
 
-###  https://purl.org/ontodesign#Height2
+###  http://www.semanticweb.org/ontologies/RoboDesign.owl#Height1234
+:Height1234 rdf:type owl:NamedIndividual ,
+                     :Size .
+
+
+###  http://www.semanticweb.org/ontologies/RoboDesign.owl#Height2
 :Height2 rdf:type owl:NamedIndividual ,
                   :Height .
 
 
-###  https://purl.org/ontodesign#Height3
+###  http://www.semanticweb.org/ontologies/RoboDesign.owl#Height3
 :Height3 rdf:type owl:NamedIndividual ,
                   :Height .
 
 
-###  https://purl.org/ontodesign#HeightConstraint1
+###  http://www.semanticweb.org/ontologies/RoboDesign.owl#Height4
+:Height4 rdf:type owl:NamedIndividual ,
+                  :Height .
+
+
+###  http://www.semanticweb.org/ontologies/RoboDesign.owl#HeightConstraint1
 :HeightConstraint1 rdf:type owl:NamedIndividual ,
-                            :HeightConstraint .
+                            :HeightConstraint ;
+                   :determines :SizeRequirement1 .
 
 
-###  https://purl.org/ontodesign#IndoorSpace1
+###  http://www.semanticweb.org/ontologies/RoboDesign.owl#InclinationAngle1
+:InclinationAngle1 rdf:type owl:NamedIndividual ,
+                            :InclinationAngle ;
+                   :determines :AdhesionMechanismRequirement_Indoor ;
+                   :hasUnit "degree" ;
+                   :hasValue "180.0"^^xsd:double .
+
+
+###  http://www.semanticweb.org/ontologies/RoboDesign.owl#InclinationAngle2
+:InclinationAngle2 rdf:type owl:NamedIndividual ,
+                            :InclinationAngle ;
+                   :determines :AdhesionMechanismRequirement_Indoor ;
+                   :hasUnit "degree" ;
+                   :hasValue "90.0"^^xsd:double .
+
+
+###  http://www.semanticweb.org/ontologies/RoboDesign.owl#InclinationAngle3
+:InclinationAngle3 rdf:type owl:NamedIndividual ,
+                            :InclinationAngle ;
+                   :determines :AdhesionMechanismRequirement_Indoor ;
+                   :hasUnit "degree" ;
+                   :hasValue "90.0"^^xsd:double .
+
+
+###  http://www.semanticweb.org/ontologies/RoboDesign.owl#InclinationAngle4
+:InclinationAngle4 rdf:type owl:NamedIndividual ,
+                            :InclinationAngle ;
+                   :determines :AdhesionMechanismRequirement_Indoor ;
+                   :hasUnit "degree" ;
+                   :hasValue "80.0"^^xsd:double .
+
+
+###  http://www.semanticweb.org/ontologies/RoboDesign.owl#IndoorSpace1
 :IndoorSpace1 rdf:type owl:NamedIndividual ,
                        :IndoorSpace ;
+              owl:sameAs :WorkEnvironment1 ;
               :hasPhysicalConstraintsToRobots :HeightConstraint1 ;
               :hasSignalReceptionCondition "good" .
 
 
-###  https://purl.org/ontodesign#IndoorSpace2
+###  http://www.semanticweb.org/ontologies/RoboDesign.owl#WorkEnvironment1
+
+###  http://www.semanticweb.org/ontologies/RoboDesign.owl#IndoorSpace2
 :IndoorSpace2 rdf:type owl:NamedIndividual ,
                        :IndoorSpace .
 
 
-###  https://purl.org/ontodesign#IndoorSpace3
+###  http://www.semanticweb.org/ontologies/RoboDesign.owl#IndoorSpace3
 :IndoorSpace3 rdf:type owl:NamedIndividual ,
                        :IndoorSpace .
 
 
-###  https://purl.org/ontodesign#IndoorSpace4
+###  http://www.semanticweb.org/ontologies/RoboDesign.owl#IndoorSpace4
 :IndoorSpace4 rdf:type owl:NamedIndividual ,
                        :IndoorSpace .
 
 
-###  https://purl.org/ontodesign#InspectionSpeed1
+###  http://www.semanticweb.org/ontologies/RoboDesign.owl#InspectionSpeed1
 :InspectionSpeed1 rdf:type owl:NamedIndividual ,
                            :Speed ;
                   :determines :VelocityRequirement_Indoor ;
@@ -749,142 +1288,371 @@
                   :hasValue "10.0"^^xsd:double .
 
 
-###  https://purl.org/ontodesign#LocomotionMechanismRequirement_Indoor
+###  http://www.semanticweb.org/ontologies/RoboDesign.owl#Length1234
+:Length1234 rdf:type owl:NamedIndividual ,
+                     :Size .
+
+
+###  http://www.semanticweb.org/ontologies/RoboDesign.owl#LocomotionCapabilityRequirement1
+:LocomotionCapabilityRequirement1 rdf:type owl:NamedIndividual ,
+                                           :LocomotionCapabilityRequirement ,
+                                           :RobotSystemHardwareRequirement .
+
+
+###  http://www.semanticweb.org/ontologies/RoboDesign.owl#LocomotionMechanismCharacteristicRequirement1
+:LocomotionMechanismCharacteristicRequirement1 rdf:type owl:NamedIndividual ,
+                                                        :RobotSystemHardwareRequirement .
+
+
+###  http://www.semanticweb.org/ontologies/RoboDesign.owl#LocomotionMechanismRequirement_Indoor
 :LocomotionMechanismRequirement_Indoor rdf:type owl:NamedIndividual .
 
 
-###  https://purl.org/ontodesign#Moisture1
+###  http://www.semanticweb.org/ontologies/RoboDesign.owl#Moisture1
 :Moisture1 rdf:type owl:NamedIndividual ,
                     :BuildingDefect ;
-           :causes :AbnormalArea1 .
+           :causes :AbnormalArea1 ;
+           :isLocatedAt :Ceiling1 .
 
 
-###  https://purl.org/ontodesign#Moisture2
+###  http://www.semanticweb.org/ontologies/RoboDesign.owl#Moisture2
 :Moisture2 rdf:type owl:NamedIndividual ,
                     :BuildingDefect ;
-           :causes :AbnormalArea2 .
+           :causes :AbnormalArea2 ;
+           :isLocatedAt :Wall2 .
 
 
-###  https://purl.org/ontodesign#Moisture3
+###  http://www.semanticweb.org/ontologies/RoboDesign.owl#Moisture3
 :Moisture3 rdf:type owl:NamedIndividual ,
                     :BuildingDefect ;
-           :causes :AbnormalArea3 .
+           :causes :AbnormalArea3 ;
+           :isLocatedAt :Floor3 .
 
 
-###  https://purl.org/ontodesign#Moisture4
+###  http://www.semanticweb.org/ontologies/RoboDesign.owl#Moisture4
 :Moisture4 rdf:type owl:NamedIndividual ,
                     :BuildingDefect ;
-           :causes :AbnormalArea4 .
+           :causes :AbnormalArea4 ;
+           :isLocatedAt :Wall4 .
 
 
-###  https://purl.org/ontodesign#MoistureMeter2
+###  http://www.semanticweb.org/ontologies/RoboDesign.owl#MoistureMeter2
 :MoistureMeter2 rdf:type owl:NamedIndividual ,
                          :AuxiliaryEquipment .
 
 
-###  https://purl.org/ontodesign#ObstacleDepth1
+###  http://www.semanticweb.org/ontologies/RoboDesign.owl#Obstacle2
+:Obstacle2 rdf:type owl:NamedIndividual ,
+                    :Width .
+
+
+###  http://www.semanticweb.org/ontologies/RoboDesign.owl#ObstacleDepth1
 :ObstacleDepth1 rdf:type owl:NamedIndividual ,
-                         :Attribute ;
+                         :Attribute ,
+                         :Depth ;
                 :determines :ObstacleOvercomingAbilityRequirement_Indoor ;
                 :hasUnit "mm" ;
                 :hasValue "10.0"^^xsd:double .
 
 
-###  https://purl.org/ontodesign#ObstacleDepth2
+###  http://www.semanticweb.org/ontologies/RoboDesign.owl#ObstacleDepth2
 :ObstacleDepth2 rdf:type owl:NamedIndividual ,
-                         :Attribute ;
+                         :Attribute ,
+                         :Depth ;
                 :determines :ObstacleOvercomingAbilityRequirement_Indoor ;
                 :hasUnit "mm" ;
                 :hasValue "15.0"^^xsd:double .
 
 
-###  https://purl.org/ontodesign#ObstacleDepth3
+###  http://www.semanticweb.org/ontologies/RoboDesign.owl#ObstacleDepth3
 :ObstacleDepth3 rdf:type owl:NamedIndividual ,
-                         :Attribute ;
+                         :Attribute ,
+                         :Depth ;
                 :determines :ObstacleOvercomingAbilityRequirement_Indoor ;
                 :hasUnit "mm" ;
                 :hasValue "20.0"^^xsd:double .
 
 
-###  https://purl.org/ontodesign#ObstacleOvercomingAbilityRequirement_Indoor
+###  http://www.semanticweb.org/ontologies/RoboDesign.owl#ObstacleHeight1
+:ObstacleHeight1 rdf:type owl:NamedIndividual ,
+                          :Attribute ,
+                          :Height ;
+                 :determines :ObstacleOvercomingAbilityRequirement_Indoor ;
+                 :hasUnit "mm" ;
+                 :hasValue "30.0"^^xsd:double .
+
+
+###  http://www.semanticweb.org/ontologies/RoboDesign.owl#ObstacleHeight2
+:ObstacleHeight2 rdf:type owl:NamedIndividual ,
+                          :Attribute ,
+                          :Height ;
+                 :determines :ObstacleOvercomingAbilityRequirement_Indoor ;
+                 :hasUnit "mm" ;
+                 :hasValue "20.0"^^xsd:double .
+
+
+###  http://www.semanticweb.org/ontologies/RoboDesign.owl#ObstacleHeight3
+:ObstacleHeight3 rdf:type owl:NamedIndividual ,
+                          :Attribute ,
+                          :Height ;
+                 :determines :ObstacleOvercomingAbilityRequirement_Indoor ;
+                 :hasUnit "mm" ;
+                 :hasValue "12.0"^^xsd:double .
+
+
+###  http://www.semanticweb.org/ontologies/RoboDesign.owl#ObstacleOvercomingAbilityRequirement_Indoor
 :ObstacleOvercomingAbilityRequirement_Indoor rdf:type owl:NamedIndividual .
 
 
-###  https://purl.org/ontodesign#ObstacleWidth1
+###  http://www.semanticweb.org/ontologies/RoboDesign.owl#ObstacleWidth1
 :ObstacleWidth1 rdf:type owl:NamedIndividual ,
-                         :Attribute ;
+                         :Attribute ,
+                         :Width ;
                 :determines :ObstacleOvercomingAbilityRequirement_Indoor ;
                 :hasUnit "mm" ;
                 :hasValue "15.0"^^xsd:double .
 
 
-###  https://purl.org/ontodesign#SizeRequirement_Indoor
+###  http://www.semanticweb.org/ontologies/RoboDesign.owl#ObstacleWidth2
+:ObstacleWidth2 rdf:type owl:NamedIndividual ,
+                         :Width ;
+                :determines :ObstacleOvercomingAbilityRequirement_Indoor ;
+                :hasUnit "mm" ;
+                :hasValue "20.0"^^xsd:double .
+
+
+###  http://www.semanticweb.org/ontologies/RoboDesign.owl#ObstacleWidth3
+:ObstacleWidth3 rdf:type owl:NamedIndividual ,
+                         :Width ;
+                :determines :ObstacleOvercomingAbilityRequirement_Indoor ;
+                :hasUnit "mm" ;
+                :hasValue "40.0"^^xsd:double .
+
+
+###  http://www.semanticweb.org/ontologies/RoboDesign.owl#ObstacleWidth4
+:ObstacleWidth4 rdf:type owl:NamedIndividual ,
+                         :Width ;
+                :determines :ObstacleOvercomingAbilityRequirement_Indoor ;
+                :hasUnit "mm" ;
+                :hasValue "10.0"^^xsd:double .
+
+
+###  http://www.semanticweb.org/ontologies/RoboDesign.owl#OperationalCapabilityRequirement1
+:OperationalCapabilityRequirement1 rdf:type owl:NamedIndividual ,
+                                            :OperationalCapabilityRequirement ,
+                                            :RobotSystemHardwareRequirement .
+
+
+###  http://www.semanticweb.org/ontologies/RoboDesign.owl#OvercomingSurfaceObstacle2
+:OvercomingSurfaceObstacle2 rdf:type owl:NamedIndividual ,
+                                     :RobotBehavior ;
+                            :occursAt :WorkEnvironment2 .
+
+
+###  http://www.semanticweb.org/ontologies/RoboDesign.owl#OvercomingSurfaceObstacle3
+:OvercomingSurfaceObstacle3 rdf:type owl:NamedIndividual ,
+                                     :RobotBehavior ;
+                            :occursAt :WorkEnvironment3 .
+
+
+###  http://www.semanticweb.org/ontologies/RoboDesign.owl#Robot1234
+:Robot1234 rdf:type owl:NamedIndividual ,
+                    :Width .
+
+
+###  http://www.semanticweb.org/ontologies/RoboDesign.owl#SensoryCapabilityRequirement1
+:SensoryCapabilityRequirement1 rdf:type owl:NamedIndividual ,
+                                        :RobotSystemHardwareRequirement ,
+                                        :SensoryCapabilityRequirement ;
+                               :determines :SensoryCapabilityRequirement1 .
+
+
+###  http://www.semanticweb.org/ontologies/RoboDesign.owl#SizeRequirement1
+:SizeRequirement1 rdf:type owl:NamedIndividual ,
+                           :RobotSystemHardwareRequirement ,
+                           :SizeRequirement .
+
+
+###  http://www.semanticweb.org/ontologies/RoboDesign.owl#SizeRequirement_Indoor
 :SizeRequirement_Indoor rdf:type owl:NamedIndividual ,
                                  :SizeRequirement .
 
 
-###  https://purl.org/ontodesign#TemperatureChange1
+###  http://www.semanticweb.org/ontologies/RoboDesign.owl#Surface1
+:Surface1 rdf:type owl:NamedIndividual ,
+                   :Surface ;
+          :hasDustiness :Dustiness1 ;
+          :hasSurfaceAttribute :InclinationAngle1 ,
+                               :SurfaceOrientation1 ;
+          :hasSurfaceMaterial :Wallpaper1 .
+
+
+###  http://www.semanticweb.org/ontologies/RoboDesign.owl#Surface2
+:Surface2 rdf:type owl:NamedIndividual ,
+                   :Surface ;
+          :hasDustiness :Dustiness2 ;
+          :hasSurfaceAttribute :InclinationAngle2 ,
+                               :SurfaceOrientation234 ;
+          :hasSurfaceMaterial :Ceramics2 .
+
+
+###  http://www.semanticweb.org/ontologies/RoboDesign.owl#Surface3
+:Surface3 rdf:type owl:NamedIndividual ,
+                   :Surface ;
+          :hasDustiness :Dustiness3 ;
+          :hasSurfaceAttribute :InclinationAngle3 ,
+                               :SurfaceOrientation234 ;
+          :hasSurfaceMaterial :Glass3 .
+
+
+###  http://www.semanticweb.org/ontologies/RoboDesign.owl#Surface4
+:Surface4 rdf:type owl:NamedIndividual ,
+                   :Surface ;
+          :hasDustiness :Dustiness4 ;
+          :hasSurfaceAttribute :InclinationAngle4 ,
+                               :SurfaceOrientation234 ;
+          :hasSurfaceMaterial :Wallpaper4 .
+
+
+###  http://www.semanticweb.org/ontologies/RoboDesign.owl#SurfaceOrientation1
+:SurfaceOrientation1 rdf:type owl:NamedIndividual ,
+                              :SurfaceOrientation ;
+                     :determines :AdhesionMechanismRequirement_Indoor ;
+                     :isInverted "true"^^xsd:boolean .
+
+
+###  http://www.semanticweb.org/ontologies/RoboDesign.owl#SurfaceOrientation234
+:SurfaceOrientation234 rdf:type owl:NamedIndividual ,
+                                :SurfaceOrientation ;
+                       :determines :AdhesionMechanismRequirement_Indoor ;
+                       :isInverted "false"^^xsd:boolean .
+
+
+###  http://www.semanticweb.org/ontologies/RoboDesign.owl#TemperatureChange1
 :TemperatureChange1 rdf:type owl:NamedIndividual ,
-                             :DetectableAttribute .
+                             :DetectableAttribute ;
+                    :determines :SensoryCapabilityRequirement1 .
 
 
-###  https://purl.org/ontodesign#TemperatureChange2
+###  http://www.semanticweb.org/ontologies/RoboDesign.owl#TemperatureChange2
 :TemperatureChange2 rdf:type owl:NamedIndividual ,
-                             :DetectableAttribute .
+                             :DetectableAttribute ;
+                    :determines :SensoryCapabilityRequirement1 .
 
 
-###  https://purl.org/ontodesign#TemperatureChange3
+###  http://www.semanticweb.org/ontologies/RoboDesign.owl#TemperatureChange3
 :TemperatureChange3 rdf:type owl:NamedIndividual ,
-                             :DetectableAttribute .
+                             :DetectableAttribute ;
+                    :determines :SensoryCapabilityRequirement1 .
 
 
-###  https://purl.org/ontodesign#TemperatureChange4
+###  http://www.semanticweb.org/ontologies/RoboDesign.owl#TemperatureChange4
 :TemperatureChange4 rdf:type owl:NamedIndividual ,
-                             :DetectableAttribute .
+                             :DetectableAttribute ;
+                    :determines :SensoryCapabilityRequirement1 .
 
 
-###  https://purl.org/ontodesign#ThermalCamera1
+###  http://www.semanticweb.org/ontologies/RoboDesign.owl#ThermalCamera1
 :ThermalCamera1 rdf:type owl:NamedIndividual ,
                          :AuxiliaryEquipment .
 
 
-###  https://purl.org/ontodesign#TransitionDexterityRequirement_Indoor
+###  http://www.semanticweb.org/ontologies/RoboDesign.owl#TransitionDexterityRequirement_Indoor
 :TransitionDexterityRequirement_Indoor rdf:type owl:NamedIndividual .
 
 
-###  https://purl.org/ontodesign#VelocityRequirement_Indoor
+###  http://www.semanticweb.org/ontologies/RoboDesign.owl#VelocityRequirement_Indoor
 :VelocityRequirement_Indoor rdf:type owl:NamedIndividual ,
                                      :VelocityRequirement .
 
 
-###  https://purl.org/ontodesign#Wall1
+###  http://www.semanticweb.org/ontologies/RoboDesign.owl#Wall1
 :Wall1 rdf:type owl:NamedIndividual ,
                 :BuildingElement .
 
 
-###  https://purl.org/ontodesign#Wall2
+###  http://www.semanticweb.org/ontologies/RoboDesign.owl#Wall2
 :Wall2 rdf:type owl:NamedIndividual ,
-                :BuildingElement .
+                :BuildingElement ;
+       :hasExposedSurface :Surface2 .
 
 
-###  https://purl.org/ontodesign#Wall4
+###  http://www.semanticweb.org/ontologies/RoboDesign.owl#Wall4
 :Wall4 rdf:type owl:NamedIndividual ,
-                :BuildingElement .
+                :BuildingElement ;
+       :hasExposedSurface :Surface4 .
 
 
-###  https://purl.org/ontodesign#WallCimbingRobot1
+###  http://www.semanticweb.org/ontologies/RoboDesign.owl#WallCimbingRobot1
 :WallCimbingRobot1 rdf:type owl:NamedIndividual ,
                             :WallClimbingRobot .
 
 
-###  https://purl.org/ontodesign#WallClimbingRobotSystem_indoor
+###  http://www.semanticweb.org/ontologies/RoboDesign.owl#WallClimbingRobotSystem_indoor
 :WallClimbingRobotSystem_indoor rdf:type owl:NamedIndividual ,
                                          :RobotSystem .
 
 
-###  https://purl.org/ontodesign#WidthConstraint2
+###  http://www.semanticweb.org/ontologies/RoboDesign.owl#Wallpaper1
+:Wallpaper1 rdf:type owl:NamedIndividual ,
+                     :SurfaceMaterial ;
+            :determines :AdhesionMechanismRequirement_Indoor ;
+            :isFerromagnetic "false"^^xsd:boolean ;
+            :isSmooth "false"^^xsd:boolean .
+
+
+###  http://www.semanticweb.org/ontologies/RoboDesign.owl#Wallpaper4
+:Wallpaper4 rdf:type owl:NamedIndividual ,
+                     :SurfaceMaterial ;
+            :determines :AdhesionMechanismRequirement_Indoor ;
+            :isFerromagnetic "false"^^xsd:boolean ;
+            :isSmooth "false"^^xsd:boolean .
+
+
+###  http://www.semanticweb.org/ontologies/RoboDesign.owl#WeatherResistanceRequirement
+:WeatherResistanceRequirement rdf:type owl:NamedIndividual ,
+                                       :RobotSystemHardwareRequirement ,
+                                       :WeatherResistanceRequirement .
+
+
+###  http://www.semanticweb.org/ontologies/RoboDesign.owl#WeightRequirement
+:WeightRequirement rdf:type owl:NamedIndividual ,
+                            :RobotSystemHardwareRequirement .
+
+
+###  http://www.semanticweb.org/ontologies/RoboDesign.owl#Width1234
+:Width1234 rdf:type owl:NamedIndividual ,
+                    :Size .
+
+
+###  http://www.semanticweb.org/ontologies/RoboDesign.owl#WidthConstraint2
 :WidthConstraint2 rdf:type owl:NamedIndividual ,
-                           :WidthConstraint .
+                           :WidthConstraint ;
+                  :determines :SizeRequirement1 .
+
+
+###  http://www.semanticweb.org/ontologies/RoboDesign.owl#WorkEnvironment1
+:WorkEnvironment1 rdf:type owl:NamedIndividual ,
+                           :WorkEnvironment ;
+                  :hasRobotMovementMedium :Surface1 .
+
+
+###  http://www.semanticweb.org/ontologies/RoboDesign.owl#WorkEnvironment2
+:WorkEnvironment2 rdf:type owl:NamedIndividual ,
+                           :WorkEnvironment ;
+                  :hasRobotMovementMedium :Surface2 .
+
+
+###  http://www.semanticweb.org/ontologies/RoboDesign.owl#WorkEnvironment3
+:WorkEnvironment3 rdf:type owl:NamedIndividual ,
+                           :WorkEnvironment ;
+                  :hasRobotMovementMedium :Surface3 .
+
+
+###  http://www.semanticweb.org/ontologies/RoboDesign.owl#WorkEnvironment4
+:WorkEnvironment4 rdf:type owl:NamedIndividual ,
+                           :WorkEnvironment ;
+                  :hasRobotMovementMedium :Surface4 .
 
 
 #################################################################

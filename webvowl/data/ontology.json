@@ -2,465 +2,904 @@
   "_comment" : "Created with OWL2VOWL (version 0.3.5), http://vowl.visualdataweb.org",
   "header" : {
     "languages" : [ "undefined" ],
-    "baseIris" : [ "http://www.w3.org/2002/07/owl", "http://www.w3.org/2000/01/rdf-schema", "https://purl.org/ontodesign", "http://www.w3.org/2001/XMLSchema" ],
-    "iri" : "https://purl.org/ontodesign"
+    "baseIris" : [ "http://www.semanticweb.org/ontologies/RoboDesign.owl", "http://www.w3.org/2002/07/owl", "http://www.w3.org/2000/01/rdf-schema", "http://www.w3.org/2001/XMLSchema" ],
+    "iri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl"
   },
   "namespace" : [ ],
   "class" : [ {
-    "id" : "25",
+    "id" : "17",
     "type" : "owl:Class"
   }, {
-    "id" : "42",
+    "id" : "27",
     "type" : "owl:Class"
   }, {
-    "id" : "26",
+    "id" : "29",
     "type" : "owl:Class"
   }, {
-    "id" : "45",
+    "id" : "31",
     "type" : "owl:Class"
   }, {
-    "id" : "82",
-    "type" : "owl:Class"
-  }, {
-    "id" : "9",
-    "type" : "owl:Class"
-  }, {
-    "id" : "49",
-    "type" : "owl:Class"
-  }, {
-    "id" : "43",
-    "type" : "owl:Class"
-  }, {
-    "id" : "93",
-    "type" : "owl:Class"
-  }, {
-    "id" : "94",
-    "type" : "owl:Class"
-  }, {
-    "id" : "83",
+    "id" : "33",
     "type" : "owl:Class"
   }, {
     "id" : "57",
     "type" : "owl:Class"
   }, {
-    "id" : "74",
-    "type" : "owl:Class"
+    "id" : "64",
+    "type" : "owl:Thing"
   }, {
-    "id" : "76",
-    "type" : "owl:Class"
+    "id" : "65",
+    "type" : "rdfs:Literal"
   }, {
-    "id" : "50",
-    "type" : "owl:Class"
+    "id" : "66",
+    "type" : "rdfs:Literal"
   }, {
-    "id" : "17",
-    "type" : "owl:Class"
-  }, {
-    "id" : "92",
-    "type" : "owl:Class"
-  }, {
-    "id" : "11",
-    "type" : "owl:Class"
-  }, {
-    "id" : "13",
-    "type" : "owl:Class"
-  }, {
-    "id" : "104",
-    "type" : "owl:Class"
-  }, {
-    "id" : "105",
-    "type" : "owl:Class"
+    "id" : "67",
+    "type" : "owl:Thing"
   }, {
     "id" : "68",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "69",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "18",
+    "type" : "owl:Class"
+  }, {
+    "id" : "77",
     "type" : "owl:Class"
   }, {
     "id" : "80",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "81",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "82",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "83",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "34",
     "type" : "owl:Class"
   }, {
-    "id" : "123",
+    "id" : "86",
     "type" : "owl:Class"
   }, {
-    "id" : "73",
+    "id" : "88",
     "type" : "owl:Class"
   }, {
-    "id" : "111",
+    "id" : "89",
     "type" : "owl:Class"
   }, {
-    "id" : "118",
+    "id" : "1",
     "type" : "owl:Class"
   }, {
-    "id" : "19",
-    "type" : "owl:Class"
-  }, {
-    "id" : "143",
-    "type" : "owl:Class"
-  }, {
-    "id" : "55",
-    "type" : "owl:Class"
-  }, {
-    "id" : "4",
-    "type" : "owl:Class"
-  }, {
-    "id" : "154",
-    "type" : "rdfs:Datatype"
-  }, {
-    "id" : "63",
-    "type" : "owl:Class"
-  }, {
-    "id" : "162",
-    "type" : "rdfs:Datatype"
-  }, {
-    "id" : "2",
-    "type" : "owl:Class"
-  }, {
-    "id" : "164",
-    "type" : "rdfs:Datatype"
-  }, {
-    "id" : "101",
-    "type" : "owl:Class"
-  }, {
-    "id" : "168",
-    "type" : "owl:Class"
-  }, {
-    "id" : "66",
-    "type" : "owl:Class"
-  }, {
-    "id" : "7",
-    "type" : "owl:Class"
-  }, {
-    "id" : "47",
-    "type" : "owl:Class"
-  }, {
-    "id" : "145",
-    "type" : "owl:Class"
-  }, {
-    "id" : "23",
-    "type" : "owl:Class"
-  }, {
-    "id" : "182",
-    "type" : "rdfs:Datatype"
-  }, {
-    "id" : "183",
-    "type" : "owl:Class"
-  }, {
-    "id" : "100",
-    "type" : "owl:unionOf"
-  }, {
-    "id" : "184",
-    "type" : "owl:unionOf"
-  }, {
-    "id" : "112",
-    "type" : "owl:Class"
-  }, {
-    "id" : "116",
-    "type" : "owl:Class"
-  }, {
-    "id" : "191",
-    "type" : "rdfs:Datatype"
-  }, {
-    "id" : "5",
-    "type" : "owl:Class"
-  }, {
-    "id" : "91",
-    "type" : "owl:Class"
-  }, {
-    "id" : "113",
-    "type" : "owl:Class"
-  }, {
-    "id" : "69",
-    "type" : "owl:Class"
-  }, {
-    "id" : "109",
+    "id" : "90",
     "type" : "owl:Class"
   }, {
     "id" : "61",
     "type" : "owl:Class"
   }, {
-    "id" : "185",
+    "id" : "93",
     "type" : "owl:Class"
   }, {
-    "id" : "54",
+    "id" : "96",
     "type" : "owl:Class"
-  }, {
-    "id" : "156",
-    "type" : "rdfs:Datatype"
-  }, {
-    "id" : "107",
-    "type" : "rdfs:Literal"
-  }, {
-    "id" : "115",
-    "type" : "owl:Thing"
-  }, {
-    "id" : "52",
-    "type" : "owl:Class"
-  }, {
-    "id" : "122",
-    "type" : "owl:Class"
-  }, {
-    "id" : "78",
-    "type" : "owl:Class"
-  }, {
-    "id" : "190",
-    "type" : "rdfs:Literal"
-  }, {
-    "id" : "90",
-    "type" : "owl:Thing"
-  }, {
-    "id" : "212",
-    "type" : "rdfs:Literal"
   }, {
     "id" : "97",
-    "type" : "rdfs:Literal"
+    "type" : "owl:Class"
   }, {
-    "id" : "59",
-    "type" : "rdfs:Literal"
+    "id" : "2",
+    "type" : "owl:Class"
+  }, {
+    "id" : "7",
+    "type" : "owl:Class"
+  }, {
+    "id" : "105",
+    "type" : "owl:Class"
+  }, {
+    "id" : "16",
+    "type" : "owl:Class"
+  }, {
+    "id" : "109",
+    "type" : "owl:Class"
+  }, {
+    "id" : "74",
+    "type" : "owl:Class"
+  }, {
+    "id" : "131",
+    "type" : "owl:Class"
+  }, {
+    "id" : "12",
+    "type" : "owl:Class"
+  }, {
+    "id" : "154",
+    "type" : "owl:Class"
+  }, {
+    "id" : "121",
+    "type" : "owl:Class"
+  }, {
+    "id" : "99",
+    "type" : "owl:Class"
+  }, {
+    "id" : "147",
+    "type" : "owl:Class"
+  }, {
+    "id" : "144",
+    "type" : "owl:Class"
+  }, {
+    "id" : "133",
+    "type" : "owl:Class"
+  }, {
+    "id" : "175",
+    "type" : "owl:Class"
+  }, {
+    "id" : "101",
+    "type" : "owl:Class"
+  }, {
+    "id" : "186",
+    "type" : "owl:Class"
+  }, {
+    "id" : "6",
+    "type" : "owl:Class"
+  }, {
+    "id" : "25",
+    "type" : "owl:Class"
+  }, {
+    "id" : "63",
+    "type" : "owl:Class"
+  }, {
+    "id" : "146",
+    "type" : "owl:Class"
   }, {
     "id" : "135",
-    "type" : "owl:Thing"
+    "type" : "owl:Class"
   }, {
-    "id" : "20",
+    "id" : "60",
+    "type" : "owl:Class"
+  }, {
+    "id" : "75",
+    "type" : "owl:Class"
+  }, {
+    "id" : "11",
+    "type" : "owl:Class"
+  }, {
+    "id" : "213",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "217",
     "type" : "owl:Class"
   }, {
     "id" : "87",
-    "type" : "rdfs:Literal"
+    "type" : "owl:Class"
+  }, {
+    "id" : "123",
+    "type" : "owl:Class"
+  }, {
+    "id" : "149",
+    "type" : "owl:Class"
+  }, {
+    "id" : "194",
+    "type" : "owl:Class"
+  }, {
+    "id" : "127",
+    "type" : "owl:Class"
+  }, {
+    "id" : "35",
+    "type" : "owl:Class"
+  }, {
+    "id" : "226",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "115",
+    "type" : "owl:Class"
   }, {
     "id" : "169",
-    "type" : "owl:Thing"
+    "type" : "owl:Class"
   }, {
-    "id" : "131",
-    "type" : "owl:Thing"
+    "id" : "137",
+    "type" : "owl:Class"
   }, {
-    "id" : "15",
-    "type" : "owl:Thing"
+    "id" : "239",
+    "type" : "owl:Class"
   }, {
-    "id" : "1",
+    "id" : "151",
+    "type" : "owl:Class"
+  }, {
+    "id" : "153",
+    "type" : "owl:Class"
+  }, {
+    "id" : "255",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "14",
+    "type" : "owl:Class"
+  }, {
+    "id" : "107",
+    "type" : "owl:Class"
+  }, {
+    "id" : "141",
+    "type" : "owl:Class"
+  }, {
+    "id" : "28",
+    "type" : "owl:Class"
+  }, {
+    "id" : "118",
+    "type" : "owl:Class"
+  }, {
+    "id" : "125",
+    "type" : "owl:Class"
+  }, {
+    "id" : "158",
+    "type" : "owl:Class"
+  }, {
+    "id" : "84",
+    "type" : "owl:Class"
+  }, {
+    "id" : "156",
+    "type" : "owl:Class"
+  }, {
+    "id" : "32",
+    "type" : "owl:Class"
+  }, {
+    "id" : "104",
     "type" : "owl:Class"
   }, {
     "id" : "103",
+    "type" : "owl:Class"
+  }, {
+    "id" : "9",
+    "type" : "owl:Class"
+  }, {
+    "id" : "276",
     "type" : "rdfs:Datatype"
   }, {
-    "id" : "188",
+    "id" : "278",
     "type" : "rdfs:Datatype"
   }, {
-    "id" : "22",
+    "id" : "58",
+    "type" : "owl:Class"
+  }, {
+    "id" : "235",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "112",
+    "type" : "owl:Class"
+  }, {
+    "id" : "219",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "95",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "237",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "20",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "190",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "189",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "178",
+    "type" : "owl:Class"
+  }, {
+    "id" : "4",
+    "type" : "owl:Class"
+  }, {
+    "id" : "183",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "92",
+    "type" : "owl:Class"
+  }, {
+    "id" : "254",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "177",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "110",
+    "type" : "owl:Class"
+  }, {
+    "id" : "272",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "299",
     "type" : "owl:unionOf"
   }, {
-    "id" : "85",
+    "id" : "290",
+    "type" : "owl:unionOf"
+  }, {
+    "id" : "30",
+    "type" : "owl:Class"
+  }, {
+    "id" : "168",
+    "type" : "owl:unionOf"
+  }, {
+    "id" : "301",
     "type" : "rdfs:Datatype"
   }, {
-    "id" : "172",
-    "type" : "rdfs:Datatype"
+    "id" : "260",
+    "type" : "owl:unionOf"
   } ],
   "classAttribute" : [ {
-    "iri" : "https://purl.org/ontodesign#SizeRequirement",
-    "baseIri" : "https://purl.org/ontodesign",
+    "iri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl#SizeRequirement",
+    "baseIri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl",
     "instances" : 0,
     "label" : {
       "IRI-based" : "SizeRequirement"
     },
     "individuals" : [ {
-      "iri" : "https://purl.org/ontodesign#SizeRequirement_Indoor",
-      "baseIri" : "https://purl.org/ontodesign",
+      "iri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl#SizeRequirement1",
+      "baseIri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl",
+      "labels" : {
+        "IRI-based" : "SizeRequirement1"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl#SizeRequirement_Indoor",
+      "baseIri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl",
       "labels" : {
         "IRI-based" : "SizeRequirement_Indoor"
       }
     } ],
-    "id" : "25",
-    "superClasses" : [ "26" ]
+    "id" : "17",
+    "superClasses" : [ "18" ]
   }, {
-    "iri" : "https://purl.org/ontodesign#Height",
-    "baseIri" : "https://purl.org/ontodesign",
+    "iri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl#Depth",
+    "baseIri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Depth"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl#Depth2",
+      "baseIri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl",
+      "labels" : {
+        "IRI-based" : "Depth2"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl#ObstacleDepth2",
+      "baseIri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl",
+      "labels" : {
+        "IRI-based" : "ObstacleDepth2"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl#ObstacleDepth1",
+      "baseIri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl",
+      "labels" : {
+        "IRI-based" : "ObstacleDepth1"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl#ObstacleDepth3",
+      "baseIri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl",
+      "labels" : {
+        "IRI-based" : "ObstacleDepth3"
+      }
+    } ],
+    "id" : "27",
+    "superClasses" : [ "28" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl#InclinationAngle",
+    "baseIri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "InclinationAngle"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl#InclinationAngle4",
+      "baseIri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl",
+      "labels" : {
+        "IRI-based" : "InclinationAngle4"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl#InclinationAngle2",
+      "baseIri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl",
+      "labels" : {
+        "IRI-based" : "InclinationAngle2"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl#InclinationAngle3",
+      "baseIri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl",
+      "labels" : {
+        "IRI-based" : "InclinationAngle3"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl#InclinationAngle1",
+      "baseIri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl",
+      "labels" : {
+        "IRI-based" : "InclinationAngle1"
+      }
+    } ],
+    "id" : "29",
+    "superClasses" : [ "30" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl#ConvexObstacle",
+    "baseIri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "ConvexObstacle"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl#ConvexObstacle3",
+      "baseIri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl",
+      "labels" : {
+        "IRI-based" : "ConvexObstacle3"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl#ConvexObstacle1",
+      "baseIri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl",
+      "labels" : {
+        "IRI-based" : "ConvexObstacle1"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl#ConvexObstacle2",
+      "baseIri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl",
+      "labels" : {
+        "IRI-based" : "ConvexObstacle2"
+      }
+    } ],
+    "id" : "31",
+    "superClasses" : [ "32" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl#Shape",
+    "baseIri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Shape"
+    },
+    "subClasses" : [ "34", "35" ],
+    "id" : "33",
+    "superClasses" : [ "30" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl#Visibility",
+    "baseIri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Visibility"
+    },
+    "id" : "57",
+    "superClasses" : [ "58" ]
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "64",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "65",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "66",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "67",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "68",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "69",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl#StructuralCharacteristicsRequirement",
+    "baseIri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "StructuralCharacteristicsRequirement"
+    },
+    "subClasses" : [ "17" ],
+    "id" : "18",
+    "superClasses" : [ "75" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl#Height",
+    "baseIri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl",
     "instances" : 0,
     "label" : {
       "IRI-based" : "Height"
     },
     "individuals" : [ {
-      "iri" : "https://purl.org/ontodesign#Height1",
-      "baseIri" : "https://purl.org/ontodesign",
+      "iri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl#ObstacleHeight3",
+      "baseIri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl",
       "labels" : {
-        "IRI-based" : "Height1"
+        "IRI-based" : "ObstacleHeight3"
       }
     }, {
-      "iri" : "https://purl.org/ontodesign#Height2",
-      "baseIri" : "https://purl.org/ontodesign",
+      "iri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl#ObstacleHeight2",
+      "baseIri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl",
+      "labels" : {
+        "IRI-based" : "ObstacleHeight2"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl#ObstacleHeight1",
+      "baseIri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl",
+      "labels" : {
+        "IRI-based" : "ObstacleHeight1"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl#Height3",
+      "baseIri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl",
+      "labels" : {
+        "IRI-based" : "Height3"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl#Height2",
+      "baseIri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl",
       "labels" : {
         "IRI-based" : "Height2"
       }
     }, {
-      "iri" : "https://purl.org/ontodesign#Height3",
-      "baseIri" : "https://purl.org/ontodesign",
+      "iri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl#Height1",
+      "baseIri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl",
       "labels" : {
-        "IRI-based" : "Height3"
+        "IRI-based" : "Height1"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl#Height4",
+      "baseIri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl",
+      "labels" : {
+        "IRI-based" : "Height4"
       }
     } ],
-    "id" : "42",
-    "superClasses" : [ "43" ]
+    "id" : "77",
+    "superClasses" : [ "28" ]
   }, {
-    "iri" : "https://purl.org/ontodesign#StructuralCharacteristicsRequirement",
-    "baseIri" : "https://purl.org/ontodesign",
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "80",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "81",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "82",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "83",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl#Curved",
+    "baseIri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl",
     "instances" : 0,
     "label" : {
-      "IRI-based" : "StructuralCharacteristicsRequirement"
+      "IRI-based" : "Curved"
     },
-    "subClasses" : [ "25" ],
-    "id" : "26",
-    "superClasses" : [ "63" ]
+    "id" : "34",
+    "superClasses" : [ "33" ]
   }, {
-    "iri" : "https://purl.org/ontodesign#LocomotionCapabilityRequirement",
-    "baseIri" : "https://purl.org/ontodesign",
+    "iri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl#Weight",
+    "baseIri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl",
     "instances" : 0,
     "label" : {
-      "IRI-based" : "LocomotionCapabilityRequirement"
+      "IRI-based" : "Weight"
     },
-    "subClasses" : [ "69" ],
-    "id" : "45",
-    "superClasses" : [ "2" ]
+    "id" : "86",
+    "superClasses" : [ "87" ]
   }, {
-    "iri" : "https://purl.org/ontodesign#IndoorSpace",
-    "baseIri" : "https://purl.org/ontodesign",
+    "iri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl#Angle",
+    "baseIri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl",
     "instances" : 0,
     "label" : {
-      "IRI-based" : "IndoorSpace"
+      "IRI-based" : "Angle"
     },
     "individuals" : [ {
-      "iri" : "https://purl.org/ontodesign#IndoorSpace1",
-      "baseIri" : "https://purl.org/ontodesign",
+      "iri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl#Angle3",
+      "baseIri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl",
       "labels" : {
-        "IRI-based" : "IndoorSpace1"
+        "IRI-based" : "Angle3"
       }
     }, {
-      "iri" : "https://purl.org/ontodesign#IndoorSpace2",
-      "baseIri" : "https://purl.org/ontodesign",
+      "iri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl#Angle1",
+      "baseIri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl",
       "labels" : {
-        "IRI-based" : "IndoorSpace2"
+        "IRI-based" : "Angle1"
       }
     }, {
-      "iri" : "https://purl.org/ontodesign#IndoorSpace3",
-      "baseIri" : "https://purl.org/ontodesign",
+      "iri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl#Angle4",
+      "baseIri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl",
       "labels" : {
-        "IRI-based" : "IndoorSpace3"
+        "IRI-based" : "Angle4"
       }
     }, {
-      "iri" : "https://purl.org/ontodesign#IndoorSpace4",
-      "baseIri" : "https://purl.org/ontodesign",
+      "iri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl#Angle2_2",
+      "baseIri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl",
       "labels" : {
-        "IRI-based" : "IndoorSpace4"
+        "IRI-based" : "Angle2_2"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl#Angle2_1",
+      "baseIri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl",
+      "labels" : {
+        "IRI-based" : "Angle2_1"
       }
     } ],
-    "id" : "82"
+    "id" : "88",
+    "superClasses" : [ "28" ]
   }, {
-    "iri" : "https://purl.org/ontodesign#Visibility",
-    "baseIri" : "https://purl.org/ontodesign",
+    "iri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl#DetectableAttribute",
+    "baseIri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl",
     "instances" : 0,
     "label" : {
-      "IRI-based" : "Visibility"
+      "IRI-based" : "DetectableAttribute"
     },
-    "id" : "9",
-    "superClasses" : [ "5" ]
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl#TemperatureChange2",
+      "baseIri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl",
+      "labels" : {
+        "IRI-based" : "TemperatureChange2"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl#TemperatureChange1",
+      "baseIri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl",
+      "labels" : {
+        "IRI-based" : "TemperatureChange1"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl#TemperatureChange4",
+      "baseIri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl",
+      "labels" : {
+        "IRI-based" : "TemperatureChange4"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl#TemperatureChange3",
+      "baseIri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl",
+      "labels" : {
+        "IRI-based" : "TemperatureChange3"
+      }
+    } ],
+    "comment" : {
+      "undefined" : "DetectableAttribute refers to attributes whose values would change due to defects."
+    },
+    "id" : "89",
+    "superClasses" : [ "28" ]
   }, {
-    "iri" : "https://purl.org/ontodesign#WidthConstraint",
-    "baseIri" : "https://purl.org/ontodesign",
+    "iri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl#WidthConstraint",
+    "baseIri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl",
     "instances" : 0,
     "label" : {
       "IRI-based" : "WidthConstraint"
     },
     "individuals" : [ {
-      "iri" : "https://purl.org/ontodesign#WidthConstraint2",
-      "baseIri" : "https://purl.org/ontodesign",
+      "iri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl#WidthConstraint2",
+      "baseIri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl",
       "labels" : {
         "IRI-based" : "WidthConstraint2"
       }
     } ],
-    "id" : "49",
-    "superClasses" : [ "50" ]
+    "id" : "1",
+    "superClasses" : [ "2" ]
   }, {
-    "iri" : "https://purl.org/ontodesign#Attribute",
-    "baseIri" : "https://purl.org/ontodesign",
+    "iri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl#IndoorSpace",
+    "baseIri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl",
     "instances" : 0,
     "label" : {
-      "IRI-based" : "Attribute"
+      "IRI-based" : "IndoorSpace"
     },
     "individuals" : [ {
-      "iri" : "https://purl.org/ontodesign#ObstacleWidth1",
-      "baseIri" : "https://purl.org/ontodesign",
+      "iri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl#IndoorSpace1",
+      "baseIri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl",
+      "labels" : {
+        "IRI-based" : "IndoorSpace1"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl#IndoorSpace3",
+      "baseIri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl",
+      "labels" : {
+        "IRI-based" : "IndoorSpace3"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl#IndoorSpace2",
+      "baseIri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl",
+      "labels" : {
+        "IRI-based" : "IndoorSpace2"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl#IndoorSpace4",
+      "baseIri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl",
+      "labels" : {
+        "IRI-based" : "IndoorSpace4"
+      }
+    } ],
+    "id" : "90"
+  }, {
+    "iri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl#RobotMovementMedium",
+    "baseIri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "RobotMovementMedium"
+    },
+    "subClasses" : [ "60" ],
+    "comment" : {
+      "undefined" : "RobotMovementMedium is what the robot relies on for its movement."
+    },
+    "id" : "61"
+  }, {
+    "iri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl#GroundBasedRobot",
+    "baseIri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "GroundBasedRobot"
+    },
+    "id" : "93",
+    "superClasses" : [ "92" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl#Width",
+    "baseIri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Width"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl#Obstacle2",
+      "baseIri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl",
+      "labels" : {
+        "IRI-based" : "Obstacle2"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl#ObstacleWidth4",
+      "baseIri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl",
+      "labels" : {
+        "IRI-based" : "ObstacleWidth4"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl#ObstacleWidth1",
+      "baseIri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl",
       "labels" : {
         "IRI-based" : "ObstacleWidth1"
       }
     }, {
-      "iri" : "https://purl.org/ontodesign#ObstacleDepth2",
-      "baseIri" : "https://purl.org/ontodesign",
+      "iri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl#Robot1234",
+      "baseIri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl",
       "labels" : {
-        "IRI-based" : "ObstacleDepth2"
+        "IRI-based" : "Robot1234"
       }
     }, {
-      "iri" : "https://purl.org/ontodesign#ObstacleDepth3",
-      "baseIri" : "https://purl.org/ontodesign",
+      "iri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl#ObstacleWidth2",
+      "baseIri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl",
       "labels" : {
-        "IRI-based" : "ObstacleDepth3"
+        "IRI-based" : "ObstacleWidth2"
       }
     }, {
-      "iri" : "https://purl.org/ontodesign#ObstacleDepth1",
-      "baseIri" : "https://purl.org/ontodesign",
+      "iri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl#ObstacleWidth3",
+      "baseIri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl",
       "labels" : {
-        "IRI-based" : "ObstacleDepth1"
+        "IRI-based" : "ObstacleWidth3"
       }
     } ],
-    "subClasses" : [ "91", "92", "42", "76" ],
-    "id" : "43"
+    "id" : "96",
+    "superClasses" : [ "28" ]
   }, {
-    "iri" : "https://purl.org/ontodesign#AbnormalArea",
-    "baseIri" : "https://purl.org/ontodesign",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "AbnormalArea"
-    },
-    "individuals" : [ {
-      "iri" : "https://purl.org/ontodesign#AbnormalArea4",
-      "baseIri" : "https://purl.org/ontodesign",
-      "labels" : {
-        "IRI-based" : "AbnormalArea4"
-      }
-    }, {
-      "iri" : "https://purl.org/ontodesign#AbnormalArea3",
-      "baseIri" : "https://purl.org/ontodesign",
-      "labels" : {
-        "IRI-based" : "AbnormalArea3"
-      }
-    }, {
-      "iri" : "https://purl.org/ontodesign#AbnormalArea2",
-      "baseIri" : "https://purl.org/ontodesign",
-      "labels" : {
-        "IRI-based" : "AbnormalArea2"
-      }
-    }, {
-      "iri" : "https://purl.org/ontodesign#AbnormalArea1",
-      "baseIri" : "https://purl.org/ontodesign",
-      "labels" : {
-        "IRI-based" : "AbnormalArea1"
-      }
-    } ],
-    "comment" : {
-      "undefined" : "AbnormalArea is an area that has some anomalies compared to other areas of the same building element. This area is caused by the BuildingDefect, and it usually has some variations in the values of some attributes."
-    },
-    "id" : "93"
-  }, {
-    "iri" : "https://purl.org/ontodesign#WeatherResistance",
-    "baseIri" : "https://purl.org/ontodesign",
+    "iri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl#WeatherResistance",
+    "baseIri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl",
     "instances" : 0,
     "label" : {
       "IRI-based" : "WeatherResistance"
     },
-    "id" : "94",
-    "superClasses" : [ "20" ]
+    "id" : "97",
+    "superClasses" : [ "84" ]
   }, {
-    "iri" : "https://purl.org/ontodesign#RobotSystem",
-    "baseIri" : "https://purl.org/ontodesign",
+    "iri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl#PhysicalConstraintToRobot",
+    "baseIri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "PhysicalConstraintToRobot"
+    },
+    "subClasses" : [ "63", "1", "4" ],
+    "comment" : {
+      "undefined" : "PhysicalConstraintToRobot means the maximum size of the space or area that the BuildingElement or the IndoorSpace can provide for the robot movement."
+    },
+    "id" : "2"
+  }, {
+    "iri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl#InspectionMethod",
+    "baseIri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "InspectionMethod"
+    },
+    "subClasses" : [ "6", "9" ],
+    "id" : "7"
+  }, {
+    "iri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl#AirPressure",
+    "baseIri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "AirPressure"
+    },
+    "id" : "105",
+    "superClasses" : [ "58" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl#CommunicationRequirement",
+    "baseIri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl",
+    "instances" : 1,
+    "label" : {
+      "IRI-based" : "CommunicationRequirement"
+    },
+    "id" : "16",
+    "superClasses" : [ "12" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl#ConvexCorner",
+    "baseIri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "ConvexCorner"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl#ConvexCorner1",
+      "baseIri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl",
+      "labels" : {
+        "IRI-based" : "ConvexCorner1"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl#ConvexCorner2",
+      "baseIri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl",
+      "labels" : {
+        "IRI-based" : "ConvexCorner2"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl#ConvexCorner3",
+      "baseIri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl",
+      "labels" : {
+        "IRI-based" : "ConvexCorner3"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl#ConvexCorner4",
+      "baseIri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl",
+      "labels" : {
+        "IRI-based" : "ConvexCorner4"
+      }
+    } ],
+    "id" : "109",
+    "superClasses" : [ "110" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl#RobotSystem",
+    "baseIri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl",
     "instances" : 0,
     "label" : {
       "IRI-based" : "RobotSystem"
     },
     "individuals" : [ {
-      "iri" : "https://purl.org/ontodesign#WallClimbingRobotSystem_indoor",
-      "baseIri" : "https://purl.org/ontodesign",
+      "iri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl#WallClimbingRobotSystem_indoor",
+      "baseIri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl",
       "labels" : {
         "IRI-based" : "WallClimbingRobotSystem_indoor"
       }
@@ -468,627 +907,428 @@
     "comment" : {
       "undefined" : "RobotSystem is defined as an artificial system formed by robots and AuxiliaryEquipment"
     },
-    "id" : "83"
-  }, {
-    "iri" : "https://purl.org/ontodesign#GroundBasedRobot",
-    "baseIri" : "https://purl.org/ontodesign",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "GroundBasedRobot"
-    },
-    "id" : "57",
-    "superClasses" : [ "55" ]
-  }, {
-    "iri" : "https://purl.org/ontodesign#InspectionMethod",
-    "baseIri" : "https://purl.org/ontodesign",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "InspectionMethod"
-    },
-    "subClasses" : [ "73", "78" ],
     "id" : "74"
   }, {
-    "iri" : "https://purl.org/ontodesign#DetectableAttribute",
-    "baseIri" : "https://purl.org/ontodesign",
+    "iri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl#AbnormalArea",
+    "baseIri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl",
     "instances" : 0,
     "label" : {
-      "IRI-based" : "DetectableAttribute"
+      "IRI-based" : "AbnormalArea"
     },
     "individuals" : [ {
-      "iri" : "https://purl.org/ontodesign#TemperatureChange1",
-      "baseIri" : "https://purl.org/ontodesign",
+      "iri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl#AbnormalArea4",
+      "baseIri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl",
       "labels" : {
-        "IRI-based" : "TemperatureChange1"
+        "IRI-based" : "AbnormalArea4"
       }
     }, {
-      "iri" : "https://purl.org/ontodesign#TemperatureChange3",
-      "baseIri" : "https://purl.org/ontodesign",
+      "iri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl#AbnormalArea2",
+      "baseIri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl",
       "labels" : {
-        "IRI-based" : "TemperatureChange3"
+        "IRI-based" : "AbnormalArea2"
       }
     }, {
-      "iri" : "https://purl.org/ontodesign#TemperatureChange2",
-      "baseIri" : "https://purl.org/ontodesign",
+      "iri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl#AbnormalArea3",
+      "baseIri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl",
       "labels" : {
-        "IRI-based" : "TemperatureChange2"
+        "IRI-based" : "AbnormalArea3"
       }
     }, {
-      "iri" : "https://purl.org/ontodesign#TemperatureChange4",
-      "baseIri" : "https://purl.org/ontodesign",
+      "iri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl#AbnormalArea1",
+      "baseIri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl",
       "labels" : {
-        "IRI-based" : "TemperatureChange4"
+        "IRI-based" : "AbnormalArea1"
       }
     } ],
     "comment" : {
-      "undefined" : "DetectableAttribute refers to attributes whose values would change due to defects."
+      "undefined" : "AbnormalArea is an area that has some anomalies compared to other areas of the same building element. This area is caused by the BuildingDefect, and it usually has some variations in the values of some attributes."
     },
-    "id" : "76",
-    "superClasses" : [ "43" ]
+    "id" : "131"
   }, {
-    "iri" : "https://purl.org/ontodesign#PhysicalConstraintToRobot",
-    "baseIri" : "https://purl.org/ontodesign",
+    "iri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl#CapabilityRequirement",
+    "baseIri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl",
     "instances" : 0,
     "label" : {
-      "IRI-based" : "PhysicalConstraintToRobot"
+      "IRI-based" : "CapabilityRequirement"
     },
-    "subClasses" : [ "80", "49", "52" ],
-    "comment" : {
-      "undefined" : "PhysicalConstraintToRobot means the maximum size of the space or area that the BuildingElement or the IndoorSpace can provide for the robot movement."
-    },
-    "id" : "50"
+    "subClasses" : [ "11", "14", "16", "25", "147" ],
+    "id" : "12",
+    "superClasses" : [ "75" ]
   }, {
-    "iri" : "https://purl.org/ontodesign#AirPressure",
-    "baseIri" : "https://purl.org/ontodesign",
+    "iri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl#Size",
+    "baseIri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl",
     "instances" : 0,
     "label" : {
-      "IRI-based" : "AirPressure"
+      "IRI-based" : "Size"
     },
-    "id" : "17",
-    "superClasses" : [ "5" ]
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl#Length1234",
+      "baseIri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl",
+      "labels" : {
+        "IRI-based" : "Length1234"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl#Width1234",
+      "baseIri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl",
+      "labels" : {
+        "IRI-based" : "Width1234"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl#Height1234",
+      "baseIri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl",
+      "labels" : {
+        "IRI-based" : "Height1234"
+      }
+    } ],
+    "id" : "154",
+    "superClasses" : [ "87" ]
   }, {
-    "iri" : "https://purl.org/ontodesign#StructuralCharacteristic",
-    "baseIri" : "https://purl.org/ontodesign",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "StructuralCharacteristic"
-    },
-    "comment" : {
-      "undefined" : "StructuralCharacteristic refers to generic features necessary to describe the physical and structural aspects of a robot system."
-    },
-    "id" : "92",
-    "superClasses" : [ "43" ]
-  }, {
-    "iri" : "https://purl.org/ontodesign#AverageAnnualAirHumidity",
-    "baseIri" : "https://purl.org/ontodesign",
+    "iri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl#AverageAnnualAirHumidity",
+    "baseIri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl",
     "instances" : 0,
     "label" : {
       "IRI-based" : "AverageAnnualAirHumidity"
     },
-    "id" : "11",
-    "superClasses" : [ "5" ]
+    "id" : "121",
+    "superClasses" : [ "58" ]
   }, {
-    "iri" : "https://purl.org/ontodesign#SignalReceptionCondition",
-    "baseIri" : "https://purl.org/ontodesign",
+    "iri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl#SurfaceMaterial",
+    "baseIri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl",
     "instances" : 0,
     "label" : {
-      "IRI-based" : "SignalReceptionCondition"
+      "IRI-based" : "SurfaceMaterial"
     },
-    "id" : "13",
-    "superClasses" : [ "5" ]
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl#Wallpaper1",
+      "baseIri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl",
+      "labels" : {
+        "IRI-based" : "Wallpaper1"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl#Ceramics2",
+      "baseIri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl",
+      "labels" : {
+        "IRI-based" : "Ceramics2"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl#Wallpaper4",
+      "baseIri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl",
+      "labels" : {
+        "IRI-based" : "Wallpaper4"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl#Glass3",
+      "baseIri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl",
+      "labels" : {
+        "IRI-based" : "Glass3"
+      }
+    } ],
+    "id" : "99",
+    "superClasses" : [ "30" ]
   }, {
-    "iri" : "https://purl.org/ontodesign#DegreeOfAutonomy",
-    "baseIri" : "https://purl.org/ontodesign",
+    "iri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl#LocomotionCapabilityRequirement",
+    "baseIri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "LocomotionCapabilityRequirement"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl#LocomotionCapabilityRequirement1",
+      "baseIri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl",
+      "labels" : {
+        "IRI-based" : "LocomotionCapabilityRequirement1"
+      }
+    } ],
+    "subClasses" : [ "158" ],
+    "id" : "147",
+    "superClasses" : [ "12" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl#DegreeOfAutonomy",
+    "baseIri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl",
     "instances" : 0,
     "label" : {
       "IRI-based" : "DegreeOfAutonomy"
     },
-    "id" : "104",
-    "superClasses" : [ "20" ]
+    "id" : "144",
+    "superClasses" : [ "84" ]
   }, {
-    "iri" : "https://purl.org/ontodesign#RobotComponent",
-    "baseIri" : "https://purl.org/ontodesign",
+    "iri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl#ConcaveObstacle",
+    "baseIri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "ConcaveObstacle"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl#ConcaveObstacle1",
+      "baseIri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl",
+      "labels" : {
+        "IRI-based" : "ConcaveObstacle1"
+      }
+    } ],
+    "id" : "133",
+    "superClasses" : [ "32" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl#RobotComponent",
+    "baseIri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl",
     "instances" : 0,
     "label" : {
       "IRI-based" : "RobotComponent"
     },
-    "id" : "105"
+    "id" : "175"
   }, {
-    "iri" : "https://purl.org/ontodesign#CommunicationRequirement",
-    "baseIri" : "https://purl.org/ontodesign",
+    "iri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl#Dustiness",
+    "baseIri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl",
     "instances" : 0,
     "label" : {
-      "IRI-based" : "CommunicationRequirement"
+      "IRI-based" : "Dustiness"
     },
-    "id" : "68",
-    "superClasses" : [ "2" ]
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl#Dustiness3",
+      "baseIri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl",
+      "labels" : {
+        "IRI-based" : "Dustiness3"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl#Dustiness4",
+      "baseIri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl",
+      "labels" : {
+        "IRI-based" : "Dustiness4"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl#Dustiness1",
+      "baseIri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl",
+      "labels" : {
+        "IRI-based" : "Dustiness1"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl#Dustiness2",
+      "baseIri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl",
+      "labels" : {
+        "IRI-based" : "Dustiness2"
+      }
+    } ],
+    "id" : "101",
+    "superClasses" : [ "30" ]
   }, {
-    "iri" : "https://purl.org/ontodesign#LengthConstraint",
-    "baseIri" : "https://purl.org/ontodesign",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "LengthConstraint"
-    },
-    "id" : "80",
-    "superClasses" : [ "50" ]
-  }, {
-    "iri" : "https://purl.org/ontodesign#AuxiliaryEquipment",
-    "baseIri" : "https://purl.org/ontodesign",
+    "iri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl#AuxiliaryEquipment",
+    "baseIri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl",
     "instances" : 0,
     "label" : {
       "IRI-based" : "AuxiliaryEquipment"
     },
     "individuals" : [ {
-      "iri" : "https://purl.org/ontodesign#ThermalCamera1",
-      "baseIri" : "https://purl.org/ontodesign",
-      "labels" : {
-        "IRI-based" : "ThermalCamera1"
-      }
-    }, {
-      "iri" : "https://purl.org/ontodesign#MoistureMeter2",
-      "baseIri" : "https://purl.org/ontodesign",
+      "iri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl#MoistureMeter2",
+      "baseIri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl",
       "labels" : {
         "IRI-based" : "MoistureMeter2"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl#ThermalCamera1",
+      "baseIri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl",
+      "labels" : {
+        "IRI-based" : "ThermalCamera1"
       }
     } ],
     "comment" : {
       "undefined" : "AuxiliaryEquipment includes any equipment, devices, or sensors supporting the robot performing specific inspection tasks."
     },
-    "id" : "123"
+    "id" : "186"
   }, {
-    "iri" : "https://purl.org/ontodesign#ContinuousInspection",
-    "baseIri" : "https://purl.org/ontodesign",
+    "iri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl#ContinuousInspection",
+    "baseIri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl",
     "instances" : 0,
     "label" : {
       "IRI-based" : "ContinuousInspection"
     },
-    "id" : "73",
-    "superClasses" : [ "74" ]
+    "id" : "6",
+    "superClasses" : [ "7" ]
   }, {
-    "iri" : "https://purl.org/ontodesign#Communication",
-    "baseIri" : "https://purl.org/ontodesign",
+    "iri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl#SensoryCapabilityRequirement",
+    "baseIri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl",
     "instances" : 0,
     "label" : {
-      "IRI-based" : "Communication"
+      "IRI-based" : "SensoryCapabilityRequirement"
     },
-    "id" : "111",
-    "superClasses" : [ "20" ]
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl#SensoryCapabilityRequirement1",
+      "baseIri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl",
+      "labels" : {
+        "IRI-based" : "SensoryCapabilityRequirement1"
+      }
+    } ],
+    "id" : "25",
+    "superClasses" : [ "12" ]
   }, {
-    "iri" : "https://purl.org/ontodesign#LocomotionCapability",
-    "baseIri" : "https://purl.org/ontodesign",
+    "iri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl#LengthConstraint",
+    "baseIri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl",
     "instances" : 0,
     "label" : {
-      "IRI-based" : "LocomotionCapability"
+      "IRI-based" : "LengthConstraint"
     },
-    "id" : "118",
-    "superClasses" : [ "20" ]
+    "id" : "63",
+    "superClasses" : [ "2" ]
   }, {
-    "iri" : "https://purl.org/ontodesign#SensoryCapability",
-    "baseIri" : "https://purl.org/ontodesign",
+    "iri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl#SensoryCapability",
+    "baseIri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl",
     "instances" : 0,
     "label" : {
       "IRI-based" : "SensoryCapability"
     },
-    "id" : "19",
-    "superClasses" : [ "20" ]
+    "id" : "146",
+    "superClasses" : [ "84" ]
   }, {
-    "iri" : "https://purl.org/ontodesign#MinimumChangeOfValue",
-    "baseIri" : "https://purl.org/ontodesign",
+    "iri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl#SignalReceptionCondition",
+    "baseIri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "SignalReceptionCondition"
+    },
+    "id" : "135",
+    "superClasses" : [ "58" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl#Surface",
+    "baseIri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Surface"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl#Surface4",
+      "baseIri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl",
+      "labels" : {
+        "IRI-based" : "Surface4"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl#Surface3",
+      "baseIri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl",
+      "labels" : {
+        "IRI-based" : "Surface3"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl#Surface2",
+      "baseIri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl",
+      "labels" : {
+        "IRI-based" : "Surface2"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl#Surface1",
+      "baseIri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl",
+      "labels" : {
+        "IRI-based" : "Surface1"
+      }
+    } ],
+    "id" : "60",
+    "superClasses" : [ "61" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl#RobotSystemHardwareRequirement",
+    "baseIri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl",
+    "instances" : 2,
+    "label" : {
+      "IRI-based" : "RobotSystemHardwareRequirement"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl#SensoryCapabilityRequirement1",
+      "baseIri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl",
+      "labels" : {
+        "IRI-based" : "SensoryCapabilityRequirement1"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl#SizeRequirement1",
+      "baseIri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl",
+      "labels" : {
+        "IRI-based" : "SizeRequirement1"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl#DegreeOfAutonomyRequirement1",
+      "baseIri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl",
+      "labels" : {
+        "IRI-based" : "DegreeOfAutonomyRequirement1"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl#WeightRequirement",
+      "baseIri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl",
+      "labels" : {
+        "IRI-based" : "WeightRequirement"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl#OperationalCapabilityRequirement1",
+      "baseIri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl",
+      "labels" : {
+        "IRI-based" : "OperationalCapabilityRequirement1"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl#LocomotionMechanismCharacteristicRequirement1",
+      "baseIri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl",
+      "labels" : {
+        "IRI-based" : "LocomotionMechanismCharacteristicRequirement1"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl#LocomotionCapabilityRequirement1",
+      "baseIri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl",
+      "labels" : {
+        "IRI-based" : "LocomotionCapabilityRequirement1"
+      }
+    } ],
+    "subClasses" : [ "12", "18" ],
+    "id" : "75"
+  }, {
+    "iri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl#WeatherResistanceRequirement",
+    "baseIri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl",
+    "instances" : 1,
+    "label" : {
+      "IRI-based" : "WeatherResistanceRequirement"
+    },
+    "id" : "11",
+    "superClasses" : [ "12" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "213",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl#MinimumChangeOfValue",
+    "baseIri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl",
     "instances" : 0,
     "label" : {
       "IRI-based" : "MinimumChangeOfValue"
     },
-    "id" : "143"
+    "id" : "217"
   }, {
-    "iri" : "https://purl.org/ontodesign#Robot",
-    "baseIri" : "https://purl.org/ontodesign",
+    "iri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl#StructuralCharacteristic",
+    "baseIri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl",
     "instances" : 0,
     "label" : {
-      "IRI-based" : "Robot"
+      "IRI-based" : "StructuralCharacteristic"
     },
-    "subClasses" : [ "54", "57", "61" ],
+    "subClasses" : [ "86", "154" ],
     "comment" : {
-      "undefined" : "Robot refers exclusively to mobile robots in the context of building inspection robots. It is a programmed actuated mechanism able to move around at a RobotMovementMedium of  its WorkEnvironment and conduct RobotBehavior with a degree of autonomy."
+      "undefined" : "StructuralCharacteristic refers to generic features necessary to describe the physical and structural aspects of a robot system."
     },
-    "id" : "55"
+    "id" : "87",
+    "superClasses" : [ "28" ]
   }, {
-    "iri" : "https://purl.org/ontodesign#AverageAnnualAirTemperature",
-    "baseIri" : "https://purl.org/ontodesign",
+    "iri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl#AverageAnnualAirTemperature",
+    "baseIri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl",
     "instances" : 0,
     "label" : {
       "IRI-based" : "AverageAnnualAirTemperature"
     },
-    "id" : "4",
-    "superClasses" : [ "5" ]
+    "id" : "123",
+    "superClasses" : [ "58" ]
   }, {
-    "iri" : "http://www.w3.org/2001/XMLSchema#string",
-    "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "154",
-    "label" : {
-      "IRI-based" : "string"
-    }
-  }, {
-    "iri" : "https://purl.org/ontodesign#RobotSystemHardwareRequirement",
-    "baseIri" : "https://purl.org/ontodesign",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "RobotSystemHardwareRequirement"
-    },
-    "subClasses" : [ "26", "2" ],
-    "id" : "63"
-  }, {
-    "iri" : "http://www.w3.org/2001/XMLSchema#string",
-    "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "162",
-    "label" : {
-      "IRI-based" : "string"
-    }
-  }, {
-    "iri" : "https://purl.org/ontodesign#CapabilityRequirement",
-    "baseIri" : "https://purl.org/ontodesign",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "CapabilityRequirement"
-    },
-    "subClasses" : [ "66", "68", "45", "47", "1" ],
-    "id" : "2",
-    "superClasses" : [ "63" ]
-  }, {
-    "iri" : "http://www.w3.org/2001/XMLSchema#double",
-    "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "164",
-    "label" : {
-      "IRI-based" : "double"
-    }
-  }, {
-    "iri" : "https://purl.org/ontodesign#BuildingElement",
-    "baseIri" : "https://purl.org/ontodesign",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "BuildingElement"
-    },
-    "individuals" : [ {
-      "iri" : "https://purl.org/ontodesign#Floor3",
-      "baseIri" : "https://purl.org/ontodesign",
-      "labels" : {
-        "IRI-based" : "Floor3"
-      }
-    }, {
-      "iri" : "https://purl.org/ontodesign#Wall1",
-      "baseIri" : "https://purl.org/ontodesign",
-      "labels" : {
-        "IRI-based" : "Wall1"
-      }
-    }, {
-      "iri" : "https://purl.org/ontodesign#Ceiling4",
-      "baseIri" : "https://purl.org/ontodesign",
-      "labels" : {
-        "IRI-based" : "Ceiling4"
-      }
-    }, {
-      "iri" : "https://purl.org/ontodesign#Ceiling1",
-      "baseIri" : "https://purl.org/ontodesign",
-      "labels" : {
-        "IRI-based" : "Ceiling1"
-      }
-    }, {
-      "iri" : "https://purl.org/ontodesign#Wall2",
-      "baseIri" : "https://purl.org/ontodesign",
-      "labels" : {
-        "IRI-based" : "Wall2"
-      }
-    }, {
-      "iri" : "https://purl.org/ontodesign#Wall4",
-      "baseIri" : "https://purl.org/ontodesign",
-      "labels" : {
-        "IRI-based" : "Wall4"
-      }
-    } ],
-    "comment" : {
-      "undefined" : "BuildingElement is defined as all elements that are primarily part of an existing building. These elements could be from the BuildingInterior or the BuildingExterior."
-    },
-    "id" : "101"
-  }, {
-    "iri" : "https://purl.org/ontodesign#AcceptableLevelOfNoise",
-    "baseIri" : "https://purl.org/ontodesign",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "AcceptableLevelOfNoise"
-    },
-    "id" : "168"
-  }, {
-    "iri" : "https://purl.org/ontodesign#OperationalCapabilityRequirement",
-    "baseIri" : "https://purl.org/ontodesign",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "OperationalCapabilityRequirement"
-    },
-    "id" : "66",
-    "superClasses" : [ "2" ]
-  }, {
-    "iri" : "https://purl.org/ontodesign#AverageAnnualWindSpeed",
-    "baseIri" : "https://purl.org/ontodesign",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "AverageAnnualWindSpeed"
-    },
-    "id" : "7",
-    "superClasses" : [ "5" ]
-  }, {
-    "iri" : "https://purl.org/ontodesign#WeatherResistanceRequirement",
-    "baseIri" : "https://purl.org/ontodesign",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "WeatherResistanceRequirement"
-    },
-    "id" : "47",
-    "superClasses" : [ "2" ]
-  }, {
-    "iri" : "https://purl.org/ontodesign#BuildingDefect",
-    "baseIri" : "https://purl.org/ontodesign",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "BuildingDefect"
-    },
-    "individuals" : [ {
-      "iri" : "https://purl.org/ontodesign#Moisture3",
-      "baseIri" : "https://purl.org/ontodesign",
-      "labels" : {
-        "IRI-based" : "Moisture3"
-      }
-    }, {
-      "iri" : "https://purl.org/ontodesign#Moisture2",
-      "baseIri" : "https://purl.org/ontodesign",
-      "labels" : {
-        "IRI-based" : "Moisture2"
-      }
-    }, {
-      "iri" : "https://purl.org/ontodesign#Moisture1",
-      "baseIri" : "https://purl.org/ontodesign",
-      "labels" : {
-        "IRI-based" : "Moisture1"
-      }
-    }, {
-      "iri" : "https://purl.org/ontodesign#Moisture4",
-      "baseIri" : "https://purl.org/ontodesign",
-      "labels" : {
-        "IRI-based" : "Moisture4"
-      }
-    } ],
-    "comment" : {
-      "undefined" : "BuildingDefect is defined as a failing or shortcoming in the function, performance, statutory, or user requirements of a building, and might manifest itself within the BuildingElement of the affected building."
-    },
-    "id" : "145"
-  }, {
-    "iri" : "https://purl.org/ontodesign#WorkEnvironment",
-    "baseIri" : "https://purl.org/ontodesign",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "WorkEnvironment"
-    },
-    "comment" : {
-      "undefined" : "WorkEnvironment is the environment where the robot is exposed to."
-    },
-    "id" : "23"
-  }, {
-    "iri" : "http://www.w3.org/2001/XMLSchema#double",
-    "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "182",
-    "label" : {
-      "IRI-based" : "double"
-    }
-  }, {
-    "iri" : "https://purl.org/ontodesign#Site",
-    "baseIri" : "https://purl.org/ontodesign",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "Site"
-    },
-    "id" : "183"
-  }, {
-    "instances" : 0,
-    "union" : [ "112", "113", "122" ],
-    "attributes" : [ "union", "anonymous" ],
-    "id" : "100"
-  }, {
-    "instances" : 0,
-    "union" : [ "185", "83" ],
-    "attributes" : [ "union", "anonymous" ],
-    "id" : "184"
-  }, {
-    "iri" : "https://purl.org/ontodesign#Building",
-    "baseIri" : "https://purl.org/ontodesign",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "Building"
-    },
-    "individuals" : [ {
-      "iri" : "https://purl.org/ontodesign#Building1",
-      "baseIri" : "https://purl.org/ontodesign",
-      "labels" : {
-        "IRI-based" : "Building1"
-      }
-    } ],
-    "id" : "112"
-  }, {
-    "iri" : "https://purl.org/ontodesign#RobotMovementMedium",
-    "baseIri" : "https://purl.org/ontodesign",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "RobotMovementMedium"
-    },
-    "comment" : {
-      "undefined" : "RobotMovementMedium is what the robot relies on for its movement."
-    },
-    "id" : "116"
-  }, {
-    "iri" : "http://www.w3.org/2001/XMLSchema#string",
-    "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "191",
-    "label" : {
-      "IRI-based" : "string"
-    }
-  }, {
-    "iri" : "https://purl.org/ontodesign#EnvironmentalCondition",
-    "baseIri" : "https://purl.org/ontodesign",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "EnvironmentalCondition"
-    },
-    "subClasses" : [ "4", "7", "9", "11", "13", "17" ],
-    "comment" : {
-      "undefined" : "EnvironmentalCondition describes environmental conditions of the building Site and IndoorSpace, which includes AverageAnnualAirTemperature, AverageAnnualAirHumidity, AirPressure, Visibility, and AverageAnnualWindSpeed, SignalReceptionCondition."
-    },
-    "id" : "5"
-  }, {
-    "iri" : "https://purl.org/ontodesign#Speed",
-    "baseIri" : "https://purl.org/ontodesign",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "Speed"
-    },
-    "individuals" : [ {
-      "iri" : "https://purl.org/ontodesign#InspectionSpeed1",
-      "baseIri" : "https://purl.org/ontodesign",
-      "labels" : {
-        "IRI-based" : "InspectionSpeed1"
-      }
-    } ],
-    "id" : "91",
-    "superClasses" : [ "43" ]
-  }, {
-    "iri" : "https://purl.org/ontodesign#BuildingInterior",
-    "baseIri" : "https://purl.org/ontodesign",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "BuildingInterior"
-    },
-    "individuals" : [ {
-      "iri" : "https://purl.org/ontodesign#BuildingInterior1",
-      "baseIri" : "https://purl.org/ontodesign",
-      "labels" : {
-        "IRI-based" : "BuildingInterior1"
-      }
-    }, {
-      "iri" : "https://purl.org/ontodesign#BuildingInterior3",
-      "baseIri" : "https://purl.org/ontodesign",
-      "labels" : {
-        "IRI-based" : "BuildingInterior3"
-      }
-    }, {
-      "iri" : "https://purl.org/ontodesign#BuildingInterior2",
-      "baseIri" : "https://purl.org/ontodesign",
-      "labels" : {
-        "IRI-based" : "BuildingInterior2"
-      }
-    }, {
-      "iri" : "https://purl.org/ontodesign#BuildingInterior4",
-      "baseIri" : "https://purl.org/ontodesign",
-      "labels" : {
-        "IRI-based" : "BuildingInterior4"
-      }
-    } ],
-    "comment" : {
-      "undefined" : "BuildingInterior includes all elements exposed to the inside of the building and IndoorSpace bounded by the elements."
-    },
-    "id" : "113"
-  }, {
-    "iri" : "https://purl.org/ontodesign#VelocityRequirement",
-    "baseIri" : "https://purl.org/ontodesign",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "VelocityRequirement"
-    },
-    "individuals" : [ {
-      "iri" : "https://purl.org/ontodesign#VelocityRequirement_Indoor",
-      "baseIri" : "https://purl.org/ontodesign",
-      "labels" : {
-        "IRI-based" : "VelocityRequirement_Indoor"
-      }
-    } ],
-    "id" : "69",
-    "superClasses" : [ "45" ]
-  }, {
-    "iri" : "https://purl.org/ontodesign#OperationalCapability",
-    "baseIri" : "https://purl.org/ontodesign",
+    "iri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl#OperationalCapability",
+    "baseIri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl",
     "instances" : 0,
     "label" : {
       "IRI-based" : "OperationalCapability"
     },
-    "id" : "109",
-    "superClasses" : [ "20" ]
+    "id" : "149",
+    "superClasses" : [ "84" ]
   }, {
-    "iri" : "https://purl.org/ontodesign#AirBasedRobot",
-    "baseIri" : "https://purl.org/ontodesign",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "AirBasedRobot"
-    },
-    "id" : "61",
-    "superClasses" : [ "55" ]
-  }, {
-    "iri" : "https://purl.org/ontodesign#RobotBehavior",
-    "baseIri" : "https://purl.org/ontodesign",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "RobotBehavior"
-    },
-    "id" : "185"
-  }, {
-    "iri" : "https://purl.org/ontodesign#WallClimbingRobot",
-    "baseIri" : "https://purl.org/ontodesign",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "WallClimbingRobot"
-    },
-    "individuals" : [ {
-      "iri" : "https://purl.org/ontodesign#WallCimbingRobot1",
-      "baseIri" : "https://purl.org/ontodesign",
-      "labels" : {
-        "IRI-based" : "WallCimbingRobot1"
-      }
-    } ],
-    "id" : "54",
-    "superClasses" : [ "55" ]
-  }, {
-    "iri" : "http://www.w3.org/2001/XMLSchema#double",
-    "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "156",
-    "label" : {
-      "IRI-based" : "double"
-    }
-  }, {
-    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
-    "id" : "107",
-    "label" : {
-      "IRI-based" : "Literal",
-      "undefined" : "Literal"
-    }
-  }, {
-    "iri" : "http://www.w3.org/2002/07/owl#Thing",
-    "baseIri" : "http://owl2vowl.de",
-    "id" : "115",
-    "label" : {
-      "undefined" : "Thing"
-    }
-  }, {
-    "iri" : "https://purl.org/ontodesign#HeightConstraint",
-    "baseIri" : "https://purl.org/ontodesign",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "HeightConstraint"
-    },
-    "individuals" : [ {
-      "iri" : "https://purl.org/ontodesign#HeightConstraint1",
-      "baseIri" : "https://purl.org/ontodesign",
-      "labels" : {
-        "IRI-based" : "HeightConstraint1"
-      }
-    } ],
-    "id" : "52",
-    "superClasses" : [ "50" ]
-  }, {
-    "iri" : "https://purl.org/ontodesign#BuildingExterior",
-    "baseIri" : "https://purl.org/ontodesign",
+    "iri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl#BuildingExterior",
+    "baseIri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl",
     "instances" : 0,
     "label" : {
       "IRI-based" : "BuildingExterior"
@@ -1096,140 +1336,671 @@
     "comment" : {
       "undefined" : "BuildingExterior includes all elements exposed to the Site of the building."
     },
-    "id" : "122"
+    "id" : "194"
   }, {
-    "iri" : "https://purl.org/ontodesign#NonContinuousInspection",
-    "baseIri" : "https://purl.org/ontodesign",
+    "iri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl#WorkEnvironment",
+    "baseIri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl",
     "instances" : 0,
     "label" : {
-      "IRI-based" : "NonContinuousInspection"
+      "IRI-based" : "WorkEnvironment"
     },
-    "id" : "78",
-    "superClasses" : [ "74" ]
-  }, {
-    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
-    "id" : "190",
-    "label" : {
-      "IRI-based" : "Literal",
-      "undefined" : "Literal"
-    }
-  }, {
-    "iri" : "http://www.w3.org/2002/07/owl#Thing",
-    "baseIri" : "http://owl2vowl.de",
-    "id" : "90",
-    "label" : {
-      "undefined" : "Thing"
-    }
-  }, {
-    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
-    "id" : "212",
-    "label" : {
-      "IRI-based" : "Literal",
-      "undefined" : "Literal"
-    }
-  }, {
-    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
-    "id" : "97",
-    "label" : {
-      "IRI-based" : "Literal",
-      "undefined" : "Literal"
-    }
-  }, {
-    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
-    "id" : "59",
-    "label" : {
-      "IRI-based" : "Literal",
-      "undefined" : "Literal"
-    }
-  }, {
-    "iri" : "http://www.w3.org/2002/07/owl#Thing",
-    "baseIri" : "http://owl2vowl.de",
-    "id" : "135",
-    "label" : {
-      "undefined" : "Thing"
-    }
-  }, {
-    "iri" : "https://purl.org/ontodesign#Capability",
-    "baseIri" : "https://purl.org/ontodesign",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "Capability"
-    },
-    "subClasses" : [ "19", "118", "94", "104", "109", "111" ],
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl#WorkEnvironment1",
+      "baseIri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl",
+      "labels" : {
+        "IRI-based" : "WorkEnvironment1"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl#WorkEnvironment2",
+      "baseIri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl",
+      "labels" : {
+        "IRI-based" : "WorkEnvironment2"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl#WorkEnvironment3",
+      "baseIri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl",
+      "labels" : {
+        "IRI-based" : "WorkEnvironment3"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl#WorkEnvironment4",
+      "baseIri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl",
+      "labels" : {
+        "IRI-based" : "WorkEnvironment4"
+      }
+    } ],
     "comment" : {
-      "undefined" : "Capability describes the manifested behavioral features of the robot system."
+      "undefined" : "WorkEnvironment is the environment where the robot is exposed to."
     },
-    "id" : "20"
+    "id" : "127"
   }, {
-    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
-    "id" : "87",
-    "label" : {
-      "IRI-based" : "Literal",
-      "undefined" : "Literal"
-    }
-  }, {
-    "iri" : "http://www.w3.org/2002/07/owl#Thing",
-    "baseIri" : "http://owl2vowl.de",
-    "id" : "169",
-    "label" : {
-      "undefined" : "Thing"
-    }
-  }, {
-    "iri" : "http://www.w3.org/2002/07/owl#Thing",
-    "baseIri" : "http://owl2vowl.de",
-    "id" : "131",
-    "label" : {
-      "undefined" : "Thing"
-    }
-  }, {
-    "iri" : "http://www.w3.org/2002/07/owl#Thing",
-    "baseIri" : "http://owl2vowl.de",
-    "id" : "15",
-    "label" : {
-      "undefined" : "Thing"
-    }
-  }, {
-    "iri" : "https://purl.org/ontodesign#SensoryCapabilityRequirement",
-    "baseIri" : "https://purl.org/ontodesign",
+    "iri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl#Flat",
+    "baseIri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl",
     "instances" : 0,
     "label" : {
-      "IRI-based" : "SensoryCapabilityRequirement"
+      "IRI-based" : "Flat"
     },
-    "id" : "1",
-    "superClasses" : [ "2" ]
-  }, {
-    "iri" : "http://www.w3.org/2001/XMLSchema#boolean",
-    "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "103",
-    "label" : {
-      "IRI-based" : "boolean"
-    }
-  }, {
-    "iri" : "http://www.w3.org/2001/XMLSchema#string",
-    "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "188",
-    "label" : {
-      "IRI-based" : "string"
-    }
-  }, {
-    "instances" : 0,
-    "union" : [ "113", "122" ],
-    "attributes" : [ "union", "anonymous" ],
-    "id" : "22"
+    "id" : "35",
+    "superClasses" : [ "33" ]
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#double",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "85",
+    "id" : "226",
     "label" : {
       "IRI-based" : "double"
     }
   }, {
+    "iri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl#BuildingDefect",
+    "baseIri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "BuildingDefect"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl#Moisture3",
+      "baseIri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl",
+      "labels" : {
+        "IRI-based" : "Moisture3"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl#Moisture4",
+      "baseIri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl",
+      "labels" : {
+        "IRI-based" : "Moisture4"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl#Moisture1",
+      "baseIri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl",
+      "labels" : {
+        "IRI-based" : "Moisture1"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl#Moisture2",
+      "baseIri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl",
+      "labels" : {
+        "IRI-based" : "Moisture2"
+      }
+    } ],
+    "comment" : {
+      "undefined" : "BuildingDefect is defined as a failing or shortcoming in the function, performance, statutory, or user requirements of a building, and might manifest itself within the BuildingElement of the affected building."
+    },
+    "id" : "115"
+  }, {
+    "iri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl#BuildingElement",
+    "baseIri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "BuildingElement"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl#Wall4",
+      "baseIri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl",
+      "labels" : {
+        "IRI-based" : "Wall4"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl#Ceiling4",
+      "baseIri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl",
+      "labels" : {
+        "IRI-based" : "Ceiling4"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl#Ceiling1",
+      "baseIri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl",
+      "labels" : {
+        "IRI-based" : "Ceiling1"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl#Floor3",
+      "baseIri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl",
+      "labels" : {
+        "IRI-based" : "Floor3"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl#Wall2",
+      "baseIri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl",
+      "labels" : {
+        "IRI-based" : "Wall2"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl#Wall1",
+      "baseIri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl",
+      "labels" : {
+        "IRI-based" : "Wall1"
+      }
+    } ],
+    "comment" : {
+      "undefined" : "BuildingElement is defined as all elements that are primarily part of an existing building. These elements could be from the BuildingInterior or the BuildingExterior."
+    },
+    "id" : "169"
+  }, {
+    "iri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl#AverageAnnualWindSpeed",
+    "baseIri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "AverageAnnualWindSpeed"
+    },
+    "id" : "137",
+    "superClasses" : [ "58" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl#AcceptableLevelOfNoise",
+    "baseIri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "AcceptableLevelOfNoise"
+    },
+    "id" : "239"
+  }, {
+    "iri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl#Communication",
+    "baseIri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Communication"
+    },
+    "id" : "151",
+    "superClasses" : [ "84" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl#LocomotionCapability",
+    "baseIri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "LocomotionCapability"
+    },
+    "id" : "153",
+    "superClasses" : [ "84" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#double",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "255",
+    "label" : {
+      "IRI-based" : "double"
+    }
+  }, {
+    "iri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl#OperationalCapabilityRequirement",
+    "baseIri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "OperationalCapabilityRequirement"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl#OperationalCapabilityRequirement1",
+      "baseIri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl",
+      "labels" : {
+        "IRI-based" : "OperationalCapabilityRequirement1"
+      }
+    } ],
+    "id" : "14",
+    "superClasses" : [ "12" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl#WallClimbingRobot",
+    "baseIri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "WallClimbingRobot"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl#WallCimbingRobot1",
+      "baseIri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl",
+      "labels" : {
+        "IRI-based" : "WallCimbingRobot1"
+      }
+    } ],
+    "id" : "107",
+    "superClasses" : [ "92" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl#Site",
+    "baseIri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Site"
+    },
+    "id" : "141"
+  }, {
+    "iri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl#Attribute",
+    "baseIri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Attribute"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl#ObstacleHeight3",
+      "baseIri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl",
+      "labels" : {
+        "IRI-based" : "ObstacleHeight3"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl#ObstacleHeight2",
+      "baseIri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl",
+      "labels" : {
+        "IRI-based" : "ObstacleHeight2"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl#ObstacleHeight1",
+      "baseIri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl",
+      "labels" : {
+        "IRI-based" : "ObstacleHeight1"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl#ObstacleDepth2",
+      "baseIri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl",
+      "labels" : {
+        "IRI-based" : "ObstacleDepth2"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl#ObstacleDepth1",
+      "baseIri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl",
+      "labels" : {
+        "IRI-based" : "ObstacleDepth1"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl#ObstacleDepth3",
+      "baseIri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl",
+      "labels" : {
+        "IRI-based" : "ObstacleDepth3"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl#ObstacleWidth1",
+      "baseIri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl",
+      "labels" : {
+        "IRI-based" : "ObstacleWidth1"
+      }
+    } ],
+    "subClasses" : [ "156", "77", "87", "96", "88", "89", "27", "30" ],
+    "id" : "28"
+  }, {
+    "iri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl#SurfaceOrientation",
+    "baseIri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "SurfaceOrientation"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl#SurfaceOrientation1",
+      "baseIri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl",
+      "labels" : {
+        "IRI-based" : "SurfaceOrientation1"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl#SurfaceOrientation234",
+      "baseIri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl",
+      "labels" : {
+        "IRI-based" : "SurfaceOrientation234"
+      }
+    } ],
+    "id" : "118",
+    "superClasses" : [ "30" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl#AirBasedRobot",
+    "baseIri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "AirBasedRobot"
+    },
+    "id" : "125",
+    "superClasses" : [ "92" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl#VelocityRequirement",
+    "baseIri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "VelocityRequirement"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl#VelocityRequirement_Indoor",
+      "baseIri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl",
+      "labels" : {
+        "IRI-based" : "VelocityRequirement_Indoor"
+      }
+    } ],
+    "id" : "158",
+    "superClasses" : [ "147" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl#Capability",
+    "baseIri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Capability"
+    },
+    "subClasses" : [ "97", "144", "146", "149", "151", "153" ],
+    "comment" : {
+      "undefined" : "Capability describes the manifested behavioral features of the robot system."
+    },
+    "id" : "84"
+  }, {
+    "iri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl#Speed",
+    "baseIri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Speed"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl#InspectionSpeed1",
+      "baseIri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl",
+      "labels" : {
+        "IRI-based" : "InspectionSpeed1"
+      }
+    } ],
+    "id" : "156",
+    "superClasses" : [ "28" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl#SurfaceObstacle",
+    "baseIri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "SurfaceObstacle"
+    },
+    "subClasses" : [ "31", "133" ],
+    "id" : "32"
+  }, {
+    "iri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl#BuildingInterior",
+    "baseIri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "BuildingInterior"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl#BuildingInterior1",
+      "baseIri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl",
+      "labels" : {
+        "IRI-based" : "BuildingInterior1"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl#BuildingInterior2",
+      "baseIri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl",
+      "labels" : {
+        "IRI-based" : "BuildingInterior2"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl#BuildingInterior3",
+      "baseIri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl",
+      "labels" : {
+        "IRI-based" : "BuildingInterior3"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl#BuildingInterior4",
+      "baseIri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl",
+      "labels" : {
+        "IRI-based" : "BuildingInterior4"
+      }
+    } ],
+    "comment" : {
+      "undefined" : "BuildingInterior includes all elements exposed to the inside of the building and IndoorSpace bounded by the elements."
+    },
+    "id" : "104"
+  }, {
+    "iri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl#Building",
+    "baseIri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Building"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl#Building1",
+      "baseIri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl",
+      "labels" : {
+        "IRI-based" : "Building1"
+      }
+    } ],
+    "id" : "103"
+  }, {
+    "iri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl#NonContinuousInspection",
+    "baseIri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "NonContinuousInspection"
+    },
+    "id" : "9",
+    "superClasses" : [ "7" ]
+  }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#string",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "172",
+    "id" : "276",
     "label" : {
       "IRI-based" : "string"
     }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#double",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "278",
+    "label" : {
+      "IRI-based" : "double"
+    }
+  }, {
+    "iri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl#EnvironmentalCondition",
+    "baseIri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "EnvironmentalCondition"
+    },
+    "subClasses" : [ "135", "137", "57", "105", "121", "123" ],
+    "comment" : {
+      "undefined" : "EnvironmentalCondition describes environmental conditions of the building Site and IndoorSpace, which includes AverageAnnualAirTemperature, AverageAnnualAirHumidity, AirPressure, Visibility, and AverageAnnualWindSpeed, SignalReceptionCondition."
+    },
+    "id" : "58"
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "235",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl#ConcaveCorner",
+    "baseIri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "ConcaveCorner"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl#ConcaveCorner3",
+      "baseIri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl",
+      "labels" : {
+        "IRI-based" : "ConcaveCorner3"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl#ConcaveCorner4",
+      "baseIri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl",
+      "labels" : {
+        "IRI-based" : "ConcaveCorner4"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl#ConcaveCorner1",
+      "baseIri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl",
+      "labels" : {
+        "IRI-based" : "ConcaveCorner1"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl#ConcaveCorner2",
+      "baseIri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl",
+      "labels" : {
+        "IRI-based" : "ConcaveCorner2"
+      }
+    } ],
+    "id" : "112",
+    "superClasses" : [ "110" ]
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "219",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "95",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "237",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "20",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "190",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "189",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl#RobotBehavior",
+    "baseIri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "RobotBehavior"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl#OvercomingSurfaceObstacle3",
+      "baseIri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl",
+      "labels" : {
+        "IRI-based" : "OvercomingSurfaceObstacle3"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl#OvercomingSurfaceObstacle2",
+      "baseIri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl",
+      "labels" : {
+        "IRI-based" : "OvercomingSurfaceObstacle2"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl#ConcaveTransistion1",
+      "baseIri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl",
+      "labels" : {
+        "IRI-based" : "ConcaveTransistion1"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl#ConcaveTransistion2",
+      "baseIri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl",
+      "labels" : {
+        "IRI-based" : "ConcaveTransistion2"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl#ConcaveTransistion3",
+      "baseIri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl",
+      "labels" : {
+        "IRI-based" : "ConcaveTransistion3"
+      }
+    } ],
+    "id" : "178"
+  }, {
+    "iri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl#HeightConstraint",
+    "baseIri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "HeightConstraint"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl#HeightConstraint1",
+      "baseIri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl",
+      "labels" : {
+        "IRI-based" : "HeightConstraint1"
+      }
+    } ],
+    "id" : "4",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "183",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl#Robot",
+    "baseIri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Robot"
+    },
+    "subClasses" : [ "125", "93", "107" ],
+    "comment" : {
+      "undefined" : "Robot refers exclusively to mobile robots in the context of building inspection robots. It is a programmed actuated mechanism able to move around at a RobotMovementMedium of  its WorkEnvironment and conduct RobotBehavior with a degree of autonomy."
+    },
+    "id" : "92"
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "254",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "177",
+    "label" : {
+      "IRI-based" : "boolean"
+    }
+  }, {
+    "iri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl#Corner",
+    "baseIri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Corner"
+    },
+    "subClasses" : [ "109", "112" ],
+    "id" : "110"
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#double",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "272",
+    "label" : {
+      "IRI-based" : "double"
+    }
+  }, {
+    "instances" : 0,
+    "union" : [ "104", "194" ],
+    "attributes" : [ "anonymous", "union" ],
+    "id" : "299"
+  }, {
+    "instances" : 0,
+    "union" : [ "127", "141" ],
+    "attributes" : [ "anonymous", "union" ],
+    "id" : "290"
+  }, {
+    "iri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl#SurfaceAttribute",
+    "baseIri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "SurfaceAttribute"
+    },
+    "subClasses" : [ "29", "33", "118", "99", "101" ],
+    "id" : "30",
+    "superClasses" : [ "28" ]
+  }, {
+    "instances" : 0,
+    "union" : [ "103", "104", "194" ],
+    "attributes" : [ "anonymous", "union" ],
+    "id" : "168"
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "301",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "instances" : 0,
+    "union" : [ "178", "74" ],
+    "attributes" : [ "anonymous", "union" ],
+    "id" : "260"
   } ],
   "property" : [ {
     "id" : "0",
@@ -1238,7 +2009,7 @@
     "id" : "3",
     "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "6",
+    "id" : "5",
     "type" : "rdfs:SubClassOf"
   }, {
     "id" : "8",
@@ -1247,130 +2018,94 @@
     "id" : "10",
     "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "12",
+    "id" : "13",
     "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "14",
+    "id" : "15",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "19",
     "type" : "owl:objectProperty"
   }, {
-    "id" : "16",
+    "id" : "24",
     "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "18",
-    "type" : "rdfs:SubClassOf"
+    "id" : "26",
+    "type" : "owl:objectProperty"
   }, {
     "id" : "21",
     "type" : "owl:objectProperty"
   }, {
-    "id" : "27",
-    "type" : "owl:objectProperty"
-  }, {
-    "id" : "24",
-    "type" : "owl:objectProperty"
-  }, {
-    "id" : "44",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "46",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "48",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "51",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "53",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "56",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "58",
-    "type" : "owl:datatypeProperty"
-  }, {
-    "id" : "60",
+    "id" : "59",
     "type" : "rdfs:SubClassOf"
   }, {
     "id" : "62",
     "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "64",
+    "id" : "70",
     "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "65",
+    "id" : "71",
     "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "67",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "40",
-    "type" : "owl:objectProperty"
   }, {
     "id" : "72",
     "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "75",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "77",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "79",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "32",
+    "id" : "73",
     "type" : "owl:objectProperty"
   }, {
-    "id" : "70",
+    "id" : "76",
     "type" : "owl:objectProperty"
   }, {
-    "id" : "84",
-    "type" : "owl:datatypeProperty"
+    "id" : "50",
+    "type" : "owl:objectProperty"
   }, {
     "id" : "39",
     "type" : "owl:objectProperty"
   }, {
-    "id" : "86",
-    "type" : "owl:datatypeProperty"
-  }, {
-    "id" : "88",
+    "id" : "40",
     "type" : "owl:objectProperty"
   }, {
-    "id" : "89",
+    "id" : "91",
     "type" : "owl:objectProperty"
   }, {
-    "id" : "95",
-    "type" : "owl:objectProperty"
-  }, {
-    "id" : "96",
+    "id" : "94",
     "type" : "owl:datatypeProperty"
   }, {
     "id" : "98",
-    "type" : "owl:objectProperty"
+    "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "99",
-    "type" : "owl:objectProperty"
+    "id" : "100",
+    "type" : "rdfs:SubClassOf"
   }, {
     "id" : "102",
-    "type" : "owl:datatypeProperty"
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "79",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "45",
+    "type" : "owl:objectProperty"
   }, {
     "id" : "106",
-    "type" : "owl:datatypeProperty"
+    "type" : "rdfs:SubClassOf"
   }, {
     "id" : "108",
     "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "110",
+    "id" : "111",
     "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "38",
-    "type" : "owl:objectProperty"
+    "id" : "113",
+    "type" : "rdfs:SubClassOf"
   }, {
     "id" : "114",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "55",
     "type" : "owl:objectProperty"
   }, {
-    "id" : "81",
+    "id" : "56",
     "type" : "owl:objectProperty"
   }, {
     "id" : "117",
@@ -1382,182 +2117,158 @@
     "id" : "120",
     "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "121",
-    "type" : "owl:disjointWith"
+    "id" : "122",
+    "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "30",
-    "type" : "owl:objectProperty"
-  }, {
-    "id" : "36",
-    "type" : "owl:objectProperty"
+    "id" : "124",
+    "type" : "rdfs:SubClassOf"
   }, {
     "id" : "126",
-    "type" : "owl:objectProperty"
+    "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "127",
-    "type" : "owl:disjointWith"
+    "id" : "41",
+    "type" : "owl:objectProperty"
   }, {
     "id" : "128",
-    "type" : "owl:disjointWith"
+    "type" : "owl:objectProperty"
   }, {
     "id" : "129",
-    "type" : "owl:disjointWith"
+    "type" : "rdfs:SubClassOf"
   }, {
     "id" : "130",
-    "type" : "owl:objectProperty"
+    "type" : "owl:datatypeProperty"
   }, {
     "id" : "132",
-    "type" : "owl:someValuesFrom"
-  }, {
-    "id" : "133",
-    "type" : "owl:disjointWith"
+    "type" : "rdfs:SubClassOf"
   }, {
     "id" : "134",
-    "type" : "owl:objectProperty"
+    "type" : "rdfs:SubClassOf"
   }, {
     "id" : "136",
-    "type" : "owl:disjointWith"
-  }, {
-    "id" : "137",
-    "type" : "owl:someValuesFrom"
+    "type" : "rdfs:SubClassOf"
   }, {
     "id" : "138",
-    "type" : "owl:disjointWith"
+    "type" : "rdfs:SubClassOf"
   }, {
     "id" : "139",
-    "type" : "owl:someValuesFrom"
+    "type" : "rdfs:SubClassOf"
   }, {
     "id" : "140",
-    "type" : "owl:disjointWith"
-  }, {
-    "id" : "125",
     "type" : "owl:objectProperty"
   }, {
-    "id" : "141",
-    "type" : "owl:disjointWith"
-  }, {
     "id" : "142",
-    "type" : "owl:someValuesFrom"
+    "type" : "owl:objectProperty"
   }, {
-    "id" : "144",
-    "type" : "owl:disjointWith"
+    "id" : "143",
+    "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "146",
-    "type" : "owl:disjointWith"
-  }, {
-    "id" : "147",
-    "type" : "owl:disjointWith"
+    "id" : "145",
+    "type" : "rdfs:SubClassOf"
   }, {
     "id" : "148",
-    "type" : "owl:someValuesFrom"
-  }, {
-    "id" : "149",
-    "type" : "owl:disjointWith"
+    "type" : "rdfs:SubClassOf"
   }, {
     "id" : "150",
-    "type" : "owl:disjointWith"
-  }, {
-    "id" : "151",
-    "type" : "owl:disjointWith"
+    "type" : "rdfs:SubClassOf"
   }, {
     "id" : "152",
-    "type" : "owl:disjointWith"
-  }, {
-    "id" : "153",
-    "type" : "owl:someValuesFrom"
+    "type" : "rdfs:SubClassOf"
   }, {
     "id" : "155",
-    "type" : "owl:someValuesFrom"
-  }, {
-    "id" : "35",
     "type" : "owl:objectProperty"
   }, {
     "id" : "157",
-    "type" : "owl:disjointWith"
-  }, {
-    "id" : "158",
-    "type" : "owl:disjointWith"
+    "type" : "rdfs:SubClassOf"
   }, {
     "id" : "159",
-    "type" : "owl:objectProperty"
+    "type" : "rdfs:SubClassOf"
   }, {
     "id" : "160",
-    "type" : "owl:disjointWith"
+    "type" : "rdfs:SubClassOf"
   }, {
     "id" : "161",
-    "type" : "owl:disjointWith"
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "162",
+    "type" : "rdfs:SubClassOf"
   }, {
     "id" : "163",
-    "type" : "owl:someValuesFrom"
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "164",
+    "type" : "rdfs:SubClassOf"
   }, {
     "id" : "165",
-    "type" : "owl:someValuesFrom"
+    "type" : "rdfs:SubClassOf"
   }, {
     "id" : "166",
-    "type" : "owl:disjointWith"
+    "type" : "rdfs:SubClassOf"
   }, {
     "id" : "167",
-    "type" : "owl:disjointWith"
-  }, {
-    "id" : "37",
     "type" : "owl:objectProperty"
   }, {
     "id" : "170",
-    "type" : "owl:disjointWith"
+    "type" : "rdfs:SubClassOf"
   }, {
     "id" : "171",
     "type" : "owl:datatypeProperty"
   }, {
+    "id" : "172",
+    "type" : "rdfs:SubClassOf"
+  }, {
     "id" : "173",
-    "type" : "owl:disjointWith"
+    "type" : "owl:datatypeProperty"
   }, {
     "id" : "174",
-    "type" : "owl:disjointWith"
-  }, {
-    "id" : "175",
-    "type" : "owl:disjointWith"
+    "type" : "owl:objectProperty"
   }, {
     "id" : "176",
-    "type" : "owl:disjointWith"
+    "type" : "owl:datatypeProperty"
   }, {
-    "id" : "177",
-    "type" : "owl:disjointWith"
-  }, {
-    "id" : "178",
-    "type" : "owl:disjointWith"
+    "id" : "116",
+    "type" : "owl:objectProperty"
   }, {
     "id" : "179",
-    "type" : "owl:disjointWith"
+    "type" : "rdfs:SubClassOf"
   }, {
     "id" : "180",
-    "type" : "owl:disjointWith"
+    "type" : "rdfs:SubClassOf"
   }, {
     "id" : "181",
-    "type" : "owl:someValuesFrom"
+    "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "186",
-    "type" : "owl:someValuesFrom"
-  }, {
-    "id" : "71",
+    "id" : "85",
     "type" : "owl:objectProperty"
+  }, {
+    "id" : "182",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "37",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "185",
+    "type" : "owl:disjointWith"
   }, {
     "id" : "187",
-    "type" : "owl:datatypeProperty"
-  }, {
-    "id" : "189",
-    "type" : "owl:datatypeProperty"
-  }, {
-    "id" : "124",
     "type" : "owl:objectProperty"
   }, {
+    "id" : "44",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "188",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "48",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "191",
+    "type" : "owl:disjointWith"
+  }, {
     "id" : "192",
-    "type" : "owl:someValuesFrom"
+    "type" : "owl:disjointWith"
   }, {
     "id" : "193",
-    "type" : "owl:someValuesFrom"
-  }, {
-    "id" : "194",
-    "type" : "owl:someValuesFrom"
+    "type" : "owl:disjointWith"
   }, {
     "id" : "195",
     "type" : "owl:someValuesFrom"
@@ -1566,31 +2277,34 @@
     "type" : "owl:someValuesFrom"
   }, {
     "id" : "197",
-    "type" : "owl:disjointWith"
+    "type" : "owl:someValuesFrom"
   }, {
     "id" : "198",
-    "type" : "owl:disjointWith"
+    "type" : "owl:someValuesFrom"
   }, {
     "id" : "199",
     "type" : "owl:someValuesFrom"
   }, {
     "id" : "200",
-    "type" : "owl:someValuesFrom"
+    "type" : "owl:disjointWith"
   }, {
     "id" : "201",
     "type" : "owl:disjointWith"
   }, {
+    "id" : "184",
+    "type" : "owl:objectProperty"
+  }, {
     "id" : "202",
-    "type" : "owl:disjointWith"
+    "type" : "owl:someValuesFrom"
   }, {
     "id" : "203",
     "type" : "owl:disjointWith"
   }, {
-    "id" : "41",
+    "id" : "49",
     "type" : "owl:objectProperty"
   }, {
     "id" : "204",
-    "type" : "owl:disjointWith"
+    "type" : "owl:someValuesFrom"
   }, {
     "id" : "205",
     "type" : "owl:disjointWith"
@@ -1599,1104 +2313,1790 @@
     "type" : "owl:disjointWith"
   }, {
     "id" : "207",
-    "type" : "rdfs:SubClassOf"
+    "type" : "owl:disjointWith"
   }, {
     "id" : "208",
-    "type" : "rdfs:SubClassOf"
+    "type" : "owl:disjointWith"
   }, {
     "id" : "209",
-    "type" : "rdfs:SubClassOf"
+    "type" : "owl:disjointWith"
   }, {
     "id" : "210",
-    "type" : "rdfs:SubClassOf"
+    "type" : "owl:disjointWith"
   }, {
     "id" : "211",
-    "type" : "owl:datatypeProperty"
+    "type" : "owl:disjointWith"
   }, {
-    "id" : "213",
-    "type" : "rdfs:SubClassOf"
+    "id" : "36",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "212",
+    "type" : "owl:someValuesFrom"
   }, {
     "id" : "214",
-    "type" : "owl:disjointWith"
-  }, {
-    "id" : "215",
-    "type" : "owl:disjointWith"
+    "type" : "owl:objectProperty"
   }, {
     "id" : "216",
     "type" : "owl:disjointWith"
   }, {
-    "id" : "217",
-    "type" : "owl:disjointWith"
-  }, {
     "id" : "218",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "22",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "215",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "224",
     "type" : "owl:disjointWith"
   }, {
-    "id" : "219",
+    "id" : "225",
     "type" : "owl:disjointWith"
   }, {
-    "id" : "220",
+    "id" : "227",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "228",
     "type" : "owl:disjointWith"
   }, {
-    "id" : "221",
+    "id" : "229",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "230",
     "type" : "owl:disjointWith"
   }, {
-    "id" : "222",
+    "id" : "231",
     "type" : "owl:disjointWith"
   }, {
     "id" : "223",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "232",
     "type" : "owl:disjointWith"
   }, {
-    "id" : "28",
+    "id" : "220",
     "type" : "owl:objectProperty"
   }, {
-    "id" : "33",
+    "id" : "233",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "234",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "78",
     "type" : "owl:objectProperty"
   }, {
-    "id" : "34",
+    "id" : "236",
     "type" : "owl:objectProperty"
+  }, {
+    "id" : "238",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "240",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "241",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "242",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "243",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "244",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "245",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "246",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "247",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "248",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "249",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "250",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "252",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "253",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "256",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "257",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "258",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "259",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "261",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "262",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "263",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "264",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "265",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "266",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "267",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "268",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "269",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "270",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "271",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "221",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "273",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "23",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "274",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "275",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "277",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "251",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "279",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "280",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "222",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "281",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "282",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "283",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "284",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "285",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "286",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "287",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "288",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "289",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "47",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "291",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "292",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "293",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "294",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "295",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "53",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "296",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "54",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "297",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "298",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "38",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "43",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "46",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "300",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "302",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "303",
+    "type" : "owl:someValuesFrom"
   } ],
   "propertyAttribute" : [ {
     "range" : "2",
     "domain" : "1",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "0"
   }, {
-    "range" : "5",
+    "range" : "2",
     "domain" : "4",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "3"
   }, {
-    "range" : "5",
-    "domain" : "7",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "6"
+    "range" : "7",
+    "domain" : "6",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "5"
   }, {
-    "range" : "5",
+    "range" : "7",
     "domain" : "9",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "8"
   }, {
-    "range" : "5",
+    "range" : "12",
     "domain" : "11",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "10"
   }, {
-    "range" : "5",
-    "domain" : "13",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "12"
+    "range" : "12",
+    "domain" : "14",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "13"
   }, {
-    "iri" : "https://purl.org/ontodesign#requiresMethod",
-    "baseIri" : "https://purl.org/ontodesign",
-    "range" : "15",
-    "label" : {
-      "IRI-based" : "requiresMethod"
-    },
-    "domain" : "15",
-    "attributes" : [ "object" ],
-    "id" : "14"
+    "range" : "12",
+    "domain" : "16",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "15"
   }, {
-    "range" : "5",
-    "domain" : "17",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "16"
-  }, {
+    "iri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl#causes",
+    "baseIri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl",
     "range" : "20",
-    "domain" : "19",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "18"
-  }, {
-    "iri" : "https://purl.org/ontodesign#provides",
-    "baseIri" : "https://purl.org/ontodesign",
-    "range" : "23",
-    "label" : {
-      "IRI-based" : "provides"
-    },
-    "superproperty" : [ "24" ],
-    "domain" : "22",
-    "attributes" : [ "object" ],
-    "id" : "21"
-  }, {
-    "iri" : "https://purl.org/ontodesign#causes",
-    "baseIri" : "https://purl.org/ontodesign",
-    "range" : "15",
     "label" : {
       "IRI-based" : "causes"
     },
-    "superproperty" : [ "24" ],
-    "domain" : "15",
+    "superproperty" : [ "21" ],
+    "domain" : "20",
+    "subproperty" : [ "22", "23" ],
     "attributes" : [ "object" ],
-    "id" : "27"
+    "id" : "19"
+  }, {
+    "range" : "12",
+    "domain" : "25",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "24"
+  }, {
+    "iri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl#isAssistedBy",
+    "baseIri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl",
+    "range" : "20",
+    "label" : {
+      "IRI-based" : "isAssistedBy"
+    },
+    "superproperty" : [ "21" ],
+    "domain" : "20",
+    "attributes" : [ "object" ],
+    "id" : "26"
   }, {
     "iri" : "http://www.w3.org/2002/07/owl#topObjectProperty",
     "baseIri" : "http://www.w3.org/2002/07/owl",
-    "range" : "15",
+    "range" : "20",
     "label" : {
       "IRI-based" : "topObjectProperty"
     },
-    "domain" : "15",
-    "subproperty" : [ "28", "29", "30", "31", "32", "33", "34", "35", "36", "37", "21", "27", "38", "39", "40", "41" ],
+    "domain" : "20",
+    "subproperty" : [ "36", "37", "38", "39", "40", "41", "19", "42", "43", "26", "44", "45", "46", "47", "48", "49", "50", "51", "52", "53", "54", "55", "56" ],
     "attributes" : [ "external", "object" ],
-    "id" : "24"
+    "id" : "21"
+  }, {
+    "range" : "61",
+    "domain" : "60",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "59"
   }, {
     "range" : "2",
-    "domain" : "45",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "44"
-  }, {
-    "range" : "2",
-    "domain" : "47",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "46"
-  }, {
-    "range" : "50",
-    "domain" : "49",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "48"
-  }, {
-    "range" : "50",
-    "domain" : "52",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "51"
-  }, {
-    "range" : "55",
-    "domain" : "54",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "53"
-  }, {
-    "range" : "55",
-    "domain" : "57",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "56"
-  }, {
-    "iri" : "https://purl.org/ontodesign#isSmooth",
-    "baseIri" : "https://purl.org/ontodesign",
-    "range" : "59",
-    "label" : {
-      "IRI-based" : "isSmooth"
-    },
-    "domain" : "15",
-    "attributes" : [ "datatype" ],
-    "id" : "58"
-  }, {
-    "range" : "55",
-    "domain" : "61",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "60"
-  }, {
-    "range" : "63",
-    "domain" : "26",
-    "attributes" : [ "object", "anonymous" ],
+    "domain" : "63",
+    "attributes" : [ "anonymous", "object" ],
     "id" : "62"
   }, {
-    "range" : "63",
-    "domain" : "2",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "64"
+    "range" : "33",
+    "domain" : "34",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "70"
   }, {
-    "range" : "2",
-    "domain" : "66",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "65"
+    "range" : "33",
+    "domain" : "35",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "71"
   }, {
-    "range" : "2",
-    "domain" : "68",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "67"
-  }, {
-    "iri" : "https://purl.org/ontodesign#fulfills",
-    "baseIri" : "https://purl.org/ontodesign",
-    "range" : "15",
-    "label" : {
-      "IRI-based" : "fulfills"
-    },
-    "superproperty" : [ "24" ],
-    "domain" : "15",
-    "subproperty" : [ "70", "71" ],
-    "attributes" : [ "object" ],
-    "id" : "40"
-  }, {
-    "range" : "74",
-    "domain" : "73",
-    "attributes" : [ "object", "anonymous" ],
+    "range" : "18",
+    "domain" : "17",
+    "attributes" : [ "anonymous", "object" ],
     "id" : "72"
   }, {
-    "range" : "43",
-    "domain" : "76",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "75"
-  }, {
-    "range" : "74",
-    "domain" : "78",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "77"
-  }, {
-    "range" : "50",
-    "domain" : "80",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "79"
-  }, {
-    "iri" : "https://purl.org/ontodesign#movesAt",
-    "baseIri" : "https://purl.org/ontodesign",
-    "range" : "15",
-    "label" : {
-      "IRI-based" : "movesAt"
-    },
-    "superproperty" : [ "24" ],
-    "domain" : "15",
-    "subproperty" : [ "81" ],
-    "attributes" : [ "object" ],
-    "id" : "32"
-  }, {
-    "iri" : "https://purl.org/ontodesign#fulfillsStructuralCharacteristicsRequirement",
-    "baseIri" : "https://purl.org/ontodesign",
-    "range" : "26",
+    "iri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl#fulfillsStructuralCharacteristicsRequirement",
+    "baseIri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl",
+    "range" : "18",
     "label" : {
       "IRI-based" : "fulfillsStructuralCharacteristicsRequirement"
     },
-    "superproperty" : [ "40" ],
-    "domain" : "83",
+    "superproperty" : [ "54" ],
+    "domain" : "74",
     "attributes" : [ "object" ],
-    "id" : "70"
+    "id" : "73"
   }, {
-    "iri" : "https://purl.org/ontodesign#hasValue",
-    "baseIri" : "https://purl.org/ontodesign",
-    "range" : "85",
-    "label" : {
-      "IRI-based" : "hasValue"
-    },
-    "domain" : "15",
-    "attributes" : [ "datatype" ],
-    "id" : "84"
-  }, {
-    "iri" : "https://purl.org/ontodesign#hasCapability",
-    "baseIri" : "https://purl.org/ontodesign",
+    "iri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl#hasWindSpeed",
+    "baseIri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl",
     "range" : "20",
+    "label" : {
+      "IRI-based" : "hasWindSpeed"
+    },
+    "superproperty" : [ "47" ],
+    "domain" : "20",
+    "attributes" : [ "object" ],
+    "id" : "76"
+  }, {
+    "iri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl#isConductedBy",
+    "baseIri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl",
+    "range" : "20",
+    "label" : {
+      "IRI-based" : "isConductedBy"
+    },
+    "superproperty" : [ "21" ],
+    "domain" : "20",
+    "subproperty" : [ "78", "79" ],
+    "attributes" : [ "object" ],
+    "id" : "50"
+  }, {
+    "iri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl#hasCapability",
+    "baseIri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl",
+    "range" : "84",
     "label" : {
       "IRI-based" : "hasCapability"
     },
-    "superproperty" : [ "24" ],
-    "domain" : "83",
+    "superproperty" : [ "21" ],
+    "domain" : "74",
     "attributes" : [ "object" ],
     "id" : "39"
   }, {
-    "iri" : "http://www.w3.org/2002/07/owl#topDataProperty",
-    "baseIri" : "http://www.w3.org/2002/07/owl",
-    "range" : "87",
-    "label" : {
-      "IRI-based" : "topDataProperty"
-    },
-    "domain" : "15",
-    "attributes" : [ "external", "datatype" ],
-    "id" : "86"
-  }, {
-    "iri" : "https://purl.org/ontodesign#isLocatedAt",
-    "baseIri" : "https://purl.org/ontodesign",
-    "range" : "15",
-    "label" : {
-      "IRI-based" : "isLocatedAt"
-    },
-    "domain" : "15",
-    "attributes" : [ "object" ],
-    "id" : "88"
-  }, {
-    "iri" : "https://purl.org/ontodesign#hasHeight",
-    "baseIri" : "https://purl.org/ontodesign",
-    "range" : "42",
-    "label" : {
-      "IRI-based" : "hasHeight"
-    },
-    "superproperty" : [ "34" ],
-    "domain" : "90",
-    "attributes" : [ "object" ],
-    "id" : "89"
-  }, {
-    "iri" : "https://purl.org/ontodesign#isToBeDetectedBy",
-    "baseIri" : "https://purl.org/ontodesign",
-    "range" : "15",
-    "label" : {
-      "IRI-based" : "isToBeDetectedBy"
-    },
-    "domain" : "15",
-    "attributes" : [ "object" ],
-    "id" : "95"
-  }, {
-    "iri" : "https://purl.org/ontodesign#hasDustinessLevel",
-    "baseIri" : "https://purl.org/ontodesign",
-    "range" : "97",
-    "label" : {
-      "IRI-based" : "hasDustinessLevel"
-    },
-    "domain" : "15",
-    "attributes" : [ "datatype" ],
-    "id" : "96"
-  }, {
-    "iri" : "https://purl.org/ontodesign#hasDefect",
-    "baseIri" : "https://purl.org/ontodesign",
-    "range" : "15",
-    "label" : {
-      "IRI-based" : "hasDefect"
-    },
-    "domain" : "15",
-    "attributes" : [ "object" ],
-    "id" : "98"
-  }, {
-    "iri" : "https://purl.org/ontodesign#hasBuildingElement",
-    "baseIri" : "https://purl.org/ontodesign",
-    "range" : "101",
-    "label" : {
-      "IRI-based" : "hasBuildingElement"
-    },
-    "superproperty" : [ "36" ],
-    "domain" : "100",
-    "attributes" : [ "object" ],
-    "id" : "99"
-  }, {
-    "iri" : "https://purl.org/ontodesign#requiresContinuousWork",
-    "baseIri" : "https://purl.org/ontodesign",
-    "range" : "103",
-    "label" : {
-      "IRI-based" : "requiresContinuousWork"
-    },
-    "domain" : "15",
-    "attributes" : [ "datatype" ],
-    "id" : "102"
-  }, {
-    "iri" : "https://purl.org/ontodesign#isInverted",
-    "baseIri" : "https://purl.org/ontodesign",
-    "range" : "107",
-    "label" : {
-      "IRI-based" : "isInverted"
-    },
-    "domain" : "15",
-    "attributes" : [ "datatype" ],
-    "id" : "106"
-  }, {
+    "iri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl#movesAt",
+    "baseIri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl",
     "range" : "20",
-    "domain" : "109",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "108"
-  }, {
-    "range" : "20",
-    "domain" : "111",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "110"
-  }, {
-    "iri" : "https://purl.org/ontodesign#hasBuildingInterior",
-    "baseIri" : "https://purl.org/ontodesign",
-    "range" : "113",
     "label" : {
-      "IRI-based" : "hasBuildingInterior"
+      "IRI-based" : "movesAt"
     },
-    "superproperty" : [ "24" ],
-    "domain" : "112",
-    "attributes" : [ "object" ],
-    "id" : "38"
-  }, {
-    "iri" : "https://purl.org/ontodesign#hasExpectedInspectionSpeed",
-    "baseIri" : "https://purl.org/ontodesign",
-    "range" : "91",
-    "label" : {
-      "IRI-based" : "hasExpectedInspectionSpeed"
-    },
-    "superproperty" : [ "34" ],
-    "domain" : "115",
-    "attributes" : [ "object" ],
-    "id" : "114"
-  }, {
-    "iri" : "https://purl.org/ontodesign#movesAtMovementMedium",
-    "baseIri" : "https://purl.org/ontodesign",
-    "range" : "116",
-    "label" : {
-      "IRI-based" : "movesAtMovementMedium"
-    },
-    "superproperty" : [ "32" ],
-    "domain" : "55",
-    "attributes" : [ "object" ],
-    "id" : "81"
-  }, {
-    "range" : "20",
-    "domain" : "118",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "117"
-  }, {
-    "range" : "20",
-    "domain" : "94",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "119"
-  }, {
-    "range" : "20",
-    "domain" : "104",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "120"
-  }, {
-    "range" : "19",
-    "domain" : "111",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "121"
-  }, {
-    "iri" : "https://purl.org/ontodesign#hasBuildingExterior",
-    "baseIri" : "https://purl.org/ontodesign",
-    "range" : "122",
-    "label" : {
-      "IRI-based" : "hasBuildingExterior"
-    },
-    "superproperty" : [ "24" ],
-    "domain" : "112",
-    "attributes" : [ "object" ],
-    "id" : "30"
-  }, {
-    "iri" : "https://purl.org/ontodesign#hasComponent",
-    "baseIri" : "https://purl.org/ontodesign",
-    "range" : "15",
-    "label" : {
-      "IRI-based" : "hasComponent"
-    },
-    "superproperty" : [ "24" ],
-    "domain" : "15",
-    "subproperty" : [ "124", "99", "125", "126" ],
-    "attributes" : [ "object" ],
-    "id" : "36"
-  }, {
-    "iri" : "https://purl.org/ontodesign#hasRobotComponent",
-    "baseIri" : "https://purl.org/ontodesign",
-    "range" : "105",
-    "label" : {
-      "IRI-based" : "hasRobotComponent"
-    },
-    "superproperty" : [ "36" ],
-    "domain" : "55",
-    "attributes" : [ "object" ],
-    "id" : "126"
-  }, {
-    "range" : "109",
-    "domain" : "111",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "127"
-  }, {
-    "range" : "118",
-    "domain" : "111",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "128"
-  }, {
-    "range" : "82",
-    "domain" : "113",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "129"
-  }, {
-    "iri" : "https://purl.org/ontodesign#hasStructuralCharacteristics",
-    "baseIri" : "https://purl.org/ontodesign",
-    "range" : "92",
-    "label" : {
-      "IRI-based" : "hasStructuralCharacteristics"
-    },
-    "superproperty" : [ "34" ],
-    "domain" : "131",
-    "attributes" : [ "object" ],
-    "id" : "130"
-  }, {
-    "iri" : "https://purl.org/ontodesign#hasIndoorSpace",
-    "baseIri" : "https://purl.org/ontodesign",
-    "range" : "82",
-    "label" : {
-      "IRI-based" : "hasIndoorSpace"
-    },
-    "superproperty" : [ "24" ],
-    "domain" : "113",
-    "attributes" : [ "object", "someValues" ],
-    "id" : "132"
-  }, {
-    "range" : "104",
-    "domain" : "111",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "133"
-  }, {
-    "iri" : "https://purl.org/ontodesign#hasDetectableAttribute",
-    "baseIri" : "https://purl.org/ontodesign",
-    "range" : "76",
-    "label" : {
-      "IRI-based" : "hasDetectableAttribute"
-    },
-    "superproperty" : [ "34" ],
-    "domain" : "135",
-    "attributes" : [ "object" ],
-    "id" : "134"
-  }, {
-    "range" : "82",
+    "superproperty" : [ "21" ],
     "domain" : "20",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "136"
-  }, {
-    "iri" : "https://purl.org/ontodesign#hasBuildingElement",
-    "baseIri" : "https://purl.org/ontodesign",
-    "range" : "101",
-    "label" : {
-      "IRI-based" : "hasBuildingElement"
-    },
-    "superproperty" : [ "36" ],
-    "domain" : "122",
-    "attributes" : [ "object", "someValues" ],
-    "id" : "137"
-  }, {
-    "range" : "82",
-    "domain" : "101",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "138"
-  }, {
-    "iri" : "https://purl.org/ontodesign#hasBuildingElement",
-    "baseIri" : "https://purl.org/ontodesign",
-    "range" : "101",
-    "label" : {
-      "IRI-based" : "hasBuildingElement"
-    },
-    "superproperty" : [ "36" ],
-    "domain" : "113",
-    "attributes" : [ "object", "someValues" ],
-    "id" : "139"
-  }, {
-    "range" : "82",
-    "domain" : "122",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "140"
-  }, {
-    "iri" : "https://purl.org/ontodesign#hasAuxiliaryEquipment",
-    "baseIri" : "https://purl.org/ontodesign",
-    "range" : "123",
-    "label" : {
-      "IRI-based" : "hasAuxiliaryEquipment"
-    },
-    "superproperty" : [ "36" ],
-    "domain" : "83",
+    "subproperty" : [ "85" ],
     "attributes" : [ "object" ],
-    "id" : "125"
+    "id" : "40"
   }, {
-    "range" : "82",
-    "domain" : "112",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "141"
-  }, {
-    "iri" : "https://purl.org/ontodesign#hasBuildingExterior",
-    "baseIri" : "https://purl.org/ontodesign",
-    "range" : "122",
-    "label" : {
-      "IRI-based" : "hasBuildingExterior"
-    },
-    "superproperty" : [ "24" ],
-    "domain" : "112",
-    "attributes" : [ "object", "someValues" ],
-    "id" : "142"
-  }, {
-    "range" : "82",
-    "domain" : "145",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "144"
-  }, {
-    "range" : "82",
-    "domain" : "43",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "146"
-  }, {
-    "range" : "9",
-    "domain" : "7",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "147"
-  }, {
-    "iri" : "https://purl.org/ontodesign#hasBuildingInterior",
-    "baseIri" : "https://purl.org/ontodesign",
-    "range" : "113",
-    "label" : {
-      "IRI-based" : "hasBuildingInterior"
-    },
-    "superproperty" : [ "24" ],
-    "domain" : "112",
-    "attributes" : [ "object", "someValues" ],
-    "id" : "148"
-  }, {
-    "range" : "82",
-    "domain" : "123",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "149"
-  }, {
-    "range" : "9",
-    "domain" : "11",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "150"
-  }, {
-    "range" : "9",
-    "domain" : "4",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "151"
-  }, {
-    "range" : "7",
-    "domain" : "4",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "152"
-  }, {
-    "iri" : "https://purl.org/ontodesign#hasUnit",
-    "baseIri" : "https://purl.org/ontodesign",
-    "range" : "154",
-    "label" : {
-      "IRI-based" : "hasUnit"
-    },
-    "domain" : "42",
-    "attributes" : [ "datatype", "someValues" ],
-    "id" : "153"
-  }, {
-    "iri" : "https://purl.org/ontodesign#hasValue",
-    "baseIri" : "https://purl.org/ontodesign",
-    "range" : "156",
-    "label" : {
-      "IRI-based" : "hasValue"
-    },
-    "domain" : "42",
-    "attributes" : [ "datatype", "someValues" ],
-    "id" : "155"
-  }, {
-    "iri" : "https://purl.org/ontodesign#hasRobotMovementMedium",
-    "baseIri" : "https://purl.org/ontodesign",
-    "range" : "116",
-    "label" : {
-      "IRI-based" : "hasRobotMovementMedium"
-    },
-    "superproperty" : [ "24" ],
-    "domain" : "23",
-    "attributes" : [ "object" ],
-    "id" : "35"
-  }, {
-    "range" : "91",
-    "domain" : "76",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "157"
-  }, {
-    "range" : "42",
-    "domain" : "76",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "158"
-  }, {
-    "iri" : "https://purl.org/ontodesign#hasMinimumChange",
-    "baseIri" : "https://purl.org/ontodesign",
-    "range" : "15",
-    "label" : {
-      "IRI-based" : "hasMinimumChange"
-    },
-    "superproperty" : [ "34" ],
-    "domain" : "15",
-    "attributes" : [ "object" ],
-    "id" : "159"
-  }, {
-    "range" : "82",
-    "domain" : "5",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "160"
-  }, {
-    "range" : "91",
-    "domain" : "42",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "161"
-  }, {
-    "iri" : "https://purl.org/ontodesign#hasUnit",
-    "baseIri" : "https://purl.org/ontodesign",
-    "range" : "162",
-    "label" : {
-      "IRI-based" : "hasUnit"
-    },
-    "domain" : "76",
-    "attributes" : [ "datatype", "someValues" ],
-    "id" : "163"
-  }, {
-    "iri" : "https://purl.org/ontodesign#hasValue",
-    "baseIri" : "https://purl.org/ontodesign",
-    "range" : "164",
-    "label" : {
-      "IRI-based" : "hasValue"
-    },
-    "domain" : "76",
-    "attributes" : [ "datatype", "someValues" ],
-    "id" : "165"
-  }, {
-    "range" : "94",
-    "domain" : "19",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "166"
-  }, {
-    "range" : "94",
-    "domain" : "109",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "167"
-  }, {
-    "iri" : "https://purl.org/ontodesign#hasPhysicalConstraintsToRobots",
-    "baseIri" : "https://purl.org/ontodesign",
-    "range" : "50",
-    "label" : {
-      "IRI-based" : "hasPhysicalConstraintsToRobots"
-    },
-    "superproperty" : [ "24" ],
-    "domain" : "169",
-    "attributes" : [ "object" ],
-    "id" : "37"
-  }, {
-    "range" : "19",
-    "domain" : "109",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "170"
-  }, {
-    "iri" : "https://purl.org/ontodesign#hasUnit",
-    "baseIri" : "https://purl.org/ontodesign",
-    "range" : "172",
-    "label" : {
-      "IRI-based" : "hasUnit"
-    },
-    "domain" : "15",
-    "attributes" : [ "datatype" ],
-    "id" : "171"
-  }, {
-    "range" : "109",
-    "domain" : "118",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "173"
-  }, {
-    "range" : "94",
-    "domain" : "104",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "174"
-  }, {
-    "range" : "94",
-    "domain" : "118",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "175"
-  }, {
-    "range" : "19",
-    "domain" : "118",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "176"
-  }, {
-    "range" : "118",
-    "domain" : "104",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "177"
-  }, {
-    "range" : "94",
-    "domain" : "111",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "178"
-  }, {
-    "range" : "19",
-    "domain" : "104",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "179"
-  }, {
-    "range" : "109",
-    "domain" : "104",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "180"
-  }, {
-    "iri" : "https://purl.org/ontodesign#hasRobotMovementMedium",
-    "baseIri" : "https://purl.org/ontodesign",
-    "range" : "116",
-    "label" : {
-      "IRI-based" : "hasRobotMovementMedium"
-    },
-    "superproperty" : [ "24" ],
-    "domain" : "23",
-    "attributes" : [ "object", "someValues" ],
-    "id" : "181"
-  }, {
-    "iri" : "https://purl.org/ontodesign#hasValue",
-    "baseIri" : "https://purl.org/ontodesign",
-    "range" : "182",
-    "label" : {
-      "IRI-based" : "hasValue"
-    },
-    "domain" : "91",
-    "attributes" : [ "datatype", "someValues" ],
-    "id" : "186"
-  }, {
-    "iri" : "https://purl.org/ontodesign#fulfillsCapabilityRequirement",
-    "baseIri" : "https://purl.org/ontodesign",
-    "range" : "2",
-    "label" : {
-      "IRI-based" : "fulfillsCapabilityRequirement"
-    },
-    "superproperty" : [ "40" ],
-    "domain" : "184",
-    "attributes" : [ "object" ],
-    "id" : "71"
-  }, {
-    "iri" : "https://purl.org/ontodesign#hasSignalReceptionCondition",
-    "baseIri" : "https://purl.org/ontodesign",
-    "range" : "188",
-    "label" : {
-      "IRI-based" : "hasSignalReceptionCondition"
-    },
-    "domain" : "15",
-    "attributes" : [ "datatype" ],
-    "id" : "187"
-  }, {
-    "iri" : "https://purl.org/ontodesign#isFerromagnetic",
-    "baseIri" : "https://purl.org/ontodesign",
-    "range" : "190",
-    "label" : {
-      "IRI-based" : "isFerromagnetic"
-    },
-    "domain" : "15",
-    "attributes" : [ "datatype" ],
-    "id" : "189"
-  }, {
-    "iri" : "https://purl.org/ontodesign#hasRobot",
-    "baseIri" : "https://purl.org/ontodesign",
-    "range" : "55",
+    "iri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl#hasRobot",
+    "baseIri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl",
+    "range" : "92",
     "label" : {
       "IRI-based" : "hasRobot"
     },
-    "superproperty" : [ "36" ],
-    "domain" : "83",
+    "superproperty" : [ "37" ],
+    "domain" : "74",
     "attributes" : [ "object" ],
-    "id" : "124"
+    "id" : "91"
   }, {
-    "iri" : "https://purl.org/ontodesign#hasUnit",
-    "baseIri" : "https://purl.org/ontodesign",
-    "range" : "191",
+    "iri" : "http://www.w3.org/2002/07/owl#topDataProperty",
+    "baseIri" : "http://www.w3.org/2002/07/owl",
+    "range" : "95",
     "label" : {
-      "IRI-based" : "hasUnit"
+      "IRI-based" : "topDataProperty"
     },
-    "domain" : "91",
-    "attributes" : [ "datatype", "someValues" ],
-    "id" : "192"
+    "domain" : "20",
+    "attributes" : [ "external", "datatype" ],
+    "id" : "94"
   }, {
-    "iri" : "https://purl.org/ontodesign#worksIn",
-    "baseIri" : "https://purl.org/ontodesign",
-    "range" : "23",
+    "range" : "30",
+    "domain" : "99",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "98"
+  }, {
+    "range" : "30",
+    "domain" : "101",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "100"
+  }, {
+    "iri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl#hasHeight",
+    "baseIri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl",
+    "range" : "77",
     "label" : {
-      "IRI-based" : "worksIn"
+      "IRI-based" : "hasHeight"
     },
-    "superproperty" : [ "24" ],
-    "domain" : "55",
-    "attributes" : [ "object", "someValues" ],
-    "id" : "193"
+    "superproperty" : [ "43" ],
+    "domain" : "82",
+    "attributes" : [ "object" ],
+    "id" : "102"
   }, {
-    "iri" : "https://purl.org/ontodesign#movesAtMovementMedium",
-    "baseIri" : "https://purl.org/ontodesign",
-    "range" : "116",
-    "label" : {
-      "IRI-based" : "movesAtMovementMedium"
-    },
-    "superproperty" : [ "32" ],
-    "domain" : "55",
-    "attributes" : [ "object", "someValues" ],
-    "id" : "194"
-  }, {
-    "iri" : "https://purl.org/ontodesign#hasCapability",
-    "baseIri" : "https://purl.org/ontodesign",
+    "iri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl#isConductedByHumanInspector",
+    "baseIri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl",
     "range" : "20",
     "label" : {
-      "IRI-based" : "hasCapability"
+      "IRI-based" : "isConductedByHumanInspector"
     },
-    "superproperty" : [ "24" ],
+    "superproperty" : [ "50" ],
+    "domain" : "20",
+    "attributes" : [ "object" ],
+    "id" : "79"
+  }, {
+    "iri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl#hasBuildingInterior",
+    "baseIri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl",
+    "range" : "104",
+    "label" : {
+      "IRI-based" : "hasBuildingInterior"
+    },
+    "superproperty" : [ "21" ],
+    "domain" : "103",
+    "attributes" : [ "object" ],
+    "id" : "45"
+  }, {
+    "range" : "92",
+    "domain" : "107",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "106"
+  }, {
+    "range" : "110",
+    "domain" : "109",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "108"
+  }, {
+    "range" : "110",
+    "domain" : "112",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "111"
+  }, {
+    "range" : "30",
+    "domain" : "29",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "113"
+  }, {
+    "range" : "30",
+    "domain" : "33",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "114"
+  }, {
+    "iri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl#hasTargetBuildingDefect",
+    "baseIri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl",
+    "range" : "115",
+    "label" : {
+      "IRI-based" : "hasTargetBuildingDefect"
+    },
+    "superproperty" : [ "21" ],
     "domain" : "83",
-    "attributes" : [ "object", "someValues" ],
-    "id" : "195"
+    "attributes" : [ "object" ],
+    "id" : "55"
   }, {
-    "iri" : "https://purl.org/ontodesign#occursAt",
-    "baseIri" : "https://purl.org/ontodesign",
-    "range" : "23",
+    "iri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl#requires",
+    "baseIri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl",
+    "range" : "20",
     "label" : {
-      "IRI-based" : "occursAt"
+      "IRI-based" : "requires"
     },
-    "superproperty" : [ "24" ],
-    "domain" : "185",
-    "attributes" : [ "object", "someValues" ],
-    "id" : "196"
+    "superproperty" : [ "21" ],
+    "domain" : "20",
+    "subproperty" : [ "116" ],
+    "attributes" : [ "object" ],
+    "id" : "56"
   }, {
-    "range" : "185",
-    "domain" : "82",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "197"
+    "range" : "30",
+    "domain" : "118",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "117"
   }, {
-    "range" : "50",
-    "domain" : "82",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "198"
+    "range" : "58",
+    "domain" : "105",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "119"
   }, {
-    "iri" : "https://purl.org/ontodesign#hasRobotComponent",
-    "baseIri" : "https://purl.org/ontodesign",
-    "range" : "105",
+    "range" : "58",
+    "domain" : "121",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "120"
+  }, {
+    "range" : "58",
+    "domain" : "123",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "122"
+  }, {
+    "range" : "92",
+    "domain" : "125",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "124"
+  }, {
+    "range" : "92",
+    "domain" : "93",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "126"
+  }, {
+    "iri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl#influences",
+    "baseIri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl",
+    "range" : "127",
     "label" : {
-      "IRI-based" : "hasRobotComponent"
+      "IRI-based" : "influences"
     },
-    "superproperty" : [ "36" ],
-    "domain" : "55",
-    "attributes" : [ "object", "someValues" ],
-    "id" : "199"
-  }, {
-    "iri" : "https://purl.org/ontodesign#determines",
-    "baseIri" : "https://purl.org/ontodesign",
-    "range" : "25",
-    "label" : {
-      "IRI-based" : "determines"
-    },
-    "superproperty" : [ "24" ],
-    "domain" : "50",
-    "attributes" : [ "object", "someValues" ],
-    "id" : "200"
-  }, {
-    "range" : "105",
-    "domain" : "82",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "201"
-  }, {
-    "range" : "63",
-    "domain" : "82",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "202"
-  }, {
-    "range" : "55",
-    "domain" : "82",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "203"
-  }, {
-    "iri" : "https://purl.org/ontodesign#conducts",
-    "baseIri" : "https://purl.org/ontodesign",
-    "range" : "15",
-    "label" : {
-      "IRI-based" : "conducts"
-    },
-    "superproperty" : [ "24" ],
-    "domain" : "15",
+    "superproperty" : [ "21" ],
+    "domain" : "64",
     "attributes" : [ "object" ],
     "id" : "41"
   }, {
-    "range" : "116",
-    "domain" : "82",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "204"
-  }, {
-    "range" : "83",
-    "domain" : "82",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "205"
-  }, {
-    "range" : "183",
-    "domain" : "82",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "206"
-  }, {
-    "range" : "43",
-    "domain" : "91",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "207"
-  }, {
-    "range" : "45",
-    "domain" : "69",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "208"
-  }, {
-    "range" : "43",
-    "domain" : "42",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "209"
-  }, {
-    "range" : "43",
-    "domain" : "92",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "210"
-  }, {
-    "iri" : "https://purl.org/ontodesign#hasVisibilityLevel",
-    "baseIri" : "https://purl.org/ontodesign",
-    "range" : "212",
+    "iri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl#isToBeDetectedBy",
+    "baseIri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl",
+    "range" : "20",
     "label" : {
-      "IRI-based" : "hasVisibilityLevel"
+      "IRI-based" : "isToBeDetectedBy"
     },
-    "domain" : "15",
-    "attributes" : [ "datatype" ],
-    "id" : "211"
-  }, {
-    "range" : "26",
-    "domain" : "25",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "213"
-  }, {
-    "range" : "54",
-    "domain" : "61",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "214"
-  }, {
-    "range" : "54",
-    "domain" : "57",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "215"
-  }, {
-    "range" : "11",
-    "domain" : "17",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "216"
-  }, {
-    "range" : "4",
-    "domain" : "17",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "217"
-  }, {
-    "range" : "7",
-    "domain" : "17",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "218"
-  }, {
-    "range" : "9",
-    "domain" : "17",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "219"
-  }, {
-    "range" : "4",
-    "domain" : "11",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "220"
-  }, {
-    "range" : "7",
-    "domain" : "11",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "221"
-  }, {
-    "range" : "82",
-    "domain" : "93",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "222"
-  }, {
-    "range" : "57",
-    "domain" : "61",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "223"
-  }, {
-    "iri" : "https://purl.org/ontodesign#worksIn",
-    "baseIri" : "https://purl.org/ontodesign",
-    "range" : "23",
-    "label" : {
-      "IRI-based" : "worksIn"
-    },
-    "superproperty" : [ "24" ],
-    "domain" : "55",
+    "domain" : "20",
     "attributes" : [ "object" ],
-    "id" : "28"
+    "id" : "128"
   }, {
-    "iri" : "https://purl.org/ontodesign#hasIndoorSpace",
-    "baseIri" : "https://purl.org/ontodesign",
-    "range" : "82",
+    "range" : "32",
+    "domain" : "31",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "129"
+  }, {
+    "iri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl#isInverted",
+    "baseIri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl",
+    "range" : "65",
+    "label" : {
+      "IRI-based" : "isInverted"
+    },
+    "domain" : "20",
+    "attributes" : [ "datatype" ],
+    "id" : "130"
+  }, {
+    "range" : "32",
+    "domain" : "133",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "132"
+  }, {
+    "range" : "58",
+    "domain" : "135",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "134"
+  }, {
+    "range" : "58",
+    "domain" : "137",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "136"
+  }, {
+    "range" : "58",
+    "domain" : "57",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "138"
+  }, {
+    "range" : "84",
+    "domain" : "97",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "139"
+  }, {
+    "iri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl#isLocatedAtSite",
+    "baseIri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl",
+    "range" : "141",
+    "label" : {
+      "IRI-based" : "isLocatedAtSite"
+    },
+    "superproperty" : [ "51" ],
+    "domain" : "103",
+    "attributes" : [ "object" ],
+    "id" : "140"
+  }, {
+    "iri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl#hasVisibiltiy",
+    "baseIri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl",
+    "range" : "20",
+    "label" : {
+      "IRI-based" : "hasVisibiltiy"
+    },
+    "superproperty" : [ "47" ],
+    "domain" : "20",
+    "attributes" : [ "object" ],
+    "id" : "142"
+  }, {
+    "range" : "84",
+    "domain" : "144",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "143"
+  }, {
+    "range" : "84",
+    "domain" : "146",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "145"
+  }, {
+    "range" : "84",
+    "domain" : "149",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "148"
+  }, {
+    "range" : "84",
+    "domain" : "151",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "150"
+  }, {
+    "range" : "84",
+    "domain" : "153",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "152"
+  }, {
+    "iri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl#hasExpectedInspectionSpeed",
+    "baseIri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl",
+    "range" : "156",
+    "label" : {
+      "IRI-based" : "hasExpectedInspectionSpeed"
+    },
+    "superproperty" : [ "43" ],
+    "domain" : "67",
+    "attributes" : [ "object" ],
+    "id" : "155"
+  }, {
+    "range" : "28",
+    "domain" : "88",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "157"
+  }, {
+    "range" : "28",
+    "domain" : "89",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "159"
+  }, {
+    "range" : "28",
+    "domain" : "27",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "160"
+  }, {
+    "range" : "28",
+    "domain" : "30",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "161"
+  }, {
+    "range" : "75",
+    "domain" : "18",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "162"
+  }, {
+    "range" : "87",
+    "domain" : "86",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "163"
+  }, {
+    "range" : "87",
+    "domain" : "154",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "164"
+  }, {
+    "range" : "28",
+    "domain" : "156",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "165"
+  }, {
+    "range" : "28",
+    "domain" : "77",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "166"
+  }, {
+    "iri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl#hasBuildingElement",
+    "baseIri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl",
+    "range" : "169",
+    "label" : {
+      "IRI-based" : "hasBuildingElement"
+    },
+    "superproperty" : [ "37" ],
+    "domain" : "168",
+    "attributes" : [ "object" ],
+    "id" : "167"
+  }, {
+    "range" : "28",
+    "domain" : "87",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "170"
+  }, {
+    "iri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl#hasDustinessLevel",
+    "baseIri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl",
+    "range" : "68",
+    "label" : {
+      "IRI-based" : "hasDustinessLevel"
+    },
+    "domain" : "20",
+    "attributes" : [ "datatype" ],
+    "id" : "171"
+  }, {
+    "range" : "28",
+    "domain" : "96",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "172"
+  }, {
+    "iri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl#isSmooth",
+    "baseIri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl",
+    "range" : "69",
+    "label" : {
+      "IRI-based" : "isSmooth"
+    },
+    "domain" : "20",
+    "attributes" : [ "datatype" ],
+    "id" : "173"
+  }, {
+    "iri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl#hasRobotComponent",
+    "baseIri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl",
+    "range" : "175",
+    "label" : {
+      "IRI-based" : "hasRobotComponent"
+    },
+    "superproperty" : [ "37" ],
+    "domain" : "92",
+    "attributes" : [ "object" ],
+    "id" : "174"
+  }, {
+    "iri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl#requiresContinuousWork",
+    "baseIri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl",
+    "range" : "177",
+    "label" : {
+      "IRI-based" : "requiresContinuousWork"
+    },
+    "domain" : "20",
+    "attributes" : [ "datatype" ],
+    "id" : "176"
+  }, {
+    "iri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl#requiresRobotComponent",
+    "baseIri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl",
+    "range" : "175",
+    "label" : {
+      "IRI-based" : "requiresRobotComponent"
+    },
+    "superproperty" : [ "56" ],
+    "domain" : "178",
+    "attributes" : [ "object" ],
+    "id" : "116"
+  }, {
+    "range" : "12",
+    "domain" : "147",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "179"
+  }, {
+    "range" : "147",
+    "domain" : "158",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "180"
+  }, {
+    "range" : "75",
+    "domain" : "12",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "181"
+  }, {
+    "iri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl#movesAtMovementMedium",
+    "baseIri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl",
+    "range" : "61",
+    "label" : {
+      "IRI-based" : "movesAtMovementMedium"
+    },
+    "superproperty" : [ "40" ],
+    "domain" : "92",
+    "attributes" : [ "object" ],
+    "id" : "85"
+  }, {
+    "iri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl#hasUnit",
+    "baseIri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl",
+    "range" : "183",
+    "label" : {
+      "IRI-based" : "hasUnit"
+    },
+    "domain" : "20",
+    "attributes" : [ "datatype" ],
+    "id" : "182"
+  }, {
+    "iri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl#hasComponent",
+    "baseIri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl",
+    "range" : "20",
+    "label" : {
+      "IRI-based" : "hasComponent"
+    },
+    "superproperty" : [ "21" ],
+    "domain" : "20",
+    "subproperty" : [ "184", "91", "167", "174" ],
+    "attributes" : [ "object" ],
+    "id" : "37"
+  }, {
+    "range" : "144",
+    "domain" : "151",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "185"
+  }, {
+    "iri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl#hasAirPressure",
+    "baseIri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl",
+    "range" : "20",
+    "label" : {
+      "IRI-based" : "hasAirPressure"
+    },
+    "superproperty" : [ "47" ],
+    "domain" : "20",
+    "attributes" : [ "object" ],
+    "id" : "187"
+  }, {
+    "iri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl#hasIndoorSpace",
+    "baseIri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl",
+    "range" : "90",
     "label" : {
       "IRI-based" : "hasIndoorSpace"
     },
-    "superproperty" : [ "24" ],
-    "domain" : "113",
+    "superproperty" : [ "21" ],
+    "domain" : "104",
     "attributes" : [ "object" ],
-    "id" : "33"
+    "id" : "44"
   }, {
-    "iri" : "https://purl.org/ontodesign#hasAttribute",
-    "baseIri" : "https://purl.org/ontodesign",
-    "range" : "15",
+    "iri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl#isLocatedAtBuildingElement",
+    "baseIri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl",
+    "range" : "169",
+    "label" : {
+      "IRI-based" : "isLocatedAtBuildingElement"
+    },
+    "superproperty" : [ "51" ],
+    "domain" : "189",
+    "attributes" : [ "object" ],
+    "id" : "188"
+  }, {
+    "iri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl#hasPhysicalConstraintsToRobots",
+    "baseIri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl",
+    "range" : "2",
+    "label" : {
+      "IRI-based" : "hasPhysicalConstraintsToRobots"
+    },
+    "superproperty" : [ "21" ],
+    "domain" : "190",
+    "attributes" : [ "object" ],
+    "id" : "48"
+  }, {
+    "range" : "90",
+    "domain" : "84",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "191"
+  }, {
+    "range" : "90",
+    "domain" : "104",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "192"
+  }, {
+    "range" : "90",
+    "domain" : "194",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "193"
+  }, {
+    "iri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl#hasBuildingElement",
+    "baseIri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl",
+    "range" : "169",
+    "label" : {
+      "IRI-based" : "hasBuildingElement"
+    },
+    "superproperty" : [ "37" ],
+    "domain" : "194",
+    "attributes" : [ "object", "someValues" ],
+    "id" : "195"
+  }, {
+    "iri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl#hasBuildingElement",
+    "baseIri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl",
+    "range" : "169",
+    "label" : {
+      "IRI-based" : "hasBuildingElement"
+    },
+    "superproperty" : [ "37" ],
+    "domain" : "104",
+    "attributes" : [ "object", "someValues" ],
+    "id" : "196"
+  }, {
+    "iri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl#hasIndoorSpace",
+    "baseIri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl",
+    "range" : "90",
+    "label" : {
+      "IRI-based" : "hasIndoorSpace"
+    },
+    "superproperty" : [ "21" ],
+    "domain" : "104",
+    "attributes" : [ "object", "someValues" ],
+    "id" : "197"
+  }, {
+    "iri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl#causesAbnormalArea",
+    "baseIri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl",
+    "range" : "131",
+    "label" : {
+      "IRI-based" : "causesAbnormalArea"
+    },
+    "superproperty" : [ "19" ],
+    "domain" : "115",
+    "attributes" : [ "object", "someValues" ],
+    "id" : "198"
+  }, {
+    "iri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl#isLocatedAt",
+    "baseIri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl",
+    "range" : "169",
+    "label" : {
+      "IRI-based" : "isLocatedAt"
+    },
+    "superproperty" : [ "21" ],
+    "domain" : "115",
+    "subproperty" : [ "140", "188" ],
+    "attributes" : [ "object", "someValues" ],
+    "id" : "199"
+  }, {
+    "range" : "90",
+    "domain" : "169",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "200"
+  }, {
+    "range" : "90",
+    "domain" : "115",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "201"
+  }, {
+    "iri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl#hasAuxiliaryEquipment",
+    "baseIri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl",
+    "range" : "186",
+    "label" : {
+      "IRI-based" : "hasAuxiliaryEquipment"
+    },
+    "superproperty" : [ "37" ],
+    "domain" : "74",
+    "attributes" : [ "object" ],
+    "id" : "184"
+  }, {
+    "iri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl#hasBuildingExterior",
+    "baseIri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl",
+    "range" : "194",
+    "label" : {
+      "IRI-based" : "hasBuildingExterior"
+    },
+    "superproperty" : [ "21" ],
+    "domain" : "103",
+    "attributes" : [ "object", "someValues" ],
+    "id" : "202"
+  }, {
+    "range" : "90",
+    "domain" : "103",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "203"
+  }, {
+    "iri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl#hasBuildingExterior",
+    "baseIri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl",
+    "range" : "194",
+    "label" : {
+      "IRI-based" : "hasBuildingExterior"
+    },
+    "superproperty" : [ "21" ],
+    "domain" : "103",
+    "attributes" : [ "object" ],
+    "id" : "49"
+  }, {
+    "iri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl#hasBuildingInterior",
+    "baseIri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl",
+    "range" : "104",
+    "label" : {
+      "IRI-based" : "hasBuildingInterior"
+    },
+    "superproperty" : [ "21" ],
+    "domain" : "103",
+    "attributes" : [ "object", "someValues" ],
+    "id" : "204"
+  }, {
+    "range" : "57",
+    "domain" : "137",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "205"
+  }, {
+    "range" : "57",
+    "domain" : "123",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "206"
+  }, {
+    "range" : "90",
+    "domain" : "186",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "207"
+  }, {
+    "range" : "90",
+    "domain" : "28",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "208"
+  }, {
+    "range" : "137",
+    "domain" : "121",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "209"
+  }, {
+    "range" : "137",
+    "domain" : "123",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "210"
+  }, {
+    "range" : "57",
+    "domain" : "121",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "211"
+  }, {
+    "iri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl#hasRobotMovementMedium",
+    "baseIri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl",
+    "range" : "61",
+    "label" : {
+      "IRI-based" : "hasRobotMovementMedium"
+    },
+    "superproperty" : [ "21" ],
+    "domain" : "127",
+    "attributes" : [ "object" ],
+    "id" : "36"
+  }, {
+    "iri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl#hasUnit",
+    "baseIri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl",
+    "range" : "213",
+    "label" : {
+      "IRI-based" : "hasUnit"
+    },
+    "domain" : "89",
+    "attributes" : [ "datatype", "someValues" ],
+    "id" : "212"
+  }, {
+    "iri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl#hasShape",
+    "baseIri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl",
+    "range" : "20",
+    "label" : {
+      "IRI-based" : "hasShape"
+    },
+    "superproperty" : [ "215" ],
+    "domain" : "20",
+    "attributes" : [ "object" ],
+    "id" : "214"
+  }, {
+    "range" : "90",
+    "domain" : "58",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "216"
+  }, {
+    "iri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl#hasSite",
+    "baseIri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl",
+    "range" : "141",
+    "label" : {
+      "IRI-based" : "hasSite"
+    },
+    "domain" : "194",
+    "attributes" : [ "object" ],
+    "id" : "218"
+  }, {
+    "iri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl#causesInterferenceToEnvironment",
+    "baseIri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl",
+    "range" : "219",
+    "label" : {
+      "IRI-based" : "causesInterferenceToEnvironment"
+    },
+    "superproperty" : [ "19" ],
+    "domain" : "178",
+    "attributes" : [ "object" ],
+    "id" : "22"
+  }, {
+    "iri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl#hasSurfaceAttribute",
+    "baseIri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl",
+    "range" : "20",
+    "label" : {
+      "IRI-based" : "hasSurfaceAttribute"
+    },
+    "superproperty" : [ "43" ],
+    "domain" : "20",
+    "subproperty" : [ "220", "214", "221", "222", "223" ],
+    "attributes" : [ "object" ],
+    "id" : "215"
+  }, {
+    "range" : "156",
+    "domain" : "77",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "224"
+  }, {
+    "range" : "156",
+    "domain" : "89",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "225"
+  }, {
+    "iri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl#hasValue",
+    "baseIri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl",
+    "range" : "226",
+    "label" : {
+      "IRI-based" : "hasValue"
+    },
+    "domain" : "89",
+    "attributes" : [ "datatype", "someValues" ],
+    "id" : "227"
+  }, {
+    "range" : "97",
+    "domain" : "149",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "228"
+  }, {
+    "iri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl#hasCorner",
+    "baseIri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl",
+    "range" : "20",
+    "label" : {
+      "IRI-based" : "hasCorner"
+    },
+    "domain" : "20",
+    "attributes" : [ "object" ],
+    "id" : "229"
+  }, {
+    "range" : "146",
+    "domain" : "149",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "230"
+  }, {
+    "range" : "77",
+    "domain" : "89",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "231"
+  }, {
+    "iri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl#hasSurfaceMaterial",
+    "baseIri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl",
+    "range" : "20",
+    "label" : {
+      "IRI-based" : "hasSurfaceMaterial"
+    },
+    "superproperty" : [ "215" ],
+    "domain" : "20",
+    "attributes" : [ "object" ],
+    "id" : "223"
+  }, {
+    "range" : "97",
+    "domain" : "146",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "232"
+  }, {
+    "iri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl#hasDustiness",
+    "baseIri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl",
+    "range" : "20",
+    "label" : {
+      "IRI-based" : "hasDustiness"
+    },
+    "superproperty" : [ "215" ],
+    "domain" : "20",
+    "attributes" : [ "object" ],
+    "id" : "220"
+  }, {
+    "range" : "97",
+    "domain" : "153",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "233"
+  }, {
+    "range" : "146",
+    "domain" : "153",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "234"
+  }, {
+    "iri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl#isConductedByRobotSystem",
+    "baseIri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl",
+    "range" : "74",
+    "label" : {
+      "IRI-based" : "isConductedByRobotSystem"
+    },
+    "superproperty" : [ "50" ],
+    "domain" : "235",
+    "attributes" : [ "object" ],
+    "id" : "78"
+  }, {
+    "iri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl#hasDetectableAttribute",
+    "baseIri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl",
+    "range" : "89",
+    "label" : {
+      "IRI-based" : "hasDetectableAttribute"
+    },
+    "superproperty" : [ "43" ],
+    "domain" : "237",
+    "attributes" : [ "object" ],
+    "id" : "236"
+  }, {
+    "range" : "149",
+    "domain" : "153",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "238"
+  }, {
+    "range" : "149",
+    "domain" : "144",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "240"
+  }, {
+    "range" : "153",
+    "domain" : "144",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "241"
+  }, {
+    "iri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl#hasAirTemperature",
+    "baseIri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl",
+    "range" : "20",
+    "label" : {
+      "IRI-based" : "hasAirTemperature"
+    },
+    "superproperty" : [ "47" ],
+    "domain" : "20",
+    "attributes" : [ "object" ],
+    "id" : "242"
+  }, {
+    "range" : "97",
+    "domain" : "144",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "243"
+  }, {
+    "iri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl#hasStructuralCharacteristics",
+    "baseIri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl",
+    "range" : "87",
+    "label" : {
+      "IRI-based" : "hasStructuralCharacteristics"
+    },
+    "superproperty" : [ "43" ],
+    "domain" : "81",
+    "attributes" : [ "object" ],
+    "id" : "244"
+  }, {
+    "range" : "146",
+    "domain" : "144",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "245"
+  }, {
+    "range" : "149",
+    "domain" : "151",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "246"
+  }, {
+    "range" : "153",
+    "domain" : "151",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "247"
+  }, {
+    "range" : "97",
+    "domain" : "151",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "248"
+  }, {
+    "range" : "146",
+    "domain" : "151",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "249"
+  }, {
+    "iri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl#hasEnvironmentData",
+    "baseIri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl",
+    "range" : "58",
+    "label" : {
+      "IRI-based" : "hasEnvironmentData"
+    },
+    "superproperty" : [ "21" ],
+    "domain" : "141",
+    "subproperty" : [ "142", "76", "187", "242", "251" ],
+    "attributes" : [ "object", "someValues" ],
+    "id" : "250"
+  }, {
+    "iri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl#hasCapability",
+    "baseIri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl",
+    "range" : "84",
+    "label" : {
+      "IRI-based" : "hasCapability"
+    },
+    "superproperty" : [ "21" ],
+    "domain" : "74",
+    "attributes" : [ "object", "someValues" ],
+    "id" : "252"
+  }, {
+    "iri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl#hasSignalReceptionCondition",
+    "baseIri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl",
+    "range" : "254",
+    "label" : {
+      "IRI-based" : "hasSignalReceptionCondition"
+    },
+    "domain" : "20",
+    "attributes" : [ "datatype" ],
+    "id" : "253"
+  }, {
+    "iri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl#hasValue",
+    "baseIri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl",
+    "range" : "255",
+    "label" : {
+      "IRI-based" : "hasValue"
+    },
+    "domain" : "156",
+    "attributes" : [ "datatype", "someValues" ],
+    "id" : "256"
+  }, {
+    "iri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl#requiresRobotComponent",
+    "baseIri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl",
+    "range" : "175",
+    "label" : {
+      "IRI-based" : "requiresRobotComponent"
+    },
+    "superproperty" : [ "56" ],
+    "domain" : "178",
+    "attributes" : [ "object", "someValues" ],
+    "id" : "257"
+  }, {
+    "iri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl#isFerromagnetic",
+    "baseIri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl",
+    "range" : "80",
+    "label" : {
+      "IRI-based" : "isFerromagnetic"
+    },
+    "domain" : "20",
+    "attributes" : [ "datatype" ],
+    "id" : "258"
+  }, {
+    "iri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl#fulfillsCapabilityRequirement",
+    "baseIri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl",
+    "range" : "12",
+    "label" : {
+      "IRI-based" : "fulfillsCapabilityRequirement"
+    },
+    "superproperty" : [ "54" ],
+    "domain" : "260",
+    "attributes" : [ "object" ],
+    "id" : "259"
+  }, {
+    "iri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl#occursAt",
+    "baseIri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl",
+    "range" : "127",
+    "label" : {
+      "IRI-based" : "occursAt"
+    },
+    "superproperty" : [ "21" ],
+    "domain" : "178",
+    "attributes" : [ "object", "someValues" ],
+    "id" : "261"
+  }, {
+    "iri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl#movesAtMovementMedium",
+    "baseIri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl",
+    "range" : "61",
+    "label" : {
+      "IRI-based" : "movesAtMovementMedium"
+    },
+    "superproperty" : [ "40" ],
+    "domain" : "92",
+    "attributes" : [ "object", "someValues" ],
+    "id" : "262"
+  }, {
+    "iri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl#determines",
+    "baseIri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl",
+    "range" : "17",
+    "label" : {
+      "IRI-based" : "determines"
+    },
+    "superproperty" : [ "21" ],
+    "domain" : "2",
+    "attributes" : [ "object", "someValues" ],
+    "id" : "263"
+  }, {
+    "range" : "61",
+    "domain" : "90",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "264"
+  }, {
+    "iri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl#hasRobotComponent",
+    "baseIri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl",
+    "range" : "175",
+    "label" : {
+      "IRI-based" : "hasRobotComponent"
+    },
+    "superproperty" : [ "37" ],
+    "domain" : "92",
+    "attributes" : [ "object", "someValues" ],
+    "id" : "265"
+  }, {
+    "iri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl#worksIn",
+    "baseIri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl",
+    "range" : "127",
+    "label" : {
+      "IRI-based" : "worksIn"
+    },
+    "superproperty" : [ "21" ],
+    "domain" : "92",
+    "attributes" : [ "object", "someValues" ],
+    "id" : "266"
+  }, {
+    "range" : "141",
+    "domain" : "90",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "267"
+  }, {
+    "range" : "178",
+    "domain" : "90",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "268"
+  }, {
+    "range" : "74",
+    "domain" : "90",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "269"
+  }, {
+    "range" : "92",
+    "domain" : "90",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "270"
+  }, {
+    "iri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl#hasValue",
+    "baseIri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl",
+    "range" : "272",
+    "label" : {
+      "IRI-based" : "hasValue"
+    },
+    "domain" : "20",
+    "attributes" : [ "datatype" ],
+    "id" : "271"
+  }, {
+    "iri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl#hasSurfaceOrientation",
+    "baseIri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl",
+    "range" : "20",
+    "label" : {
+      "IRI-based" : "hasSurfaceOrientation"
+    },
+    "superproperty" : [ "215" ],
+    "domain" : "20",
+    "attributes" : [ "object" ],
+    "id" : "221"
+  }, {
+    "range" : "175",
+    "domain" : "90",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "273"
+  }, {
+    "iri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl#causesAbnormalArea",
+    "baseIri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl",
+    "range" : "131",
+    "label" : {
+      "IRI-based" : "causesAbnormalArea"
+    },
+    "superproperty" : [ "19" ],
+    "domain" : "115",
+    "attributes" : [ "object" ],
+    "id" : "23"
+  }, {
+    "range" : "2",
+    "domain" : "90",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "274"
+  }, {
+    "range" : "75",
+    "domain" : "90",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "275"
+  }, {
+    "iri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl#hasUnit",
+    "baseIri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl",
+    "range" : "276",
+    "label" : {
+      "IRI-based" : "hasUnit"
+    },
+    "domain" : "77",
+    "attributes" : [ "datatype", "someValues" ],
+    "id" : "277"
+  }, {
+    "iri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl#hasAirHumidity",
+    "baseIri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl",
+    "range" : "20",
+    "label" : {
+      "IRI-based" : "hasAirHumidity"
+    },
+    "superproperty" : [ "47" ],
+    "domain" : "20",
+    "attributes" : [ "object" ],
+    "id" : "251"
+  }, {
+    "iri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl#hasValue",
+    "baseIri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl",
+    "range" : "278",
+    "label" : {
+      "IRI-based" : "hasValue"
+    },
+    "domain" : "77",
+    "attributes" : [ "datatype", "someValues" ],
+    "id" : "279"
+  }, {
+    "iri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl#hasVisibilityLevel",
+    "baseIri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl",
+    "range" : "66",
+    "label" : {
+      "IRI-based" : "hasVisibilityLevel"
+    },
+    "domain" : "20",
+    "attributes" : [ "datatype" ],
+    "id" : "280"
+  }, {
+    "iri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl#hasInclinationAngle",
+    "baseIri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl",
+    "range" : "20",
+    "label" : {
+      "IRI-based" : "hasInclinationAngle"
+    },
+    "superproperty" : [ "215" ],
+    "domain" : "20",
+    "attributes" : [ "object" ],
+    "id" : "222"
+  }, {
+    "range" : "93",
+    "domain" : "125",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "281"
+  }, {
+    "range" : "107",
+    "domain" : "125",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "282"
+  }, {
+    "range" : "107",
+    "domain" : "93",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "283"
+  }, {
+    "iri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl#hasDepth",
+    "baseIri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl",
+    "range" : "20",
+    "label" : {
+      "IRI-based" : "hasDepth"
+    },
+    "superproperty" : [ "43" ],
+    "domain" : "20",
+    "attributes" : [ "object" ],
+    "id" : "284"
+  }, {
+    "range" : "121",
+    "domain" : "105",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "285"
+  }, {
+    "range" : "123",
+    "domain" : "105",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "286"
+  }, {
+    "range" : "137",
+    "domain" : "105",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "287"
+  }, {
+    "range" : "57",
+    "domain" : "105",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "288"
+  }, {
+    "range" : "123",
+    "domain" : "121",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "289"
+  }, {
+    "iri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl#hasEnvironmentData",
+    "baseIri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl",
+    "range" : "58",
+    "label" : {
+      "IRI-based" : "hasEnvironmentData"
+    },
+    "superproperty" : [ "21" ],
+    "domain" : "290",
+    "subproperty" : [ "142", "76", "187", "242", "251" ],
+    "attributes" : [ "object" ],
+    "id" : "47"
+  }, {
+    "iri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl#hasExposedSurface",
+    "baseIri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl",
+    "range" : "20",
+    "label" : {
+      "IRI-based" : "hasExposedSurface"
+    },
+    "domain" : "20",
+    "attributes" : [ "object" ],
+    "id" : "291"
+  }, {
+    "iri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl#isLocatedAtBuildingElement",
+    "baseIri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl",
+    "range" : "169",
+    "label" : {
+      "IRI-based" : "isLocatedAtBuildingElement"
+    },
+    "superproperty" : [ "51" ],
+    "domain" : "131",
+    "attributes" : [ "object", "someValues" ],
+    "id" : "292"
+  }, {
+    "range" : "90",
+    "domain" : "131",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "293"
+  }, {
+    "iri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl#hasWidth",
+    "baseIri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl",
+    "range" : "20",
+    "label" : {
+      "IRI-based" : "hasWidth"
+    },
+    "superproperty" : [ "43" ],
+    "domain" : "20",
+    "attributes" : [ "object" ],
+    "id" : "294"
+  }, {
+    "domain" : "75",
+    "range" : "16",
+    "id" : "295",
+    "label" : {
+      "IRI-based" : "87",
+      "undefined" : "is a"
+    }
+  }, {
+    "iri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl#hasHighestPoint",
+    "baseIri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl",
+    "range" : "20",
+    "label" : {
+      "IRI-based" : "hasHighestPoint"
+    },
+    "superproperty" : [ "21" ],
+    "domain" : "20",
+    "attributes" : [ "object" ],
+    "id" : "53"
+  }, {
+    "domain" : "16",
+    "range" : "16",
+    "id" : "296",
+    "label" : {
+      "IRI-based" : "86",
+      "undefined" : "is a"
+    }
+  }, {
+    "iri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl#fulfills",
+    "baseIri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl",
+    "range" : "20",
+    "label" : {
+      "IRI-based" : "fulfills"
+    },
+    "superproperty" : [ "21" ],
+    "domain" : "20",
+    "subproperty" : [ "73", "259" ],
+    "attributes" : [ "object" ],
+    "id" : "54"
+  }, {
+    "domain" : "11",
+    "range" : "11",
+    "id" : "297",
+    "label" : {
+      "IRI-based" : "89",
+      "undefined" : "is a"
+    }
+  }, {
+    "domain" : "75",
+    "range" : "11",
+    "id" : "298",
+    "label" : {
+      "IRI-based" : "88",
+      "undefined" : "is a"
+    }
+  }, {
+    "iri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl#provides",
+    "baseIri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl",
+    "range" : "127",
+    "label" : {
+      "IRI-based" : "provides"
+    },
+    "superproperty" : [ "21" ],
+    "domain" : "299",
+    "attributes" : [ "object" ],
+    "id" : "38"
+  }, {
+    "iri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl#hasAttribute",
+    "baseIri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl",
+    "range" : "20",
     "label" : {
       "IRI-based" : "hasAttribute"
     },
-    "superproperty" : [ "24" ],
-    "domain" : "15",
-    "subproperty" : [ "89", "114", "130", "159", "134" ],
+    "superproperty" : [ "21" ],
+    "domain" : "20",
+    "subproperty" : [ "300", "236", "215", "102", "284", "155", "244", "294" ],
     "attributes" : [ "object" ],
-    "id" : "34"
+    "id" : "43"
+  }, {
+    "iri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl#worksIn",
+    "baseIri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl",
+    "range" : "127",
+    "label" : {
+      "IRI-based" : "worksIn"
+    },
+    "superproperty" : [ "21" ],
+    "domain" : "92",
+    "attributes" : [ "object" ],
+    "id" : "46"
+  }, {
+    "iri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl#hasCornerAngle",
+    "baseIri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl",
+    "range" : "20",
+    "label" : {
+      "IRI-based" : "hasCornerAngle"
+    },
+    "superproperty" : [ "43" ],
+    "domain" : "20",
+    "attributes" : [ "object" ],
+    "id" : "300"
+  }, {
+    "iri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl#hasUnit",
+    "baseIri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl",
+    "range" : "301",
+    "label" : {
+      "IRI-based" : "hasUnit"
+    },
+    "domain" : "156",
+    "attributes" : [ "datatype", "someValues" ],
+    "id" : "302"
+  }, {
+    "iri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl#hasRobotMovementMedium",
+    "baseIri" : "http://www.semanticweb.org/ontologies/RoboDesign.owl",
+    "range" : "61",
+    "label" : {
+      "IRI-based" : "hasRobotMovementMedium"
+    },
+    "superproperty" : [ "21" ],
+    "domain" : "127",
+    "attributes" : [ "object", "someValues" ],
+    "id" : "303"
   } ]
 }
